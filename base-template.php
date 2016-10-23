@@ -1,5 +1,5 @@
 <?php include 'header.php'; ?>
-  <main>
+  <main role="main">
 
   </main>
 <?php include 'footer.php'; ?>
