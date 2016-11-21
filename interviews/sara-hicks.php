@@ -1,12 +1,14 @@
 <?php include '../header.php'; ?>
   <main role="main">
 
-    <!-- featured image -->
-    <figure class="border img-feature">
-      <img src="/assets/img/sara-hicks/featured-sara-hicks.jpg" alt="Sara Hicks">
-    </figure>
-
-    <!-- interview header -->
+    <!-- // Feature Image -->
+    <div class="border img-feature">
+      <figure>
+        <img src="/assets/img/sara-hicks/featured-sara-hicks.jpg" alt="Sara Hicks">
+      </figure>
+    </div>
+    
+    <!-- // Interview Header -->
     <header class="border header-interview">
       <div class="wrapper-sm">
         <h2>Sara Hicks</h2>
@@ -85,23 +87,26 @@
       </dd>
     </dl>
 
-    <!-- landscape -->
-    <figure class="border img-landscape">
-      <img src="/assets/img/sara-hicks/landscape-sara-hicks-dog.jpg" alt="Biying Miao">
-      <figcaption>
-        Sara shares her experiences of running a business on her website <a href="http://saralouhicks.com" title="Sara Hicks website">saralouhicks.com</a>. Pictured here with Sara is her sweet pup Grace.
-      </figcaption>
-    </figure>
-
-    <!-- question and answer -->
+    <!-- // Image - Landscape -->
+    <div class="border img-landscape">
+      <figure>
+        <img src="/assets/img/sara-hicks/landscape-sara-hicks-dog.jpg" alt="Biying Miao">
+        <figcaption>
+          Sara shares her experiences of running a business on her website <a href="http://saralouhicks.com" title="Sara Hicks website">saralouhicks.com</a>. Pictured here with Sara is her sweet pup Grace.
+        </figcaption>
+      </figure>
+    </div>
+    
+    <!-- // Q & A -->
     <dl class="border">
+      <!-- // Question -->
       <dt class="interview-q">Tell us how you got started with Geocities. I had a GeoCities site when I was, like, 8, and it was so bad. It was a fansite about the show Daria and it was only compatible with Netscape Navigator. How did you get into that? And what was it like back in the day?</dt>
+      <!-- // Answer -->
       <dd class="interview-a">
         <p>Well, I went to UCLA and graduated with a degree in social psychology. I thought I was going to go into a career of social work. Post college, I was doing volunteer coordinating for non-profits. What frustrated me about community organizing was that it was so dependent on funding grants. Everything was grant to grant to grant. You never knew if the organization was going to be able to sustain itself. Funding was decreasing, and I could see the writing on the wall.</p>
           <p>Around this time, GeoCities launched. A friend of mine forwarded me a job opening for a senior community coordinator at GeoCities, and it was like a light bulb went off. In non-profit, we were doing these grassroots community meetups across Los Angeles and touching maybe 30 people at a time. At GeoCities, I could coordinate communities on the web and touch tens of thousands, if not millions, of people! And, it involved the internet which was quickly becoming a passion of mine. I got the job, managing the community leader program of all these neighborhoods.</p>
       </dd>
     </dl>
-
 
   </main>
 <?php include '../footer.php'; ?>
