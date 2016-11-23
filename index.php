@@ -1,15 +1,11 @@
 <?php 
-  /* Fill out these values to customize the page.
-  $page_title = Interviewee's name
-  $page_theme values: theme-coral, theme-purple, theme-yellow, theme-green, theme-blue
-  */
-  
-  $page_title = 'Sarah Hicks';  
-  $page_theme = 'theme-coral';
-  include '../header.php'; 
+  $page_theme = "theme-purple";
+  include 'header.php'; 
 ?>
-  <main role="main">
 
+  <main role="main">
+    <!-- Add current interview here. Add all content between <main> tags. -->
+    
     <!-- // Feature Image -->
     <div class="border img-feature">
       <figure>
@@ -116,6 +112,36 @@
           <p>Around this time, GeoCities launched. A friend of mine forwarded me a job opening for a senior community coordinator at GeoCities, and it was like a light bulb went off. In non-profit, we were doing these grassroots community meetups across Los Angeles and touching maybe 30 people at a time. At GeoCities, I could coordinate communities on the web and touch tens of thousands, if not millions, of people! And, it involved the internet which was quickly becoming a passion of mine. I got the job, managing the community leader program of all these neighborhoods.</p>
       </dd>
     </dl>
-
+    <!-- End current interview before this line. -->
+    
+    
+    <!-- Update past interviews to reflect the most recent three. -->
+    <!-- // Past interviews -->
+    <aside class="past-interviews">
+      <div class="wrapper">
+        <h2>Past Interviews</h2>
+        <div class="grid-wrapper">
+          <section class="grid-3-1">
+            <img src="/assets/img/mitchell-baker/thumbnail-mitchell-baker.png" alt="Mitchell Baker">
+            <h3>Mitchell Baker</h3>
+            <p>with <a href="#" target="_blank">Cassie McDaniel</a></p>
+            <p>Founder of the non-profit tech company Mozilla, creator of Firefox and champion of the open web.</p>
+          </section>
+          <section class="grid-3-1">
+            <img src="/assets/img/sandi-lin/thumbnail-sandi-lin.png" alt="Sandi Lin">
+            <h3>Sandi Lin</h3>
+            <p>with <a href="#" target="_blank">Sarah Sutherland</a></p>
+            <p>Co-founder and CEO of Seattle-based startup Skilljar, an online course delivery platform.</p>
+          </section>
+          <section class="grid-3-1">
+            <img src="/assets/img/biying-miao/thumbnail-biying-miao.jpg" alt="Biying Miao">
+            <h3>Biying Miao</h3>
+            <p>with <a href="#" target="_blank">Ruby Watson</a></p>
+            <p>Co-founder of Hot Pop Factory, a 3D Printing and Digital Fabrication Design Studio.</p>
+          </section>
+        </div>
+      </div>
+    </aside>
+    
   </main>
-<?php include '../footer.php'; ?>
+<?php include 'footer.php'; ?>
