@@ -7,6 +7,10 @@ Refer to the Style Guide site to add code snippets for specific page modules:
 Here is the repo for reference:  
 <https://github.com/WomenAndTech/style_guide>
 
+## Consistent code styles
+This project uses [editorconfig](http://editorconfig.org/) to maintain consistent coding style. Make sure your text editor has the editorconfig [plugin](http://editorconfig.org/#download) installed.
+
+**Atom Users:** The Whitespace plugin (which is installed by default) has `Trim trailing whitespace` option turned on by default. Turn this off in the Whitespace plugin settings, otherwise it overwrites the setting in [.editorconfig](.editorconfig). This is a known [issue](https://github.com/sindresorhus/atom-editorconfig/issues/3). This is only required for editing the slides. Workshop learners are not required to add this plugin.
 
 ## File naming conventions
 
@@ -39,7 +43,7 @@ For the past interview & archive page cards:
 
 ## Creating files & viewing locally
 
-Use **`base-template.php`**, located in the **interviews** folder, as your starting point. This template includes the global header and footer. Add all content modules between the **`<main>`** tags.
+Use **`base-template.php`**, located in the **`interviews`** folder, as your starting point. This template includes the global header, footer and instructions for customizing the page. Add all content modules between the **`<main>`** tags.
 
 If you're on a Mac, open Terminal and navigate to your local copy of these files using the change directory (`cd`) command and the path to your project files.
 
