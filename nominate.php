@@ -1,4 +1,5 @@
-<?php   
+<?php
+  $page = "nominate";
   $page_title = 'Nominate';  
   $page_theme = 'theme-green';
   include 'header.php'; 

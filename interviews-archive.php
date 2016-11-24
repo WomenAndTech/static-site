@@ -1,5 +1,6 @@
-<?php   
-  $page_title = 'Interviews';  
+<?php
+  $page = 'interviews';
+  $page_title = 'Interviews Archive';  
   $page_theme = 'theme-coral';
   include 'header.php'; 
 ?>

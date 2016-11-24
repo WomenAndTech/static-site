@@ -1,5 +1,6 @@
-<?php   
-  $page_title = 'About';  
+<?php
+  $page = "about";
+  $page_title = 'About Us';  
   $page_theme = 'theme-blue';
   include 'header.php'; 
 ?>

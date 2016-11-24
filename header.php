@@ -25,10 +25,10 @@
       <h1 class="screen-readers">Women && Tech</h1>
     </a>
     <nav class="nav-primary">
-      <a href="/interview-archive.php">Interviews</a>
-      <a href="/about.php">About Us</a>
-      <a href="/contribute.php">Contribute</a>
-      <a href="/nominate.php">Nominate</a>
+      <a href="/interviews-archive.php" <?php if ($page == "interviews"): echo 'class="active"'; endif; ?>>Interviews</a>
+      <a href="/about.php" <?php if ($page == "about"): echo 'class="active"'; endif; ?>>About Us</a>
+      <a href="/contribute.php" <?php if ($page == "contribute"): echo 'class="active"'; endif; ?>>Contribute</a>
+      <a href="/nominate.php" <?php if ($page == "nominate"): echo 'class="active"'; endif; ?>>Nominate</a>
     </nav>
   </header>
 

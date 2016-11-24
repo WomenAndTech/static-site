@@ -1,4 +1,5 @@
-<?php   
+<?php
+  $page = "contribute";
   $page_title = 'Contribute';  
   $page_theme = 'theme-yellow';
   include 'header.php'; 
