@@ -122,26 +122,33 @@
         <h2>Past Interviews</h2>
         <div class="grid-wrapper">
           <section class="grid-3-1">
-            <img src="/assets/img/mitchell-baker/thumbnail-mitchell-baker.png" alt="Mitchell Baker">
-            <h3>Mitchell Baker</h3>
-            <p>with <a href="#" target="_blank">Cassie McDaniel</a></p>
-            <p>Founder of the non-profit tech company Mozilla, creator of Firefox and champion of the open web.</p>
+            <a href="#link-to-interview" class="no-underline">
+              <img src="/assets/img/biying-miao/thumbnail-biying-miao.jpg" alt="Biying Miao">
+              <h3>Biying Miao</h3>
+              <p>with Ruby Watson</p>
+              <p>Co-founder of Hot Pop Factory, a 3D Printing and Digital Fabrication Design Studio.</p>
+            </a>
           </section>
           <section class="grid-3-1">
-            <img src="/assets/img/sandi-lin/thumbnail-sandi-lin.png" alt="Sandi Lin">
-            <h3>Sandi Lin</h3>
-            <p>with <a href="#" target="_blank">Sarah Sutherland</a></p>
-            <p>Co-founder and CEO of Seattle-based startup Skilljar, an online course delivery platform.</p>
+            <a href="#link-to-interview" class="no-underline">
+              <img src="/assets/img/mitchell-baker/thumbnail-mitchell-baker.png" alt="Mitchell Baker">
+              <h3>Mitchell Baker</h3>
+              <p>with Cassie McDaniel</p>
+              <p>Founder of the non-profit tech company Mozilla, creator of Firefox and champion of the open web.</p>
+            </a>
           </section>
           <section class="grid-3-1">
-            <img src="/assets/img/biying-miao/thumbnail-biying-miao.jpg" alt="Biying Miao">
-            <h3>Biying Miao</h3>
-            <p>with <a href="#" target="_blank">Ruby Watson</a></p>
-            <p>Co-founder of Hot Pop Factory, a 3D Printing and Digital Fabrication Design Studio.</p>
+            <a href="#link-to-interview" class="no-underline">
+              <img src="/assets/img/sandi-lin/thumbnail-sandi-lin.png" alt="Sandi Lin">
+              <h3>Sandi Lin</h3>
+              <p>with Sarah Sutherland</p>
+              <p>Co-founder and CEO of Seattle-based startup Skilljar, an online course delivery platform.</p>
+            </a>
           </section>
         </div>
       </div>
     </aside>
-    
+
   </main>
+  
 <?php include 'footer.php'; ?>
