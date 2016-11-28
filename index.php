@@ -1,18 +1,20 @@
-<?php 
-  $page_theme = "theme-purple";
-  include 'header.php'; 
+<?php
+  $page_theme = "theme-coral";
+  include 'header.php';
 ?>
 
   <main role="main">
+
+    <!-- **************************************************************** -->
     <!-- Add current interview here. Add all content between <main> tags. -->
-    
+
     <!-- // Feature Image -->
     <div class="border img-feature">
       <figure>
         <img src="/assets/img/sara-hicks/featured-sara-hicks.jpg" alt="Sara Hicks">
       </figure>
     </div>
-    
+
     <!-- // Interview Header -->
     <header class="border header-interview">
       <div class="wrapper-sm">
@@ -101,7 +103,7 @@
         </figcaption>
       </figure>
     </div>
-    
+
     <!-- // Q & A -->
     <dl class="border">
       <!-- // Question -->
@@ -113,8 +115,8 @@
       </dd>
     </dl>
     <!-- End current interview before this line. -->
-    
-    
+
+
     <!-- Update past interviews to reflect the most recent three. -->
     <!-- // Past interviews -->
     <aside class="past-interviews">
@@ -149,6 +151,8 @@
       </div>
     </aside>
 
+    <!-- **************************************************************** -->
+
   </main>
-  
+
 <?php include 'footer.php'; ?>

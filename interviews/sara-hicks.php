@@ -1,12 +1,12 @@
-<?php 
+<?php
   /* Fill out these values to customize the page.
   $page_title = Interviewee's name
   $page_theme values: theme-coral, theme-purple, theme-yellow, theme-green, theme-blue
   */
-  
-  $page_title = 'Sarah Hicks';  
+
+  $page_title = 'Sara Hicks';
   $page_theme = 'theme-coral';
-  include '../header.php'; 
+  include '../header.php';
 ?>
   <main role="main">
 
@@ -16,7 +16,7 @@
         <img src="/assets/img/sara-hicks/featured-sara-hicks.jpg" alt="Sara Hicks">
       </figure>
     </div>
-    
+
     <!-- // Interview Header -->
     <header class="border header-interview">
       <div class="wrapper-sm">
@@ -105,7 +105,7 @@
         </figcaption>
       </figure>
     </div>
-    
+
     <!-- // Q & A -->
     <dl class="border">
       <!-- // Question -->
@@ -118,5 +118,5 @@
     </dl>
 
   </main>
-  
+
 <?php include '../footer.php'; ?>
