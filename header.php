@@ -31,8 +31,3 @@
       <a href="/nominate.php" <?php if ($page == "nominate"): echo 'class="active"'; endif; ?>>Nominate</a>
     </nav>
   </header>
-
-
-  
-
-  
