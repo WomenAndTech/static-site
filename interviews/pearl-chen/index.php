@@ -6,14 +6,14 @@
 
   $page_title = 'Pearl Chen';
   $page_theme = 'theme-blue';
-  include '../header.php';
+  include '../../header.php';
 ?>
   <main role="main">
 
     <!-- // Feature Image -->
     <div class="border img-feature">
       <figure>
-        <img src="/assets/img/pearl-chen/featured-pearl-chen.jpg" alt="Pearl Chen">
+        <img src="featured-pearl-chen.jpg" alt="Pearl Chen">
       </figure>
     </div>
 
@@ -129,10 +129,10 @@
       </dd>
     </dl>
 
-    <!-- // Image - Landscape -->
+    <!-- // Single Image - Landscape -->
     <div class="border img-landscape">
       <figure>
-        <img src="/assets/img/pearl-chen/landscape-pearl-new-media-installation.jpg" alt="Pearl Chen New Media">
+        <img src="landscape-pearl-new-media-installation.jpg" alt="Pearl Chen New Media">
         <figcaption>
           While at the CFC Media Lab, Pearl was technical lead on several new media installations including this one, entitled Alone Together, which was projected onto the front of the Bata Shoe Museum in downtown Toronto.
         </figcaption>
@@ -160,6 +160,161 @@
       </dd>
     </dl>
 
+    <!-- // Q & A -->
+    <dl class="border">
+      <!-- // Question -->
+      <dt class="interview-q">What are you working on now?</dt>
+      <!-- // Answer -->
+      <dd class="interview-a">
+        <p>I’m working with <a href="http://nascentdigital.com/">Nascent Digital</a> to help TELUS change their
+            corporate culture to more of a startup culture. They created a <a href="http://web.telus.com/blog">lab</a> to redesign
+            all of their web properties and this was almost exactly what I was looking for –
+            web development and programming but also team building. From a technology
+            standpoint, I’ve implemented some <a href="http://theleanstartup.com">Lean methodologies</a>, somewhat based on an
+            <a href="http://en.wikipedia.org/wiki/Agile_software_development">Agile
+            workflow</a>, and we’re training the other employees to think like a startup and
+            execute on ideas really quickly.</p>
+      </dd>
+    </dl>
+
+    <!-- // Q & A -->
+    <dl class="border">
+      <!-- // Question -->
+      <dt class="interview-q">How did you start teaching and why do you do it?</dt>
+      <!-- // Answer -->
+      <dd class="interview-a">
+        <p>In 2008, Shawn Pucknell who runs <a href="http://fitc.ca/">FITC</a> events
+          reached out to me and asked if I wanted to teach electronics workshops. I
+          thought, I don’t know what to teach! He said to just pick a project then work on
+          that during the class, so I agreed. My first class was making LED solar
+          lanterns, and I had six people turn up. It was basic electronics. I actually
+          hired one of those students a year later.</p>
+        <p>I see a lot of companies nowadays searching for skilled programmers. I
+          think it’s okay to look for someone junior-ish as long as they’re willing to
+          learn. It should really be up to the company to figure out what their
+          educational program is, whether that means sending them to conferences or
+          classes or having internal classes like lunch n' learns. Companies have to have
+          a good infrastructure for on-boarding people and helping mentor and train them.</p>
+        <p>That's why I do a lot of this public speaking and training. If three years
+          from now I wanted to start a company doing interactive projects, I'll have a
+          fleet of people that I've worked with or taught in my classes who I know are
+          eager to learn and who I can reach out to. It's an investment versus something
+          that I do for fun.</p>
+        <p>I also like doing in-person workshops because the reaction I get from people
+          who are trying to learn is so wonderful. I like converting people who think they
+          couldn't do something into people who now think they can.</p>
+      </dd>
+    </dl>
+
+    <!-- // Pull Quote -->
+    <aside class="border pull-quote">
+      <p>I like converting people who think they couldn't do something into people who now think they can.</p>
+    </aside>
+
+    <!-- // Q & A -->
+    <dl class="border">
+      <!-- // Question -->
+      <dt class="interview-q">A lot of technologists focus on one area, be it front-end development or hardware, but you seem to know and do a lot of things. How do you manage all of that?</dt>
+      <!-- // Answer -->
+      <dd class="interview-a">
+        <p>Yeah, I'm into a lot of things. Part of that may be that a lot of
+          technology doesn't exist for very long. When I was programming with Flash – and everyone kind of knows what the <a href="http://www.apple.com/hotnews/thoughts-on-flash/">story</a> is with Flash – I realized that the web was moving away
+          from it and that I really should get back to see what was happening with
+          JavaScript.</p>
+        <p>For some time, Flash was building robust things and JavaScript was
+          learning what it was and what people can do with it. Flash ActionScript 2 and
+          JavaScript have similar backgrounds but the way people use it is different. It
+          wasn't until a few people discovered key things about JavaScript that the
+          language became powerful. That made me focus on web front-end dev – HTML, CSS
+          and JavaScript – instead of Flash.</p>
+        <p>I did some PHP and database programming too because
+          when you want to execute an idea, and it's not too complex, you can do
+          everything from the front-end to the back-end. It's nice to be a full-stack
+          developer. Nowadays it's easier because you can actually create a database with
+          JavaScript using <a href="http://www.mongodb.org/">MongoDB</a>, and then the
+          backend or the server can be <a href="http://nodejs.org/">Node.js</a>. It's
+          becoming easier to do it all just knowing Javascript. </p>
+        <p>I know Java. I know nothing about Ruby, and I know only slightly more than
+          nothing about Python. People think I have a lot more experience because I have
+          this other hardware background, but it comes down to hands-on experience. Anyone
+          could have the experience if they spent a weekend to learn some of these things,
+          but most people are busy. Maybe having the time to learn these new tools is what
+          seems impressive.</p>
+      </dd>
+    </dl>
+
+    <!-- // Q & A -->
+    <dl class="border">
+      <!-- // Question -->
+      <dt class="interview-q">Do you have much mobile development experience?</dt>
+      <!-- // Answer -->
+      <dd class="interview-a">
+        <p>I have very niche knowledge of <a href="http://www.android.com">Android</a> from the external hardware integration side. That includes NFC [<a href="http://www.nearfieldcommunication.org/">Near Field Communication</a>], which is about interacting with things in the real world, and <a href="http://www.arduino.cc">Arduino</a>,
+          which combines my previous electronics background. I can only do some specific
+          things with Android development. For example, I could integrate a web app with
+          Android, or I could tell you best practices about working with NFC. </p>
+        <p>It comes down to the project. Mobile makes sense for certain things that
+          are fully immersive, like games, but I think the web has more to offer than
+          native mobile development. Most apps are opened once or twice and never opened
+          ever again, so why put that time in? That's probably why I don't do a lot of
+          mobile development.</p>
+      </dd>
+    </dl>
+
+    <!-- // Single Image - Landscape -->
+    <div class="border img-landscape">
+      <figure>
+        <img src="pearl-chen-android.jpg" alt="Android">
+        <figcaption>
+          Pearl’s home studio is filled with knick-knacks and hardware from Arduino kits to LED lights and circuit boards to Android Robots.
+        </figcaption>
+      </figure>
+    </div>
+
+    <!-- // Q & A -->
+    <dl class="border">
+      <!-- // Question -->
+      <dt class="interview-q">Your <a href="https://plus.google.com/108076675731922659261/about">Google+</a> account, where you are pretty active, says you are an Android enthusiast.
+          Do you have a conscious preference toward open products as opposed to
+          proprietary? </dt>
+      <!-- // Answer -->
+      <dd class="interview-a">
+        <p>When Android started off I liked it because it was the first open source
+          mobile operating that had mass appeal. Each application can execute what they
+          call an Android intent, and that’s how apps message each other, internally or
+          externally. For example, if I have a twitter application and there is a post I
+          want to share via email, there would be a popup that would ask me where I wanted
+          to share this tweet to. The Android intent can route my share request to
+          multiple places, not just my email, like my favourite todo app, <a href="http://www.dropbox.com">Dropbox</a>,
+          <a href="http://www.evernote.com">Evernote</a>, or another app I have installed. The way apps behave with each other
+          is very open. </p>
+        <p>iPhone is like a walled garden; you go into an app, do your thing, and you
+          leave. Android is very much a powerhouse tool. When I don't have time to read a
+          post from Twitter, I just hit share, I put it in <a href="http://getpocket.com">Pocket</a>, then Pocket does its thing. On iOS, this
+          is only possible if the app developer explicitly builds in that Pocket
+          integration. With Android, it's just seamless how all these apps talk to each
+          other. </p>
+        <p>It's not about the open source label but about working in public. Having
+          more people working on something is the benefit of open source. You just get so
+          much more out of a project by having a network effect, rather than just working
+          alone on something. It’s nice when collaboration makes something better. </p>
+      </dd>
+    </dl>
+
+    <!-- // Pull Quote -->
+    <aside class="border pull-quote">
+      <p>You just get so much more out of a project by having a network effect, rather than just working alone on something. It’s nice when collaboration makes something better.</p>
+    </aside>
+
+    <!-- // Q & A -->
+    <dl class="border">
+      <!-- // Question -->
+      <dt class="interview-q">How do you keep up in the industry?</dt>
+      <!-- // Answer -->
+      <dd class="interview-a">
+        <p>I'm actually okay with not staying up-to-date. I used to feel compelled to read everyone's tweets on Twitter but now I just use it to broadcast my news.</p>
+      </dd>
+    </dl>
   </main>
 
-<?php include '../footer.php'; ?>
+<?php include '../../footer.php'; ?>
