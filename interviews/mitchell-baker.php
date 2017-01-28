@@ -128,5 +128,89 @@
   </dd>
 </dl>
 
+<figure class="border img-landscape">
+  <img src="/assets/img/mitchell-baker/landscape-mitchell-baker-teaching.jpg" alt="Mitchell Baker">
+
+  <figcaption>
+    Photo credit: Flore Allemandou
+  </figcaption>
+</figure>
+
+<!-- // Q & A -->
+<dl class="border">
+  <!-- // Question -->
+  <dt class="interview-q">We talked a bit about how you grew up as an only child. And you have an only son. How do you find balancing being a mom with your insane work schedule?</dt>
+  <!-- // Answer -->
+  <dd class="interview-a">
+    <p>It’s got a lot of pluses and some drawbacks. I think each kid and each family is different and so what works in one family may not work in another. I should also say my husband is beyond helpful and supportive, so I’m really fortunate. I think both my husband and my son appreciate what I’m doing. I think it’s good for my son to have me out in the world. And Mozilla is a special thing — at least to me. It is a valuable thing in its own right. So I think all of those things are good.</p>
+    <p>But yeah, for sure, if I weren’t working or if I were working half-heartedly I would be more engaged on a daily basis in my son’s schooling and activities. On the other hand I don’t know if that’s good for an only child. Two parents intensely focused with all their energy on an only child and nothing else is not always great. Maybe with two kids it’s the same thing, I don’t know, that’s not my experience.</p>
+    <p>I guess in an ideal world I’d probably have ten or fifteen percent more time to focus on my son but certainly not 100% of my time. If I took all my focus from Mozilla and turned it to my family we’d all go crazy!</p>
+  </dd>
+</dl>
+
+<figure class="border img-landscape">
+  <img src="/assets/img/mitchell-baker/landscape-mitchell-baker-photosmile.jpg" alt="Mitchell Baker">
+
+  <figcaption>
+    Photo credit: Joi Ito
+  </figcaption>
+</figure>
+
+<!-- // Q & A -->
+<dl class="border">
+  <!-- // Question -->
+  <dt class="interview-q">I think a lot of women feel an external pressure to be a certain way not just in the workplace but inside their own families. I wonder if you’ve ever felt that?</dt>
+  <!-- // Answer -->
+  <dd class="interview-a">
+    <p>First of all, I don’t care that much. For someone on the outside to look in and tell me what my family needs — I really… I will say I did come from two odd people who made their own way, so I grew up in that setting and I have that in myself. Aspects of that are not good, I’m not saying it’s a perfect trade, but in general it makes it easier for me.</p>
+    <p>I do feel pressure, not just from my family but from me as well, to be home more than I would be if I just scheduled trips without thinking about it. I travel a lot and my trips are always as compressed as I can make them. I’ll go off (like many business people do) and I’lI arrive in Europe at 10am, and my meetings start at 11:30 because I don’t want to take a day to rest. I want to get home as soon as I can. So that is where I do feel a bunch of pressure.</p>
+    <p>There was a period in the early days of Mozilla where I was a volunteer when my son was young, after I was laid off or fired from AOL. It was probably a stroke of good luck that that lined up when he was four or five, that I was still working on Mozilla but not as frantically and with much more control over my time.</p>
+  </dd>
+</dl>
+
+<figure class="border img-landscape">
+  <img src="/assets/img/mitchell-baker/landscape-mitchell-baker-teaching2.jpg" alt="Mitchell Baker">
+
+  <figcaption>
+    Photo credit: OnInnovation
+  </figcaption>
+</figure>
+
+<!-- // Q & A -->
+<dl class="border">
+  <!-- // Question -->
+  <dt class="interview-q">Can you clarify that – were you laid off, or were you fired?</dt>
+  <!-- // Answer -->
+  <dd class="interview-a">
+    <p>Let’s see. <a href="https://www.mozilla.org/en-US/?v=a">Mozilla</a> started inside Netscape in 1998 and at the end of that year, early ‘99, AOL bought Netscape. It turns out (especially in those days) that you can use a browser to generate a fair amount of money, but some of the things that generate money people don’t like. And the browser becomes more and more about making money out of people. Like, every button or every menu item is sold to some company, and then the user experience deteriorates.</p>
+    <p>We had a lot of pressures when we were inside AOL, in 1999, 2000, 2001, the handful of us who were leading the Mozilla project. I had a charter to build an open-source project, a true, distributed, meritocratic, open source project. And my boss and the rest of the AOL employees of course had the charter to build the business of AOL. And those two things can be side-by-side for some period of time, but they are not the same.</p>
+    <p>Eventually the tensions became overwhelming. There were outright fights going on where some of the employees at AOL — chartered with AOL’s business — would say “Mitchell, Mozilla must do the following things in the browser,” and I would say, “Mozilla is not going to do those things.” Head-to-head conflict like that, and that went on for awhile.</p>
+    <p>At that time there was this giant layoff planned, and it appeared like a good time to lay me off, which is a gracious way of getting rid of someone. And so I was laid off. Technically. Nevertheless it was a fight for the control of Mozilla. Was it run as an open source project, or was it run as an AOL project that had a lot of volunteers in it?</p>
+    <p>The rest of the story was relayed to me because I had been laid off so I wasn’t in the building or involved. There were six or seven people chartered to work on Mozilla, and then there were oh I don’t know, 75, 100, 125 people employed by AOL to build the browser and to contribute their work into the open source code base. And that set of employees made it clear that they just weren’t going to follow direction or organization of that product unless Mozilla and I were at the center of it.</p>
+  </dd>
+</dl>
+
+<aside class="border pull-quote">
+  <p>We got to keep the project, that was what really happened! We were able to keep Mozilla — the open-source project — alive and real.</p>
+</aside>
+
+<!-- // Q & A -->
+<dl class="border">
+  <!-- // Question -->
+  <dt class="interview-q">That must have felt pretty good in a way.</dt>
+  <!-- // Answer -->
+  <dd class="interview-a">
+    <p>Good and bad. It was pretty traumatic for the people who were left who felt this person who was leading the aspect of their jobs that they cared about most (the open source aspect) was gone — it’s very traumatic. But it was also rewarding to learn how many people viewed what I and my colleagues were doing. And we got to keep the project, that was what really happened! We were able to keep Mozilla — the open-source project — alive and real.</p>
+  </dd>
+
+<!-- // Question -->
+<dt class="interview-q">What is it about Mozilla’s mission that matters to you personally? I mean, why essentially devote your life to the Internet? Why do you care?</dt>
+<!-- // Answer -->
+<dd class="interview-a">
+  <p>There are two interlocking reasons. The first one is that the power of a network has always fascinated me. It is one of those places where one plus one can equal three. You have a set of capabilities, I have a set of capabilities, and the next person has a set of capabilities — one plus one plus one can equal five, right? When we are connected in a networked way, where you can reach each other across many vectors the power goes way up.</p>
+</dd>
+
+</dl>
+
   </main>
 <?php include '../footer.php'; ?>
