@@ -1,13 +1,15 @@
-<?php include '../header.php'; ?>
+<?php include '../../header.php'; ?>
   <main role="main">
 
 <!-- Featured Image -->
-    <figure class="border img-feature">
+  <div class="border img-feature">
+    <figure>
       <img src="/assets/img/mitchell-baker/featured-mitchell-baker.jpg" alt="Mitchell Baker">
     </figure>
+  </div>
 
 <!-- Interview Header -->
-    <header class="border header-interview">
+<header class="border header-interview">
   <div class="wrapper-sm">
     <h2>Mitchell Baker</h2>
     <p class="intro">Mitchell Baker is the recipient of numerous awards and recognition, known for her intimidating pauses and sharp intellect. She is the face and founder of the non-profit tech company <a href="https://www.mozilla.org/en-US/?v=a">Mozilla</a>, creator of Firefox and champion of the open web.</p>
@@ -53,13 +55,15 @@
   </dd>
 </dl>
 
-    <figure class="border img-landscape">
+  <div class="border img-landscape">
+    <figure>
       <img src="/assets/img/mitchell-baker/landscape-mitchell-baker.jpg" alt="Mitchell Baker">
 
       <figcaption>
         Photo credit: Inc. Magazine, Forbes Magazine , Tristan Nitot , Jay Patel , and Gen Kanai
       </figcaption>
     </figure>
+  </div>
 
 <dl class="border">
   <dt class="interview-q">Asian Studies was an unusual area of study when you were in school. Is your life what you thought it would turn out to be?</dt>
@@ -82,13 +86,15 @@
   </dd>
 </dl>
 
-  <figure class="border img-landscape">
+ <div class="border img-landscape">
+  <figure>
     <img src="/assets/img/mitchell-baker/landscape-mitchell-baker-kitchen.jpg" alt="Mitchell Baker">
 
     <figcaption>
       Photo credit: Joi Ito
     </figcaption>
   </figure>
+</div>
 
 <dl class="border">
   <dd class="interview-a">
@@ -98,13 +104,15 @@
   </dd>
 </dl>
 
-  <figure class="border img-landscape">
+ <div class="border img-landscape">
+  <figure>
     <img src="/assets/img/mitchell-baker/landscape-mitchell-baker-speaking.jpg" alt="Mitchell Baker">
 
     <figcaption>
       Photo credit: Hubert Figuière
     </figcaption>
   </figure>
+</div>
 
 <dl class="border">
   <dt class="interview-q">Do you think your dad influenced your gravitation toward law?</dt>
@@ -128,13 +136,15 @@
   </dd>
 </dl>
 
-<figure class="border img-landscape">
-  <img src="/assets/img/mitchell-baker/landscape-mitchell-baker-teaching.jpg" alt="Mitchell Baker">
+ <div class="border img-landscape">
+  <figure>
+    <img src="/assets/img/mitchell-baker/landscape-mitchell-baker-teaching.jpg" alt="Mitchell Baker">
 
-  <figcaption>
+    <figcaption>
     Photo credit: Flore Allemandou
-  </figcaption>
-</figure>
+    </figcaption>
+  </figure>
+</div>
 
 <!-- // Q & A -->
 <dl class="border">
@@ -148,13 +158,15 @@
   </dd>
 </dl>
 
-<figure class="border img-landscape">
-  <img src="/assets/img/mitchell-baker/landscape-mitchell-baker-photosmile.jpg" alt="Mitchell Baker">
+ <div class="border img-landscape">
+  <figure>
+    <img src="/assets/img/mitchell-baker/landscape-mitchell-baker-photosmile.jpg" alt="Mitchell Baker">
 
-  <figcaption>
+    <figcaption>
     Photo credit: Joi Ito
-  </figcaption>
-</figure>
+    </figcaption>
+  </figure>
+</div>
 
 <!-- // Q & A -->
 <dl class="border">
@@ -168,13 +180,15 @@
   </dd>
 </dl>
 
-<figure class="border img-landscape">
-  <img src="/assets/img/mitchell-baker/landscape-mitchell-baker-teaching2.jpg" alt="Mitchell Baker">
+<div class="border img-landscape">
+  <figure>
+    <img src="/assets/img/mitchell-baker/landscape-mitchell-baker-teaching2.jpg" alt="Mitchell Baker">
 
-  <figcaption>
+    <figcaption>
     Photo credit: OnInnovation
-  </figcaption>
-</figure>
+    </figcaption>
+  </figure>
+</div>
 
 <!-- // Q & A -->
 <dl class="border">
@@ -212,5 +226,15 @@
 
 </dl>
 
+ <div class="border img-landscape">
+   <figure>
+     <img src="/assets/img/mitchell-baker/landscape-mitchell-baker-teaching2.jpg" alt="Mitchell Baker">
+
+     <figcaption>
+       Photo credit: OnInnovation
+    </figcaption>
+  </figure>
+</div>
+
   </main>
-<?php include '../footer.php'; ?>
+<?php include '../../footer.php'; ?>
