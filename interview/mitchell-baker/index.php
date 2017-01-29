@@ -1,4 +1,14 @@
-<?php include '../../header.php'; ?>
+<?php
+  /* Fill out these values to customize the page.
+  $page_title = Interviewee's name
+  $page_theme values: theme-coral, theme-purple, theme-yellow, theme-green, theme-blue
+  */
+
+  $page_title = 'Mitchell Baker';
+  $page_theme = 'theme-coral';
+  include '../../header.php';
+?>
+
   <main role="main">
 
 <!-- Featured Image -->
@@ -60,7 +70,7 @@
       <img src="mitchell-baker/landscape-mitchell-baker.jpg" alt="Mitchell Baker">
 
       <figcaption>
-        Photo credit: Inc. Magazine, Forbes Magazine , Tristan Nitot , Jay Patel , and Gen Kanai
+        Photo credit: <a href="https://www.flickr.com/photos/39779362@N04/3660212407" target="_blank">Inc. Magazine</a>, <a href="https://www.flickr.com/photos/39779362@N04/3660211855/in/photostream/" target="_blank">Forbes Magazine </a>, <a href="https://www.flickr.com/photos/nitot/2266704443/in/photostream/" target="_blank">Tristan Nitot </a>, <a href="https://www.flickr.com/photos/jaypatel/3638868719" target="_blank">Jay Patel </a>, <a href="https://www.flickr.com/photos/gen/2591724407" target="_blank">Gen Kanai </a>
       </figcaption>
     </figure>
   </div>
@@ -91,7 +101,7 @@
     <img src="mitchell-baker/landscape-mitchell-baker-kitchen.jpg" alt="Mitchell Baker">
 
     <figcaption>
-      Photo credit: Joi Ito
+      Photo credit: <a href="https://www.flickr.com/photos/joi/2951322142" target="_blank">Joi Ito</a>
     </figcaption>
   </figure>
 </div>
@@ -109,7 +119,7 @@
     <img src="mitchell-baker/landscape-mitchell-baker-speaking.jpg" alt="Mitchell Baker">
 
     <figcaption>
-      Photo credit: Hubert Figuière
+      Photo credit: <a href="https://www.flickr.com/photos/hfiguiere/11370773124/" target="_blank">Hubert Figuière</a>
     </figcaption>
   </figure>
 </div>
@@ -141,7 +151,7 @@
     <img src="mitchell-baker/landscape-mitchell-baker-teaching.jpg" alt="Mitchell Baker">
 
     <figcaption>
-    Photo credit: Flore Allemandou
+    Photo credit: <a href="https://www.flickr.com/photos/flore_frmoz/4343876349" target="_blank">Flore Allemandou </a>
     </figcaption>
   </figure>
 </div>
@@ -163,7 +173,7 @@
     <img src="mitchell-baker/landscape-mitchell-baker-photosmile.jpg" alt="Mitchell Baker">
 
     <figcaption>
-    Photo credit: Joi Ito
+    Photo credit: <a href="https://www.flickr.com/photos/joi/4116202217" target="_blank">Joi Ito </a>
     </figcaption>
   </figure>
 </div>
@@ -185,7 +195,7 @@
     <img src="mitchell-baker/landscape-mitchell-baker-teaching2.jpg" alt="Mitchell Baker">
 
     <figcaption>
-    Photo credit: OnInnovation
+    Photo credit: <a href="https://www.flickr.com/photos/oninnovation/4334743935" target="_blank">OnInnovation </a>
     </figcaption>
   </figure>
 </div>
@@ -224,17 +234,159 @@
   <p>There are two interlocking reasons. The first one is that the power of a network has always fascinated me. It is one of those places where one plus one can equal three. You have a set of capabilities, I have a set of capabilities, and the next person has a set of capabilities — one plus one plus one can equal five, right? When we are connected in a networked way, where you can reach each other across many vectors the power goes way up.</p>
 </dd>
 
-</dl>
 
  <div class="border img-landscape">
    <figure>
-     <img src="mitchell-baker/landscape-mitchell-baker-teaching2.jpg" alt="Mitchell Baker">
+     <img src="mitchell-baker/landscape-mitchell-baker-present.jpg" alt="Mitchell Baker">
 
      <figcaption>
-       Photo credit: OnInnovation
+       Photo credit: <a href="https://www.flickr.com/photos/dougbelshaw/10136265006/in/photostream/" target="_blank">Doug Belshaw</a>
     </figcaption>
   </figure>
 </div>
+
+  <!-- // Answer -->
+  <dd class="interview-a">
+    <p>The Internet is particularly like that because it wasn’t built to be centralized, so it’s not one node at the center and everything falls down from it. It’s a much more horizontal layer. I can reach somebody without needing to go through some big centralized governing authority. I don’t need to connect to some machine above us and then connect back down to you. We can connect however we want. That piece was irresistible when it came.</p>
+    <p>The network piece sounds a little abstract. It happens to appeal to me. I like putting things together; I like that puzzle piece of how technology and interactions fit together. The related piece is that on a human scale, the possibilities are huge.</p>
+  </dd>
+</dl>
+
+<aside class="border pull-quote">
+  <p>You get a technology where each one of us at the edges can try things out. That’s really rare. If we lose that with the Web and the Internet, it will be a long long time before we see it again.</p>
+</aside>
+
+<!-- // Q & A -->
+<dl class="border">
+  <!-- // Answer -->
+  <dd class="interview-a">
+    <p>The Internet was of course a technology change, a paradigm shift, but more than that it was a decentralized paradigm shift. And those are really rare. The normal tendency is that as things get big, they get centralized with management chains and permission layers everywhere. Here, you actually get a technology that isn’t that, where each one of us at the edges can try things out. That’s really rare. If we lose that with the Web and the Internet, it will be a long long time before we see it again.</p>
+    <p>Eventually we’ll have some disruptive change and I don’t know what it will be, but because the network that we’re using now is so increasingly fundamental to all of life, I think for a good while new technology changes will be integrated with the existing system. And so keeping it actually open and understandable is important.</p>
+    <p>And you know, one thing I really like about open source and about Mozilla and our volunteer communities around the world is that it’s fun and it’s gratifying, and you can see that Mozilla tends to attract people who care about our mission.</p>
+    <p>So you add those things together and it’s pretty alluring.</p>
+  </dd>
+</dl>
+
+<!-- // Q & A -->
+<dl class="border">
+  <!-- // Question -->
+  <dt class="interview-q">This reminds me of something that you wrote on your blog about trapeze: “It’s not just adrenaline, or overcoming fear, of accomplishing something that makes flying great. It’s all of that. But it’s also just fun.” Do you think doing trapeze was a byproduct of the way you like to work, or has it influenced your career?</dt>
+  <!-- // Answer -->
+  <dd class="interview-a">
+    <p>Oh that’s interesting. I would say that trapeze taught me a bunch of things about fear. It’s a very controlled environment. It’s not like a war zone, it’s not like walking home at night knowing you’re in an unsafe setting. It’s a very controlled environment. But at the same time there are some physiological reactions that are the same, regardless of why you are afraid. It was very useful to me to explore fear in such a controlled and ultimately safe setting.</p>
+  </dd>
+</dl>
+
+<div class="border img-landscape">
+  <figure>
+    <img src="mitchell-baker/landscape-mitchell-baker-trapeeze.jpg" alt="Mitchell Baker Trapeeze">
+
+    <figcaption>
+      Photo credit: <a href="https://www.flickr.com/photos/badubadu/" target="_blank">badubadu</a>
+   </figcaption>
+
+ </figure>
+</div>
+
+<!-- // Q & A -->
+<dl class="border">
+  <!-- // Answer -->
+  <dd class="interview-a">
+    <p>In trapeze, you can hurt yourself that’s for sure, but no one is trying to hurt you. Everybody is trying to make it safe and fun. A ton of the world’s population does not experience that, so it’s a pretty privileged position and I’m careful not to think that it’s a fear like a ton of people, a ton of women, live in all the time.</p>
+    <p>One thing I learned is how fear turns the brain off, and how so often when fear takes over, one does the wrong thing. The flying is scary. When you take the safety lines off it’s also scary. You are on your own until you are in a spot where the catcher can catch you, if he can. And the net — it’s not like a floor, it’s a net – but it’s easy to break bones. So what I really found interesting is that there is a period of time where there is plenty of fear but it’s under control and you’re committed and going for it, and then there’s a moment where the fear takes over and you’re afraid. You’re going through the motions but the fear is what’s driving things. Those are utterly different moments.</p>
+    <p>I was able to feel that shift any number of times in the other places in life where I had been afraid. When something shifts, everything goes wrong. Typically when you’re flying, you plunge into the net.</p>
+    <p>I think I got a lot better at being able to sense out in other people, ‘Ah, this is fear response.’ This person or this company or this organization or group has a pretty deep fear that either they haven’t targeted themselves yet or they know very well and don’t want to expose.</p>
+  </dd>
+</dl>
+
+<aside class="border pull-quote">
+  <p>One thing I learned is how fear turns the brain off, and how so often when fear takes over, one does the wrong thing.</p>
+</aside>
+
+<!-- // Q & A -->
+<dl class="border">
+  <!-- // Question -->
+  <dt class="interview-q">Do you consider yourself a risk taker?</dt>
+  <!-- // Answer -->
+  <dd class="interview-a">
+    <p>Oh I don’t know. A part of me says, look, I live in the United States. In a technology industry if you’re good at what you do and if you have a good reputation your chance of finding another job is pretty high. When I went to Netscape (it was called Mosaic at the time), that was clearly a risk. But it’s kind of trivial, meaning I knew I could go back to the company that I worked at before. It’s the Valley, so I probably had two or three job offers from the company I worked at on my way out the door. How big a risk is that?</p>
+  </dd>
+</dl>
+
+<div class="border img-landscape">
+  <figure>
+    <img src="mitchell-baker/landscape-mitchell-baker-office.jpg" alt="Mitchell Baker Office">
+
+    <figcaption>
+      Photo credit: <a href="https://www.flickr.com/photos/oninnovation/4335476132" target="_blank">OnInnovation</a>
+   </figcaption>
+
+ </figure>
+</div>
+
+<!-- // Q & A -->
+<dl class="border">
+  <!-- // Answer -->
+  <dd class="interview-a">
+    <p>In the setting I grew up in, if you take all of that aside and just say, ‘Will I take jobs that don’t seem to have a future because I’m interested in them? Will I suddenly do something that I always thought I would never do because now seems like the right time? Will I change my mind fundamentally? Will I do something that seems crazy — like Mozilla — because most people don’t believe in it?’</p>
+    <p>The answer to those things is clearly yes.</p>
+    <p>The man who used to run Netscape, Jim Barksdale, liked to say, “People love progress. It’s change they can’t stand.” I think about that a lot because most people are uncomfortable or disoriented by change, destabilized by change. You see that in managing or reading people. I am much less so, and my dad was much less so. I like change. Maybe that’s because I’ve been lucky in life, maybe it’s genetic, but on the spectrum of how people respond to change I’m pretty positive. Some things that feel like giant risks to people, well, it’s change – sounds like fun!</p>
+    <p>Now you can have a lot of experiences where every change is bad and then it’s totally rational to not like it. It’s not an emotional thing, it’s not a personality thing, it’s just a rational thing.</p>
+  </dd>
+</dl>
+
+<!-- // Q & A -->
+<dl class="border">
+  <!-- // Question -->
+  <dt class="interview-q">I’d like to end with a question from our previous interviewee, <a href="http://womenandtech.com/interview/sandi-lin/" target="_blank">Sandi Lin</a>. She asks, "Women face many challenges in the technology industry but we also bring many strengths. What do you think is the best part of being a woman in tech?"</dt>
+  <!-- // Answer -->
+  <dd class="interview-a">
+    <p>For me, I am me in tech, so what is the part of it that’s good because I am a woman? I don’t know how to answer that.</p>
+    <p>The part that’s good is that there are so many possibilities, and right now Mozilla and I are in a place to try and build the parts of the world that we want. That’s the best part about being in technology – that we’re early in what the network and online life and all these things mean, and we get to build it. That’s the good part for me.</p>
+    <p>But which of that is because I am a woman? I don’t know how to answer that part.</p>
+  </dd>
+</dl>
+
+<!-- // Team Signature -->
+<div class="border signature">
+  <p>
+    with <i class="fa fa-heart-o theme-color" aria-hidden="true" title="love"></i><span class="screen-readers">love</span>
+    from <span class="team theme-color">the Women&&Tech team</span>
+  </p>
+</div>
+
+<!-- // Past Interviews -->
+<aside class="past-interviews">
+  <div class="wrapper">
+    <h2>Past Interviews</h2>
+    <div class="grid-wrapper">
+      <section class="grid-3-1">
+        <a href="#link-to-interview" class="no-underline">
+          <img src="/assets/img/thumbnail-sara-hicks.png" alt="Sara Hicks">
+          <h3>Sarah Hicks</h3>
+          <p>with Sophie He</p>
+          <p>Co-founder and CEO of Reaction Commerce, an open source eCommerce platform.</p>
+        </a>
+      </section>
+      <section class="grid-3-1">
+        <a href="#link-to-interview" class="no-underline">
+          <img src="/assets/img/thumbnail-mitchell-baker.png" alt="Mitchell Baker">
+          <h3>Mitchell Baker</h3>
+          <p>with Cassie McDaniel</p>
+          <p>Founder of the non-profit tech company Mozilla, creator of Firefox and champion of the open web.</p>
+        </a>
+      </section>
+      <section class="grid-3-1">
+        <a href="#link-to-interview" class="no-underline">
+          <img src="/assets/img/thumbnail-sandi-lin.png" alt="Sandi Lin">
+          <h3>Sandi Lin</h3>
+          <p>with Sarah Sutherland</p>
+          <p>Co-founder and CEO of Seattle-based startup Skilljar, an online course delivery platform.</p>
+        </a>
+      </section>
+    </div>
+  </div>
+</aside>
 
   </main>
 <?php include '../../footer.php'; ?>
