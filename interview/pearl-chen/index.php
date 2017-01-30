@@ -313,8 +313,161 @@
       <!-- // Answer -->
       <dd class="interview-a">
         <p>I'm actually okay with not staying up-to-date. I used to feel compelled to read everyone's tweets on Twitter but now I just use it to broadcast my news.</p>
+        <p>There is one guy who I follow in the web community, <a href="http://addyosmani.com/blog/">Addy Osmani</a>. He is an expert in terms of
+          web development so anything he says is more or less gold. When he says, "Oh we
+          should try this" or "Have you considered this?" – you listen. He cuts through
+          all the crap, and he is a really good teacher. He's a developer advocate, so
+          he's very good at explaining technology. I find that if you have to stay up-to-date with one source for web development, just follow Addy and everything he
+          says.</p>
       </dd>
     </dl>
+
+    <!-- // Q & A -->
+    <dl class="border">
+      <!-- // Question -->
+      <dt class="interview-q">You do quite a bit of teaching through your <a href="http://karma-laboratory.com">Karma Laboratory</a> workshops, at conferences and with non-profits like <a href="http://www.makerkids.ca">Maker Kids</a>. Is code literacy
+          important to you?</dt>
+      <!-- // Answer -->
+      <dd class="interview-a">
+        <p>We’re moving into an age where everything is technology-enabled and
+          everything’s gotta run on code. There may be a point where everyone needs to
+          know enough code to put up their own web page or to fix something. So much of
+          our future is going to be around computers, so I think knowing how to code will
+          be an advantage for people.</p>
+      </dd>
+    </dl>
+
+    <!-- // Q & A -->
+    <dl class="border">
+      <!-- // Question -->
+      <dt class="interview-q">How did you start speaking at events?</dt>
+      <!-- // Answer -->
+      <dd class="interview-a">
+        <p>I got involved with FITC (a big creative technology conference that originated in Toronto) as a volunteer, then a stage manager, then volunteer coordinator. I had a professional relationship with the organizers since the conference began.</p>
+        <p>A couple of years ago they asked if I wanted to do a talk for <a href="http://fitc.ca/event/screens2012/">SCREENS</a> [a
+          conference held by FITC with a focus on mobile, tablet and device development].
+          I submitted a talk but it was a little too avant-garde for them. I don’t
+          remember what it was about but it was something weird, and I didn’t get in. The
+          following year for <a href="http://fitc.ca/event/to13/">FITC Toronto</a>, I came
+          to them with some topics I could talk about and they said sure. My relationships
+          with the organizers made the submission process very easy. It wasn’t like a
+          submission process.</p>
+        <p>I have submitted to other events and have been rejected from some, invited to others. I think speaking at conferences comes from being in the community and being out there. People sometimes have my name in the top of their mind for certain topics, so they’ll invite me to their events.</p>
+      </dd>
+    </dl>
+
+    <!-- // Image - Landscape -->
+    <div class="border img-landscape">
+      <figure>
+        <img src="pearl-chen-speaking.jpg" alt="Speaking">
+      </figure>
+    </div>
+
+    <!-- // Q & A -->
+    <dl class="border">
+      <!-- // Question -->
+      <dt class="interview-q">Do you notice a lack of women speaking at conferences?</dt>
+      <!-- // Answer -->
+      <dd class="interview-a">
+        <p>I didn’t notice it so much at conferences, but I have noticed through
+          Ladies Learning Code, who spend a lot of time trying to get half the instructors
+          to be female. I remember when <a href="http://womenandtech.com/interview/heather-payne/">Heather</a> was trying to collect names for lead instructors it was the guys who would say, “Yeah, for sure, I’ll be a lead instructor,” and the women would say, “Maybe after mentoring a class.” Rarely will women jump in to lead a class or talk at a conference without having attended first. I do notice
+          sometimes when I’m at an evening event, I look around and there are not that
+          many females. I try to speak at more conferences, knowing that fact. I don’t want
+          to be the token woman speaking at a conference, but I do want to be a woman
+          speaking at a conference to show other women it’s not scary.</p>
+      </dd>
+    </dl>
+
+    <!-- // Pull Quote -->
+    <aside class="border pull-quote">
+      <p>I don’t want to be the token woman speaking at a conference, but I do want to be a woman speaking at a conference to show other women it’s not scary.</p>
+    </aside>
+
+    <!-- // Q & A -->
+    <dl class="border">
+      <!-- // Question -->
+      <dt class="interview-q">Any advice for women looking to start speaking?</dt>
+      <!-- // Answer -->
+      <dd class="interview-a">
+        <p>If you feel uncomfortable standing and talking for an hour, there are
+          various speaking formats you can do at conferences. You can present a topic
+          yourself or maybe moderate a panel. <a href="http://www.xmedialab.com/mentor&#10;/ana-serrano">Ana Serrano</a>, who was my director at the CFC Media Lab, flies to conferences all over the place and one thing that I’ve seen her do is instead of talking for an hour, she’ll talk for ten minutes and then do break-out sessions.</p>
+      </dd>
+    </dl>
+
+    <!-- // Q & A -->
+    <dl class="border">
+      <!-- // Question -->
+      <dt class="interview-q">What are your favorite tools for development, design, process, etc.?</dt>
+      <!-- // Answer -->
+      <dd class="interview-a">
+        <p>It used to be Flash because it was a really good tool set; all the things you wanted were more or less there. Now there are so many little places that you have to go to to get a simple web page up.</p>
+        <p>Addy Osmani worked on a tool called <a href="http://yeoman.io/">Yeoman</a>. It’s a very streamlined way to do web
+          development. It’s all based on command line tools, but it makes making a web
+          application take 15 seconds essentially. You make a folder and initialize the
+          Yeoman project and you can have a web application with a little local server
+          already set up and ready to go. That’s by far my favorite tool.</p>
+        <p> My favorite web framework is <a href="http://angularjs.org">AngularJS</a>
+          because it makes making web applications amazingly simple. It gives you an
+          opinionated way to work with web applications, in the sense that there is a
+          “right” way of doing things. The more you work with it, you can do more advanced
+          things and make your code really clean. That’s my second favorite tool. </p>
+        <p>I use <a href="http://www.sublimetext.com">Sublime Text</a> for my text
+          editor. It’s just so clean and easy to use. It’s like a lifesaver after using
+          Dreamweaver for so many years. My computer, a really good keyboard, a good
+          trackpad – and I’m good to go.</p>
+      </dd>
+    </dl>
+
+    <!-- // Q & A -->
+    <dl class="border">
+      <!-- // Question -->
+      <dt class="interview-q">Are you satisfied in the work that you’re doing now?</dt>
+      <!-- // Answer -->
+      <dd class="interview-a">
+        <p>Even times when I didn’t think I would be a programmer, I still came back to programming. It seems like this thing kept pulling me back, so this is actually where I belong. I think the tension right now is whether to become a manager or continue as a developer. At this point I’m much happier being a team lead where I’m developing as well as leading a team, versus being very hands-off. So far I’m really happy with where I am. I don’t have any complaints.</p>
+      </dd>
+    </dl>
+
+    <!-- // Q & A -->
+    <dl class="border">
+      <!-- // Question -->
+      <dt class="interview-q">In our last interview <a href="http://womenandtech.com/interview/martha-ladly/">Martha Ladly</a> asked, “If you were able to think about a technology that does not yet exist and you were going to particularly as a woman design/develop it for other women, what might it be?”</dt>
+      <!-- // Answer -->
+      <dd class="interview-a">
+        <p>Hmm... Probably <a href="http://en.wikipedia.org/wiki/Wearable_computer">wearables</a>. The reason I like wearables is because they’re
+          about personal space and communication, communicating not through words but
+          through clothing or touch or heat. We shouldn’t fixate on technology as a <em>thing</em>,
+          but we should think about how we use technology. Technology should be more of
+          something that augments us, not controls us.</p>
+      </dd>
+    </dl>
+
+    <!-- // Footer Credits -->
+    <footer class="border credits">
+      <ul>
+        <li>Interview <em>by</em> <a href="http://twitter.com/ivonnekn/" target="_blank">Ivonne Karamoy</a></li>
+        <li>Photography <em>by</em> <a href="http://mjcphotography.ca" target="_blank">Mauricio Calero</a></li>
+        <li>Editing <em>by</em>
+              <a href="http://work.cassiemcdaniel.com" target="_blank">Cassie McDaniel</a><em> and</em>
+              <a href="http://commuterlit.com/" target="_blank">Nancy Kay Clark</a></li>
+        <li>Art Direction<em> by</em>
+              <a href="http://www.cassiekaiser.com" target="_blank">Cassie Kaiser</a><em> and</em>
+              <a href="http://twitter.com/britburger" target="_blank">Mark Staplehurst</a></li>
+        <li>Design<em> by</em>
+              <a href="http://www.cassiekaiser.com" target="_blank">Cassie Kaiser</a></li>
+        <li>Development<em> by</em>
+              <a href="http://twitter.com/MartianMoose" target="_blank">Audrey Kuo</a>,
+              <a href="http://twitter.com/brttb" target="_blank">Brett Bergmann</a><em>, and</em>
+              <a href="http://twitter.com/raykao" target="_blank">Ray Kao</a></li>
+        <li>Transcriptions<em> by</em>
+              <a href="http://www.cassiekaiser.com" target="_blank">Cassie Kaiser</a>,
+              <a href="http://twitter.com/smithschwartz" target="_blank">Smith Schwartz</a><em>, and</em>
+              <a href="http://www.ivonnekaramoy.com" target="_blank">Ivonne Karamoy</a></li>
+      </ul>
+      <p>This site uses Monotype's Avenir Next by Adrian Fruteger and Akira Kobayashi, Github, Cloudflare, and Windows Azure.</p>
+    </footer>
   </main>
 
 <?php include '../../footer.php'; ?>

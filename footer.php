@@ -24,15 +24,15 @@
       </ul>
     </section>
   </footer>
-  
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.3/jquery.min.js"></script> 
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.3/jquery.min.js"></script>
   <script>!window.jQuery && document.write('<script src="assets/js/jquery-2.2.3.min.js"><\/script>')</script>
   <!-- Fonts -->
   <script type="text/javascript" src="//fast.fonts.net/jsapi/28b6dbe0-7189-4bf0-b1ff-a727583465ca.js"></script>
   <!-- Syntax highlighter -->
   <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.3.0/highlight.min.js"></script>
   <script src="assets/js/global-min.js"></script>
-  
+
   <!-- Initialize syntax highlighter -->
   <script>hljs.initHighlightingOnLoad();</script>
   </body>
