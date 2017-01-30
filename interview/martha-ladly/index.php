@@ -313,7 +313,6 @@
       <figure>
         <img src="landscape-martha-ladly-selected-works.jpg" alt="Martha Ladly Album Covers">
         <figcaption>
-          A collection of vinyl records and interactive CD-ROMs featuring elements of Martha's music, artwork and design.
         </figcaption>
       </figure>
     </div>
