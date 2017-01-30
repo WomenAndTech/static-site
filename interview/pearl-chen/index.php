@@ -264,7 +264,7 @@
     <!-- // Single Image - Landscape -->
     <div class="border img-landscape">
       <figure>
-        <img src="pearl-chen-android.jpg" alt="Android">
+        <img src="landscape-pearl-chen-android.jpg" alt="Android">
         <figcaption>
           Pearl’s home studio is filled with knick-knacks and hardware from Arduino kits to LED lights and circuit boards to Android Robots.
         </figcaption>
@@ -359,7 +359,7 @@
     <!-- // Image - Landscape -->
     <div class="border img-landscape">
       <figure>
-        <img src="pearl-chen-speaking.jpg" alt="Speaking">
+        <img src="landscape-pearl-chen-speaking.jpg" alt="Speaking">
       </figure>
     </div>
 
