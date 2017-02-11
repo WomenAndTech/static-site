@@ -420,5 +420,7 @@
       <p>This site uses Monotype's Avenir Next by Adrian Fruteger and Akira Kobayashi, Github, Cloudflare, and Windows Azure.</p>
     </footer>
 
+    <!-- // Latest 3 Interviews -->
+    <?php include '../../latest-interviews.php'; ?>
   </main>
 <?php include '../../footer.php'; ?>
