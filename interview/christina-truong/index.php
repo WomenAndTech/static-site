@@ -5,7 +5,7 @@
   */
 
   $page_title = 'Christina Truong';
-  $page_theme = 'theme-coral';
+  $page_theme = 'theme-blue';
   include '../../header.php';
 ?>
 
@@ -422,5 +422,6 @@
 
     <!-- // Latest 3 Interviews -->
     <?php include '../../latest-interviews.php'; ?>
+
   </main>
 <?php include '../../footer.php'; ?>
