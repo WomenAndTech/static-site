@@ -1,20 +1,20 @@
 <?php
-  /* Fill out these values to customize the page.
+  /*
+  Fill out these values to customize the page.
   $page_title = Interviewee's name
   $page_theme values: theme-coral, theme-purple, theme-yellow, theme-green, theme-blue
   */
-
   $page_title = 'Ariel Garten';
   $page_theme = 'theme-green';
-  include '../../header.php';
+  include $_SERVER['DOCUMENT_ROOT'].'/config.php';
+  include ($path_inc."header.php");
 ?>
 
   <main role="main">
-
     <!-- Featured Image -->
     <div class="border img-feature">
       <figure>
-        <img src="featured-ariel-garten.jpg" alt="Ariel Garten">
+        <img src="<?php echo $path_img; ?>featured-ariel-garten.jpg" alt="Ariel Garten">
       </figure>
     </div>
 
@@ -68,7 +68,7 @@
     <!-- // Image - Landscape -->
     <div class="border img-landscape">
       <figure>
-        <img src="landscape-ariel-garten-mounties-banff.jpg" alt="Ariel Garten for InteraXon at Vancouver Olympics">
+        <img src="<?php echo $path_img; ?>landscape-ariel-garten-mounties-banff.jpg" alt="Ariel Garten for InteraXon at Vancouver Olympics">
         <figcaption>
           Photo credit: <a href="http://www.flickr.com/photos/k-ideas/5835437178/" target="_blank" title="Ariel Garten, CEO interaxon">Kempton Lam</a>
         </figcaption>
@@ -115,7 +115,7 @@
     <!-- // Image - Landscape -->
     <div class="border img-landscape">
       <figure>
-        <img src="landscape-ariel-garten-next-media.jpg" alt="Ariel Garten speaking">
+        <img src="<?php echo $path_img; ?>landscape-ariel-garten-next-media.jpg" alt="Ariel Garten speaking">
         <figcaption>
           Photo credit:  <a href="http://www.flickr.com/photos/nextmediaevents/5831442802/" target="_blank" title="nextMEDIA Keynote: Thought Controlled Computing">Marta Blicharz</a>
         </figcaption>
@@ -159,7 +159,7 @@
     <!-- // Image - Landscape -->
     <div class="border img-landscape">
       <figure>
-        <img src="landscape-ariel-garten-steve-wozniak.jpg" alt="Ariel Garten with Steve Wozniak">
+        <img src="<?php echo $path_img; ?>landscape-ariel-garten-steve-wozniak.jpg" alt="Ariel Garten with Steve Wozniak">
         <figcaption>
           Photo credit: <a href="http://www.anglemediagroup.com/interaxon-paving-the-way-with-your-brain/" title="Company blog post containing video: InteraXon: Paving the Way with Your Brain" target="_blank">Angle Media Group</a>
         </figcaption>
@@ -202,7 +202,7 @@
     <!-- // Image - Landscape -->
     <div class="border img-landscape">
       <figure>
-        <img src="landscape-ariel-garten-web2012.jpg" alt="Ariel Garten at LeWeb 2012">
+        <img src="<?php echo $path_img; ?>landscape-ariel-garten-web2012.jpg" alt="Ariel Garten at LeWeb 2012">
         <figcaption>
           Ariel has spoken at LeWeb 2012 where she demoed Muse. <em>Photo credit: <a href="https://plus.google.com/u/1/photos/100261394308614575193/albums/5818092704713995425/5818092713913684722" target="_blank">Caroline Bindner</em></a>
         </figcaption>
@@ -257,7 +257,7 @@
     </footer>
 
     <!-- // Latest 3 Interviews -->
-    <?php include '../../latest-interviews.php'; ?>
+    <?php include($path_inc."latest-interviews.php"); ?>
 
   </main>
-<?php include '../../footer.php'; ?>
+<?php include($path_inc."footer.php"); ?>
