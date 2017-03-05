@@ -15,7 +15,7 @@
 <!-- Featured Image -->
   <div class="border img-feature">
     <figure>
-      <img src="mitchell-baker/featured-mitchell-baker.jpg" alt="Mitchell Baker">
+      <img src="<?php echo $path_img; ?>featured-mitchell-baker.jpg" alt="Mitchell Baker">
     </figure>
   </div>
 
@@ -68,7 +68,7 @@
 
   <div class="border img-landscape">
     <figure>
-      <img src="mitchell-baker/landscape-mitchell-baker.jpg" alt="Mitchell Baker">
+      <img src="<?php echo $path_img; ?>landscape-mitchell-baker.jpg" alt="Mitchell Baker">
 
       <figcaption>
         Photo credit: <a href="https://www.flickr.com/photos/39779362@N04/3660212407" target="_blank">Inc. Magazine</a>, <a href="https://www.flickr.com/photos/39779362@N04/3660211855/in/photostream/" target="_blank">Forbes Magazine </a>, <a href="https://www.flickr.com/photos/nitot/2266704443/in/photostream/" target="_blank">Tristan Nitot </a>, <a href="https://www.flickr.com/photos/jaypatel/3638868719" target="_blank">Jay Patel </a>, <a href="https://www.flickr.com/photos/gen/2591724407" target="_blank">Gen Kanai </a>
@@ -99,7 +99,7 @@
 
  <div class="border img-landscape">
   <figure>
-    <img src="mitchell-baker/landscape-mitchell-baker-kitchen.jpg" alt="Mitchell Baker">
+    <img src="<?php echo $path_img; ?>landscape-mitchell-baker-kitchen.jpg" alt="Mitchell Baker">
 
     <figcaption>
       Photo credit: <a href="https://www.flickr.com/photos/joi/2951322142" target="_blank">Joi Ito</a>
@@ -117,7 +117,7 @@
 
  <div class="border img-landscape">
   <figure>
-    <img src="mitchell-baker/landscape-mitchell-baker-speaking.jpg" alt="Mitchell Baker">
+    <img src="<?php echo $path_img; ?>landscape-mitchell-baker-speaking.jpg" alt="Mitchell Baker">
 
     <figcaption>
       Photo credit: <a href="https://www.flickr.com/photos/hfiguiere/11370773124/" target="_blank">Hubert Figuière</a>
@@ -149,7 +149,7 @@
 
  <div class="border img-landscape">
   <figure>
-    <img src="mitchell-baker/landscape-mitchell-baker-teaching.jpg" alt="Mitchell Baker">
+    <img src="<?php echo $path_img; ?>landscape-mitchell-baker-teaching.jpg" alt="Mitchell Baker">
 
     <figcaption>
     Photo credit: <a href="https://www.flickr.com/photos/flore_frmoz/4343876349" target="_blank">Flore Allemandou </a>
@@ -171,7 +171,7 @@
 
  <div class="border img-landscape">
   <figure>
-    <img src="mitchell-baker/landscape-mitchell-baker-photosmile.jpg" alt="Mitchell Baker">
+    <img src="<?php echo $path_img; ?>landscape-mitchell-baker-photosmile.jpg" alt="Mitchell Baker">
 
     <figcaption>
     Photo credit: <a href="https://www.flickr.com/photos/joi/4116202217" target="_blank">Joi Ito </a>
@@ -193,7 +193,7 @@
 
 <div class="border img-landscape">
   <figure>
-    <img src="mitchell-baker/landscape-mitchell-baker-teaching2.jpg" alt="Mitchell Baker">
+    <img src="<?php echo $path_img; ?>landscape-mitchell-baker-teaching2.jpg" alt="Mitchell Baker">
 
     <figcaption>
     Photo credit: <a href="https://www.flickr.com/photos/oninnovation/4334743935" target="_blank">OnInnovation </a>
@@ -238,7 +238,7 @@
 
  <div class="border img-landscape">
    <figure>
-     <img src="mitchell-baker/landscape-mitchell-baker-present.jpg" alt="Mitchell Baker">
+     <img src="<?php echo $path_img; ?>landscape-mitchell-baker-present.jpg" alt="Mitchell Baker">
 
      <figcaption>
        Photo credit: <a href="https://www.flickr.com/photos/dougbelshaw/10136265006/in/photostream/" target="_blank">Doug Belshaw</a>
@@ -280,7 +280,7 @@
 
 <div class="border img-landscape">
   <figure>
-    <img src="mitchell-baker/landscape-mitchell-baker-trapeeze.jpg" alt="Mitchell Baker Trapeeze">
+    <img src="<?php echo $path_img; ?>landscape-mitchell-baker-trapeeze.jpg" alt="Mitchell Baker Trapeeze">
 
     <figcaption>
       Photo credit: <a href="https://www.flickr.com/photos/badubadu/" target="_blank">badubadu</a>
@@ -316,7 +316,7 @@
 
 <div class="border img-landscape">
   <figure>
-    <img src="mitchell-baker/landscape-mitchell-baker-office.jpg" alt="Mitchell Baker Office">
+    <img src="<?php echo $path_img; ?>landscape-mitchell-baker-office.jpg" alt="Mitchell Baker Office">
 
     <figcaption>
       Photo credit: <a href="https://www.flickr.com/photos/oninnovation/4335476132" target="_blank">OnInnovation</a>

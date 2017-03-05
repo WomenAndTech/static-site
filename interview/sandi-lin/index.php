@@ -15,7 +15,7 @@
     <!-- Featured Image -->
       <div class="border img-feature">
         <figure>
-          <img src="sandi-lin/featured-sandi-lin.jpg" alt="Sandi Lin">
+          <img src="<?php echo $path_img; ?>featured-sandi-lin.jpg" alt="Sandi Lin">
         </figure>
       </div>
 
@@ -140,7 +140,7 @@
 
       <div class="border img-landscape">
        <figure>
-         <img src="sandi-lin/landscape-sandi-lin-interview.jpg" alt="Sandi Lin Interview">
+         <img src="<?php echo $path_img; ?>landscape-sandi-lin-interview.jpg" alt="Sandi Lin Interview">
 
          <figcaption>
          Photo credit: Doug Gradt
@@ -224,7 +224,7 @@
 
      <div class="border img-landscape">
       <figure>
-        <img src="sandi-lin/landscape-sandi-lin-collage.jpg" alt="Sandi Lin Photo Collage">
+        <img src="<?php echo $path_img; ?>landscape-sandi-lin-collage.jpg" alt="Sandi Lin Photo Collage">
 
         <figcaption>
         Photo credit: Doug Gradt
@@ -300,7 +300,7 @@
 
     <div class="border img-landscape">
      <figure>
-       <img src="sandi-lin/landscape-sandi-lin-market.jpg" alt="Seattle Market">
+       <img src="<?php echo $path_img; ?>landscape-sandi-lin-market.jpg" alt="Seattle Market">
 
        <figcaption>
        Photo credit: Doug Gradt
