@@ -6,7 +6,8 @@
 
   $page_title = 'Ayla Newhouse';
   $page_theme = 'theme-coral';
-  include '../../header.php';
+  include $_SERVER['DOCUMENT_ROOT'].'/config.php';
+    include ($path_inc."header.php");
 ?>
 
   <main role="main">
@@ -14,7 +15,7 @@
     <!-- Featured Image -->
     <div class="border img-feature">
       <figure>
-        <img src="featured-ayla-newhouse.jpg" alt="Ayla Newhouse">
+        <img src="<?php echo $path_img; ?>featured-ayla-newhouse.jpg" alt="Ayla Newhouse">
       </figure>
     </div>
 
@@ -115,7 +116,7 @@ She suggested that I apply to art school because she knew I wasn’t enjoying my
     <!-- // Image - Landscape -->
     <div class="border img-landscape">
       <figure>
-        <img src="landscape-ayla-newhouse-designer-grid.jpg" alt="Ayla Newhouse Designer's Drawer">
+        <img src="<?php echo $path_img; ?>landscape-ayla-newhouse-designer-grid.jpg" alt="Ayla Newhouse Designer's Drawer">
         <figcaption>
           Photo credit:
           <a href="http://kidwithcamera.com" title="A collection of objects from Ayla Newhouse's studio" target="_blank">David "Kid With Camera" Waldman</a>
@@ -187,7 +188,7 @@ She suggested that I apply to art school because she knew I wasn’t enjoying my
     <!-- // Image - Landscape -->
     <div class="border img-landscape">
       <figure>
-        <img src="landscape-ayla-newhouse-pechakucha.jpg" alt="Ayla Newhouse Pecha Kucha talk">
+        <img src="<?php echo $path_img; ?>landscape-ayla-newhouse-pechakucha.jpg" alt="Ayla Newhouse Pecha Kucha talk">
         <figcaption>
           Photo Credit: <a href="http://www.flickr.com/photos/68722229@N05/8197908457/" target="_blank" title="Ayla Newhouse presents Dating By Design at PechaKucha">Richard Cerezo</a>
         </figcaption>
@@ -252,7 +253,7 @@ She suggested that I apply to art school because she knew I wasn’t enjoying my
     <!-- // Image - Landscape -->
     <div class="border img-landscape">
       <figure>
-        <img src="landscape-ayla-newhouse-1thingapp-illustrations.jpg" alt="Ayla Newhouse 1Thing app illustrations">
+        <img src="<?php echo $path_img; ?>landscape-ayla-newhouse-1thingapp-illustrations.jpg" alt="Ayla Newhouse 1Thing app illustrations">
         <figcaption>
           Illustration credits include <a href="http://mikellis.com/" target="_blank" title="Mike Ellis's porfolio site">Mike Ellis</a>, <a href="http://flaviapraline.tumblr.com/" target="_blank" title="Flavia López's porfolio site">Flavia López</a> and <a href="http://sarahelizabethcannon.tumblr.com/" target="_blank" title="Flavia Lopez's porfolio site">Sarah Cannon</a></a>
         </figcaption>
@@ -299,7 +300,7 @@ She suggested that I apply to art school because she knew I wasn’t enjoying my
     <!-- // Image - Landscape -->
     <div class="border img-landscape">
       <figure>
-        <img src="landscape-ayla-newhouse-1thingapp.jpg" alt="Ayla Newhouse 1Thing app">
+        <img src="<?php echo $path_img; ?>landscape-ayla-newhouse-1thingapp.jpg" alt="Ayla Newhouse 1Thing app">
         <figcaption>Touching someone else's gratitude post in 1THING triggers a blooming sun animation and leaves a fingerprint impression beside it.
         </figcaption>
       </figure>
@@ -421,7 +422,7 @@ She suggested that I apply to art school because she knew I wasn’t enjoying my
     </footer>
 
     <!-- // Latest 3 Interviews -->
-    <?php include '../../latest-interviews.php'; ?>
+    <?php include($path_inc."latest-interviews.php"); ?>
 
   </main>
-<?php include '../../footer.php'; ?>
+<?php include($path_inc."footer.php"); ?>

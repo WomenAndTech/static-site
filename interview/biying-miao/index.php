@@ -6,7 +6,8 @@
 
   $page_title = 'Biying Miao';
   $page_theme = 'theme-purple';
-  include '../../header.php';
+  include $_SERVER['DOCUMENT_ROOT'].'/config.php';
+  include ($path_inc."header.php");
 ?>
 
   <main role="main">
@@ -14,7 +15,7 @@
     <!-- Featured Image -->
       <div class="border img-feature">
         <figure>
-          <img src="featured-biying-miao.jpg" alt="Biying Miao">
+          <img src="<?php echo $path_img; ?>featured-biying-miao.jpg" alt="Biying Miao">
         </figure>
       </div>
 
@@ -98,7 +99,7 @@
 
   <div class="border img-landscape">
    <figure>
-     <img src="landscape-biying-miao-bot.jpg" alt="MakerBot">
+     <img src="<?php echo $path_img; ?>landscape-biying-miao-bot.jpg" alt="MakerBot">
 
      <figcaption>
      Photo credit: Amanda Huang
@@ -108,4 +109,4 @@
 
   </main>
 
-<?php include '../../footer.php'; ?>
+<?php include($path_inc."footer.php"); ?>

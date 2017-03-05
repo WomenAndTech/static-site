@@ -6,7 +6,8 @@
 
   $page_title = 'Nora Young';
   $page_theme = 'theme-yellow';
-  include '../../header.php';
+  include $_SERVER['DOCUMENT_ROOT'].'/config.php';
+  include ($path_inc."header.php");
 ?>
 
   <main role="main">
@@ -14,7 +15,7 @@
     <!-- Featured Image -->
     <div class="border img-feature">
       <figure>
-        <img src="featured-nora-young.jpg" alt="Nora Young">
+        <img src="<?php echo $path_img; ?>featured-nora-young.jpg" alt="Nora Young">
       </figure>
     </div>
 
@@ -137,7 +138,7 @@
 
       <div class="border img-landscape">
         <figure>
-          <img src="landscape-nora-young-mixing-board.jpg" alt="Nora Young Mixing Board">
+          <img src="<?php echo $path_img; ?>landscape-nora-young-mixing-board.jpg" alt="Nora Young Mixing Board">
 
           <figcaption>
             Photo credit: <a href="http://rosabourin.crevado.com/" target="_blank">Rachelle Sabourin</a>
@@ -248,7 +249,7 @@
 
      <div class="border img-landscape">
       <figure>
-        <img src="landscape-nora-young-the-virtual-self.jpg" alt="Nora Young Book">
+        <img src="<?php echo $path_img; ?>landscape-nora-young-the-virtual-self.jpg" alt="Nora Young Book">
         <figcaption>
         Photo credit: <a href="http://pamlau.com/" target="_blank">Pam Lau</a>
         </figcaption>
@@ -284,7 +285,7 @@
 
     <div class="border img-landscape">
       <figure>
-        <img src="landscape-nora-young-creative-mornings.jpg" alt="Nora Young Creative Mornings">
+        <img src="<?php echo $path_img; ?>landscape-nora-young-creative-mornings.jpg" alt="Nora Young Creative Mornings">
 
         <figcaption>
         Photo credit: <a href="http://pamlau.com/" target="_blank">Pam Lau</a>
@@ -370,7 +371,7 @@
 
      <div class="border img-landscape">
        <figure>
-         <img src="landscape-nora-and-cassie.jpg" alt="Nora Young and Cassie McDaniel">
+         <img src="<?php echo $path_img; ?>landscape-nora-and-cassie.jpg" alt="Nora Young and Cassie McDaniel">
 
          <figcaption>
            Photo credit: <a href="https://www.flickr.com/photos/dougbelshaw/10136265006/in/photostream/" target="_blank">Doug Belshaw</a>
@@ -458,4 +459,4 @@
     </footer>
 
   </main>
-<?php include '../../footer.php'; ?>
+<?php include($path_inc."footer.php"); ?>

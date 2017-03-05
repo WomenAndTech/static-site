@@ -6,7 +6,8 @@
 
   $page_title = 'Lucia Mariani-Vena';
   $page_theme = 'theme-yellow';
-  include '../../header.php';
+  include $_SERVER['DOCUMENT_ROOT'].'/config.php';
+  include ($path_inc."header.php");
 ?>
 
   <main role="main">
@@ -14,7 +15,7 @@
     <!-- Featured Image -->
     <div class="border img-feature">
       <figure>
-        <img src="featured-lucia-mariani-vena.jpg" alt="Lucia Mariani-Vena">
+        <img src="<?php echo $path_img; ?>featured-lucia-mariani-vena.jpg" alt="Lucia Mariani-Vena">
       </figure>
     </div>
 
@@ -80,7 +81,7 @@
     <!-- // Image - Landscape -->
     <div class="border img-landscape">
       <figure>
-        <img src="landscape-lucia-mariani-girls-in-tech-2.jpg" alt="Lucia Mariani-Vena Girls In Tech">
+        <img src="<?php echo $path_img; ?>landscape-lucia-mariani-girls-in-tech-2.jpg" alt="Lucia Mariani-Vena Girls In Tech">
         <figcaption>
           Girls in Tech, co-run by Lucia, provides a forum where women share projects they are passionate about.</a>
         </figcaption>
@@ -134,7 +135,7 @@
     <!-- // Image - Landscape -->
     <div class="border img-landscape">
       <figure>
-        <img src="landscape-lucia-mariani-photo-2.jpg" alt="Lucia's son">
+        <img src="<?php echo $path_img; ?>landscape-lucia-mariani-photo-2.jpg" alt="Lucia's son">
         <figcaption>
           Lucia is a mom of two in addition to her work in the community.
         </figcaption>
@@ -217,7 +218,7 @@
     <!-- // Image - Landscape -->
     <div class="border img-landscape">
       <figure>
-        <img src="landscape-lucia-mariani-photo-3.jpg" alt="Mom Lucia Mariani-Vena">
+        <img src="<?php echo $path_img; ?>landscape-lucia-mariani-photo-3.jpg" alt="Mom Lucia Mariani-Vena">
       </figure>
     </div>
 
@@ -262,7 +263,7 @@
     <!-- // Image - Landscape -->
     <div class="border img-landscape">
       <figure>
-        <img src="landscape-lucia-mariani-girls-in-tech-1.jpg" alt="Lucia Mariani-Vena Girls in Tech event">
+        <img src="<?php echo $path_img; ?>landscape-lucia-mariani-girls-in-tech-1.jpg" alt="Lucia Mariani-Vena Girls in Tech event">
       </figure>
     </div>
 
@@ -293,7 +294,7 @@
     </footer>
 
     <!-- // Latest 3 Interviews -->
-    <?php include '../../latest-interviews.php'; ?>
+    <?php include($path_inc."latest-interviews.php"); ?>
 
   </main>
-<?php include '../../footer.php'; ?>
+<?php include($path_inc."footer.php"); ?>

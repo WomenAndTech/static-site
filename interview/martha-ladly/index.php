@@ -6,14 +6,15 @@
 
   $page_title = 'Martha Ladly';
   $page_theme = 'theme-coral';
-  include '../../header.php';
+  include $_SERVER['DOCUMENT_ROOT'].'/config.php';
+  include ($path_inc."header.php");
 ?>
   <main role="main">
 
     <!-- // Feature Image -->
     <div class="border img-feature">
       <figure>
-        <img src="featured-martha-ladly.jpg" alt="Martha Ladly">
+        <img src="<?php echo $path_img; ?>featured-martha-ladly.jpg" alt="Martha Ladly">
       </figure>
     </div>
 
@@ -87,7 +88,7 @@
     <!-- // Image - Landscape -->
     <div class="border img-landscape">
       <figure>
-        <img src="landscape-martha-ladly-ocad.jpg" alt="OCAD">
+        <img src="<?php echo $path_img; ?>landscape-martha-ladly-ocad.jpg" alt="OCAD">
         <figcaption>
           <em>Photo credit: <a href="http://www.interiorimages.ca" target="_blank">Richard Johnson</a></em>
         </figcaption>
@@ -204,7 +205,7 @@
     <!-- // Image - Landscape -->
     <div class="border img-landscape">
       <figure>
-        <img src="landscape-martha-and-the-muffins.jpg" alt="Marth and the Muffins">
+        <img src="<?php echo $path_img; ?>landscape-martha-and-the-muffins.jpg" alt="Marth and the Muffins">
         <figcaption>
           Martha provided keyboards and backing vocals for the band, who after being picked up by DinDisc were flown over to England to record a debut album. <em>Photo credit: <a href="http://www.facebook.com/peter.noble.39" target="_blank">Peter Noble</a></em>
         </figcaption>
@@ -256,7 +257,7 @@
     <!-- // Image - Landscape -->
     <div class="border img-landscape">
       <figure>
-        <img src="landscape-martha-and-the-muffins-at-the-edge.jpg" alt="Martha and the Muffins at the edge">
+        <img src="<?php echo $path_img; ?>landscape-martha-and-the-muffins-at-the-edge.jpg" alt="Martha and the Muffins at the edge">
         <figcaption>
           <em>Photo credit:
       <a href="http://www.flickr.com/photos/mcwidi_2/3820431385/" target="_blank">Dan (mcwidi_2)</a></em>
@@ -311,7 +312,7 @@
     <!-- // Image - Landscape -->
     <div class="border img-landscape">
       <figure>
-        <img src="landscape-martha-ladly-selected-works.jpg" alt="Martha Ladly Album Covers">
+        <img src="<?php echo $path_img; ?>landscape-martha-ladly-selected-works.jpg" alt="Martha Ladly Album Covers">
         <figcaption>
         </figcaption>
       </figure>
@@ -373,7 +374,7 @@
     <!-- // Image - Landscape -->
     <div class="border img-landscape">
       <figure>
-        <img src="landscape-martha-ladly-daughters.jpg" alt="Martha's Daughters">
+        <img src="<?php echo $path_img; ?>landscape-martha-ladly-daughters.jpg" alt="Martha's Daughters">
         <figcaption>
           <em>Photo credit: Martha Ladly</em>
         </figcaption>
@@ -434,4 +435,4 @@
 
 
 
-<?php include '../../footer.php'; ?>
+<?php include($path_inc."footer.php"); ?>

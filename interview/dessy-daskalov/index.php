@@ -6,14 +6,15 @@
 
   $page_title = 'Dessy Daskalov';
   $page_theme = 'theme-purple';
-  include '../../header.php';
+  include $_SERVER['DOCUMENT_ROOT'].'/config.php';
+  include ($path_inc."header.php");
 ?>
   <main role="main">
 
     <!-- // Feature Image -->
     <div class="border img-feature">
       <figure>
-        <img src="featured-dessy-daskalov.jpg" alt="Dessy Daskalov">
+        <img src="<?php echo $path_img; ?>featured-dessy-daskalov.jpg" alt="Dessy Daskalov">
       </figure>
     </div>
 
@@ -81,7 +82,7 @@
     <!-- // Image - Landscape -->
     <div class="border img-landscape">
       <figure>
-        <img src="landscape-dessy-daskalov-mars-demo-day.jpg" alt="Mars Demo Day">
+        <img src="<?php echo $path_img; ?>landscape-dessy-daskalov-mars-demo-day.jpg" alt="Mars Demo Day">
         <figcaption>
           <em>Photo credit:
           <a href="http://www.marsdd.com/" title="MaRS' Website" target="_blank">MaRS Media</a></em>
@@ -160,7 +161,7 @@
     <!-- // Image - Landscape -->
     <div class="border img-landscape">
       <figure>
-        <img src="landscape-dessy-daskalov-mentoring.jpg" alt="Mentoring">
+        <img src="<?php echo $path_img; ?>landscape-dessy-daskalov-mentoring.jpg" alt="Mentoring">
         <figcaption>
           <em>Photo credit:
           <a href="http://jonlim.ca" target="_blank" title="Jon Lim's porfolio site">Jon Lim</a></em>
@@ -258,7 +259,7 @@
     <!-- // Image - Landscape -->
     <div class="border img-landscape">
       <figure>
-        <img src="landscape-dessy-daskalov-girls.jpg" alt="Girls Learning Code">
+        <img src="<?php echo $path_img; ?>landscape-dessy-daskalov-girls.jpg" alt="Girls Learning Code">
         <figcaption>
           <em>Photo credit:
           <a href="https://twitter.com/Hannah_DNA" title="Hannah Allen Twitter profile" target="_blank">Hannah Allen</a></em>
@@ -314,7 +315,7 @@
     <!-- // Image - Landscape -->
     <div class="border img-landscape">
       <figure>
-        <img src="landscape-dessy-daskalov-with-mic.jpg" alt="Speaking">
+        <img src="<?php echo $path_img; ?>landscape-dessy-daskalov-with-mic.jpg" alt="Speaking">
         <figcaption>
           <em>Photo credit:
           <a href="http://jonlim.ca" target="_blank" title="Jon Lim's porfolio site">Jon Lim</a></em>
@@ -379,4 +380,4 @@
     </footer>
   </main>
 
-<?php include '../../footer.php'; ?>
+<?php include($path_inc."footer.php"); ?>

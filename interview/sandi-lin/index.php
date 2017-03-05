@@ -6,7 +6,8 @@
 
   $page_title = 'Sandi Lin';
   $page_theme = 'theme-green';
-  include '../../header.php';
+  include $_SERVER['DOCUMENT_ROOT'].'/config.php';
+  include ($path_inc."header.php");
 ?>
 
   <main role="main">
@@ -357,4 +358,4 @@
 
   </main>
 
-<?php include '../../footer.php'; ?>
+<?php include($path_inc."footer.php"); ?>

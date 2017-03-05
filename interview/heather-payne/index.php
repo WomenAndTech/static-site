@@ -6,7 +6,8 @@
 
   $page_title = 'Heather Payne';
   $page_theme = 'theme-purple';
-  include '../../header.php';
+  include $_SERVER['DOCUMENT_ROOT'].'/config.php';
+  include ($path_inc."header.php");
 ?>
 
   <main role="main">
@@ -14,7 +15,7 @@
     <!-- Featured Image -->
     <div class="border img-feature">
       <figure>
-        <img src="featured-heather-payne.jpg" alt="Heather Payne">
+        <img src="<?php echo $path_img; ?>featured-heather-payne.jpg" alt="Heather Payne">
       </figure>
     </div>
 
@@ -86,7 +87,7 @@
     <!-- // Image - Landscape -->
     <div class="border img-landscape">
       <figure>
-        <img src="landscape-heather-payne-brooklyn-beta.jpg" alt="Heather Payne at Brooklyn Beta">
+        <img src="<?php echo $path_img; ?>landscape-heather-payne-brooklyn-beta.jpg" alt="Heather Payne at Brooklyn Beta">
         <figcaption>
           Photo credit:  <a href="http://www.flickr.com/photos/jpk_spacemonkey/8097698611/" target="_blank" title="Heather Payne at Brooklyn Beta 2012">Jan Paul Koudstaal</a>
         </figcaption>
@@ -146,7 +147,7 @@
     <!-- // Image - Landscape -->
     <div class="border img-landscape">
       <figure>
-        <img src="landscape-heather-payne-sorority.jpg" alt="Heather Payne sorority sisters">
+        <img src="<?php echo $path_img; ?>landscape-heather-payne-sorority.jpg" alt="Heather Payne sorority sisters">
         <figcaption>
           Heather credits the time she spent in her sorority as helping her to develop entrepreneurial skills.
         </figcaption>
@@ -214,7 +215,7 @@
     <!-- // Image - Landscape -->
     <div class="border img-landscape">
       <figure>
-        <img src="landscape-heather-payne-girls-learning-code.jpg" alt="Heather Payne Ladies Learning Code">
+        <img src="<?php echo $path_img; ?>landscape-heather-payne-girls-learning-code.jpg" alt="Heather Payne Ladies Learning Code">
         <figcaption>Photo credit:  <a href="http://jonlim.ca" target="_blank" title="Jon Lim's portfolio site">Jon Lim</a>
         </figcaption>
       </figure>
@@ -280,7 +281,7 @@
     <!-- // Image - Landscape -->
     <div class="border img-landscape">
       <figure>
-        <img src="landscape-heather-payne-ladies-learning-code-faces.jpg" alt="Heather Payne Ladies Learning Code faces">
+        <img src="<?php echo $path_img; ?>landscape-heather-payne-ladies-learning-code-faces.jpg" alt="Heather Payne Ladies Learning Code faces">
         <figcaption>
           All photos credited to:  <a href="http://jonlim.ca" target="_blank" title="Jon Lim's porfolio site">Jon Lim</a>
         </figcaption>
@@ -363,7 +364,7 @@
     </footer>
 
     <!-- // Latest 3 Interviews -->
-    <?php include '../../latest-interviews.php'; ?>
+    <?php include($path_inc."latest-interviews.php"); ?>
 
   </main>
-<?php include '../../footer.php'; ?>
+<?php include($path_inc."footer.php"); ?>

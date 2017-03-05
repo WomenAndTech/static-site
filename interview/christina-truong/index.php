@@ -6,7 +6,8 @@
 
   $page_title = 'Christina Truong';
   $page_theme = 'theme-blue';
-  include '../../header.php';
+  include $_SERVER['DOCUMENT_ROOT'].'/config.php';
+    include ($path_inc."header.php");
 ?>
 
   <main role="main">
@@ -14,7 +15,7 @@
     <!-- Featured Image -->
     <div class="border img-feature">
       <figure>
-        <img src="featured-christina-truong.jpg" alt="Christina Truong">
+        <img src="<?php echo $path_img; ?>featured-christina-truong.jpg" alt="Christina Truong">
       </figure>
     </div>
 
@@ -112,7 +113,7 @@
     <!-- // Image - Landscape -->
     <div class="border img-landscape">
       <figure>
-        <img src="landscape-christina-truong-teehan-and-lax.jpg" alt="Christina Truong Teehan + Lax">
+        <img src="<?php echo $path_img; ?>landscape-christina-truong-teehan-and-lax.jpg" alt="Christina Truong Teehan + Lax">
         <figcaption>
           Photo credit:
           <a href="http://www.flickr.com/photos/brendanlynch" title="Brendan Lynch's flickr photostream" target="_blank">Brendan Lynch</a>
@@ -174,7 +175,7 @@
     <!-- // Image - Landscape -->
     <div class="border img-landscape">
       <figure>
-        <img src="landscape-christina-truong-subway.jpg" alt="Christina Truong Subway">
+        <img src="<?php echo $path_img; ?>landscape-christina-truong-subway.jpg" alt="Christina Truong Subway">
         <figcaption>
           Photo credit:
         <a href="http://instagram.com/themiguelshow" title="Miguel Weston (themiguelshow) on Instagram" target="_blank">Miguel Weston</a>
@@ -231,7 +232,7 @@
     <!-- // Image - Landscape -->
     <div class="border img-landscape">
       <figure>
-        <img src="landscape-christina-truong-get-milk.jpg" alt="Christina Truong Get Milk">
+        <img src="<?php echo $path_img; ?>landscape-christina-truong-get-milk.jpg" alt="Christina Truong Get Milk">
         <figcaption>
           Photo credit:
       <a href="https://vimeo.com/41917421" title="A still taken from Teehan+Lax's 'Do We Have Milk' experiment trailer" target="_blank">Teehan+Lax Labs</a>
@@ -329,7 +330,7 @@
 
      <div class="border img-landscape">
       <figure>
-        <img src="featured-christina-truong-soldering-iron.jpg" alt="Christina Truong Soldering">
+        <img src="<?php echo $path_img; ?>featured-christina-truong-soldering-iron.jpg" alt="Christina Truong Soldering">
         <figcaption>
         Photo credit: <a href="https://vimeo.com/41917421" title="A still taken from Teehan+Lax's 'Do We Have Milk' experiment trailer" target="_blank">Teehan+Lax Labs</a>
         </figcaption>
@@ -421,7 +422,7 @@
     </footer>
 
     <!-- // Latest 3 Interviews -->
-    <?php include '../../latest-interviews.php'; ?>
+    <?php include($path_inc."latest-interviews.php"); ?>
 
   </main>
-<?php include '../../footer.php'; ?>
+<?php include($path_inc."footer.php"); ?>

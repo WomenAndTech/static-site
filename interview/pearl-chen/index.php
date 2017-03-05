@@ -6,14 +6,15 @@
 
   $page_title = 'Pearl Chen';
   $page_theme = 'theme-blue';
-  include '../../header.php';
+  include $_SERVER['DOCUMENT_ROOT'].'/config.php';
+  include ($path_inc."header.php");
 ?>
   <main role="main">
 
     <!-- // Feature Image -->
     <div class="border img-feature">
       <figure>
-        <img src="featured-pearl-chen.jpg" alt="Pearl Chen">
+        <img src="<?php echo $path_img; ?>featured-pearl-chen.jpg" alt="Pearl Chen">
       </figure>
     </div>
 
@@ -132,7 +133,7 @@
     <!-- // Single Image - Landscape -->
     <div class="border img-landscape">
       <figure>
-        <img src="landscape-pearl-new-media-installation.jpg" alt="Pearl Chen New Media">
+        <img src="<?php echo $path_img; ?>landscape-pearl-new-media-installation.jpg" alt="Pearl Chen New Media">
         <figcaption>
           While at the CFC Media Lab, Pearl was technical lead on several new media installations including this one, entitled Alone Together, which was projected onto the front of the Bata Shoe Museum in downtown Toronto.
         </figcaption>
@@ -264,7 +265,7 @@
     <!-- // Single Image - Landscape -->
     <div class="border img-landscape">
       <figure>
-        <img src="landscape-pearl-chen-android.jpg" alt="Android">
+        <img src="<?php echo $path_img; ?>landscape-pearl-chen-android.jpg" alt="Android">
         <figcaption>
           Pearl’s home studio is filled with knick-knacks and hardware from Arduino kits to LED lights and circuit boards to Android Robots.
         </figcaption>
@@ -359,7 +360,7 @@
     <!-- // Image - Landscape -->
     <div class="border img-landscape">
       <figure>
-        <img src="landscape-pearl-chen-speaking.jpg" alt="Speaking">
+        <img src="<?php echo $path_img; ?>landscape-pearl-chen-speaking.jpg" alt="Speaking">
       </figure>
     </div>
 
@@ -470,4 +471,4 @@
     </footer>
   </main>
 
-<?php include '../../footer.php'; ?>
+<?php include($path_inc."footer.php"); ?>
