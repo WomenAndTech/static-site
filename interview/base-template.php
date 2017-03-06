@@ -1,17 +1,16 @@
 <?php
   // $page_theme values: theme-coral, theme-purple, theme-yellow, theme-green, theme-blue
-  $page_theme = 'theme-coral';
+  $page_theme = 'theme-blue';
   $interviewee_name = 'Christina Truong'; // Page title & share links
   $interviewee_url = 'christina-truong'; // Share links URLs
 
   /*
-    INTERVIEW CREDITS
-
+    INTERVIEW CREDITS:
     If you need a second name, add a variable with a '2' the end. Example:
     $interviewer = "First Person";
-    $interviewer_url = "";
+    $interviewer_url = "http://twitter.com";
     $interviewer2 = "Second Person";
-    $interviewer_url2 = "";
+    $interviewer_url2 = "http://mywebsite.com";
 
     If you don't need a credit, delete the whole <li> in the HTML.
   */
@@ -128,11 +127,11 @@
     <ul>
       <li>
         Interview by <a href="<?php echo $interviewer_url; ?>"><?php echo $interviewer; ?></a>
-        <?php if ($editor2): echo 'and <a href="'.$editor2_url .'">'.$editor2.'</a>';endif; ?>
+        <?php if ($interviewer2): echo 'and <a href="'.$interviewer_url2 .'">'.$interviewer2.'</a>';endif; ?>
       </li>
       <li>
         Photography by <a href="<?php echo $photos_url; ?>"><?php echo $photos; ?></a>
-        <?php if ($editor2): echo 'and <a href="'.$editor2_url .'">'.$editor2.'</a>';endif; ?>
+        <?php if ($photos2): echo 'and <a href="'.$photos2_url .'">'.$photos2.'</a>';endif; ?>
       </li>
       <li>
         Editing by <a href="<?php echo $editor_url; ?>"><?php echo $editor; ?></a>
@@ -140,19 +139,19 @@
       </li>
       <li>
         Art Direction by <a href="<?php echo $ad_url; ?>"><?php echo $ad; ?></a>
-        <?php if ($editor2): echo 'and <a href="'.$editor2_url .'">'.$editor2.'</a>';endif; ?>
+        <?php if ($ad2): echo 'and <a href="'.$ad2_url .'">'.$ad2.'</a>';endif; ?>
       </li>
       <li>
         Design by <a href="<?php echo $design_url; ?>"><?php echo $design; ?></a>
-        <?php if ($editor2): echo 'and <a href="'.$editor2_url .'">'.$editor2.'</a>';endif; ?>
+        <?php if ($design2): echo 'and <a href="'.$design2_url .'">'.$design2.'</a>';endif; ?>
       </li>
       <li>
         Development by <a href="<?php echo $dev_url; ?>"><?php echo $dev; ?></a>
-        <?php if ($editor2): echo 'and <a href="'.$editor2_url .'">'.$editor2.'</a>';endif; ?>
+        <?php if ($dev2): echo 'and <a href="'.$dev2_url .'">'.$dev2.'</a>';endif; ?>
       </li>
       <li>
         Transcriptions by <a href="<?php echo $transcribe_url; ?>"><?php echo $transcribe; ?></a>
-        <?php if ($editor2): echo 'and <a href="'.$editor2_url .'">'.$editor2.'</a>';endif; ?>
+        <?php if ($transcribe2): echo 'and <a href="'.$transcribe2_url .'">'.$transcribe2.'</a>';endif; ?>
       </li>
     </ul>
     <?php include($path_inc."site-credits.php"); ?>

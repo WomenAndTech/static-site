@@ -1,11 +1,36 @@
 <?php
-  /*
-  Fill out these values to customize the page.
-  $page_title = Interviewee's name
-  $page_theme values: theme-coral, theme-purple, theme-yellow, theme-green, theme-blue
-  */
-  $page_title = 'Ariel Garten';
+  // $page_theme values: theme-coral, theme-purple, theme-yellow, theme-green, theme-blue
   $page_theme = 'theme-green';
+  $interviewee_name = 'Ariel Garten';; // Page title & share links
+  $interviewee_url = 'ariel-garten'; // Share links URLs
+
+  /*
+    INTERVIEW CREDITS:
+    If you need a second name, add a variable with a '2' the end. Example:
+    $interviewer = "First Person";
+    $interviewer_url = "http://twitter.com";
+    $interviewer2 = "Second Person";
+    $interviewer_url2 = "http://mywebsite.com";
+
+    If you don't need a credit, delete the whole <li> in the HTML.
+  */
+  $interviewer = "Milan Gokhale";
+  $interviewer_url = "http://twitter.com/milang";
+  $photos = "Full Name";
+  $photos_url = "";
+  $editor = "Full Name";
+  $editor_url = "";
+  $ad = "Full Name";
+  $ad_url = "";
+  $design = "Full Name";
+  $design_url = "";
+  $dev = "Full Name";
+  $dev_url = "";
+  $transcribe = "Full Name";
+  $transcribe_url = "";
+
+
+  /* Do not change these settings */
   include $_SERVER['DOCUMENT_ROOT'].'/config.php';
   include ($path_inc."header.php");
 ?>
@@ -23,25 +48,28 @@
       <div class="wrapper-sm">
         <h2>Ariel Garten</h2>
         <p class="intro">Ariel is an artist, scientist and entrepreneur who has bridged the gap between all three disciplines. She is the CEO of InteraXon, a company specialized in thought-controlled computing and has raised $287,472 on Indiegogo to produce a <a href="http://www.indiegogo.com/interaxonmuse" target="_blank" title="InteraXon Muse" alt="InteraXon Muse">brain-sensing headband</a>.</p>
-        <p class="author">An interview with <a href="http://twitter.com/milang" rel="author" target="_blank" title="Milan Gokhale's twitter profile"><strong>Milan Gokhale</strong></a></p>
 
+        <?php // Don't update. Using the same info as is Interview Credits. ?>
+        <p class="author">An interview with <a href="<?php echo $interviewer_url; ?>"><?php echo $interviewer; ?></a></p>
+
+        <?php // Don't update. Using info from PHP variables. ?>
         <ul class="social-share">
           <li>
-            <a href="//facebook.com/WomenAndTech" title="Facebook @WomenAndTech">
+            <a href="http://www.facebook.com/sharer.php?u=http://womenandtech.com/interview/<?php echo $interviewee_url;?>/" title="Facebook @WomenAndTech">
               <i class="fa fa-facebook" aria-hidden="true"></i>
-              <span class="screen-readers">Facebook</span>
+              <span class="screen-readers">Post the interview on Facebook</span>
             </a>
           </li>
           <li>
-            <a href="//twitter.com/WomenAndTech" title="Twitter @WomenAndTech">
+            <a href="http://twitter.com/share?text=Women and Tech Interviews <?php echo $interviewee_name; ?>&url=http://womenandtech.com/interview/<?php echo $interviewee_url; ?>/" title="Twitter @WomenAndTech">
               <i class="fa fa-twitter" aria-hidden="true"></i>
-              <span class="screen-readers">Twitter</span>
+              <span class="screen-readers">Tweet the interview</span>
             </a>
           </li>
           <li>
-            <a href="mailto:contact@womenandtech.com" title="Email contact@womenandtech.com">
+            <a href="mailto:?subject=Women and Tech Interviews <?php echo $interviewee_name; ?>&body=Women and Tech Interviews <?php echo $interviewee_name; ?> http://womenandtech.com/interview/<?php echo $interviewee_url; ?>/">
               <i class="fa fa-envelope" aria-hidden="true"></i>
-              <span class="screen-readers">Email contact@womenandtech.com</span>
+              <span class="screen-readers">Email interview</span>
             </a>
           </li>
         </ul>
@@ -54,10 +82,7 @@
       <dd class="interview-a">
         <p>My name is Ariel Garten, I’m the CEO and co-founder of <a href="http://interaxon.ca" target="_blank" title="InteraXon's website" alt="InteraXon">InteraXon</a>. At InteraXon we create thought controlled computing products, applications and experiences. Thought-controlled computing is exactly what it sounds like — it’s the ability to interact with content and yourself. A sensor sits on your forehead, reads your brainwaves, and then lets you play games on your smartphone or tablet directed by your brain. It also lets you see your brain and engagement activity to improve your working memory, concentration, circulation etc.</p>
       </dd>
-    </dl>
 
-    <!-- Q&A -->
-    <dl class="border">
       <dt class="interview-q">Tell us more about your background.</dt>
       <dd class="interview-a">
         <p>My background spans arts, science and business. I was in real estate since I was a kid. My dad sent me to show the apartments. At university, I studied neuroscience and ran a clothing line that I had started in high school. I sold to stores in Toronto, and I had a job in a research lab. So I’ve always been able to move back and forth between art and science, and I find both completely stimulating. When I graduated, I continued to work at the research lab and opened my own clothing store on College Street, expanding to sell my line to small boutiques across North America.</p>
@@ -85,20 +110,14 @@
             Technology is an enabler. Anything is a technology; the glasses we wear are technology; there is technology in my shoes. The definition we use today is very specific and it tends to refer to digital or computational technologies that enable our lives in ways that weren’t possible two and a half decades ago.
           </p>
       </dd>
-    </dl>
 
-    <!-- // Q & A -->
-    <dl class="border">
       <!-- // Question -->
       <dt class="interview-q">What were your earliest interactions with technology?</dt>
       <!-- // Answer -->
       <dd class="interview-a">
         <p>I was never really into technology. It wasn’t something that I identified with. It wasn’t a driving force. But in the creation of this brainwave technology, there was a lot of processing involved to create the core of the experience. Starting work in the early 2000s on early brain wave systems was my first real foray into technology as something that was part of my own identity.</p>
       </dd>
-    </dl>
 
-    <!-- // Q & A -->
-    <dl class="border">
       <!-- // Question -->
       <dt class="interview-q">What drew you to science at an early age?</dt>
       <!-- // Answer -->
@@ -131,9 +150,7 @@
       <dd class="interview-a">
         <p>There were no family or peers influencing me to go into science. <a href="http://www.vreiss.com/" title="Vivian Reiss' portfolio website">My mother is an artist</a>; my father is in real estate and construction. My mother is not connected to science or technology; she’s extraordinarily intelligent and inquisitive but she processes the world through a brush and through linguistics. And my dad isn’t scientific. He would still have a VCR if someone didn’t throw it out! The pursuit of science was just a line of inquiry to understand how the world works.</p>
       </dd>
-    </dl>
 
-    <dl class="border">
       <dt class="interview-q">At what point did science became an important influence in your life?</dt>
       <dd class="interview-a">
         <p>As a kid, I hated computers. I thought they were anti-natural, and I was very into the natural world. Science is a part of the natural world. In high school I did great at science and I did okay at math, but I was into abstract concepts. I loved logic — loved, loved, loved logic, like I loved doing puzzles. When everyone in university hated multiple choice, I loved multiple choice. Just to know the totality of the answers!</p>
@@ -175,10 +192,7 @@
         <p>I'm tempted to think that early on there was a misidentification about who was good at math and who wasn't. And as we break down gender barriers, my guess would be that in classrooms now you see much less differentiation between the number of males and females. There are so many girls who rock at math!</p>
         <p>In my generation, to get into computational neuroscience you had to do computer science first. I think in 15 years, in fields like computational neuroscience where there are equal opportunities to learn computer science, or if it becomes acceptable for girls to sit in their basement and figure out code, we’ll see leveling off of males vs. females.</p>
       </dd>
-    </dl>
 
-    <!-- // Q & A -->
-    <dl class="border">
       <!-- // Question -->
       <dt class="interview-q">Can you tell us about your role as a female tech entrepreneur?</dt>
       <!-- // Answer -->
@@ -187,10 +201,7 @@
         <p>As a rare bird in this full nest, I have to say I don’t mind. I can work being female to my advantage. We joke that if our demo isn’t working at a conference, I can just wear the headset and smile and that would be enough.</p>
         <p>Everyone has their own advantages regardless of gender. I’m in a unique position at this point in time as a woman tech CEO.</p>
       </dd>
-    </dl>
 
-    <!-- // Q & A -->
-    <dl class="border">
       <!-- // Question -->
       <dt class="interview-q">How do you think it is advantageous to be a woman in technology?</dt>
       <!-- // Answer -->
@@ -238,11 +249,7 @@
       <dd class="interview-a">
         <p>There are two schools of thought. One is a school that says, ‘Yes, we remember that there's a problem and we have to beat the drum in order to solve the problem.’ The other says, ‘It’s not really much of a problem, and if we don’t make it a problem, you can do anything you put your mind to.’ And depending on your level of feminism, you could fall into either school.</p>
       </dd>
-    </dl>
 
-
-    <!-- // Q & A -->
-    <dl class="border">
       <!-- // Question -->
       <dt class="interview-q">In our last interview <a href="/interview/lucia-mariani-vena/">Lucia Mariani-Vena</a> asked the question “When will we see the female version of Steve Jobs or Mark Zuckerberg?”</dt>
       <!-- // Answer -->
@@ -251,13 +258,14 @@
       </dd>
     </dl>
 
-    <!-- // Footer Credits -->
+    <!-- // Interview Credits -->
     <footer class="border credits">
-      <p>This site uses Monotype's Avenir Next by Adrian Fruteger and Akira Kobayashi, Github, Cloudflare, and Windows Azure.</p>
+      <?php include($path_inc."site-credits.php"); ?>
     </footer>
 
     <!-- // Latest 3 Interviews -->
     <?php include($path_inc."latest-interviews.php"); ?>
 
   </main>
+
 <?php include($path_inc."footer.php"); ?>
