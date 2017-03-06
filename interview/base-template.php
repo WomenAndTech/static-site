@@ -37,7 +37,14 @@
 ?>
 
 <main role="main">
-  <!-- All interview content here. -->
+
+  <!-- // Featured Image -->
+  <div class="border img-feature">
+    <figure>
+      <img src="<?php echo $path_img; ?>featured-christina-truong.jpg" alt="Christina Truong">
+    </figure>
+  </div>
+
 
   <!-- // Interview Header -->
   <header class="border header-interview">
@@ -71,6 +78,48 @@
       </ul>
     </div>
   </header>
+
+
+  <!-- // Q & A -->
+  <dl class="border">
+    <dt class="interview-q">Question 1?</dt>
+    <dd class="interview-a">
+      <p>Paragraph 1.</p>
+      <p>Paragraph 2 (if needed).</p>
+    </dd>
+    <dt class="interview-q">Question 2?</dt>
+    <dd class="interview-a">
+      <p>You can keep adding questions in the same 'dl class="border"' block as long as it's not separated by a pullquote or image.</p>
+      <p>Paragraph 2 (if needed).</p>
+    </dd>
+  </dl>
+
+
+  <!-- // Pull Quote -->
+  <aside class="border pull-quote">
+    <p>Pull quote example. Move this whole block after a Q&A block or image.</p>
+  </aside>
+
+
+  <!-- // Image - Landscape -->
+  <div class="border img-landscape">
+    <figure>
+      <img src="<?php echo $path_img; ?>landscape-christina-truong-teehan-and-lax.jpg" alt="Christina Truong Teehan + Lax">
+      <figcaption>
+        (Example of image block with caption) Photo credit:
+        <a href="http://www.flickr.com/photos/brendanlynch" title="Brendan Lynch's flickr photostream" target="_blank">Brendan Lynch</a>
+      </figcaption>
+    </figure>
+  </div>
+
+  <!-- // Q & A -->
+  <dl class="border">
+    <dt class="interview-q">Another Q&A block?</dt>
+    <dd class="interview-a">
+      <p>If the q&a's are separated by images or pullquotes, you'll have to add this whole block again after (the image block or pullquote block).</p>
+      <p>Paragraph 2 (if needed).</p>
+    </dd>
+  </dl>
 
 
   <!-- // Interview Credits -->
