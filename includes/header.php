@@ -6,6 +6,8 @@
         echo "Women&amp;&amp;Tech";
       elseif ($page_title):
         echo $page_title . " | Women&amp;&amp;Tech";
+      elseif ($interviewee_name):
+        echo $interviewee_name . " | Women&amp;&amp;Tech";
       else:
         echo "Women&amp;&amp;Tech";
       endif;
