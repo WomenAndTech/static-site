@@ -15,6 +15,7 @@ This project uses [editorconfig](http://editorconfig.org/) to maintain consisten
 
 ## File naming conventions
 
+### Interview content
 Save all interviews within the **`interview`** folder.
 Create a folder for the interviewee and name the file index.php.
 
@@ -22,38 +23,43 @@ Create a folder for the interviewee and name the file index.php.
 interviews/firstname-lastname/index.php
 ```
 
-Save all images within the interviewees folder.
-Name each file using a prefix to indicate what type of image is being used. If there are multiple images, add a descriptive word or short phrase to file name.
+### Interview images
+Save all images within the **assets > img** folder.
+
+Name each file using a prefix to indicate what type of image is being used and the name of the interviewee.
 
 ```
-interviews/firstname-lastname/index.php
-```
-```
-interviews/firstname-lastname/featured-firstname-lastname.jpg
-interviews/firstname-lastname/landscape-first-lastname.jpg
-interviews/firstname-lastname/portrait-first-lastname.jpg
-interviews/firstname-lastname/portrait-first-lastname-with-dog.jpg
+assets/img/featured-firstname-lastname.jpg
+assets/img/landscape-first-lastname.jpg
+assets/img/portrait-first-lastname.jpg
 ```
 
 For the side by side images, use this naming convention:
 
 ```
-interviews/firstname-lastname/left-first-lastname.jpg
-interviews/firstname-lastname/right-first-lastname.jpg
+assets/img/left-first-lastname.jpg
+assets/img/right-first-lastname.jpg
+```
+
+If there are multiple images for the same type, add a descriptive word or short phrase to the end of the file name.
+
+```
+assets/img/portrait-first-lastname.jpg
+assets/img/portrait-first-lastname-with-dog.jpg
 ```
 
 For the past interview & archive page cards:
 ```
-interviews/firstname-lastname/thumbnail-first-lastname.jpg
+assets/img/thumbnail-first-lastname.jpg
 ```
 
 ## Adding new interviews
 
 ### Base template
 
-Use **`base-template.php`**, located in the **`interviews`** folder, as your starting point.
+Use **`base-template.php`**, located in the **`interview`** folder, as your starting point.
 
-This template includes the global header, footer and instructions for customizing the page. Add all content modules between the **`<main>`** tags.
+This template includes the global header, footer, common content modules and instructions for customizing the page.
 
 ### Local development setup
 For Macs:
@@ -80,20 +86,26 @@ Use PHP variables to customize the page titles and page themes. This note is als
 
 ```
 <?php
-  /* Fill out these values to customize the page.
-  $page_title = Interviewee's name
-  $page_theme values: theme-coral, theme-purple, theme-yellow, theme-green, theme-blue
-  */
-
-  $page_title = 'Sarah Hicks';
-  $page_theme = 'theme-coral';
-  include '../header.php';
+  // $page_theme values: theme-coral, theme-purple, theme-yellow, theme-green, theme-blue
+  $page_theme = 'theme-blue';
+  $interviewee_name = 'Christina Truong'; // Page title & share links
+  $interviewee_url = 'christina-truong'; // Share links URLs
+  ...
 ?>
 ```
 
-## Home page updates
+## Home page
+To add the latest interview to the home page, follow the instructions in the PHP comment.
 
-Add the latest interview snippet file to root/main **`index.php`** between the **`main`** tags.
+```
+<?php
+  // Update $current to the folder name of interviewee to display on homepage.
+  $current = "ayla-newhouse";
 
-Update the "Past interviews" card info to the three latest interviews.
+  // Do not change these settings
+  $homepage = "true";
+  include_once 'interview/'.$current.'/index.php';
+?>
+```
+
 
