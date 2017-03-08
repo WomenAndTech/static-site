@@ -1,11 +1,36 @@
 <?php
-  /* Fill out these values to customize the page.
-  $page_title = Interviewee's name
-  $page_theme values: theme-coral, theme-purple, theme-yellow, theme-green, theme-blue
-  */
-
-  $page_title = 'Nora Young';
+  // $page_theme values: theme-coral, theme-purple, theme-yellow, theme-green, theme-blue
   $page_theme = 'theme-yellow';
+  $interviewee_name = 'Nora Young'; // Page title & share links
+  $interviewee_url = 'nora-young'; // Share links URLs
+
+  /*
+    INTERVIEW CREDITS:
+    If you need a second name, add a variable with a '2' the end. Example:
+    $interviewer = "First Person";
+    $interviewer_url = "http://twitter.com";
+    $interviewer2 = "Second Person";
+    $interviewer_url2 = "http://mywebsite.com";
+
+    If you don't need a credit, delete the whole <li> in the HTML.
+  */
+  $interviewer = "Cassie McDaniel";
+  $interviewer_url = "http://twitter.com/cassiemc";
+  $photos = "Mauricio Calero";
+  $photos_url = "http://mjcphotography.ca";
+  $editor = "Cassie McDaniel";
+  $editor_url = "http://work.cassiemcdaniel.com";
+  $ad = "Mark Staplehurst";
+  $ad_url = "http://twitter.com/britburger";
+  $design = "Cassie McDaniel";
+  $design_url = "http://work.cassiemcdaniel.com";
+  $dev = "Mark Staplehurst";
+  $dev_url = "http://twitter.com/britburger";
+  $transcribe = "Cassie McDaniel";
+  $transcribe_url = "http://work.cassiemcdaniel.com";
+
+
+  /* Do not change these settings */
   include $_SERVER['DOCUMENT_ROOT'].'/config.php';
   include ($path_inc."header.php");
 ?>
@@ -24,26 +49,28 @@
       <div class="wrapper-sm">
         <h2>Nora Young</h2>
         <p class="intro">Nora Young is the inquisitive journalist and honeyed voice behind CBC’s long-running technology and culture podcast, <a href="http://www.cbc.ca/spark/" target="_blank">Spark</a>. In her new book, <a href="http://norayoung.ca/2012/04/book-details-launch-tour-and-such/" target="_blank">The Virtual Self</a>, she talks about the implications of self-tracking on society and our personal lives.</p>
-        <p class="author">An interview with <a href="http://twitter.com/cassiemc" rel="author" target="_blank" title="Cassie McDaniel's twitter profile">Cassie McDaniel
-                    </a></p>
 
+        <?php // Don't update. Using the same info as is Interview Credits. ?>
+        <p class="author">An interview with <a href="<?php echo $interviewer_url; ?>"><?php echo $interviewer; ?></a></p>
+
+        <?php // Don't update. Using info from PHP variables. ?>
         <ul class="social-share">
           <li>
-            <a href="//facebook.com/WomenAndTech" title="Facebook @WomenAndTech">
+            <a href="http://www.facebook.com/sharer.php?u=http://womenandtech.com/interview/<?php echo $interviewee_url;?>/" title="Share on Facebook">
               <i class="fa fa-facebook" aria-hidden="true"></i>
-              <span class="screen-readers">Facebook</span>
+              <span class="screen-readers">Post the interview on Facebook</span>
             </a>
           </li>
           <li>
-            <a href="//twitter.com/WomenAndTech" title="Twitter @WomenAndTech">
+            <a href="http://twitter.com/share?text=Women and Tech Interviews <?php echo $interviewee_name; ?>&url=http://womenandtech.com/interview/<?php echo $interviewee_url; ?>/" title="Share on Twitter">
               <i class="fa fa-twitter" aria-hidden="true"></i>
-              <span class="screen-readers">Twitter</span>
+              <span class="screen-readers">Tweet the interview</span>
             </a>
           </li>
           <li>
-            <a href="mailto:contact@womenandtech.com" title="Email contact@womenandtech.com">
+            <a href="mailto:?subject=Women and Tech Interviews <?php echo $interviewee_name; ?>&body=Women and Tech Interviews <?php echo $interviewee_name; ?> http://womenandtech.com/interview/<?php echo $interviewee_url; ?>/" title="Email the interview">
               <i class="fa fa-envelope" aria-hidden="true"></i>
-              <span class="screen-readers">Email contact@womenandtech.com</span>
+              <span class="screen-readers">Email interview</span>
             </a>
           </li>
         </ul>
@@ -369,12 +396,12 @@
       </dd>
     </dl>
 
-     <div class="border img-landscape">
-       <figure>
-         <img src="<?php echo $path_img; ?>landscape-nora-and-cassie.jpg" alt="Nora Young and Cassie McDaniel">
+    <div class="border img-landscape">
+      <figure>
+        <img src="<?php echo $path_img; ?>landscape-nora-and-cassie.jpg" alt="Nora Young and Cassie McDaniel">
 
-         <figcaption>
-           Photo credit: <a href="https://www.flickr.com/photos/dougbelshaw/10136265006/in/photostream/" target="_blank">Doug Belshaw</a>
+        <figcaption>
+          Photo credit: <a href="https://www.flickr.com/photos/dougbelshaw/10136265006/in/photostream/" target="_blank">Doug Belshaw</a>
         </figcaption>
       </figure>
     </div>
@@ -439,24 +466,44 @@
       </dd>
     </dl>
 
-    <!-- // Footer Credits -->
+    <!-- // Interview Credits -->
     <footer class="border credits">
+      <?php  // If you don't need a credit, delete the whole <li>. ?>
       <ul>
-        <li>Interview <em>by</em> <a href="http://twitter.com/cassiemc" target="_blank">Cassie McDaniel</a></li>
-        <li>Photography <em>by</em> <a href="http://mjcphotography.ca" target="_blank">Mauricio Calero</a></li>
-        <li>Editing <em>by</em>
-              <a href="http://work.cassiemcdaniel.com" target="_blank">Cassie McDaniel</a></li>
-        <li>Art Direction<em> by</em>
-              <a href="http://twitter.com/britburger" target="_blank">Mark Staplehurst</a></li>
-        <li>Design<em> by</em>
-              <a href="http://twitter.com/cassiemc" target="_blank">Cassie McDaniel</a></li>
-        <li>Development<em> by</em>
-              <a href="http://twitter.com/britburger" target="_blank">Mark Staplehurst</a></li>
-        <li>Transcriptions<em> by</em>
-              <a href="http://work.cassiemcdaniel.com" target="_blank">Cassie McDaniel</a></li>
+        <li>
+          Interview by <a href="<?php echo $interviewer_url; ?>"><?php echo $interviewer; ?></a>
+          <?php if ($interviewer2): echo 'and <a href="'.$interviewer_url2 .'">'.$interviewer2.'</a>';endif; ?>
+        </li>
+        <li>
+          Photography by <a href="<?php echo $photos_url; ?>"><?php echo $photos; ?></a>
+          <?php if ($photos2): echo 'and <a href="'.$photos2_url .'">'.$photos2.'</a>';endif; ?>
+        </li>
+        <li>
+          Editing by <a href="<?php echo $editor_url; ?>"><?php echo $editor; ?></a>
+          <?php if ($editor2): echo 'and <a href="'.$editor2_url .'">'.$editor2.'</a>';endif; ?>
+        </li>
+        <li>
+          Art Direction by <a href="<?php echo $ad_url; ?>"><?php echo $ad; ?></a>
+          <?php if ($ad2): echo 'and <a href="'.$ad2_url .'">'.$ad2.'</a>';endif; ?>
+        </li>
+        <li>
+          Design by <a href="<?php echo $design_url; ?>"><?php echo $design; ?></a>
+          <?php if ($design2): echo 'and <a href="'.$design2_url .'">'.$design2.'</a>';endif; ?>
+        </li>
+        <li>
+          Development by <a href="<?php echo $dev_url; ?>"><?php echo $dev; ?></a>
+          <?php if ($dev2): echo 'and <a href="'.$dev2_url .'">'.$dev2.'</a>';endif; ?>
+        </li>
+        <li>
+          Transcriptions by <a href="<?php echo $transcribe_url; ?>"><?php echo $transcribe; ?></a>
+          <?php if ($transcribe2): echo 'and <a href="'.$transcribe2_url .'">'.$transcribe2.'</a>';endif; ?>
+        </li>
       </ul>
-      <p>This site uses Monotype's Avenir Next by Adrian Fruteger and Akira Kobayashi, Github, Cloudflare, and Windows Azure.</p>
+      <?php include($path_inc."site-credits.php"); ?>
     </footer>
 
+    <!-- // Latest 3 Interviews -->
+    <?php include($path_inc."latest-interviews.php"); ?>
   </main>
+
 <?php include($path_inc."footer.php"); ?>

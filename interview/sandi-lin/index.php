@@ -1,11 +1,35 @@
 <?php
-  /* Fill out these values to customize the page.
-  $page_title = Interviewee's name
-  $page_theme values: theme-coral, theme-purple, theme-yellow, theme-green, theme-blue
-  */
-
-  $page_title = 'Sandi Lin';
+  // $page_theme values: theme-coral, theme-purple, theme-yellow, theme-green, theme-blue
   $page_theme = 'theme-green';
+  $interviewee_name = 'Sandi Lin'; // Page title & share links
+  $interviewee_url = 'sandi-lin'; // Share links URLs
+
+  /*
+    INTERVIEW CREDITS:
+    If you need a second name, add a variable with a '2' the end. Example:
+    $interviewer = "First Person";
+    $interviewer_url = "http://twitter.com";
+    $interviewer2 = "Second Person";
+    $interviewer_url2 = "http://mywebsite.com";
+
+    If you don't need a credit, delete the whole <li> in the HTML.
+  */
+  $interviewer = "Sarah Southerland";
+  $interviewer_url = "https://twitter.com/southersar";
+  $photos = "Full Name";
+  $photos_url = "";
+  $editor = "Full Name";
+  $editor_url = "";
+  $ad = "Full Name";
+  $ad_url = "";
+  $design = "Full Name";
+  $design_url = "";
+  $dev = "Full Name";
+  $dev_url = "";
+  $transcribe = "Full Name";
+  $transcribe_url = "";
+
+  /* Do not change these settings */
   include $_SERVER['DOCUMENT_ROOT'].'/config.php';
   include ($path_inc."header.php");
 ?>
@@ -24,25 +48,28 @@
         <div class="wrapper-sm">
           <h2>Sandi Lin</h2>
           <p class="intro">Sandi Lin is the co-founder and CEO of Seattle-based startup <a href="http://www.skilljar.com/">Skilljar</a>, an online course delivery platform. Built on a passion for technology and innovation, Sandi’s career has spanned from engineering to product management and now to entrepreneurship.</p>
-          <p class="author">An interview with <a target="_blank" href="https://twitter.com/southersar" title="<Sarah Southerland's twitter profile">Sarah Southerland</a>
 
+          <?php // Don't update. Using the same info as is Interview Credits. ?>
+          <p class="author">An interview with <a href="<?php echo $interviewer_url; ?>"><?php echo $interviewer; ?></a></p>
+
+          <?php // Don't update. Using info from PHP variables. ?>
           <ul class="social-share">
             <li>
-              <a href="//facebook.com/WomenAndTech" title="Facebook @WomenAndTech">
+              <a href="http://www.facebook.com/sharer.php?u=http://womenandtech.com/interview/<?php echo $interviewee_url;?>/" title="Share on Facebook">
                 <i class="fa fa-facebook" aria-hidden="true"></i>
-                <span class="screen-readers">Facebook</span>
+                <span class="screen-readers">Post the interview on Facebook</span>
               </a>
             </li>
             <li>
-              <a href="//twitter.com/WomenAndTech" title="Twitter @WomenAndTech">
+              <a href="http://twitter.com/share?text=Women and Tech Interviews <?php echo $interviewee_name; ?>&url=http://womenandtech.com/interview/<?php echo $interviewee_url; ?>/" title="Share on Twitter">
                 <i class="fa fa-twitter" aria-hidden="true"></i>
-                <span class="screen-readers">Twitter</span>
+                <span class="screen-readers">Tweet the interview</span>
               </a>
             </li>
             <li>
-              <a href="mailto:contact@womenandtech.com" title="Email contact@womenandtech.com">
+              <a href="mailto:?subject=Women and Tech Interviews <?php echo $interviewee_name; ?>&body=Women and Tech Interviews <?php echo $interviewee_name; ?> http://womenandtech.com/interview/<?php echo $interviewee_url; ?>/" title="Email the interview">
                 <i class="fa fa-envelope" aria-hidden="true"></i>
-                <span class="screen-readers">Email contact@womenandtech.com</span>
+                <span class="screen-readers">Email interview</span>
               </a>
             </li>
           </ul>
@@ -299,63 +326,101 @@
     </dl>
 
     <div class="border img-landscape">
-     <figure>
-       <img src="<?php echo $path_img; ?>landscape-sandi-lin-market.jpg" alt="Seattle Market">
+      <figure>
+        <img src="<?php echo $path_img; ?>landscape-sandi-lin-market.jpg" alt="Seattle Market">
 
-       <figcaption>
-       Photo credit: Doug Gradt
-       </figcaption>
-     </figure>
-   </div>
-
-   <!-- // Q & A -->
-   <dl class="border">
-     <!-- // Question -->
-     <dt class="interview-q">What’s the best piece of advice you’ve ever been given?</dt>
-     <!-- // Answer -->
-     <dd class="interview-a">
-       <p>Someone told me that the biggest risk I had to success was getting in my own way. I think that’s true because I definitely tend to worry about things too much and cause myself unnecessary anxiety. At the same time I recognize that’s one of the characteristics that has shaped who I am and has helped me achieve the success I’ve had to date.</p>
-     </dd>
-   </dl>
+        <figcaption>
+        Photo credit: Doug Gradt
+        </figcaption>
+      </figure>
+    </div>
 
    <!-- // Q & A -->
    <dl class="border">
-     <!-- // Question -->
-     <dt class="interview-q">What advice would you give to women who are just starting their careers in tech?</dt>
-     <!-- // Answer -->
-     <dd class="interview-a">
-       <p>It’s probably true for anyone starting their career but I think the most important thing is to work with really great people who you can learn from and enjoy working with. Especially in the first five years of your career I don’t think that the company, industry, or even specific role matters as much as working with really great people who you think you’ll learn a lot from.</p>
-     </dd>
-   </dl>
+      <!-- // Question -->
+      <dt class="interview-q">What’s the best piece of advice you’ve ever been given?</dt>
+      <!-- // Answer -->
+      <dd class="interview-a">
+        <p>Someone told me that the biggest risk I had to success was getting in my own way. I think that’s true because I definitely tend to worry about things too much and cause myself unnecessary anxiety. At the same time I recognize that’s one of the characteristics that has shaped who I am and has helped me achieve the success I’ve had to date.</p>
+      </dd>
+    </dl>
 
-   <!-- // Q & A -->
-   <dl class="border">
-     <!-- // Question -->
-     <dt class="interview-q">In our last interview, <a href="http://womenandtech.com/interview/bi-ying-miao/">Biying Miao</a> asked, “What has been the most unexpected lesson to come out of being an entrepreneur?”</dt>
-     <!-- // Answer -->
-     <dd class="interview-a">
-       <p>The most unexpected lesson is the importance of maintaining a healthy physical, mental, and emotional state. Being an entrepreneur is a roller coaster of ups and downs. I've found it's critical to work at giving myself routines and space to regain perspective. It doesn't help the company if I'm not on top of my game. Some tactical things I've implemented include exercising even it’s just 10 minutes a day, reducing caffeine and alcohol, and not looking at email for 1 hour before bed.</p>
-     </dd>
-   </dl>
+    <!-- // Q & A -->
+    <dl class="border">
+      <!-- // Question -->
+      <dt class="interview-q">What advice would you give to women who are just starting their careers in tech?</dt>
+      <!-- // Answer -->
+      <dd class="interview-a">
+        <p>It’s probably true for anyone starting their career but I think the most important thing is to work with really great people who you can learn from and enjoy working with. Especially in the first five years of your career I don’t think that the company, industry, or even specific role matters as much as working with really great people who you think you’ll learn a lot from.</p>
+      </dd>
+    </dl>
 
-   <!-- // Q & A -->
-   <dl class="border">
-     <!-- // Question -->
-     <dt class="interview-q">Without knowing who they are, please pose a question for our next interviewee.</dt>
-     <!-- // Answer -->
-     <dd class="interview-a">
-       <p>Women face many challenges in the technology industry but we also bring many strengths. What do you think is the best part of being a woman in tech?</p>
-     </dd>
-   </dl>
+    <!-- // Q & A -->
+    <dl class="border">
+      <!-- // Question -->
+      <dt class="interview-q">In our last interview, <a href="http://womenandtech.com/interview/bi-ying-miao/">Biying Miao</a> asked, “What has been the most unexpected lesson to come out of being an entrepreneur?”</dt>
+      <!-- // Answer -->
+      <dd class="interview-a">
+        <p>The most unexpected lesson is the importance of maintaining a healthy physical, mental, and emotional state. Being an entrepreneur is a roller coaster of ups and downs. I've found it's critical to work at giving myself routines and space to regain perspective. It doesn't help the company if I'm not on top of my game. Some tactical things I've implemented include exercising even it’s just 10 minutes a day, reducing caffeine and alcohol, and not looking at email for 1 hour before bed.</p>
+      </dd>
+    </dl>
 
-   <!-- // Team Signature -->
-   <div class="border signature">
-     <p>
-       with <i class="fa fa-heart-o theme-color" aria-hidden="true" title="love"></i><span class="screen-readers">love</span>
-       from <span class="team theme-color">the Women&&Tech team</span>
-     </p>
-   </div>
+    <!-- // Q & A -->
+    <dl class="border">
+      <!-- // Question -->
+      <dt class="interview-q">Without knowing who they are, please pose a question for our next interviewee.</dt>
+      <!-- // Answer -->
+      <dd class="interview-a">
+        <p>Women face many challenges in the technology industry but we also bring many strengths. What do you think is the best part of being a woman in tech?</p>
+      </dd>
+    </dl>
 
+    <!-- // Team Signature -->
+    <div class="border signature">
+      <p>
+        with <i class="fa fa-heart-o theme-color" aria-hidden="true" title="love"></i><span class="screen-readers">love</span>
+        from <span class="team theme-color">the Women&&Tech team</span>
+      </p>
+    </div>
+
+    <!-- // Interview Credits -->
+    <footer class="border credits">
+      <?php  // If you don't need a credit, delete the whole <li>. ?>
+      <ul>
+        <li>
+          Interview by <a href="<?php echo $interviewer_url; ?>"><?php echo $interviewer; ?></a>
+          <?php if ($interviewer2): echo 'and <a href="'.$interviewer_url2 .'">'.$interviewer2.'</a>';endif; ?>
+        </li>
+        <li>
+          Photography by <a href="<?php echo $photos_url; ?>"><?php echo $photos; ?></a>
+          <?php if ($photos2): echo 'and <a href="'.$photos2_url .'">'.$photos2.'</a>';endif; ?>
+        </li>
+        <li>
+          Editing by <a href="<?php echo $editor_url; ?>"><?php echo $editor; ?></a>
+          <?php if ($editor2): echo 'and <a href="'.$editor2_url .'">'.$editor2.'</a>';endif; ?>
+        </li>
+        <li>
+          Art Direction by <a href="<?php echo $ad_url; ?>"><?php echo $ad; ?></a>
+          <?php if ($ad2): echo 'and <a href="'.$ad2_url .'">'.$ad2.'</a>';endif; ?>
+        </li>
+        <li>
+          Design by <a href="<?php echo $design_url; ?>"><?php echo $design; ?></a>
+          <?php if ($design2): echo 'and <a href="'.$design2_url .'">'.$design2.'</a>';endif; ?>
+        </li>
+        <li>
+          Development by <a href="<?php echo $dev_url; ?>"><?php echo $dev; ?></a>
+          <?php if ($dev2): echo 'and <a href="'.$dev2_url .'">'.$dev2.'</a>';endif; ?>
+        </li>
+        <li>
+          Transcriptions by <a href="<?php echo $transcribe_url; ?>"><?php echo $transcribe; ?></a>
+          <?php if ($transcribe2): echo 'and <a href="'.$transcribe2_url .'">'.$transcribe2.'</a>';endif; ?>
+        </li>
+      </ul>
+      <?php include($path_inc."site-credits.php"); ?>
+    </footer>
+
+    <!-- // Latest 3 Interviews -->
+    <?php include($path_inc."latest-interviews.php"); ?>
   </main>
 
 <?php include($path_inc."footer.php"); ?>

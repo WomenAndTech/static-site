@@ -1,11 +1,45 @@
 <?php
-  /* Fill out these values to customize the page.
-  $page_title = Interviewee's name
-  $page_theme values: theme-coral, theme-purple, theme-yellow, theme-green, theme-blue
-  */
-
-  $page_title = 'Pearl Chen';
+  // $page_theme values: theme-coral, theme-purple, theme-yellow, theme-green, theme-blue
   $page_theme = 'theme-blue';
+  $interviewee_name = 'Pearl Chen'; // Page title & share links
+  $interviewee_url = 'pearl-chen'; // Share links URLs
+
+  /*
+    INTERVIEW CREDITS:
+    If you need a second name, add a variable with a '2' the end. Example:
+    $interviewer = "First Person";
+    $interviewer_url = "http://twitter.com";
+    $interviewer2 = "Second Person";
+    $interviewer_url2 = "http://mywebsite.com";
+
+    ***There were three names for the DEV and TRANSCRIBE fields for this interview only so I added the first name manually in the HTML itself.***
+
+    If you don't need a credit, delete the whole <li> in the HTML.
+  */
+  $interviewer = "Ivonne Karamoy";
+  $interviewer_url = "https://twitter.com/ivonnekn";
+  $photos = "Mauricio Calero";
+  $photos_url = "http://mjcphotography.ca";
+  $editor = "Cassie McDaniel";
+  $editor_url = "http://work.cassiemcdaniel.com/";
+  $editor2 = "Nancy Kay Clark";
+  $editor_url2 = "http://commuterlit.com/";
+  $ad = "Cassie McDaniel";
+  $ad_url = "http://work.cassiemcdaniel.com/";
+  $ad2 = "Mark Staplehurst";
+  $ad_url2 = "http://twitter.com/britburger";
+  $design = "Cassie McDaniel";
+  $design_url = "http://work.cassiemcdaniel.com/";
+  $dev = "Brett Bergmann";
+  $dev_url = "http://twitter.com/brttb";
+  $dev2 = "Ray Kao";
+  $dev_url2 = "http://twitter.com/raykao";
+  $transcribe = "Smith Schwartz";
+  $transcribe_url = "http://twitter.com/smithschwartz";
+  $transcribe2 = "Ivonne Karamoy";
+  $transcribe_url2 = "https://twitter.com/ivonnekn";
+
+  /* Do not change these settings */
   include $_SERVER['DOCUMENT_ROOT'].'/config.php';
   include ($path_inc."header.php");
 ?>
@@ -25,25 +59,28 @@
         <p class="intro">
           Pearl is a technologist and educator with a creative approach to tech. She is a seasoned developer, writer, speaker, and runs tech workshops through her studio, <a href="http://karma-laboratory.com/new.html?q=index.html" title="Karma Labs">Karma Laboratory</a>. Her recent project, <a href="http://codehuddle.org/" title="Code Huddle website">Code Huddle</a>, combines her passion for tech, open source and education.
         </p>
-        <p class="author">An interview with <a href="https://twitter.com/ivonnekn">Ivonne Karamoy</a></p>
 
+        <?php // Don't update. Using the same info as is Interview Credits. ?>
+        <p class="author">An interview with <a href="<?php echo $interviewer_url; ?>"><?php echo $interviewer; ?></a></p>
+
+        <?php // Don't update. Using info from PHP variables. ?>
         <ul class="social-share">
           <li>
-            <a href="//facebook.com/WomenAndTech" title="Facebook @WomenAndTech">
+            <a href="http://www.facebook.com/sharer.php?u=http://womenandtech.com/interview/<?php echo $interviewee_url;?>/" title="Share on Facebook">
               <i class="fa fa-facebook" aria-hidden="true"></i>
-              <span class="screen-readers">Facebook</span>
+              <span class="screen-readers">Post the interview on Facebook</span>
             </a>
           </li>
           <li>
-            <a href="//twitter.com/WomenAndTech" title="Twitter @WomenAndTech">
+            <a href="http://twitter.com/share?text=Women and Tech Interviews <?php echo $interviewee_name; ?>&url=http://womenandtech.com/interview/<?php echo $interviewee_url; ?>/" title="Share on Twitter">
               <i class="fa fa-twitter" aria-hidden="true"></i>
-              <span class="screen-readers">Twitter</span>
+              <span class="screen-readers">Tweet the interview</span>
             </a>
           </li>
           <li>
-            <a href="mailto:contact@womenandtech.com" title="Email contact@womenandtech.com">
+            <a href="mailto:?subject=Women and Tech Interviews <?php echo $interviewee_name; ?>&body=Women and Tech Interviews <?php echo $interviewee_name; ?> http://womenandtech.com/interview/<?php echo $interviewee_url; ?>/" title="Email the interview">
               <i class="fa fa-envelope" aria-hidden="true"></i>
-              <span class="screen-readers">Email contact@womenandtech.com</span>
+              <span class="screen-readers">Email interview</span>
             </a>
           </li>
         </ul>
@@ -61,7 +98,6 @@
 
         <p>We were a stereotypical prairie Chinese family [The Canadian prairies stretch over Alberta, Manitoba and Saskatchewan.] We owned a Chinese restaurant. I worked there from when I was twelve. When it wasn’t busy I would read. We had a library half a block away, and if I was interested in something I would clear out that section and read whatever was there. I remember getting a book on BASIC and typing out programs from it. Doing those exercises early on made me realize technology is something you can actually control; you can have it do anything, or make something out of nothing. That was probably the first time I started programming.</p>
       </dd>
-
     </dl>
 
     <!-- // Pull Quote -->
@@ -119,14 +155,7 @@
         month intensive post-graduate program. The program brought in experts to teach
         day or one week sessions with a couple key faculty members. Within two and a
         half months you were supposed to form a group and execute a prototype. </p>
-        <p>After that I did a bit of freelance work, and then I returned to
-          the CFC to work full-time as the research and technology manager. I was the
-          point person for technical questions and resources. Students might come to me
-          and say, “I want to make an interactive project with brain reading technology,
-          where do I start?” Then I would help them research it and learn how to build it
-          themselves. If they weren't technically savvy enough to want to do it on their
-          own, or if time was short, then I would either work on their project or hire a
-          contractor and manage them. </p>
+        <p>After that I did a bit of freelance work, and then I returned to the CFC to work full-time as the research and technology manager. I was the point person for technical questions and resources. Students might come to me and say, “I want to make an interactive project with brain reading technology, where do I start?” Then I would help them research it and learn how to build it themselves. If they weren't technically savvy enough to want to do it on their own, or if time was short, then I would either work on their project or hire a contractor and manage them. </p>
       </dd>
     </dl>
 
@@ -146,18 +175,8 @@
       <dt class="interview-q">You’ve recently started a project called Code Huddle. Tell us about that.</dt>
       <!-- // Answer -->
       <dd class="interview-a">
-        <p>For every new course I want to teach, I have to make the curriculum from
-          scratch. I thought that seemed really stupid. The idea behind <a href="http://codehuddle.org">Code Huddle</a> is
-          that I can make curriculum material that someone else can remix, or if I have a
-          new course to teach I can remix other people’s material.</p>
-          <p>It’s a platform for sharing materials and getting analysis and feedback,
-          more or less like GitHub for educators, specifically for technology educators.
-          I’m envisioning Code Huddle as an open source project, so I don’t have an
-          amazing business model around it, but I think people really need it, so I’m
-          going to build it — put it out in the wild and hopefully a lot of people will
-          use it, and something will come of it. I was hoping to have a beta out for
-          people to try early this year, but I started working full-time so I haven’t had
-          a lot of time to focus on side projects.</p>
+        <p>For every new course I want to teach, I have to make the curriculum from scratch. I thought that seemed really stupid. The idea behind <a href="http://codehuddle.org">Code Huddle</a> is that I can make curriculum material that someone else can remix, or if I have a new course to teach I can remix other people’s material.</p>
+        <p>It’s a platform for sharing materials and getting analysis and feedback, more or less like GitHub for educators, specifically for technology educators. I’m envisioning Code Huddle as an open source project, so I don’t have an amazing business model around it, but I think people really need it, so I’m going to build it — put it out in the wild and hopefully a lot of people will use it, and something will come of it. I was hoping to have a beta out for people to try early this year, but I started working full-time so I haven’t had a lot of time to focus on side projects.</p>
       </dd>
     </dl>
 
@@ -167,14 +186,7 @@
       <dt class="interview-q">What are you working on now?</dt>
       <!-- // Answer -->
       <dd class="interview-a">
-        <p>I’m working with <a href="http://nascentdigital.com/">Nascent Digital</a> to help TELUS change their
-            corporate culture to more of a startup culture. They created a <a href="http://web.telus.com/blog">lab</a> to redesign
-            all of their web properties and this was almost exactly what I was looking for –
-            web development and programming but also team building. From a technology
-            standpoint, I’ve implemented some <a href="http://theleanstartup.com">Lean methodologies</a>, somewhat based on an
-            <a href="http://en.wikipedia.org/wiki/Agile_software_development">Agile
-            workflow</a>, and we’re training the other employees to think like a startup and
-            execute on ideas really quickly.</p>
+        <p>I’m working with <a href="http://nascentdigital.com/">Nascent Digital</a> to help TELUS change their corporate culture to more of a startup culture. They created a <a href="http://web.telus.com/blog">lab</a> to redesign all of their web properties and this was almost exactly what I was looking for – web development and programming but also team building. From a technology standpoint, I’ve implemented some <a href="http://theleanstartup.com">Lean methodologies</a>, somewhat based on an <a href="http://en.wikipedia.org/wiki/Agile_software_development">Agile workflow</a>, and we’re training the other employees to think like a startup and execute on ideas really quickly.</p>
       </dd>
     </dl>
 
@@ -184,26 +196,10 @@
       <dt class="interview-q">How did you start teaching and why do you do it?</dt>
       <!-- // Answer -->
       <dd class="interview-a">
-        <p>In 2008, Shawn Pucknell who runs <a href="http://fitc.ca/">FITC</a> events
-          reached out to me and asked if I wanted to teach electronics workshops. I
-          thought, I don’t know what to teach! He said to just pick a project then work on
-          that during the class, so I agreed. My first class was making LED solar
-          lanterns, and I had six people turn up. It was basic electronics. I actually
-          hired one of those students a year later.</p>
-        <p>I see a lot of companies nowadays searching for skilled programmers. I
-          think it’s okay to look for someone junior-ish as long as they’re willing to
-          learn. It should really be up to the company to figure out what their
-          educational program is, whether that means sending them to conferences or
-          classes or having internal classes like lunch n' learns. Companies have to have
-          a good infrastructure for on-boarding people and helping mentor and train them.</p>
-        <p>That's why I do a lot of this public speaking and training. If three years
-          from now I wanted to start a company doing interactive projects, I'll have a
-          fleet of people that I've worked with or taught in my classes who I know are
-          eager to learn and who I can reach out to. It's an investment versus something
-          that I do for fun.</p>
-        <p>I also like doing in-person workshops because the reaction I get from people
-          who are trying to learn is so wonderful. I like converting people who think they
-          couldn't do something into people who now think they can.</p>
+        <p>In 2008, Shawn Pucknell who runs <a href="http://fitc.ca/">FITC</a> events reached out to me and asked if I wanted to teach electronics workshops. I thought, I don’t know what to teach! He said to just pick a project then work on that during the class, so I agreed. My first class was making LED solar lanterns, and I had six people turn up. It was basic electronics. I actually hired one of those students a year later.</p>
+        <p>I see a lot of companies nowadays searching for skilled programmers. I think it’s okay to look for someone junior-ish as long as they’re willing to learn. It should really be up to the company to figure out what their educational program is, whether that means sending them to conferences or classes or having internal classes like lunch n' learns. Companies have to have a good infrastructure for on-boarding people and helping mentor and train them.</p>
+        <p>That's why I do a lot of this public speaking and training. If three years from now I wanted to start a company doing interactive projects, I'll have a fleet of people that I've worked with or taught in my classes who I know are eager to learn and who I can reach out to. It's an investment versus something that I do for fun.</p>
+        <p>I also like doing in-person workshops because the reaction I get from people who are trying to learn is so wonderful. I like converting people who think they couldn't do something into people who now think they can.</p>
       </dd>
     </dl>
 
@@ -218,29 +214,10 @@
       <dt class="interview-q">A lot of technologists focus on one area, be it front-end development or hardware, but you seem to know and do a lot of things. How do you manage all of that?</dt>
       <!-- // Answer -->
       <dd class="interview-a">
-        <p>Yeah, I'm into a lot of things. Part of that may be that a lot of
-          technology doesn't exist for very long. When I was programming with Flash – and everyone kind of knows what the <a href="http://www.apple.com/hotnews/thoughts-on-flash/">story</a> is with Flash – I realized that the web was moving away
-          from it and that I really should get back to see what was happening with
-          JavaScript.</p>
-        <p>For some time, Flash was building robust things and JavaScript was
-          learning what it was and what people can do with it. Flash ActionScript 2 and
-          JavaScript have similar backgrounds but the way people use it is different. It
-          wasn't until a few people discovered key things about JavaScript that the
-          language became powerful. That made me focus on web front-end dev – HTML, CSS
-          and JavaScript – instead of Flash.</p>
-        <p>I did some PHP and database programming too because
-          when you want to execute an idea, and it's not too complex, you can do
-          everything from the front-end to the back-end. It's nice to be a full-stack
-          developer. Nowadays it's easier because you can actually create a database with
-          JavaScript using <a href="http://www.mongodb.org/">MongoDB</a>, and then the
-          backend or the server can be <a href="http://nodejs.org/">Node.js</a>. It's
-          becoming easier to do it all just knowing Javascript. </p>
-        <p>I know Java. I know nothing about Ruby, and I know only slightly more than
-          nothing about Python. People think I have a lot more experience because I have
-          this other hardware background, but it comes down to hands-on experience. Anyone
-          could have the experience if they spent a weekend to learn some of these things,
-          but most people are busy. Maybe having the time to learn these new tools is what
-          seems impressive.</p>
+        <p>Yeah, I'm into a lot of things. Part of that may be that a lot of technology doesn't exist for very long. When I was programming with Flash – and everyone kind of knows what the <a href="http://www.apple.com/hotnews/thoughts-on-flash/">story</a> is with Flash – I realized that the web was moving away from it and that I really should get back to see what was happening with JavaScript.</p>
+        <p>For some time, Flash was building robust things and JavaScript was learning what it was and what people can do with it. Flash ActionScript 2 and JavaScript have similar backgrounds but the way people use it is different. It wasn't until a few people discovered key things about JavaScript that the language became powerful. That made me focus on web front-end dev – HTML, CSS and JavaScript – instead of Flash.</p>
+        <p>I did some PHP and database programming too because when you want to execute an idea, and it's not too complex, you can do everything from the front-end to the back-end. It's nice to be a full-stack developer. Nowadays it's easier because you can actually create a database with JavaScript using <a href="http://www.mongodb.org/">MongoDB</a>, and then the backend or the server can be <a href="http://nodejs.org/">Node.js</a>. It's becoming easier to do it all just knowing Javascript. </p>
+        <p>I know Java. I know nothing about Ruby, and I know only slightly more than nothing about Python. People think I have a lot more experience because I have   this other hardware background, but it comes down to hands-on experience. Anyone could have the experience if they spent a weekend to learn some of these things, but most people are busy. Maybe having the time to learn these new tools is what seems impressive.</p>
       </dd>
     </dl>
 
@@ -275,9 +252,7 @@
     <!-- // Q & A -->
     <dl class="border">
       <!-- // Question -->
-      <dt class="interview-q">Your <a href="https://plus.google.com/108076675731922659261/about">Google+</a> account, where you are pretty active, says you are an Android enthusiast.
-          Do you have a conscious preference toward open products as opposed to
-          proprietary? </dt>
+      <dt class="interview-q">Your <a href="https://plus.google.com/108076675731922659261/about">Google+</a> account, where you are pretty active, says you are an Android enthusiast. Do you have a conscious preference toward open products as opposed to proprietary? </dt>
       <!-- // Answer -->
       <dd class="interview-a">
         <p>When Android started off I liked it because it was the first open source
@@ -405,19 +380,10 @@
       <dd class="interview-a">
         <p>It used to be Flash because it was a really good tool set; all the things you wanted were more or less there. Now there are so many little places that you have to go to to get a simple web page up.</p>
         <p>Addy Osmani worked on a tool called <a href="http://yeoman.io/">Yeoman</a>. It’s a very streamlined way to do web
-          development. It’s all based on command line tools, but it makes making a web
-          application take 15 seconds essentially. You make a folder and initialize the
-          Yeoman project and you can have a web application with a little local server
-          already set up and ready to go. That’s by far my favorite tool.</p>
-        <p> My favorite web framework is <a href="http://angularjs.org">AngularJS</a>
-          because it makes making web applications amazingly simple. It gives you an
-          opinionated way to work with web applications, in the sense that there is a
-          “right” way of doing things. The more you work with it, you can do more advanced
-          things and make your code really clean. That’s my second favorite tool. </p>
+          development. It’s all based on command line tools, but it makes making a web application take 15 seconds essentially. You make a folder and initialize the Yeoman project and you can have a web application with a little local server already set up and ready to go. That’s by far my favorite tool.</p>
+        <p> My favorite web framework is <a href="http://angularjs.org">AngularJS</a> because it makes making web applications amazingly simple. It gives you an opinionated way to work with web applications, in the sense that there is a “right” way of doing things. The more you work with it, you can do more advanced things and make your code really clean. That’s my second favorite tool. </p>
         <p>I use <a href="http://www.sublimetext.com">Sublime Text</a> for my text
-          editor. It’s just so clean and easy to use. It’s like a lifesaver after using
-          Dreamweaver for so many years. My computer, a really good keyboard, a good
-          trackpad – and I’m good to go.</p>
+          editor. It’s just so clean and easy to use. It’s like a lifesaver after using Dreamweaver for so many years. My computer, a really good keyboard, a good trackpad – and I’m good to go.</p>
       </dd>
     </dl>
 
@@ -437,38 +403,56 @@
       <dt class="interview-q">In our last interview <a href="http://womenandtech.com/interview/martha-ladly/">Martha Ladly</a> asked, “If you were able to think about a technology that does not yet exist and you were going to particularly as a woman design/develop it for other women, what might it be?”</dt>
       <!-- // Answer -->
       <dd class="interview-a">
-        <p>Hmm... Probably <a href="http://en.wikipedia.org/wiki/Wearable_computer">wearables</a>. The reason I like wearables is because they’re
-          about personal space and communication, communicating not through words but
-          through clothing or touch or heat. We shouldn’t fixate on technology as a <em>thing</em>,
-          but we should think about how we use technology. Technology should be more of
-          something that augments us, not controls us.</p>
+        <p>Hmm... Probably <a href="http://en.wikipedia.org/wiki/Wearable_computer">wearables</a>. The reason I like wearables is because they’re about personal space and communication, communicating not through words but through clothing or touch or heat. We shouldn’t fixate on technology as a <em>thing</em>, but we should think about how we use technology. Technology should be more of something that augments us, not controls us.</p>
       </dd>
     </dl>
 
-    <!-- // Footer Credits -->
+    <!-- // Team Signature -->
+    <div class="border signature">
+      <p>
+        with <i class="fa fa-heart-o theme-color" aria-hidden="true" title="love"></i><span class="screen-readers">love</span>
+        from <span class="team theme-color">the Women&&Tech team</span>
+      </p>
+    </div>
+
+    <!-- // Interview Credits -->
     <footer class="border credits">
+      <?php  // If you don't need a credit, delete the whole <li>. ?>
       <ul>
-        <li>Interview <em>by</em> <a href="http://twitter.com/ivonnekn/" target="_blank">Ivonne Karamoy</a></li>
-        <li>Photography <em>by</em> <a href="http://mjcphotography.ca" target="_blank">Mauricio Calero</a></li>
-        <li>Editing <em>by</em>
-              <a href="http://work.cassiemcdaniel.com" target="_blank">Cassie McDaniel</a><em> and</em>
-              <a href="http://commuterlit.com/" target="_blank">Nancy Kay Clark</a></li>
-        <li>Art Direction<em> by</em>
-              <a href="http://www.cassiekaiser.com" target="_blank">Cassie Kaiser</a><em> and</em>
-              <a href="http://twitter.com/britburger" target="_blank">Mark Staplehurst</a></li>
-        <li>Design<em> by</em>
-              <a href="http://www.cassiekaiser.com" target="_blank">Cassie Kaiser</a></li>
-        <li>Development<em> by</em>
-              <a href="http://twitter.com/MartianMoose" target="_blank">Audrey Kuo</a>,
-              <a href="http://twitter.com/brttb" target="_blank">Brett Bergmann</a><em>, and</em>
-              <a href="http://twitter.com/raykao" target="_blank">Ray Kao</a></li>
-        <li>Transcriptions<em> by</em>
-              <a href="http://www.cassiekaiser.com" target="_blank">Cassie Kaiser</a>,
-              <a href="http://twitter.com/smithschwartz" target="_blank">Smith Schwartz</a><em>, and</em>
-              <a href="http://www.ivonnekaramoy.com" target="_blank">Ivonne Karamoy</a></li>
+        <li>
+          Interview by <a href="<?php echo $interviewer_url; ?>"><?php echo $interviewer; ?></a>
+          <?php if ($interviewer2): echo 'and <a href="'.$interviewer_url2 .'">'.$interviewer2.'</a>';endif; ?>
+        </li>
+        <li>
+          Photography by <a href="<?php echo $photos_url; ?>"><?php echo $photos; ?></a>
+          <?php if ($photos2): echo 'and <a href="'.$photos2_url .'">'.$photos2.'</a>';endif; ?>
+        </li>
+        <li>
+          Editing by <a href="<?php echo $editor_url; ?>"><?php echo $editor; ?></a>
+          <?php if ($editor2): echo 'and <a href="'.$editor2_url .'">'.$editor2.'</a>';endif; ?>
+        </li>
+        <li>
+          Art Direction by <a href="<?php echo $ad_url; ?>"><?php echo $ad; ?></a>
+          <?php if ($ad2): echo 'and <a href="'.$ad2_url .'">'.$ad2.'</a>';endif; ?>
+        </li>
+        <li>
+          Design by <a href="<?php echo $design_url; ?>"><?php echo $design; ?></a>
+          <?php if ($design2): echo 'and <a href="'.$design2_url .'">'.$design2.'</a>';endif; ?>
+        </li>
+        <li>
+          Development by <a href="http://twitter.com/MartianMoose">Audrey Kuo</a>, <a href="<?php echo $dev_url; ?>"><?php echo $dev; ?></a>
+          <?php if ($dev2): echo 'and <a href="'.$dev2_url .'">'.$dev2.'</a>';endif; ?>
+        </li>
+        <li>
+          Transcriptions by <a href="http://www.cassiekaiser.com">Cassie Kaiser</a>, <a href="<?php echo $transcribe_url; ?>"><?php echo $transcribe; ?></a>
+          <?php if ($transcribe2): echo 'and <a href="'.$transcribe2_url .'">'.$transcribe2.'</a>';endif; ?>
+        </li>
       </ul>
-      <p>This site uses Monotype's Avenir Next by Adrian Fruteger and Akira Kobayashi, Github, Cloudflare, and Windows Azure.</p>
+      <?php include($path_inc."site-credits.php"); ?>
     </footer>
+
+    <!-- // Latest 3 Interviews -->
+    <?php include($path_inc."latest-interviews.php"); ?>
   </main>
 
-<?php include($path_inc."footer.php"); ?>
+  <?php include($path_inc."footer.php"); ?>
