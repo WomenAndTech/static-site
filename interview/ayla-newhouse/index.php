@@ -85,7 +85,10 @@
         <p>I was born in Phoenix, Arizona but grew up in a small mountain town, Invermere, in the mountains of British Columbia. I lived there until I graduated from high school and went to university in Victoria, BC.</p>
         <p>I was enrolled in general studies for my first year at the University of Victoria and thought about Journalism or Advanced English for second year. I hadn’t really heard about design as a profession until a friend and I we were doing a dorm room swap. I saw a TV show about house swaps where designers would go to two people’s houses and help them to redesign their rooms.</p>
       </dd>
+    </dl>
 
+    <!-- // Q & A -->
+    <dl class="border">
       <dt class="interview-q">Trading Spaces?</dt>
       <dd class="interview-a">
         <p>
@@ -98,7 +101,10 @@
           Before then my creativity was considered a nice hobby. No one in Invermere really did design as a profession. The guidance counsellors at highschool never mentioned design to me. We didn’t have many art courses in high school. I don’t remember taking any.
         </p>
       </dd>
+    </dl>
 
+    <!-- // Q & A -->
+    <dl class="border">
       <!-- // Question -->
       <dt class="interview-q">What did people back home think when you transfered to this “out there” creative program?</dt>
       <!-- // Answer -->
@@ -107,7 +113,10 @@
           My Nanna is a potter so there’s art in my family. My parents weren’t totally surprised. I struggled a lot as a teenager, being awkward and artsy in a town full of athletes and outdoor enthusiasts. I used to beg my parents to let me stay home from the ski hill, lock myself in my bedroom for a weekend and design board games.
         </p>
       </dd>
+    </dl>
 
+    <!-- // Q & A -->
+    <dl class="border">
       <!-- // Question -->
       <dt class="interview-q">Did you have any influential mentors?</dt>
       <!-- // Answer -->
@@ -117,7 +126,10 @@
           <a href="http://www.institutewithoutboundaries.com/" target="_blank" title="Institute without Boundaries website">grad school</a> that I went to in Toronto.
         </p>
       </dd>
+    </dl>
 
+    <!-- // Q & A -->
+    <dl class="border">
       <!-- // Question -->
       <dt class="interview-q">What happened after you graduated?</dt>
       <!-- // Answer -->
@@ -170,7 +182,10 @@
           I think about things in systems. Design is the whole system of how to communicate who you are and the values of your organization. Of course, what I make always aims to be beautiful. But I find that when it works well, it also looks good.
         </p>
       </dd>
+    </dl>
 
+    <!-- // Q & A -->
+    <dl class="border">
       <dt class="interview-q">What interests you about technology?</dt>
       <dd class="interview-a">
         <p>I think first I would have to tell you what technology is! I Googled it today.</p>
@@ -226,7 +241,10 @@
           discovering a new type of clay. As a designer, I feel the same way. I think: “I wonder what I can make with that!”
         </p>
       </dd>
+    </dl>
 
+    <!-- // Q & A -->
+    <dl class="border">
       <!-- // Question -->
       <dt class="interview-q">What kind of tools do you use in your practice?</dt>
       <!-- // Answer -->
@@ -238,7 +256,10 @@
           which is amazing. So beautiful. Only one font. Hyper simple. They developed a function called Focus Mode to only show the sentence you’re currently writing. I like that. That’s a very useful technology because it actually changed the way I write.
         </p>
       </dd>
+    </dl>
 
+    <!-- // Q & A -->
+    <dl class="border">
       <!-- // Question -->
       <dt class="interview-q">Do any of your projects use the concept of limitations?</dt>
       <!-- // Answer -->
@@ -273,7 +294,10 @@
           Right now I’m writing a book, <a href="http://datingbydesign.ca/" target="_blank" title="Dating by Design website">Dating by Design</a>. The idea is to take the technologies of design — the processes, methodologies and tools — and apply them to relationships. I’m looking at how we can build better relationships by looking at them through a lens that’s not so emotional.
         </p>
       </dd>
+    </dl>
 
+    <!-- // Q & A -->
+    <dl class="border">
       <!-- // Question -->
       <dt class="interview-q">What do you gain by removing emotion?</dt>
       <!-- // Answer -->
@@ -284,7 +308,10 @@
           That’s amazing! We don’t spend time thinking about relationships as a skill. We’re not asking the right questions. To have better relationships we need to design them more intentionally.
         </p>
       </dd>
+    </dl>
 
+    <!-- // Q & A -->
+    <dl class="border">
       <!-- // Question -->
       <dt class="interview-q">Would you consider designing relationships between people to be one of your life goals?</dt>
       <!-- // Answer -->
@@ -313,14 +340,20 @@
         <p>I did a post graduate degree in Toronto at the Institute without Boundaries in Interdisciplinary Design. From there I was offered a job at a design studio in Toronto called <a href="http://normativedesign.com" target="_blank" title="Normative Design website">Normative Design</a>. That’s where I learned about how to design for the web, because before that I had only been taught print design. I wound up working with a lot of developers and learning their language.</p>
          <p>My boss at Normative Design, <a href="http://ca.linkedin.com/in/mmilan" title="Matthew Milan's LinkedIn Profile" target="_blank">Matthew Milan</a>, certainly taught me a ton about technology. He was the one who pushed me to pursue my own path when he could see that I was, as he put it, ‘dipping my toe in the water at the pool while everyone else was sitting on the deck chairs’. He was like, “I see what you’re doing; I was there once. I wanted to go swimming and I was scared to — but don’t worry, there’s water in the pool. Just do it!” He inspired me to pursue my passion project, <a href="http://1thingapp.com" target="_blank">1THING</a>, and make a leap of faith to quit my job.</p>
       </dd>
+    </dl>
 
+    <!-- // Q & A -->
+    <dl class="border">
       <!-- // Question -->
       <dt class="interview-q">How did you find working with developers?</dt>
       <!-- // Answer -->
       <dd class="interview-a">
         <p>I love working with developers, but at first I was terrified to learn all these new skills. My designer-dev relationships have been built on mutual respect for each others' craft. I like to hand over some of the creativity to a developer, and I like it when they involve me in the creativity of the code, too. It's really exciting to work with someone who can make my ideas into moving, living things.</p>
       </dd>
+    </dl>
 
+    <!-- // Q & A -->
+    <dl class="border">
       <!-- // Question -->
       <dt class="interview-q">Having worked with developers, did you notice a gender divide?</dt>
       <!-- // Answer -->
@@ -340,7 +373,10 @@
           It's funny because growing up, I never thought there was a difference between me and the boys. But somehow in the last few years, living in Toronto, I find myself surrounded by women who are really fighting for a different kind of equality. I’ve had to think about gender and talk about it a lot more in the past couple of years. And that’s probably a good thing. I think these issues are so often just under the surface that they aren't visible and therefore fester or change dynamics in unseen, indescribable ways.
         </p>
       </dd>
+    </dl>
 
+    <!-- // Q & A -->
+    <dl class="border">
       <!-- // Question -->
       <dt class="interview-q">Do you feel groups like Women &amp;&amp; Tech are helping or hurting?</dt>
       <!-- // Answer -->
@@ -352,14 +388,20 @@
           I think what Women &amp;&amp; Tech is doing is important because you’re publishing ideas and interviews. Looking at art history, the groups that are remembered are the ones that published and documented their work; that’s effective and important.
         </p>
       </dd>
+    </dl>
 
+    <!-- // Q & A -->
+    <dl class="border">
       <!-- // Question -->
       <dt class="interview-q">If you could change one thing about the role of women in tech?</dt>
       <!-- // Answer -->
       <dd class="interview-a">
         <p>That’s a hard question. Maybe there’s something more that women can offer that we’re not currently offering because we’re trying to fit in to what has already been established.</p>
       </dd>
+    </dl>
 
+    <!-- // Q & A -->
+    <dl class="border">
       <!-- // Question -->
       <dt class="interview-q">Who inspires you?</dt>
       <!-- // Answer -->
@@ -380,7 +422,10 @@
           , for inspiring my love of the universe and thinking about things from that massive perspective.
         </p>
       </dd>
+    </dl>
 
+    <!-- // Q & A -->
+    <dl class="border">
       <!-- // Question -->
       <dt class="interview-q">In our last interview, <a href="http://womenandtech.com/interview/heather-payne">Heather Payne</a> asked, “What are you doing to change the world?”</dt>
       <!-- // Answer -->
@@ -393,12 +438,42 @@
 
     <!-- // Interview Credits -->
     <footer class="border credits">
+      <?php  // If you don't need a credit, delete the whole <li>. ?>
+      <ul>
+        <li>
+          Interview by <a href="<?php echo $interviewer_url; ?>"><?php echo $interviewer; ?></a>
+          <?php if ($interviewer2): echo 'and <a href="'.$interviewer_url2 .'">'.$interviewer2.'</a>';endif; ?>
+        </li>
+        <li>
+          Photography by <a href="<?php echo $photos_url; ?>"><?php echo $photos; ?></a>
+          <?php if ($photos2): echo 'and <a href="'.$photos2_url .'">'.$photos2.'</a>';endif; ?>
+        </li>
+        <li>
+          Editing by <a href="<?php echo $editor_url; ?>"><?php echo $editor; ?></a>
+          <?php if ($editor2): echo 'and <a href="'.$editor2_url .'">'.$editor2.'</a>';endif; ?>
+        </li>
+        <li>
+          Art Direction by <a href="<?php echo $ad_url; ?>"><?php echo $ad; ?></a>
+          <?php if ($ad2): echo 'and <a href="'.$ad2_url .'">'.$ad2.'</a>';endif; ?>
+        </li>
+        <li>
+          Design by <a href="<?php echo $design_url; ?>"><?php echo $design; ?></a>
+          <?php if ($design2): echo 'and <a href="'.$design2_url .'">'.$design2.'</a>';endif; ?>
+        </li>
+        <li>
+          Development by <a href="<?php echo $dev_url; ?>"><?php echo $dev; ?></a>
+          <?php if ($dev2): echo 'and <a href="'.$dev2_url .'">'.$dev2.'</a>';endif; ?>
+        </li>
+        <li>
+          Transcriptions by <a href="<?php echo $transcribe_url; ?>"><?php echo $transcribe; ?></a>
+          <?php if ($transcribe2): echo 'and <a href="'.$transcribe2_url .'">'.$transcribe2.'</a>';endif; ?>
+        </li>
+      </ul>
       <?php include($path_inc."site-credits.php"); ?>
     </footer>
 
     <!-- // Latest 3 Interviews -->
     <?php include($path_inc."latest-interviews.php"); ?>
-
   </main>
 
 <?php include($path_inc."footer.php"); ?>

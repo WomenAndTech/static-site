@@ -1,11 +1,36 @@
 <?php
-  /* Fill out these values to customize the page.
-  $page_title = Interviewee's name
-  $page_theme values: theme-coral, theme-purple, theme-yellow, theme-green, theme-blue
-  */
-
-  $page_title = 'Lucia Mariani-Vena';
+  // $page_theme values: theme-coral, theme-purple, theme-yellow, theme-green, theme-blue
   $page_theme = 'theme-yellow';
+  $interviewee_name = 'Lucia Mariani-Vena'; // Page title & share links
+  $interviewee_url = 'lucia-mariani-vena'; // Share links URLs
+
+  /*
+    INTERVIEW CREDITS:
+    If you need a second name, add a variable with a '2' the end. Example:
+    $interviewer = "First Person";
+    $interviewer_url = "http://twitter.com";
+    $interviewer2 = "Second Person";
+    $interviewer_url2 = "http://mywebsite.com";
+
+    If you don't need a credit, delete the whole <li> in the HTML.
+  */
+  $interviewer = "Ivonne Karamoy";
+  $interviewer_url = "http://twitter.com/ivonnekn";
+  $photos = "Full Name";
+  $photos_url = "";
+  $editor = "Full Name";
+  $editor_url = "";
+  $ad = "Full Name";
+  $ad_url = "";
+  $design = "Full Name";
+  $design_url = "";
+  $dev = "Full Name";
+  $dev_url = "";
+  $transcribe = "Full Name";
+  $transcribe_url = "";
+
+
+  /* Do not change these settings */
   include $_SERVER['DOCUMENT_ROOT'].'/config.php';
   include ($path_inc."header.php");
 ?>
@@ -24,38 +49,33 @@
       <div class="wrapper-sm">
         <h2>Lucia Mariani-Vena</h2>
         <p class="intro">Lucia is responsible for the genesis of <a href="http://www.girlsintechtoronto.com" target="_blank" title="Girls In Tech Toronto website">Girls in Tech Toronto</a>, the local chapter of a global movement to unite women working in technology. We dig into her story to pinpoint how exactly she fell in love with her career and to find out what it is like to be a <em>mother</em> in tech.</p>
-        <p class="author">An interview with <a href="http://twitter.com/ivonnekn" rel="author" target="_blank" title="Ivonne Karamoy's twitter profile"><strong>Ivonne Karamoy</strong></a></p>
 
+        <?php // Don't update. Using the same info as is Interview Credits. ?>
+        <p class="author">An interview with <a href="<?php echo $interviewer_url; ?>"><?php echo $interviewer; ?></a></p>
+
+        <?php // Don't update. Using info from PHP variables. ?>
         <ul class="social-share">
           <li>
-            <a href="//facebook.com/WomenAndTech" title="Facebook @WomenAndTech">
+            <a href="http://www.facebook.com/sharer.php?u=http://womenandtech.com/interview/<?php echo $interviewee_url;?>/" title="Share on Facebook">
               <i class="fa fa-facebook" aria-hidden="true"></i>
-              <span class="screen-readers">Facebook</span>
+              <span class="screen-readers">Post the interview on Facebook</span>
             </a>
           </li>
           <li>
-            <a href="//twitter.com/WomenAndTech" title="Twitter @WomenAndTech">
+            <a href="http://twitter.com/share?text=Women and Tech Interviews <?php echo $interviewee_name; ?>&url=http://womenandtech.com/interview/<?php echo $interviewee_url; ?>/" title="Share on Twitter">
               <i class="fa fa-twitter" aria-hidden="true"></i>
-              <span class="screen-readers">Twitter</span>
+              <span class="screen-readers">Tweet the interview</span>
             </a>
           </li>
           <li>
-            <a href="mailto:contact@womenandtech.com" title="Email contact@womenandtech.com">
+            <a href="mailto:?subject=Women and Tech Interviews <?php echo $interviewee_name; ?>&body=Women and Tech Interviews <?php echo $interviewee_name; ?> http://womenandtech.com/interview/<?php echo $interviewee_url; ?>/" title="Email the interview">
               <i class="fa fa-envelope" aria-hidden="true"></i>
-              <span class="screen-readers">Email contact@womenandtech.com</span>
+              <span class="screen-readers">Email interview</span>
             </a>
           </li>
         </ul>
       </div>
     </header>
-
-    <!-- Q&A -->
-    <dl class="border">
-      <dt class="interview-q">Please introduce yourself.</dt>
-      <dd class="interview-a">
-        <p>My name is Ariel Garten, I’m the CEO and co-founder of <a href="http://interaxon.ca" target="_blank" title="InteraXon's website" alt="InteraXon">InteraXon</a>. At InteraXon we create thought controlled computing products, applications and experiences. Thought-controlled computing is exactly what it sounds like — it’s the ability to interact with content and yourself. A sensor sits on your forehead, reads your brainwaves, and then lets you play games on your smartphone or tablet directed by your brain. It also lets you see your brain and engagement activity to improve your working memory, concentration, circulation etc.</p>
-      </dd>
-    </dl>
 
     <!-- Q&A -->
     <dl class="border">
@@ -288,13 +308,44 @@
       </dd>
     </dl>
 
-    <!-- // Footer Credits -->
+    <!-- // Interview Credits -->
     <footer class="border credits">
-      <p>This site uses Monotype's Avenir Next by Adrian Fruteger and Akira Kobayashi, Github, Cloudflare, and Windows Azure.</p>
+      <?php  // If you don't need a credit, delete the whole <li>. ?>
+      <ul>
+        <li>
+          Interview by <a href="<?php echo $interviewer_url; ?>"><?php echo $interviewer; ?></a>
+          <?php if ($interviewer2): echo 'and <a href="'.$interviewer_url2 .'">'.$interviewer2.'</a>';endif; ?>
+        </li>
+        <li>
+          Photography by <a href="<?php echo $photos_url; ?>"><?php echo $photos; ?></a>
+          <?php if ($photos2): echo 'and <a href="'.$photos2_url .'">'.$photos2.'</a>';endif; ?>
+        </li>
+        <li>
+          Editing by <a href="<?php echo $editor_url; ?>"><?php echo $editor; ?></a>
+          <?php if ($editor2): echo 'and <a href="'.$editor2_url .'">'.$editor2.'</a>';endif; ?>
+        </li>
+        <li>
+          Art Direction by <a href="<?php echo $ad_url; ?>"><?php echo $ad; ?></a>
+          <?php if ($ad2): echo 'and <a href="'.$ad2_url .'">'.$ad2.'</a>';endif; ?>
+        </li>
+        <li>
+          Design by <a href="<?php echo $design_url; ?>"><?php echo $design; ?></a>
+          <?php if ($design2): echo 'and <a href="'.$design2_url .'">'.$design2.'</a>';endif; ?>
+        </li>
+        <li>
+          Development by <a href="<?php echo $dev_url; ?>"><?php echo $dev; ?></a>
+          <?php if ($dev2): echo 'and <a href="'.$dev2_url .'">'.$dev2.'</a>';endif; ?>
+        </li>
+        <li>
+          Transcriptions by <a href="<?php echo $transcribe_url; ?>"><?php echo $transcribe; ?></a>
+          <?php if ($transcribe2): echo 'and <a href="'.$transcribe2_url .'">'.$transcribe2.'</a>';endif; ?>
+        </li>
+      </ul>
+      <?php include($path_inc."site-credits.php"); ?>
     </footer>
 
     <!-- // Latest 3 Interviews -->
     <?php include($path_inc."latest-interviews.php"); ?>
-
   </main>
+
 <?php include($path_inc."footer.php"); ?>

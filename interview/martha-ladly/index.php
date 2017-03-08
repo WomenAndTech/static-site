@@ -1,16 +1,39 @@
 <?php
-  /* Fill out these values to customize the page.
-  $page_title = Interviewee's name
-  $page_theme values: theme-coral, theme-purple, theme-yellow, theme-green, theme-blue
-  */
-
-  $page_title = 'Martha Ladly';
+  // $page_theme values: theme-coral, theme-purple, theme-yellow, theme-green, theme-blue
   $page_theme = 'theme-coral';
+  $interviewee_name = 'Martha Ladly'; // Page title & share links
+  $interviewee_url = 'martha-ladly'; // Share links URLs
+
+  /*
+    INTERVIEW CREDITS:
+    If you need a second name, add a variable with a '2' the end. Example:
+    $interviewer = "First Person";
+    $interviewer_url = "http://twitter.com";
+    $interviewer2 = "Second Person";
+    $interviewer_url2 = "http://mywebsite.com";
+
+    If you don't need a credit, delete the whole <li> in the HTML.
+  */
+  $interviewer = "Mark Staplehurst";
+  $interviewer_url = "http://twitter.com/britburger";
+  $photos = "David \"Kid With Camera\" Waldman";
+  $photos_url = "http://kidwithcamera.com/";
+  $editor = "Cassie McDaniel";
+  $editor_url = "http://work.cassiemcdaniel.com";
+  $ad = "Mark Staplehurst";
+  $ad_url = "http://twitter.com/britburger";
+  $design = "Mark Staplehurst";
+  $design_url = "http://twitter.com/britburger";
+  $dev = "Mark Staplehurst";
+  $dev_url = "http://twitter.com/britburger";
+  $transcribe = "Full Name";
+  $transcribe_url = "";
+
+  /* Do not change these settings */
   include $_SERVER['DOCUMENT_ROOT'].'/config.php';
   include ($path_inc."header.php");
 ?>
   <main role="main">
-
     <!-- // Feature Image -->
     <div class="border img-feature">
       <figure>
@@ -25,26 +48,28 @@
         <p class="intro">
           Martha was a member of the 80s band&nbsp;<a title="Echo Beach by Martha &amp; The Muffins" href="http://www.youtube.com/watch?v=TRS4NKjUdhI" target="_blank">Martha &amp; the Muffins</a>, the creative direction behind Peter Gabriel’s Real World properties and co-editor of one of the first&nbsp;<a href="http://cargocollective.com/marthaladly/Mobile-Nation" target="_blank">mobile design anthologies</a>. She is now writing her Ph.D. on Women’s contribution to Technology.
         </p>
-        <p class="author">An interview with <a href="http://twitter.com/britburger" rel="author" target="_blank" title="Mark Staplehurst's twitter profile">Mark Staplehurst
-                </a></p>
 
+        <?php // Don't update. Using the same info as is Interview Credits. ?>
+        <p class="author">An interview with <a href="<?php echo $interviewer_url; ?>"><?php echo $interviewer; ?></a></p>
+
+        <?php // Don't update. Using info from PHP variables. ?>
         <ul class="social-share">
           <li>
-            <a href="//facebook.com/WomenAndTech" title="Facebook @WomenAndTech">
+            <a href="http://www.facebook.com/sharer.php?u=http://womenandtech.com/interview/<?php echo $interviewee_url;?>/" title="Share on Facebook">
               <i class="fa fa-facebook" aria-hidden="true"></i>
-              <span class="screen-readers">Facebook</span>
+              <span class="screen-readers">Post the interview on Facebook</span>
             </a>
           </li>
           <li>
-            <a href="//twitter.com/WomenAndTech" title="Twitter @WomenAndTech">
+            <a href="http://twitter.com/share?text=Women and Tech Interviews <?php echo $interviewee_name; ?>&url=http://womenandtech.com/interview/<?php echo $interviewee_url; ?>/" title="Share on Twitter">
               <i class="fa fa-twitter" aria-hidden="true"></i>
-              <span class="screen-readers">Twitter</span>
+              <span class="screen-readers">Tweet the interview</span>
             </a>
           </li>
           <li>
-            <a href="mailto:contact@womenandtech.com" title="Email contact@womenandtech.com">
+            <a href="mailto:?subject=Women and Tech Interviews <?php echo $interviewee_name; ?>&body=Women and Tech Interviews <?php echo $interviewee_name; ?> http://womenandtech.com/interview/<?php echo $interviewee_url; ?>/" title="Email the interview">
               <i class="fa fa-envelope" aria-hidden="true"></i>
-              <span class="screen-readers">Email contact@womenandtech.com</span>
+              <span class="screen-readers">Email interview</span>
             </a>
           </li>
         </ul>
@@ -60,7 +85,6 @@
         <p>At the moment, and for some time now, I have been working in academia. I worked in industry for a long time, but when the tech bubble burst in 2001 I lost a big job that I had left the UK to take up. I was back in Canada, I had two kids to support and I thought to myself, <em>'You know what? It's time that I taught some of the things that I know.'</em> I had already done some teaching in England at the <a href="http://www.uwe.ac.uk" target="_blank">University of the West of England</a> (UWE) and it was actually one of my friends, Bill Buxton, who suggested that if I were to go back to where I had gone to school and tell them that I was around, he was willing to bet they’d have something they'd like me to teach.</p>
         <p>Well sure enough, I walked in the door at <a href="http://www.ocadu.ca/" target="_blank">OCAD University</a> (formerly the Ontario College of Art and Design) and was introduced to <a href="http://www.linkedin.com/pub/steve-quinlan/14/1b2/654" target="_blank">Steve Quinlan</a>, the Chair of Graphic Design, and <a href="http://apache.ocad.ca/faculty_biographies/bio.php?bid=1374&amp;fac=design" target="_blank">Lenore Richards</a>, the Dean, who offered me a teaching job there and then. This was fantastic, and it helped that I was talking to the right people! They were looking for someone with ideas and experience to teach new media (which was still a very young subject) and technology to design students. My industry perspective and experience with Peter Gabriel's <a href="http://realworld.co.uk/" target="_blank">Real World projects</a>, and having helped to set up the New Media program at UWE in the UK, were just what was needed.</p>
       </dd>
-
     </dl>
 
 
@@ -179,13 +203,10 @@
       </dd>
     </dl>
 
-
-
     <!-- // Pull Quote -->
     <aside class="border pull-quote">
       <p>There was something abstract about [programming], something tangible that I really liked. I'm not a mathematician [...] but it seemed visual and physical, something I could get my hands on.</p>
     </aside>
-
 
     <!-- // Q & A -->
     <dl class="border">
@@ -199,8 +220,6 @@
         <p>And then I met my pals from the band that I ended up joining, Martha and the Muffins, and we were all really interested in using new instruments and experimenting with tape and sound. We were playing with technology and making abstract sound pieces before we were making music together.</p>
       </dd>
     </dl>
-
-
 
     <!-- // Image - Landscape -->
     <div class="border img-landscape">
@@ -259,8 +278,7 @@
       <figure>
         <img src="<?php echo $path_img; ?>landscape-martha-and-the-muffins-at-the-edge.jpg" alt="Martha and the Muffins at the edge">
         <figcaption>
-          <em>Photo credit:
-      <a href="http://www.flickr.com/photos/mcwidi_2/3820431385/" target="_blank">Dan (mcwidi_2)</a></em>
+          <em>Photo credit: <a href="http://www.flickr.com/photos/mcwidi_2/3820431385/" target="_blank">Dan (mcwidi_2)</a></em>
         </figcaption>
       </figure>
     </div>
@@ -313,8 +331,6 @@
     <div class="border img-landscape">
       <figure>
         <img src="<?php echo $path_img; ?>landscape-martha-ladly-selected-works.jpg" alt="Martha Ladly Album Covers">
-        <figcaption>
-        </figcaption>
       </figure>
     </div>
 
@@ -412,27 +428,44 @@
       </dd>
     </dl>
 
-
-    <!-- // Footer Credits -->
+    <!-- // Interview Credits -->
     <footer class="border credits">
+      <?php  // If you don't need a credit, delete the whole <li>. ?>
       <ul>
-        <li>Interview <em>by</em> <a href="http://twitter.com/britburger" rel="author" target="_blank" title="Mark Staplehurst's twitter profile">Mark Staplehurst
-                </a></li>
-        <li>Photography <em>by</em>
-        <a href="http://kidwithcamera.com/" target="_blank">David "Kid With Camera" Waldman</a></li>
-        <li>Editing <em>by</em>
-              <a href="http://work.cassiemcdaniel.com" target="_blank">Cassie McDaniel</a></li>
-        <li>Art Direction<em> by</em>
-              <a href="http://twitter.com/britburger" target="_blank">Mark Staplehurst</a></li>
-        <li>Design<em> by</em>
-              <a href="http://twitter.com/britburger" target="_blank">Mark Staplehurst</a></li>
-        <li>Development<em> by</em>
-              <a href="http://twitter.com/britburger" target="_blank">Mark Staplehurst</a></li>
+        <li>
+          Interview by <a href="<?php echo $interviewer_url; ?>"><?php echo $interviewer; ?></a>
+          <?php if ($interviewer2): echo 'and <a href="'.$interviewer_url2 .'">'.$interviewer2.'</a>';endif; ?>
+        </li>
+        <li>
+          Photography by <a href="<?php echo $photos_url; ?>"><?php echo $photos; ?></a>
+          <?php if ($photos2): echo 'and <a href="'.$photos2_url .'">'.$photos2.'</a>';endif; ?>
+        </li>
+        <li>
+          Editing by <a href="<?php echo $editor_url; ?>"><?php echo $editor; ?></a>
+          <?php if ($editor2): echo 'and <a href="'.$editor2_url .'">'.$editor2.'</a>';endif; ?>
+        </li>
+        <li>
+          Art Direction by <a href="<?php echo $ad_url; ?>"><?php echo $ad; ?></a>
+          <?php if ($ad2): echo 'and <a href="'.$ad2_url .'">'.$ad2.'</a>';endif; ?>
+        </li>
+        <li>
+          Design by <a href="<?php echo $design_url; ?>"><?php echo $design; ?></a>
+          <?php if ($design2): echo 'and <a href="'.$design2_url .'">'.$design2.'</a>';endif; ?>
+        </li>
+        <li>
+          Development by <a href="<?php echo $dev_url; ?>"><?php echo $dev; ?></a>
+          <?php if ($dev2): echo 'and <a href="'.$dev2_url .'">'.$dev2.'</a>';endif; ?>
+        </li>
+        <li>
+          Transcriptions by <a href="<?php echo $transcribe_url; ?>"><?php echo $transcribe; ?></a>
+          <?php if ($transcribe2): echo 'and <a href="'.$transcribe2_url .'">'.$transcribe2.'</a>';endif; ?>
+        </li>
       </ul>
-      <p>This site uses Monotype's Avenir Next by Adrian Fruteger and Akira Kobayashi, Github, Cloudflare, and Windows Azure.</p>
+      <?php include($path_inc."site-credits.php"); ?>
     </footer>
+
+    <!-- // Latest 3 Interviews -->
+    <?php include($path_inc."latest-interviews.php"); ?>
   </main>
-
-
 
 <?php include($path_inc."footer.php"); ?>

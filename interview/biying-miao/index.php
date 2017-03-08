@@ -105,14 +105,20 @@
         <p>In order to teach people what do we began leading workshops. We encourage folks to come in, get their hands dirty with the technology, and see the printers in action.</p>
         <p>Because digital fabrication has the capacity to realize a wide variety of ideas, our projects tend to range a lot in size, application, and industry - from designers, to brands, to hardware startups. I tell my parents that I make things with robots. That’s kind of a whimsical way of describing the nitty-gritty, but they’re always intrigued.</p>
       </dd>
+    </dl>
 
+    <!-- // Q & A -->
+    <dl class="border">
       <!-- // Question -->
       <dt class="interview-q">Hot Pop Factory offers <a href="http://www.hotpopfactory.com/workshops/" target="_blank" class="ng-scope">workshops</a> to people interested in learning more about digital fabrication. Who seems most interested in and receptive to these workshops?</dt>
       <!-- // Answer -->
       <dd class="interview-a">
         <p>When we first started the workshops we received a lot of interest from young professionals in the design and engineering fields hoping to make the transition to 3D. Since then, we continue to meet people across different industries. I think this is because the technology intrigues so many people, no matter what field they’re in. We try to offer very accessible workshops, and love the interest that people have expressed so far.</p>
       </dd>
+    </dl>
 
+    <!-- // Q & A -->
+    <dl class="border">
       <!-- // Question -->
       <dt class="interview-q">You received a bachelor’s degree from the <a href="https://uwaterloo.ca/architecture/" target="_blank" class="ng-scope">School of Architecture at the University of Waterloo</a>. I’m curious about your previous exposure to digital fabrication and 3D technologies while you were in school.</dt>
       <!-- // Answer -->

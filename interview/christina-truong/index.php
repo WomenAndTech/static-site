@@ -1,13 +1,38 @@
 <?php
-  /* Fill out these values to customize the page.
-  $page_title = Interviewee's name
-  $page_theme values: theme-coral, theme-purple, theme-yellow, theme-green, theme-blue
-  */
-
-  $page_title = 'Christina Truong';
+  // $page_theme values: theme-coral, theme-purple, theme-yellow, theme-green, theme-blue
   $page_theme = 'theme-blue';
+  $interviewee_name = 'Christina Truong'; // Page title & share links
+  $interviewee_url = 'christina-truong'; // Share links URLs
+
+  /*
+    INTERVIEW CREDITS:
+    If you need a second name, add a variable with a '2' the end. Example:
+    $interviewer = "First Person";
+    $interviewer_url = "http://twitter.com";
+    $interviewer2 = "Second Person";
+    $interviewer_url2 = "http://mywebsite.com";
+
+    If you don't need a credit, delete the whole <li> in the HTML.
+  */
+  $interviewer = "Brenna O'Brien";
+  $interviewer_url = "http://twitter.com/brennaob";
+  $photos = "Full Name";
+  $photos_url = "";
+  $editor = "Full Name";
+  $editor_url = "";
+  $ad = "Full Name";
+  $ad_url = "";
+  $design = "Full Name";
+  $design_url = "";
+  $dev = "Full Name";
+  $dev_url = "";
+  $transcribe = "Full Name";
+  $transcribe_url = "";
+
+
+  /* Do not change these settings */
   include $_SERVER['DOCUMENT_ROOT'].'/config.php';
-    include ($path_inc."header.php");
+  include ($path_inc."header.php");
 ?>
 
   <main role="main">
@@ -23,26 +48,29 @@
     <header class="border header-interview">
       <div class="wrapper-sm">
         <h2>Christina Truong</h2>
-        <p class="intro">Christina spends her days coding at <a href="http://www.teehanlax.com" target="_blank" title="Teehan+Lax website">Teehan+Lax,</a> teaching frontend development at <a href="http://mediastudies.humber.ca/webdesignandinteractivemedia/" target="_blank" title="Web Design &amp; Interactive Media at Humber College">Humber College,</a> and forging her own path in the web industry. Christina confessed this was her first in-depth interview, but we were excited to find out what makes her tick.</p>
-        <p class="author">An interview with <a href="http://twitter.com/brennaob" rel="author" target="_blank" title="Brenna O'Brien's twitter profile">Brenna O'Brien</a></p>
+        <p class="intro">Christina spends her days coding at <a href="http://www.teehanlax.com" target="_blank" title="Teehan+Lax website">Teehan+Lax,</a> teaching front-end development at <a href="http://mediastudies.humber.ca/webdesignandinteractivemedia/" target="_blank" title="Web Design &amp; Interactive Media at Humber College">Humber College,</a> and forging her own path in the web industry. Christina confessed this was her first in-depth interview, but we were excited to find out what makes her tick.</p>
 
+        <?php // Don't update. Using the same info as is Interview Credits. ?>
+        <p class="author">An interview with <a href="<?php echo $interviewer_url; ?>"><?php echo $interviewer; ?></a></p>
+
+        <?php // Don't update. Using info from PHP variables. ?>
         <ul class="social-share">
           <li>
-            <a href="//facebook.com/WomenAndTech" title="Facebook @WomenAndTech">
+            <a href="http://www.facebook.com/sharer.php?u=http://womenandtech.com/interview/<?php echo $interviewee_url;?>/" title="Facebook @WomenAndTech">
               <i class="fa fa-facebook" aria-hidden="true"></i>
-              <span class="screen-readers">Facebook</span>
+              <span class="screen-readers">Post the interview on Facebook</span>
             </a>
           </li>
           <li>
-            <a href="//twitter.com/WomenAndTech" title="Twitter @WomenAndTech">
+            <a href="http://twitter.com/share?text=Women and Tech Interviews <?php echo $interviewee_name; ?>&url=http://womenandtech.com/interview/<?php echo $interviewee_url; ?>/" title="Twitter @WomenAndTech">
               <i class="fa fa-twitter" aria-hidden="true"></i>
-              <span class="screen-readers">Twitter</span>
+              <span class="screen-readers">Tweet the interview</span>
             </a>
           </li>
           <li>
-            <a href="mailto:contact@womenandtech.com" title="Email contact@womenandtech.com">
+            <a href="mailto:?subject=Women and Tech Interviews <?php echo $interviewee_name; ?>&body=Women and Tech Interviews <?php echo $interviewee_name; ?> http://womenandtech.com/interview/<?php echo $interviewee_url; ?>/">
               <i class="fa fa-envelope" aria-hidden="true"></i>
-              <span class="screen-readers">Email contact@womenandtech.com</span>
+              <span class="screen-readers">Email interview</span>
             </a>
           </li>
         </ul>
@@ -57,10 +85,13 @@
         <p>I had a professor in one of my Communications classes who taught us how to use basic WYSIWYG DreamWeaver and I put together this really awful site. I just thought it was fun. I liked the idea that you could take a blank slate and make something out of it. After I graduated, I didn’t really know what to do with my degree. I ended up working at this temp job; I was an admin assistant but my duties were very far and few between.</p>
         <p>One day I was looking through the mail and there was a pamphlet for Seneca College. I looked at their Web Design program and I thought, “Hey! Why don’t I go back to school and give this a try?” It was four months long and gave me an introduction to everything: HTML, CSS, Photoshop, Flash, PHP and JavaScript.</p>
       </dd>
+    </dl>
 
+    <!-- // Q & A -->
+    <dl class="border">
       <dt class="interview-q">What challenges did you face early in your career?</dt>
       <dd class="interview-a">
-        <p>My program was so short. It was an intro to everything so I didn’t exactly understand the difference between a Web Designer, a Web Developer, Frontend Developer or Backend Developer. It was all the same to me, and I thought you were supposed to know how to do all those things, all at once.</p>
+        <p>My program was so short. It was an intro to everything so I didn’t exactly understand the difference between a Web Designer, a Web Developer, Front-end Developer or Back-end Developer. It was all the same to me, and I thought you were supposed to know how to do all those things, all at once.</p>
       </dd>
     </dl>
 
@@ -71,7 +102,7 @@
       <!-- // Answer -->
       <dd class="interview-a">
         <p>I was a Content Coordinator at a corporate financial company. But on the side I had been doing a little bit of freelance development and I thought, this is what I want to do – I don’t want to just push a button in a content management system and there, there’s a pdf. I wanted to be more creative and do more coding.</p>
-        <p>I ended up breaking into the agency world at a place called <a href="http://www.nurun.com/" target="_blank">Nurun</a> where I was hired as an Interface Developer/Frontend Developer. It was really great because they gave me a chance to actually flex and learn my development skills. So when I moved to this job I thought “Wait a minute, I’m a developer now!” It was a really nice switch, but kind of scary at the same time.</p>
+        <p>I ended up breaking into the agency world at a place called <a href="http://www.nurun.com/" target="_blank">Nurun</a> where I was hired as an Interface Developer/Front-end Developer. It was really great because they gave me a chance to actually flex and learn my development skills. So when I moved to this job I thought “Wait a minute, I’m a developer now!” It was a really nice switch, but kind of scary at the same time.</p>
       </dd>
     </dl>
 
@@ -86,7 +117,7 @@
       <dt class="interview-q">What was scary about it?</dt>
       <!-- // Answer -->
       <dd class="interview-a">
-        <p>When I do something I always want to be good at it. I felt somewhat disadvantaged because I didn’t have a computer science background and a lot of the developers did. I had technically been in the industry for three years at that point, but didn’t actually have a lot of frontend experience.</p>
+        <p>When I do something I always want to be good at it. I felt somewhat disadvantaged because I didn’t have a computer science background and a lot of the developers did. I had technically been in the industry for three years at that point, but didn’t actually have a lot of front-end experience.</p>
       </dd>
     </dl>
 
@@ -152,7 +183,7 @@
     <dl class="border">
       <dt class="interview-q">You mentioned on the Teehan+Lax blog that your job is a perfect fit for you. What makes it such a perfect fit?</dt>
       <dd class="interview-a">
-        <p>I like the fact that I get to have my creative moments, and then I get to use my logical side and build stuff. I can get creative with development, especially with CSS3. I can do so much with it, finding ways to make things work. I think that's why I'm more drawn to frontend development rather than backend. You get to see the output for yourself a bit better.</p>
+        <p>I like the fact that I get to have my creative moments, and then I get to use my logical side and build stuff. I can get creative with development, especially with CSS3. I can do so much with it, finding ways to make things work. I think that's why I'm more drawn to front-end development rather than backend. You get to see the output for yourself a bit better.</p>
         <p>Even if I want to pull my hair out after dealing with one too many bugs, when I’m done I get to say, “Look what I made!” I feel like I’ve accomplished something. I think it balances the creative and the analytical sides of me.</p>
       </dd>
     </dl>
@@ -233,9 +264,7 @@
     <div class="border img-landscape">
       <figure>
         <img src="<?php echo $path_img; ?>landscape-christina-truong-get-milk.jpg" alt="Christina Truong Get Milk">
-        <figcaption>
-          Photo credit:
-      <a href="https://vimeo.com/41917421" title="A still taken from Teehan+Lax's 'Do We Have Milk' experiment trailer" target="_blank">Teehan+Lax Labs</a>
+        <figcaption>Photo credit: <a href="https://vimeo.com/41917421" title="A still taken from Teehan+Lax's 'Do We Have Milk' experiment trailer" target="_blank">Teehan+Lax Labs</a>
         </figcaption>
       </figure>
     </div>
@@ -328,7 +357,7 @@
     </dl>
 
 
-     <div class="border img-landscape">
+    <div class="border img-landscape">
       <figure>
         <img src="<?php echo $path_img; ?>featured-christina-truong-soldering-iron.jpg" alt="Christina Truong Soldering">
         <figcaption>
@@ -416,13 +445,44 @@
       </dd>
     </dl>
 
-    <!-- // Footer Credits -->
+    <!-- // Interview Credits -->
     <footer class="border credits">
-      <p>This site uses Monotype's Avenir Next by Adrian Fruteger and Akira Kobayashi, Github, Cloudflare, and Windows Azure.</p>
+      <?php  // If you don't need a credit, delete the whole <li>. ?>
+      <ul>
+        <li>
+          Interview by <a href="<?php echo $interviewer_url; ?>"><?php echo $interviewer; ?></a>
+          <?php if ($interviewer2): echo 'and <a href="'.$interviewer_url2 .'">'.$interviewer2.'</a>';endif; ?>
+        </li>
+        <li>
+          Photography by <a href="<?php echo $photos_url; ?>"><?php echo $photos; ?></a>
+          <?php if ($photos2): echo 'and <a href="'.$photos2_url .'">'.$photos2.'</a>';endif; ?>
+        </li>
+        <li>
+          Editing by <a href="<?php echo $editor_url; ?>"><?php echo $editor; ?></a>
+          <?php if ($editor2): echo 'and <a href="'.$editor2_url .'">'.$editor2.'</a>';endif; ?>
+        </li>
+        <li>
+          Art Direction by <a href="<?php echo $ad_url; ?>"><?php echo $ad; ?></a>
+          <?php if ($ad2): echo 'and <a href="'.$ad2_url .'">'.$ad2.'</a>';endif; ?>
+        </li>
+        <li>
+          Design by <a href="<?php echo $design_url; ?>"><?php echo $design; ?></a>
+          <?php if ($design2): echo 'and <a href="'.$design2_url .'">'.$design2.'</a>';endif; ?>
+        </li>
+        <li>
+          Development by <a href="<?php echo $dev_url; ?>"><?php echo $dev; ?></a>
+          <?php if ($dev2): echo 'and <a href="'.$dev2_url .'">'.$dev2.'</a>';endif; ?>
+        </li>
+        <li>
+          Transcriptions by <a href="<?php echo $transcribe_url; ?>"><?php echo $transcribe; ?></a>
+          <?php if ($transcribe2): echo 'and <a href="'.$transcribe2_url .'">'.$transcribe2.'</a>';endif; ?>
+        </li>
+      </ul>
+      <?php include($path_inc."site-credits.php"); ?>
     </footer>
 
     <!-- // Latest 3 Interviews -->
     <?php include($path_inc."latest-interviews.php"); ?>
-
   </main>
+
 <?php include($path_inc."footer.php"); ?>

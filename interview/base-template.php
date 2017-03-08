@@ -57,19 +57,19 @@
       <?php // Don't update. Using info from PHP variables. ?>
       <ul class="social-share">
         <li>
-          <a href="http://www.facebook.com/sharer.php?u=http://womenandtech.com/interview/<?php echo $interviewee_url;?>/" title="Facebook @WomenAndTech">
+          <a href="http://www.facebook.com/sharer.php?u=http://womenandtech.com/interview/<?php echo $interviewee_url;?>/" title="Share on Facebook">
             <i class="fa fa-facebook" aria-hidden="true"></i>
             <span class="screen-readers">Post the interview on Facebook</span>
           </a>
         </li>
         <li>
-          <a href="http://twitter.com/share?text=Women and Tech Interviews <?php echo $interviewee_name; ?>&url=http://womenandtech.com/interview/<?php echo $interviewee_url; ?>/" title="Twitter @WomenAndTech">
+          <a href="http://twitter.com/share?text=Women and Tech Interviews <?php echo $interviewee_name; ?>&url=http://womenandtech.com/interview/<?php echo $interviewee_url; ?>/" title="Share on Twitter">
             <i class="fa fa-twitter" aria-hidden="true"></i>
             <span class="screen-readers">Tweet the interview</span>
           </a>
         </li>
         <li>
-          <a href="mailto:?subject=Women and Tech Interviews <?php echo $interviewee_name; ?>&body=Women and Tech Interviews <?php echo $interviewee_name; ?> http://womenandtech.com/interview/<?php echo $interviewee_url; ?>/">
+          <a href="mailto:?subject=Women and Tech Interviews <?php echo $interviewee_name; ?>&body=Women and Tech Interviews <?php echo $interviewee_name; ?> http://womenandtech.com/interview/<?php echo $interviewee_url; ?>/" title="Email the interview">
             <i class="fa fa-envelope" aria-hidden="true"></i>
             <span class="screen-readers">Email interview</span>
           </a>
@@ -83,12 +83,7 @@
   <dl class="border">
     <dt class="interview-q">Question 1?</dt>
     <dd class="interview-a">
-      <p>Paragraph 1.</p>
-      <p>Paragraph 2 (if needed).</p>
-    </dd>
-    <dt class="interview-q">Question 2?</dt>
-    <dd class="interview-a">
-      <p>You can keep adding questions in the same 'dl class="border"' block as long as it's not separated by a pullquote or image.</p>
+      <p>Paragraph 1. If the q&a's are separated by images or pullquotes, you'll have to add this whole block again after (the image block or pullquote block).</p>
       <p>Paragraph 2 (if needed).</p>
     </dd>
   </dl>
@@ -111,15 +106,14 @@
     </figure>
   </div>
 
-  <!-- // Q & A -->
-  <dl class="border">
-    <dt class="interview-q">Another Q&A block?</dt>
-    <dd class="interview-a">
-      <p>If the q&a's are separated by images or pullquotes, you'll have to add this whole block again after (the image block or pullquote block).</p>
-      <p>Paragraph 2 (if needed).</p>
-    </dd>
-  </dl>
 
+  <!-- // Team Signature -->
+  <div class="border signature">
+    <p>
+      with <i class="fa fa-heart-o theme-color" aria-hidden="true" title="love"></i><span class="screen-readers">love</span>
+      from <span class="team theme-color">the Women&&Tech team</span>
+    </p>
+  </div>
 
   <!-- // Interview Credits -->
   <footer class="border credits">

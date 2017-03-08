@@ -1,11 +1,35 @@
 <?php
-  /* Fill out these values to customize the page.
-  $page_title = Interviewee's name
-  $page_theme values: theme-coral, theme-purple, theme-yellow, theme-green, theme-blue
-  */
-
-  $page_title = 'Dessy Daskalov';
+  // $page_theme values: theme-coral, theme-purple, theme-yellow, theme-green, theme-blue
   $page_theme = 'theme-purple';
+  $interviewee_name = 'Dessy Daskalov'; // Page title & share links
+  $interviewee_url = 'dessy-daskalov'; // Share links URLs
+
+  /*
+    INTERVIEW CREDITS:
+    If you need a second name, add a variable with a '2' the end. Example:
+    $interviewer = "First Person";
+    $interviewer_url = "http://twitter.com";
+    $interviewer2 = "Second Person";
+    $interviewer_url2 = "http://mywebsite.com";
+
+    If you don't need a credit, delete the whole <li> in the HTML.
+  */
+  $interviewer = "Lucia Mariani-Vena";
+  $interviewer_url = "http://twitter.com/feastinc";
+  $photos = "Jon Lim";
+  $photos_url = "http://jonlim.ca";
+  $editor = "Lucia Mariani-Vena";
+  $editor_url = "http://twitter.com/feastinc";
+  $ad = "Mark Staplehurst";
+  $ad_url = "http://twitter.com/britburger";
+  $design = "Mark Staplehurst";
+  $design_url = "http://twitter.com/britburger";
+  $dev = "Brett Bergmann";
+  $dev_url = "http://twitter.com/brttbn";
+  $transcribe = "Lucia Mariani-Vena";
+  $transcribe_url = "http://twitter.com/feastinc";
+
+  /* Do not change these settings */
   include $_SERVER['DOCUMENT_ROOT'].'/config.php';
   include ($path_inc."header.php");
 ?>
@@ -25,26 +49,28 @@
         <p class="intro">
           At an early age Dessy committed herself to seeking life’s opportunities.&nbsp;She is now the technical cofounder behind the startup&nbsp;<a href="https://www.greengagemobile.com/">Greengage Mobile.</a>&nbsp;As a developer and entrepreneur, she spends her days leading the development team and evenings teaching people to code.
         </p>
-        <p class="author">An interview with <a href="http://twitter.com/feastinc" rel="author" target="_blank" title="Lucia Mariani-Vena's twitter profile">Lucia Mariani-Vena
-                </a></p>
 
+        <?php // Don't update. Using the same info as is Interview Credits. ?>
+        <p class="author">An interview with <a href="<?php echo $interviewer_url; ?>"><?php echo $interviewer; ?></a></p>
+
+        <?php // Don't update. Using info from PHP variables. ?>
         <ul class="social-share">
           <li>
-            <a href="//facebook.com/WomenAndTech" title="Facebook @WomenAndTech">
+            <a href="http://www.facebook.com/sharer.php?u=http://womenandtech.com/interview/<?php echo $interviewee_url;?>/" title="Facebook @WomenAndTech">
               <i class="fa fa-facebook" aria-hidden="true"></i>
-              <span class="screen-readers">Facebook</span>
+              <span class="screen-readers">Post the interview on Facebook</span>
             </a>
           </li>
           <li>
-            <a href="//twitter.com/WomenAndTech" title="Twitter @WomenAndTech">
+            <a href="http://twitter.com/share?text=Women and Tech Interviews <?php echo $interviewee_name; ?>&url=http://womenandtech.com/interview/<?php echo $interviewee_url; ?>/" title="Twitter @WomenAndTech">
               <i class="fa fa-twitter" aria-hidden="true"></i>
-              <span class="screen-readers">Twitter</span>
+              <span class="screen-readers">Tweet the interview</span>
             </a>
           </li>
           <li>
-            <a href="mailto:contact@womenandtech.com" title="Email contact@womenandtech.com">
+            <a href="mailto:?subject=Women and Tech Interviews <?php echo $interviewee_name; ?>&body=Women and Tech Interviews <?php echo $interviewee_name; ?> http://womenandtech.com/interview/<?php echo $interviewee_url; ?>/">
               <i class="fa fa-envelope" aria-hidden="true"></i>
-              <span class="screen-readers">Email contact@womenandtech.com</span>
+              <span class="screen-readers">Email interview</span>
             </a>
           </li>
         </ul>
@@ -82,7 +108,7 @@
     <!-- // Image - Landscape -->
     <div class="border img-landscape">
       <figure>
-        <img src="<?php echo $path_img; ?>landscape-dessy-daskalov-mars-demo-day.jpg" alt="Mars Demo Day">
+        <img src="<?php echo $path_img;?>landscape-dessy-daskalov-mars-demo-day.jpg" alt="Mars Demo Day">
         <figcaption>
           <em>Photo credit:
           <a href="http://www.marsdd.com/" title="MaRS' Website" target="_blank">MaRS Media</a></em>
@@ -97,8 +123,8 @@
       <!-- // Answer -->
       <dd class="interview-a">
         <p>
-            When I was younger, my parents – especially my dad – were always showing me cool tech stuff. I remember the day my dad first showed me Google’s search engine. Back then people were still using Ask Jeeves. When Dad showed me Google, he also told me about the two guys who started it, <a href="http://en.wikipedia.org/wiki/Larry_Page" title="Larry Page's Wikipedia entry" target="_blank">Larry</a> and <a href="http://en.wikipedia.org/wiki/Sergey_Brin" title="Sergey Brin's Wikipedia entry" target="_blank">Sergey</a>. They were able to scale it up and build this huge company. He told me how amazing it was in this country to have the ability to start from nothing, to build a big company and influence the world with it. I was very young when he was telling me these things.
-          </p>
+          When I was younger, my parents – especially my dad – were always showing me cool tech stuff. I remember the day my dad first showed me Google’s search engine. Back then people were still using Ask Jeeves. When Dad showed me Google, he also told me about the two guys who started it, <a href="http://en.wikipedia.org/wiki/Larry_Page" title="Larry Page's Wikipedia entry" target="_blank">Larry</a> and <a href="http://en.wikipedia.org/wiki/Sergey_Brin" title="Sergey Brin's Wikipedia entry" target="_blank">Sergey</a>. They were able to scale it up and build this huge company. He told me how amazing it was in this country to have the ability to start from nothing, to build a big company and influence the world with it. I was very young when he was telling me these things.
+        </p>
       </dd>
     </dl>
 
@@ -119,11 +145,11 @@
       <!-- // Answer -->
       <dd class="interview-a">
         <p>
-            I was born in Bulgaria and lived there until I was seven. When I was born, Bulgaria was a communist country in which educated people were given limited opportunities to grow professionally. The way my parents tell the story is that the minute the Berlin Wall came down, all these changes started happening and they were eventually allowed to leave. My dad went to every single embassy looking for ways to move to another country.
-          </p>
-          <p>
-              I can put his story into perspective now; my parents were in their 30s when they first left the country in which they were born. We moved here in 1994. We lived in Richmond Hill and the Oak Ridges area until I went to <a href="http://queensu.ca/" title="Queen’s University website" target="_blank">Queen’s University</a> to pursue my Bachelor in Engineering.
-            </p>
+          I was born in Bulgaria and lived there until I was seven. When I was born, Bulgaria was a communist country in which educated people were given limited opportunities to grow professionally. The way my parents tell the story is that the minute the Berlin Wall came down, all these changes started happening and they were eventually allowed to leave. My dad went to every single embassy looking for ways to move to another country.
+        </p>
+        <p>
+          I can put his story into perspective now; my parents were in their 30s when they first left the country in which they were born. We moved here in 1994. We lived in Richmond Hill and the Oak Ridges area until I went to <a href="http://queensu.ca/" title="Queen’s University website" target="_blank">Queen’s University</a> to pursue my Bachelor in Engineering.
+        </p>
       </dd>
     </dl>
 
@@ -134,19 +160,18 @@
       <!-- // Answer -->
       <dd class="interview-a">
         <p>
-            In Engineering at Queens, about twenty percent of the students were women. However, the whole university society makes you feel like you are part of something bigger, even though you happen to be in class with more men than women. There were a lot of guys at events too, but at that age guys want to have girls around, so they don’t make you feel like you don’t belong. I had really great friends, and two of my closest girlfriends today I met in the program.
-          </p>
-          <p>
-            I remember feeling more intimidated when I started working in the corporate space. It wasn’t anything specific that anyone did to make me feel that way; I think I felt intimidated because everyone was so much older. I was 18 and working in an engineering office with all men 50 and older. I laugh about it now.
-          </p>
+          In Engineering at Queens, about twenty percent of the students were women. However, the whole university society makes you feel like you are part of something bigger, even though you happen to be in class with more men than women. There were a lot of guys at events too, but at that age guys want to have girls around, so they don’t make you feel like you don’t belong. I had really great friends, and two of my closest girlfriends today I met in the program.
+        </p>
+        <p>
+          I remember feeling more intimidated when I started working in the corporate space. It wasn’t anything specific that anyone did to make me feel that way; I think I felt intimidated because everyone was so much older. I was 18 and working in an engineering office with all men 50 and older. I laugh about it now.
+        </p>
       </dd>
     </dl>
 
     <!-- // Q & A -->
     <dl class="border">
       <!-- // Question -->
-      <dt class="interview-q">What inspires you? Who inspires you?
-      </dt>
+      <dt class="interview-q">What inspires you? Who inspires you?</dt>
       <!-- // Answer -->
       <dd class="interview-a">
         <p>
@@ -181,8 +206,8 @@
       <!-- // Answer -->
       <dd class="interview-a">
         <p>
-            I moved here young. My parents were educated – Mom and Dad both studied Math in university and my dad has a Master’s in Computer Science – but Mom worked in a donut shop and Dad worked in a pizza place when they came to this country. They had to do tough stuff in the beginning, got their feet on the ground. After five years in Canada, they were much better off than where they came from. The lesson there is to establish your foundation and then take advantage of opportunity. Be inspired by what the future holds. Make a name for yourself. Start volunteering. Do things on the side.
-          </p>
+          I moved here young. My parents were educated – Mom and Dad both studied Math in university and my dad has a Master’s in Computer Science – but Mom worked in a donut shop and Dad worked in a pizza place when they came to this country. They had to do tough stuff in the beginning, got their feet on the ground. After five years in Canada, they were much better off than where they came from. The lesson there is to establish your foundation and then take advantage of opportunity. Be inspired by what the future holds. Make a name for yourself. Start volunteering. Do things on the side.
+        </p>
       </dd>
     </dl>
 
@@ -203,8 +228,8 @@
       <!-- // Answer -->
       <dd class="interview-a">
         <p>
-            I have to give my parents a lot of credit for treating my brother and me the same. My mother never told me that math, science and tech were easy, but the most important thing she did was tell me I could do it. As long as you think it’s possible, you just don’t worry so much. That was huge.
-          </p>
+          I have to give my parents a lot of credit for treating my brother and me the same. My mother never told me that math, science and tech were easy, but the most important thing she did was tell me I could do it. As long as you think it’s possible, you just don’t worry so much. That was huge.
+        </p>
       </dd>
     </dl>
 
@@ -215,14 +240,12 @@
       <!-- // Answer -->
       <dd class="interview-a">
         <p>
-            The founder of Reddit [<a href="http://alexisohanian.com/" title="Alexis Ohanian's website" target="_blank">Alexis Ohanian</a>]. He’s a huge supporter of <a href="http://www.women2.com/ycombinator-alexis-ohanian-pitch-nyc-2012-competition-judge/" target="_blank">women in tech</a> and the <a href="http://www.nytimes.com/2012/01/27/technology/victory-on-antipiracy-issue-buoys-internet-lobby.html?_r=0" target="_blank">open Internet</a>. He made a lot of money and
-            <a href="http://breadpig.com/pages/about-us" target="_blank">uses it for good causes.</a> I look up to him immensely.
-          </p>
-          <p>
-            <a href="http://en.wikipedia.org/wiki/Steve_Wozniak" title="Steve Wozniak's wikipedia entry" target="_blank">
-                Steve Wozniak
-              </a>, the other founder of Apple, seems like the most incredible guy. He made a ton of money but now spends his time as a teacher. He <a href="http://www.easyreadernews.com/60128/steve-wozniak/">taught at a public school for eight years</a> and ended up funding his local region’s school computer program. He has such a passion for this stuff. He is a builder himself and wants to inspire young people.
-            </p>
+          The founder of Reddit [<a href="http://alexisohanian.com/" title="Alexis Ohanian's website" target="_blank">Alexis Ohanian</a>]. He’s a huge supporter of <a href="http://www.women2.com/ycombinator-alexis-ohanian-pitch-nyc-2012-competition-judge/" target="_blank">women in tech</a> and the <a href="http://www.nytimes.com/2012/01/27/technology/victory-on-antipiracy-issue-buoys-internet-lobby.html?_r=0" target="_blank">open Internet</a>. He made a lot of money and
+          <a href="http://breadpig.com/pages/about-us" target="_blank">uses it for good causes.</a> I look up to him immensely.
+        </p>
+        <p>
+          <a href="http://en.wikipedia.org/wiki/Steve_Wozniak" title="Steve Wozniak's wikipedia entry" target="_blank">Steve Wozniak</a>, the other founder of Apple, seems like the most incredible guy. He made a ton of money but now spends his time as a teacher. He <a href="http://www.easyreadernews.com/60128/steve-wozniak/">taught at a public school for eight years</a> and ended up funding his local region’s school computer program. He has such a passion for this stuff. He is a builder himself and wants to inspire young people.
+        </p>
       </dd>
     </dl>
 
@@ -358,26 +381,44 @@
       </dd>
     </dl>
 
-    <!-- // Footer Credits -->
+    <!-- // Interview Credits -->
     <footer class="border credits">
+      <?php  // If you don't need a credit, delete the whole <li>. ?>
       <ul>
-        <li>Interview <em>by</em> <a href="http://twitter.com/feastinc" rel="author" target="_blank" title="Lucia Mariani-Vena's twitter profile">Lucia Mariani-Vena
-                </a></li>
-        <li>Photography <em>by</em> <a href="http://jonlim.ca" target="_blank" title="Jon Lim's porfolio site">Jon Lim</a></li>
-        <li>Editing <em>by</em> <a href="http://twitter.com/feastinc" rel="author" target="_blank" title="Lucia Mariani-Vena's twitter profile">Lucia Mariani-Vena
-                  </a></li>
-        <li>Art Direction<em> by</em>
-              <a href="http://twitter.com/britburger" target="_blank">Mark Staplehurst</a></li>
-        <li>Design<em> by</em>
-              <a href="http://twitter.com/britburger" target="_blank">Mark Staplehurst</a></li>
-        <li>Development<em> by</em>
-              <a href="http://twitter.com/brttb" target="_blank">Brett Bergmann</a></li>
-        <li>Transcriptions<em> by</em>
-          <a href="http://twitter.com/feastinc" rel="author" target="_blank" title="Lucia Mariani-Vena's twitter profile">Lucia Mariani-Vena
-                  </a></li>
+        <li>
+          Interview by <a href="<?php echo $interviewer_url; ?>"><?php echo $interviewer; ?></a>
+          <?php if ($interviewer2): echo 'and <a href="'.$interviewer_url2 .'">'.$interviewer2.'</a>';endif; ?>
+        </li>
+        <li>
+          Photography by <a href="<?php echo $photos_url; ?>"><?php echo $photos; ?></a>
+          <?php if ($photos2): echo 'and <a href="'.$photos2_url .'">'.$photos2.'</a>';endif; ?>
+        </li>
+        <li>
+          Editing by <a href="<?php echo $editor_url; ?>"><?php echo $editor; ?></a>
+          <?php if ($editor2): echo 'and <a href="'.$editor2_url .'">'.$editor2.'</a>';endif; ?>
+        </li>
+        <li>
+          Art Direction by <a href="<?php echo $ad_url; ?>"><?php echo $ad; ?></a>
+          <?php if ($ad2): echo 'and <a href="'.$ad2_url .'">'.$ad2.'</a>';endif; ?>
+        </li>
+        <li>
+          Design by <a href="<?php echo $design_url; ?>"><?php echo $design; ?></a>
+          <?php if ($design2): echo 'and <a href="'.$design2_url .'">'.$design2.'</a>';endif; ?>
+        </li>
+        <li>
+          Development by <a href="<?php echo $dev_url; ?>"><?php echo $dev; ?></a>
+          <?php if ($dev2): echo 'and <a href="'.$dev2_url .'">'.$dev2.'</a>';endif; ?>
+        </li>
+        <li>
+          Transcriptions by <a href="<?php echo $transcribe_url; ?>"><?php echo $transcribe; ?></a>
+          <?php if ($transcribe2): echo 'and <a href="'.$transcribe2_url .'">'.$transcribe2.'</a>';endif; ?>
+        </li>
       </ul>
-      <p>This site uses Monotype's Avenir Next by Adrian Fruteger and Akira Kobayashi, Github, Cloudflare, and Windows Azure.</p>
+      <?php include($path_inc."site-credits.php"); ?>
     </footer>
-  </main>
 
-<?php include($path_inc."footer.php"); ?>
+    <!-- // Latest 3 Interviews -->
+    <?php include($path_inc."latest-interviews.php"); ?>
+    </main>
+
+    <?php include($path_inc."footer.php"); ?>
