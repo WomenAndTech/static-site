@@ -28,7 +28,7 @@
     <nav class="nav-primary">
       <a href="/archive/" <?php if ($page == "archive"): echo 'class="active"'; endif; ?>>Interviews</a>
       <a href="/about/" <?php if ($page == "about"): echo 'class="active"'; endif; ?>>About Us</a>
-      <a href="/contributor-guidelines/" <?php if ($page == "contributor-guidelines"): echo 'class="active"'; endif; ?>>Contribute</a>
+      <a href="/contributor-guidelines/" <?php if ($page == "contribute"): echo 'class="active"'; endif; ?>>Contribute</a>
       <a href="/nominate/" <?php if ($page == "nominate"): echo 'class="active"'; endif; ?>>Nominate</a>
     </nav>
   </header>

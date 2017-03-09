@@ -20,7 +20,7 @@ Save all interviews within the **`interview`** folder.
 Create a folder for the interviewee and name the file index.php.
 
 ```
-interviews/firstname-lastname/index.php
+interview/firstname-lastname/index.php
 ```
 
 ### Interview images
