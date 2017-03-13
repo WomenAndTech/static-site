@@ -19,8 +19,8 @@
       <p>Connect with us: </p>
       <ul class="footer-links">
         <li><a href="//twitter.com/WomenAndTech">Twitter</a></li>
-        <li><a href="#">Facebook</a></li>
-        <li><a href="#">Email</a></li>
+        <li><a href="//www.facebook.com/womenandtech/">Facebook</a></li>
+        <li><a href="mailto:contact@womenandtech.com">Email</a></li>
       </ul>
     </section>
   </footer>
