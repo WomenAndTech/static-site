@@ -14,7 +14,6 @@
     ?></title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link type="text/css" rel="stylesheet" href="//fast.fonts.net/cssapi/28b6dbe0-7189-4bf0-b1ff-a727583465ca.css">
   <link rel="stylesheet" href="<?php echo $path_css; ?>style.css">
 </head>
 <body class="<?php echo $page_theme; ?>">
@@ -29,6 +28,6 @@
       <a href="/archive/" <?php if ($page == "archive"): echo 'class="active"'; endif; ?>>Interviews</a>
       <a href="/about/" <?php if ($page == "about"): echo 'class="active"'; endif; ?>>About Us</a>
       <a href="/contributor-guidelines/" <?php if ($page == "contribute"): echo 'class="active"'; endif; ?>>Contribute</a>
-      <a href="/nominate/" <?php if ($page == "nominate"): echo 'class="active"'; endif; ?>>Nominate</a>
+      <a href="https://docs.google.com/forms/d/1p_rLrRz3JezgW-tEjAKYN1XkyTbVudFuNYHIP0wLktM/edit?usp=drive_web">Nominate</a>
     </nav>
   </header>
