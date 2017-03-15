@@ -6,7 +6,7 @@ Use the folder name of the interviewee for the href.
 
 ?>
 
-  <aside class="past-interviews wrapper">
+  <aside class="interview-cards wrapper">
     <h2>Latest Interviews</h2>
     <a class="view-all" href="/archive/">view all</a>
     <div class="grid-wrapper">
