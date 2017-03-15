@@ -6,7 +6,7 @@
   include ($path_inc."header.php");
 ?>
 
-<main role="main">
+<main role="main" class="default-page">
   <!-- // Default header content -->
   <article class="border">
     <div class="wrapper-sm">

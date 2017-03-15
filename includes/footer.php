@@ -18,9 +18,30 @@
     <section>
       <p>Connect with us: </p>
       <ul class="footer-links">
-        <li><a href="//twitter.com/WomenAndTech">Twitter</a></li>
-        <li><a href="//www.facebook.com/womenandtech/">Facebook</a></li>
-        <li><a href="mailto:contact@womenandtech.com">Email</a></li>
+        <li>
+          <a href="//facebook.com" title="Facebook">
+            <i class="fa fa-facebook" aria-hidden="true"></i>
+            <span class="screen-readers">Facebook</span>
+          </a>
+        </li>
+        <li>
+          <a href="//twitter.com/WomenAndTech" title="Twitter">
+            <i class="fa fa-twitter" aria-hidden="true"></i>
+            <span class="screen-readers">Twitter</span>
+          </a>
+        </li>
+        <li>
+          <a href="//instagram.com/WomenAndTech" title="Instagram">
+            <i class="fa fa-instagram" aria-hidden="true"></i>
+            <span class="screen-readers">Instagram</span>
+          </a>
+        </li>
+        <li>
+          <a href="mailto:contact@womenandtech.com" title="Email">
+            <i class="fa fa-envelope" aria-hidden="true"></i>
+            <span class="screen-readers">Email</span>
+          </a>
+        </li>
       </ul>
     </section>
   </footer>

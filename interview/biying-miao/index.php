@@ -39,7 +39,7 @@
   include ($path_inc."header.php");
 ?>
 
-  <main role="main">
+  <main role="main" class="interview">
 
     <!-- // Featured Image -->
     <div class="border img-feature">

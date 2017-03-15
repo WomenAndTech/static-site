@@ -33,7 +33,7 @@
   include $_SERVER['DOCUMENT_ROOT'].'/config.php';
   include ($path_inc."header.php");
 ?>
-  <main role="main">
+  <main role="main" class="interview">
 
     <!-- // Feature Image -->
     <div class="border img-feature">
