@@ -1,12 +1,12 @@
 <?php
   $page = 'archive';
   $page_title = 'Interviews Archive';
-  $page_theme = 'theme-coral';
+  $page_theme = 'theme-green';
   include $_SERVER['DOCUMENT_ROOT'].'/config.php';
   include ($path_inc."header.php");
 ?>
 
-<main role="main" class="past-interviews wrapper-lg">
+<main role="main" class="interview-cards wrapper-lg">
   <div class="grid-wrapper">
     <article class="grid-4-2-1">
       <a href="/interview/sara-hicks/" class="no-underline">
