@@ -1,6 +1,6 @@
 <?php
   // $page_theme values: theme-coral, theme-purple, theme-yellow, theme-green, theme-blue
-  $page_theme = 'theme-blue';
+  $page_theme = 'theme-yellow';
   $interviewee_name = 'Pearl Chen'; // Page title & share links
   $interviewee_url = 'pearl-chen'; // Share links URLs
 
