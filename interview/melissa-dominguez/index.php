@@ -1,6 +1,6 @@
 <?php
   // $page_theme values: theme-coral, theme-purple, theme-yellow, theme-green, theme-blue
-  $page_theme = 'theme-purple';
+  $page_theme = 'theme-green';
   $interviewee_name = 'Melissa Dominguez';; // Page title & share links
   $interviewee_url = 'melissa-dominguez'; // Share links URLs
 
