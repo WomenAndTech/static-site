@@ -1,6 +1,6 @@
 <?php
   // $page_theme values: theme-coral, theme-purple, theme-yellow, theme-green, theme-blue
-  $page_theme = 'theme-coral';
+  $page_theme = 'theme-blue';
   $interviewee_name = 'Mitchell Baker'; // Page title & share links
   $interviewee_url = 'mitchell-baker'; // Share links URLs
 

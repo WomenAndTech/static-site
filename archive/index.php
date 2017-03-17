@@ -9,6 +9,14 @@
 <main role="main" class="interview-cards wrapper-lg">
   <div class="grid-wrapper">
     <article class="grid-4-2-1">
+      <a href="/interview/aashni-shah/" class="no-underline">
+        <img src="<?php echo $path_img; ?>thumbnail-aashni-shah.png" alt="Aashni Shah">
+        <h3>Sara Hicks</h3>
+        <p>with Cassie Kaiser</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+      </a>
+    </article>
+    <article class="grid-4-2-1">
       <a href="/interview/sara-hicks/" class="no-underline">
         <img src="<?php echo $path_img; ?>thumbnail-sara-hicks.png" alt="Sara Hicks">
         <h3>Sara Hicks</h3>
