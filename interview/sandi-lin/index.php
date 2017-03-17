@@ -365,16 +365,6 @@
       </dd>
     </dl>
 
-    <!-- // Q & A -->
-    <dl class="border">
-      <!-- // Question -->
-      <dt class="interview-q">Without knowing who they are, please pose a question for our next interviewee.</dt>
-      <!-- // Answer -->
-      <dd class="interview-a">
-        <p>Women face many challenges in the technology industry but we also bring many strengths. What do you think is the best part of being a woman in tech?</p>
-      </dd>
-    </dl>
-
     <!-- // Team Signature -->
     <div class="border signature">
       <p>
