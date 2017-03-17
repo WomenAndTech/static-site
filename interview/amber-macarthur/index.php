@@ -1,6 +1,6 @@
 <?php
   // $page_theme values: theme-coral, theme-purple, theme-yellow, theme-green, theme-blue
-  $page_theme = 'theme-blue';
+  $page_theme = 'theme-purple';
   $interviewee_name = 'Amber MacArthur';; // Page title & share links
   $interviewee_url = 'amber-macarthur'; // Share links URLs
 
@@ -409,6 +409,14 @@
         <p>When I was in kindergarten I came second in a colouring contest and had my picture taken for the local paper on Prince Edward Island. When I look back at that photo I definitely had a first place smile, which reminds me how thrilled I was just to be part of the competition. I've held this philosophy close to my heart through my working years, reminding myself that even if I don't come first at everything, showing up and giving it my all is reward enough. </p>
       </dd>
     </dl>
+
+    <!-- // Team Signature -->
+    <div class="border signature">
+      <p>
+        with <i class="fa fa-heart-o theme-color" aria-hidden="true" title="love"></i><span class="screen-readers">love</span>
+        from <span class="team theme-color">the Women&&Tech team</span>
+      </p>
+    </div>
 
     <!-- // Interview Credits -->
     <footer class="border credits">
