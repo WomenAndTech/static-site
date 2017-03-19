@@ -39,7 +39,7 @@
     <!-- Featured Image -->
       <div class="border img-feature">
         <figure>
-          <img src="<?php echo $path_img; ?>featured-aashni-shah.jpg" alt="Aashni Shah">
+          <img src="<?php echo $path_img; ?>landscape-aashni-shah.jpg" alt="Aashni Shah">
         </figure>
       </div>
 
@@ -47,7 +47,7 @@
       <header class="border header-interview">
         <div class="wrapper-sm">
           <h2>Aashni Shah</h2>
-          <p>Sara Hicks has been an influential woman in tech since the earliest days of the web. She has held leadership roles at GeoCities, Yahoo!, Etsy, and Media Temple. Sara is the cofounder and CEO of&nbsp;<a href="https://reactioncommerce.com/">Reaction Commerce</a>, an open-source ecommerce platform.</p>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
 
           <?php // Don't update. Using the same info as is Interview Credits. ?>
           <p class="author">An interview with <a href="<?php echo $interviewer_url; ?>"><?php echo $interviewer; ?></a></p>
@@ -151,8 +151,9 @@
       <!-- // Image - Landscape -->
       <div class="border img-landscape">
         <figure>
-          <img src="<?php echo $path_img; ?>landscape-sara-hicks-dog.jpg" alt="Sara Hicks with her pup Grace">
+          <img src="<?php echo $path_img; ?>landscape-aashni-shah-travels.jpg" alt="Aashni Shah travel collage">
         </figure>
+
       </div>
 
       <!-- // Q & A -->
@@ -218,10 +219,7 @@
 
       <div class="border img-landscape">
        <figure>
-         <img src="<?php echo $path_img; ?>landscape-sara-hicks-cycling.jpg" alt="Sara Hicks cycling">
-         <figcaption>
-          As a 4th generation California, Sara is an avid hiker, surfer, runner, and biker and finds inspiration and rejuvenation from the outdoors.
-         </figcaption>
+         <img src="<?php echo $path_img; ?>landscape-aashni-shah-lions.jpg" alt="Aashni Shah with lions">
        </figure>
      </div>
 
@@ -281,10 +279,7 @@
      <!-- // Image - Landscape -->
      <div class="border img-landscape">
        <figure>
-         <img src="<?php echo $path_img; ?>landscape-sara-hicks-aaron-judd.jpg" alt="Sara Hicks and Aaron Judd">
-         <figcaption>
-           Sara cofounded Ongo and Reaction Commerce in 2013 with Aaron Judd. Together they bootstrapped the business and created an open-source ecommerce platform with a distributed team.
-         </figcaption>
+         <img src="<?php echo $path_img; ?>landscape-aashni-shah-family.jpg" alt="Aashni Shah family">
        </figure>
      </div>
 
@@ -345,10 +340,7 @@
 
      <div class="border img-landscape">
       <figure>
-        <img src="<?php echo $path_img; ?>landscape-sara-hicks-advice.jpg" alt="Sara Hicks advises a team at StackCommerce">
-        <figcaption>
-        Sara advises the team at StackCommerce, a local Venice startup, on topics such as leadership, startups, best practices, technology and collaboration.
-        </figcaption>
+        <img src="<?php echo $path_img; ?>landscape-aashni-shah-camera.jpg" alt="Aashni Shah camera">
       </figure>
     </div>
 
@@ -387,6 +379,8 @@
       <p>Mentorship is something I would suggest to anyone–find those types of people.</p>
     </aside>
 
+
+
     <!-- // Q & A -->
     <dl class="border">
       <!-- // Question -->
@@ -397,6 +391,12 @@
         <p>Mentorship is something I would suggest to anyone—find those types of people. Do those dinners. Go to the meet-ups. Make yourself available for coffee. Then, follow up. It takes an effort and sometimes it’s hard because we all have our comfort zones. I think that’s where I’ve always felt the magic—in real human interaction. In mentoring teams, seeing people take off in their careers, in their lives. It’s so gratifying. It’s great to build products, but it’s the people building them that inspire me the most.</p>
       </dd>
     </dl>
+
+    <div class="border img-landscape">
+     <figure>
+       <img src="<?php echo $path_img; ?>landscape-aashni-shah-speaking.jpg" alt="Aashni Shah speaking">
+     </figure>
+    </div>
 
     <!-- // Q & A -->
     <dl class="border">

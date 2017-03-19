@@ -15,6 +15,18 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="<?php echo $path_css; ?>style.css">
+  <style> /* To be included in style.css */
+    header .white-links, footer .white-links {
+      text-decoration: underline;
+    }
+    header .white-links:hover, footer .white-links:hover {
+      text-decoration: none;
+      color: #2b2b2b;
+    }
+    img.supporter-logo {
+      margin: 1em;
+    }
+  </style>
 </head>
 <body class="<?php echo $page_theme; ?>">
 

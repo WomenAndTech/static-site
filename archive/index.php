@@ -6,14 +6,15 @@
   include ($path_inc."header.php");
 ?>
 
+
 <main role="main" class="interview-cards wrapper-lg">
   <div class="grid-wrapper">
     <article class="grid-4-2-1">
       <a href="/interview/aashni-shah/" class="no-underline">
-        <img src="<?php echo $path_img; ?>thumbnail-aashni-shah.png" alt="Aashni Shah">
+        <img src="<?php echo $path_img; ?>thumbnail-aashni-shah.jpg" alt="Aashni Shah">
         <h3>Aashni Shah</h3>
         <p>with Cassie Kaiser</p>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+        <p>Computer Science student, organizer, leader and speaker within the tech community.</p>
       </a>
     </article>
     <article class="grid-4-2-1">

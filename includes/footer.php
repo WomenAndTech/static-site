@@ -6,7 +6,7 @@
     <section id="mc_embed_signup">
       <form action="//womenandtech.us5.list-manage.com/subscribe/post?u=1370c4a70b43a1285e806a56d&amp;id=123c00728e" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
         <label for="mce-EMAIL">Enter your email address to get updates:</label>
-        <input type="email" value="" name="EMAIL" class="required email" id="mce-EMAIL">&nbsp;
+        <input id="subscribe" type="email" value="" name="EMAIL" class="required email" id="mce-EMAIL">&nbsp;
         <input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe">
         <div id="mce-responses">
           <div class="response" id="mce-error-response" style="display:none"></div>
