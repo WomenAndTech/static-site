@@ -18,7 +18,7 @@
     </article>
     <article class="grid-4-2-1">
       <a href="/interview/sara-hicks/" class="no-underline">
-        <img src="<?php echo $path_img; ?>thumbnail-sara-hicks.png" alt="Sara Hicks">
+        <img src="<?php echo $path_img; ?>thumbnail-sara-hicks.jpg" alt="Sara Hicks">
         <h3>Sara Hicks</h3>
         <p>with Sophie He</p>
         <p>Co-founder and CEO of <!--a href="https://reactioncommerce.com/"-->Reaction Commerce<!--/a-->, an open-source ecommerce platform.
@@ -27,7 +27,7 @@
     </article>
     <article class="grid-4-2-1">
       <a href="/interview/mitchell-baker/" class="no-underline">
-        <img src="<?php echo $path_img; ?>thumbnail-mitchell-baker.png" alt="Mitchell Baker">
+        <img src="<?php echo $path_img; ?>thumbnail-mitchell-baker.jpg" alt="Mitchell Baker">
         <h3>Mitchell Baker</h3>
         <p>with Cassie McDaniel</p>
         <p>Founder of the non-profit tech company <!--a href="http://mozilla.org/"-->Mozilla<!--/a-->, creator of Firefox and champion of the open web.</p>
@@ -35,7 +35,7 @@
     </article>
     <article class="grid-4-2-1">
       <a href="/interview/sandi-lin/" class="no-underline">
-        <img src="<?php echo $path_img; ?>thumbnail-sandi-lin.png" alt="Sandi Lin">
+        <img src="<?php echo $path_img; ?>thumbnail-sandi-lin.jpg" alt="Sandi Lin">
         <h3>Sandi Lin</h3>
         <p>with Sarah Sutherland</p>
         <p>Engineer turned co-founder and CEO of Seattle-based startup Skilljar, an online course delivery platform.
@@ -68,7 +68,7 @@
     </article>
     <article class="grid-4-2-1">
       <a href="/interview/karen-schulman-dupuis/" class="no-underline">
-        <img src="<?php echo $path_img; ?>thumbnail-karen-schulman-dupuis.png" alt="Karen Schulman Dupuis">
+        <img src="<?php echo $path_img; ?>thumbnail-karen-schulman-dupuis.jpg" alt="Karen Schulman Dupuis">
         <h3>Karen Schulman Dupuis</h3>
         <p>with Kelly Seagram</p>
         <p>Connection builder and Manager, Business Development, ICE Practice at MaRS.</p>
@@ -108,7 +108,7 @@
     </article>
     <article class="grid-4-2-1">
       <a href="/interview/dessy-daskalov/" class="no-underline">
-        <img src="<?php echo $path_img; ?>thumbnail-dessy-daskalov.png" alt="Dessy Daskalov">
+        <img src="<?php echo $path_img; ?>thumbnail-dessy-daskalov.jpg" alt="Dessy Daskalov">
         <h3>Dessy Daskalov</h3>
         <p>with Lucia Mariani-Vena</p>
         <p>Developer and entrepreneur, Dessy is the technical cofounder behind the startup Greengage Mobile. </p>
@@ -124,7 +124,7 @@
     </article>
     <article class="grid-4-2-1">
       <a href="/interview/christina-truong/" class="no-underline">
-        <img src="<?php echo $path_img; ?>thumbnail-christina-truong.png" alt="Christina Truong">
+        <img src="<?php echo $path_img; ?>thumbnail-christina-truong.jpg" alt="Christina Truong">
         <h3>Christina Truong</h3>
         <p>with Brenna O'Brien</p>
         <p>Developer at Teehan+Lax and instructor of front end development at Humber College.</p>
@@ -132,7 +132,7 @@
     </article>
     <article class="grid-4-2-1">
       <a href="/interview/ayla-newhouse/" class="no-underline">
-        <img src="<?php echo $path_img; ?>thumbnail-ayla-newhouse.png" alt="Ayla Newhouse">
+        <img src="<?php echo $path_img; ?>thumbnail-ayla-newhouse.jpg" alt="Ayla Newhouse">
         <h3>Ayla Newhouse</h3>
         <p>with Brett Bergmann</p>
         <p>Communication designer bridging the gap between technology and emotion with 1THING and her recent book, Dating by Design.</p>
@@ -140,34 +140,34 @@
     </article>
     <article class="grid-4-2-1">
       <a href="/interview/heather-payne/" class="no-underline">
-        <img src="<?php echo $path_img; ?>thumbnail-heather-payne.png" alt="Heather Payne">
+        <img src="<?php echo $path_img; ?>thumbnail-heather-payne.jpg" alt="Heather Payne">
         <h3>Heather Payne</h3>
         <p>with Cassie McDaniel</p>
-        <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+        <p>Heather co-founded Ladies Learning Code, a not-for-profit to teach women how to code, and its sister company HackerYou.</p>
       </a>
     </article>
     <article class="grid-4-2-1">
       <a href="/interview/ariel-garten/" class="no-underline">
-        <img src="<?php echo $path_img; ?>thumbnail-ariel-garten.png" alt="Ariel Garten">
+        <img src="<?php echo $path_img; ?>thumbnail-ariel-garten.jpg" alt="Ariel Garten">
         <h3>Ariel Garten</h3>
         <p>with Sophie He</p>
-        <p>Quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Ut enim ad minim.</p>
+        <p>Artist, scientist and entrepreneur, Ariel is the CEO of InteraXon, a company specialized in thought-controlled computing.</p>
       </a>
     </article>
     <article class="grid-4-2-1">
       <a href="/infographic-paid-maternity-leave/" class="no-underline">
-        <img src="<?php echo $path_img; ?>infographic-paid-maternity-leave.png" alt="Infographic: Maternity Leave Worldwide">
+        <img src="<?php echo $path_img; ?>thumbnail-infographic-paid-maternity-leave.png" alt="Infographic: Maternity Leave Worldwide">
         <h3>Infographic: Maternity Leave Worldwide</h3>
         <p>by Ivonne Karamoy</p>
-        <p>Quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Ut enim ad minim.</p>
+        <p>After our discussion with Lucia on motherhood, we investigated how countries compare when it comes to government-mandated, paid maternity leave.</p>
       </a>
     </article>
     <article class="grid-4-2-1">
       <a href="/interview/lucia-mariani-vena/" class="no-underline">
-        <img src="<?php echo $path_img; ?>thumbnail-lucia-mariani-vena.png" alt="Lucia Mariani-Vena">
+        <img src="<?php echo $path_img; ?>thumbnail-lucia-mariani-vena.jpg" alt="Lucia Mariani-Vena">
         <h3>Lucia Mariani-Vena</h3>
         <p>with Ivonne Karamoy</p>
-        <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+        <p>Co-founder of the Toronto chapter of <!--a href="http://www.girlsintechtoronto.com" target="_blank" title="Girls In Tech Toronto website"-->Girls in Tech<!--/a-->, a global movement to unite women working in technology.</p>
       </a>
     </article>
   </div>
