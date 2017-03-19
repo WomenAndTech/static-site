@@ -47,7 +47,7 @@
       <header class="border header-interview">
         <div class="wrapper-sm">
           <h2>Sara Hicks</h2>
-          <p>Sara Hicks has been an influential woman in tech since the earliest days of the web. She has held leadership roles at GeoCities, Yahoo!, Etsy, and Media Temple. Sara is the cofounder and CEO of&nbsp;<a href="https://reactioncommerce.com/">Reaction Commerce</a>, an open-source ecommerce platform.</p>
+          <p>Sara Hicks has been an influential woman in tech since the earliest days of the web. She has held leadership roles at GeoCities, Yahoo!, Etsy, and Media Temple. Sara is the co-founder and CEO of&nbsp;<a href="https://reactioncommerce.com/">Reaction Commerce</a>, an open-source ecommerce platform.</p>
 
           <?php // Don't update. Using the same info as is Interview Credits. ?>
           <p class="author">An interview with <a href="<?php echo $interviewer_url; ?>"><?php echo $interviewer; ?></a></p>
