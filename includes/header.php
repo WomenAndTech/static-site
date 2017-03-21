@@ -44,15 +44,15 @@
     [class*="img-"] figcaption a:hover {
       color: #000000 !important;
     }
-
+    .pull-quote {
+      padding: 20px 20px 32px;
+    }
 
     @media only screen and (min-width: 401px) {
       .header-interview {
         padding-top: 20px;
       }
-      .border {
-        padding-bottom: 8px;
-      }
+
     }
 
     @media only screen and (max-width: 400px) {
