@@ -283,7 +283,7 @@
        <figure>
          <img src="<?php echo $path_img; ?>landscape-sara-hicks-aaron-judd.jpg" alt="Sara Hicks and Aaron Judd">
          <figcaption>
-           Sara cofounded Ongo and Reaction Commerce in 2013 with Aaron Judd. Together they bootstrapped the business and created an open-source ecommerce platform with a distributed team.
+           Sara co-founded Ongo and Reaction Commerce in 2013 with Aaron Judd.
          </figcaption>
        </figure>
      </div>

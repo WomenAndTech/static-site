@@ -15,6 +15,56 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="<?php echo $path_css; ?>style.css">
+  <style>
+    .interview-q {
+      margin-bottom: 1em;
+    }
+    .header-interview h2 {
+      font-size: 5rem;
+      margin: 0 0 16px;
+    }
+    dl.border {
+      padding-bottom: 1em !important;
+      padding-top: 1em !important;
+    }
+    [class*="img-"] figcaption {
+      margin: 0 auto 0;
+      line-height: 1.5em;
+    }
+    [class*="img-"] figcaption {
+      padding: 8px 0 0;
+      color: grey;
+      position: relative;
+    }
+
+    [class*="img-"] figcaption a {
+      color: grey !important;
+      background: none !important;
+    }
+    [class*="img-"] figcaption a:hover {
+      color: #000000 !important;
+    }
+
+
+    @media only screen and (min-width: 401px) {
+      .header-interview {
+        padding-top: 20px;
+      }
+      .border {
+        padding-bottom: 8px;
+      }
+    }
+
+    @media only screen and (max-width: 400px) {
+      html {
+        font-size: 60%;
+      }
+      .pull-quote {
+        padding: 16px 10px 26px;
+      }
+    }
+
+  </style>
 </head>
 <body class="<?php echo $page_theme; ?>">
 
