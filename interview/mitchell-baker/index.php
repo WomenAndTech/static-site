@@ -27,9 +27,9 @@
   $design = "Cassie McDaniel";
   $design_url = "https://twitter.com/cassiemc";
   $dev = "Audrey Kuo";
-  $dev_url = "https://twitter.com/MartianMoose";
+  $dev_url = "http://twitter.com/MartianMoose";
   $dev2 = "Erin Ward";
-  $dev_url2 = "https://twitter.com/warderin";
+  $dev_url2 = "http://twitter.com/warderin";
   $transcribe = "Cassie McDaniel";
   $transcribe_url = "https://twitter.com/cassiemc";
 
@@ -154,7 +154,7 @@
       <img src="<?php echo $path_img; ?>landscape-mitchell-baker-speaking.jpg" alt="Mitchell Baker">
 
       <figcaption>
-        Photo credit: <a href="https://www.flickr.com/photos/hfiguiere/11370773124/" target="_blank">Hubert Figuière</a>
+        Baker has served a variety of roles at Mozilla, from founder to volunteer to CEO, and to her current role as Executive Chairwoman of the Board. Photo credit: <a href="https://www.flickr.com/photos/hfiguiere/11370773124/" target="_blank">Hubert Figuière</a>
       </figcaption>
     </figure>
   </div>
@@ -186,7 +186,7 @@
       <img src="<?php echo $path_img; ?>landscape-mitchell-baker-teaching.jpg" alt="Mitchell Baker">
 
       <figcaption>
-      Photo credit: <a href="https://www.flickr.com/photos/flore_frmoz/4343876349" target="_blank">Flore Allemandou </a>
+      Baker sits in on a WoMoz meeting, a group run by Mozilla Reps to encourage diversity (including female participation) in technology. Photo credit: <a href="https://www.flickr.com/photos/flore_frmoz/4343876349" target="_blank">Flore Allemandou </a>
       </figcaption>
     </figure>
   </div>
@@ -230,7 +230,7 @@
       <img src="<?php echo $path_img; ?>landscape-mitchell-baker-teaching2.jpg" alt="Mitchell Baker">
 
       <figcaption>
-      Photo credit: <a href="https://www.flickr.com/photos/oninnovation/4334743935" target="_blank">OnInnovation </a>
+      Often the only woman in the room, Baker has found a way to reach common ground with technologists for over a decade. Photo credit: <a href="https://www.flickr.com/photos/oninnovation/4334743935" target="_blank">OnInnovation </a>
       </figcaption>
     </figure>
   </div>
@@ -370,7 +370,7 @@
     <dd class="interview-a">
       <p>In the setting I grew up in, if you take all of that aside and just say, ‘Will I take jobs that don’t seem to have a future because I’m interested in them? Will I suddenly do something that I always thought I would never do because now seems like the right time? Will I change my mind fundamentally? Will I do something that seems crazy — like Mozilla — because most people don’t believe in it?’</p>
       <p>The answer to those things is clearly yes.</p>
-      <p>The man who used to run Netscape, Jim Barksdale, liked to say, “People love progress. It’s change they can’t stand.” I think about that a lot because most people are uncomfortable or disoriented by change, destabilized by change. You see that in managing or reading people. I am much less so, and my dad was much less so. I like change. Maybe that’s because I’ve been lucky in life, maybe it’s genetic, but on the spectrum of how people respond to change I’m pretty positive. Some things that feel like giant risks to people, well, it’s change – sounds like fun!</p>
+      <p>The man who used to run Netscape, <a href="http://en.wikipedia.org/wiki/Jim_F._Barksdale" title="Jim Barksdale">Jim Barksdale</a>, liked to say, “People love progress. It’s change they can’t stand.” I think about that a lot because most people are uncomfortable or disoriented by change, destabilized by change. You see that in managing or reading people. I am much less so, and my dad was much less so. I like change. Maybe that’s because I’ve been lucky in life, maybe it’s genetic, but on the spectrum of how people respond to change I’m pretty positive. Some things that feel like giant risks to people, well, it’s change – sounds like fun!</p>
       <p>Now you can have a lot of experiences where every change is bad and then it’s totally rational to not like it. It’s not an emotional thing, it’s not a personality thing, it’s just a rational thing.</p>
     </dd>
   </dl>
@@ -405,19 +405,19 @@
       </li>
       <li>
         Photography by <?php echo $photos; ?>
-        <?php if ($photos2): echo 'and <a href="'.$photos2_url .'">'.$photos2.'</a>';endif; ?>
+        <?php if ($photos2): echo 'and <a href="'.$photos_url2 .'">'.$photos2.'</a>';endif; ?>
       </li>
       <li>
         Editing by <a href="<?php echo $editor_url; ?>"><?php echo $editor; ?></a>
-        <?php if ($editor2): echo 'and <a href="'.$editor2_url .'">'.$editor2.'</a>';endif; ?>
+        <?php if ($editor2): echo 'and <a href="'.$editor_url2 .'">'.$editor2.'</a>';endif; ?>
       </li>
       <li>
         Design by <a href="<?php echo $design_url; ?>"><?php echo $design; ?></a>
-        <?php if ($design2): echo 'and <a href="'.$design2_url .'">'.$design2.'</a>';endif; ?>
+        <?php if ($design2): echo 'and <a href="'.$design_url2 .'">'.$design2.'</a>';endif; ?>
       </li>
       <li>
         Development by <a href="<?php echo $dev_url; ?>"><?php echo $dev; ?></a>
-        <?php if ($dev2): echo 'and <a href="'.$dev2_url .'">'.$dev2.'</a>';endif; ?>
+        <?php if ($dev2): echo 'and <a href="'.$dev_url2 .'">'.$dev2.'</a>';endif; ?>
       </li>
       <li>
         Transcriptions by <a href="<?php echo $transcribe_url; ?>"><?php echo $transcribe; ?></a>

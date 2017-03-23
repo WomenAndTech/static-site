@@ -120,7 +120,7 @@
     <!-- // Q & A -->
     <dl class="border">
       <!-- // Question -->
-      <dt class="interview-q">You received a bachelor’s degree from the <a href="https://uwaterloo.ca/architecture/" target="_blank" class="ng-scope">School of Architecture at the University of Waterloo</a>. I’m curious about your previous exposure to digital fabrication and 3D technologies while you were in school.</dt>
+      <dt class="interview-q">You received a bachelor’s degree from the <a href="https://uwaterloo.ca/architecture/" target="_blank" class="ng-scope">School of Architecture</a> at the University of Waterloo. I’m curious about your previous exposure to digital fabrication and 3D technologies while you were in school.</dt>
       <!-- // Answer -->
       <dd class="interview-a">
         <p>The design process for an architect always includes making scaled models before construction because you’re often dealing with large buildings and big budgets. We used digital fabrication to translate our drawings, which lived in the computer, into physical reality as scaled 3D-printed models. When I was going to school this was still a really expensive technology, so we only used it for big budget projects. Otherwise we would make the models by hand. Throughout my architecture career, I began to see the transition from completely hand-made models to digitally fabricated ones. That became a real fascination for me, because it can be quite tedious trying to build curves with 2D pieces of card. As the technology improved, we were making finished products rather than just prototypes or scaled models. This was when I began to transition into creating 3D printed products by Hot Pop Factory.</p>
@@ -194,9 +194,6 @@
     <div class="border img-landscape">
       <figure>
         <img src="<?php echo $path_img; ?>landscape-biying-miao-studio.jpg" alt="Biying Miao Studio">
-        <figcaption>
-          Co-founder Matt Compeau works on a project at the Hot Pop Factory design studio.
-        </figcaption>
       </figure>
     </div>
 

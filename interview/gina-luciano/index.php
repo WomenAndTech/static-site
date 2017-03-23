@@ -273,7 +273,7 @@
     </dl>
 
     <dl class="border">
-      <dt class="interview-q">In our last interview, Karen Schulman Dupuis asked: When were you most vulnerable, and what was the best thing that came from that?</dt>
+      <dt class="interview-q">In our last interview, <a href="http://womenandtech.com/interview/karen-schulman-dupuis/">Karen Schulman Dupuis</a> asked: When were you most vulnerable, and what was the best thing that came from that?</dt>
       <dd class="interview-a">
         <p>I love this question. Vulnerability seems so central to understanding oneself. And if I had to define entrepreneurship in my own terms I'd describe it as a personal odyssey to continually discover that which one has to give to the world. </p>
         <p>The story I want to tell is from the spring of my senior year of high school. Throughout high school, I was very active with sports &amp; photography but I always admired people in the drama club and wondered what it would feel like to get up on stage and be so exposed in front of so many people. Well, my last semester, I landed a lead role in a short play as a woman in a tumultuous relationship with the male lead.  </p>

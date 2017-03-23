@@ -235,7 +235,7 @@
        <dt class="interview-q">Do you notice a lack of women starting companies in the tech industry? If you do, why do you think that might be the case?</dt>
        <!-- // Answer -->
        <dd class="interview-a">
-         <p>Yes, absolutely. The numbers I’ve seen state around <a href="http://www.forbes.com/sites/fridapolli/2013/07/29/we-are-the-3-where-are-all-the-women-tech-entrepreneurs/">around 3% of tech companies are founded by women</a>. Of those companies their founders are typically non-technical and in my experience most of them have either been launching fashion-related e-commerce sites or fitness applications so if you take those out then there’s even fewer women leading technology companies.</p>
+         <p>Yes, absolutely. The numbers I’ve seen state around 3% of tech companies <a href="http://www.forbes.com/sites/fridapolli/2013/07/29/we-are-the-3-where-are-all-the-women-tech-entrepreneurs/">are founded by women</a>. Of those companies their founders are typically non-technical and in my experience most of them have either been launching fashion-related e-commerce sites or fitness applications so if you take those out then there’s even fewer women leading technology companies.</p>
        </dd>
      </dl>
 
@@ -266,7 +266,7 @@
       <!-- // Answer -->
       <dd class="interview-a">
         <p>Absolutely. First I’ll say that I’ve been super lucky because I don’t think I’ve faced that much overt conscious discrimination. Ever since high school I can remember little things, and most of it was subconscious discrimination. I was the top performer in my ninth grade electronics class and I remember the teacher would always pick the boys to be the class helpers. My first job out of college I was in engineering and I would go on business trips frequently. More than once, even though I was wearing a business suit and getting breakfast at the hotel, people would approach me thinking I was the wait staff. Professionally I think sometimes people are surprised that a young woman can be smart, ambitious, and technical.</p>
-        <p>Sometimes I wonder how different things would be if I were a tall white male. A recent study showed that, all else being equal, <a href="http://www.bostonglobe.com/magazine/2013/11/02/how-female-entrepreneurs-can-get-venture-capital-game/Ahn0XfhG3WABm8Q4uoAq6O/story.html">a male founder is 40% more likely to secure financing</a> from investors than a female founder. For the most part I don’t feel that I have faced a ton of discrimination and bias to my face which certainly a lot of women in technology have to deal with so I’m lucky in that respect. I do feel that while we face forms of discrimination, being a woman in tech has many benefits too -- it helps me stand out from the crowd of other startups.</p>
+        <p>Sometimes I wonder how different things would be if I were a tall white male. A recent study showed that, all else being equal, <a href="http://www.bostonglobe.com/magazine/2013/11/02/how-female-entrepreneurs-can-get-venture-capital-game/Ahn0XfhG3WABm8Q4uoAq6O/story.html">a male founder is 40% more likely</a> to secure financing from investors than a female founder. For the most part I don’t feel that I have faced a ton of discrimination and bias to my face which certainly a lot of women in technology have to deal with so I’m lucky in that respect. I do feel that while we face forms of discrimination, being a woman in tech has many benefits too -- it helps me stand out from the crowd of other startups.</p>
       </dd>
     </dl>
 
@@ -321,7 +321,7 @@
       <!-- // Answer -->
       <dd class="interview-a">
         <p>So this is a little embarrassing because usually in interviews people always talk about amazing business books they’ve read, but the last book I read was the <a href="http://www.amazon.com/Divergent-Series-Complete-Box-Set/dp/0062278789#">Divergent Series by Veronica Roth</a>. The first book recently came out and is now a young-adult movie. I usually read non-fiction but ever since doing this startup I need a little mind candy when it comes to my reading.</p>
-        <p>The last business book I read was probably <a href="http://www.amazon.com/Influence-Psychology-Persuasion-Revised-Edition/dp/006124189X">Influence by Robert Cialdini</a>. You know I don’t read business books that often; I actually enjoy reading historical books and biographies more. One of my recent favorites is a biography of James Garfield called D<a href="http://www.amazon.com/Destiny-Republic-Madness-Medicine-President-ebook/dp/B004J4X33O/ref=sr_1_1?s=books&amp;ie=UTF8&amp;qid=1407178494&amp;sr=1-1&amp;keywords=destiny+of+the+republic">Destiny of the Republic</a>.</p>
+        <p>The last business book I read was probably <a href="http://www.amazon.com/Influence-Psychology-Persuasion-Revised-Edition/dp/006124189X">Influence by Robert Cialdini</a>. You know I don’t read business books that often; I actually enjoy reading historical books and biographies more. One of my recent favorites is a biography of James Garfield called <a href="http://www.amazon.com/Destiny-Republic-Madness-Medicine-President-ebook/dp/B004J4X33O/ref=sr_1_1?s=books&amp;ie=UTF8&amp;qid=1407178494&amp;sr=1-1&amp;keywords=destiny+of+the+republic">Destiny of the Republic</a>.</p>
       </dd>
     </dl>
 
@@ -330,7 +330,7 @@
         <img src="<?php echo $path_img; ?>landscape-sandi-lin-market.jpg" alt="Seattle Market">
 
         <figcaption>
-        Photo credit: Doug Gradt
+         The company’s office is a short walk to Seattle’s historic Pike Place Market. Photo credit: Doug Gradt
         </figcaption>
       </figure>
     </div>

@@ -47,6 +47,14 @@
     .pull-quote {
       padding: 20px 20px 32px;
     }
+    .credits .no-italic {
+      font-style: normal;
+    }
+    .theme-green .credits a.secondary-link, .theme-coral .credits a.secondary-link,
+    .theme-blue .credits a.secondary-link, .theme-purple .credits a.secondary-link,
+    .theme-yellow .credits a.secondary-link {
+      text-transform: none;
+    }
 
     @media only screen and (min-width: 401px) {
       .header-interview {

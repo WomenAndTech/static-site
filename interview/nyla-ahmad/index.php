@@ -23,7 +23,7 @@
   $editor = "Brett Bergmann";
   $editor_url = "https://twitter.com/brttb";
   $editor2 = "Ivonne Karamoy";
-  $editor_url2 = "http://www.ivonnekaramoy.com/";
+  $editor_url2 = "http://www.ivonnekaramoy.com";
   $design = "Cassie Kaiser";
   $design_url = "http://twitter.com/CassKaiser";
   $dev = "Audrey Kuo";
@@ -307,23 +307,23 @@
         </li>
         <li>
           Photography by <a href="<?php echo $photos_url; ?>"><?php echo $photos; ?></a>
-          <?php if ($photos2): echo 'and <a href="'.$photos2_url .'">'.$photos2.'</a>';endif; ?>
+          <?php if ($photos2): echo 'and <a href="'.$photos_url2 .'">'.$photos2.'</a>';endif; ?>
         </li>
         <li>
           Editing by <a href="<?php echo $editor_url; ?>"><?php echo $editor; ?></a>
-          <?php if ($editor2): echo 'and <a href="'.$editor2_url .'">'.$editor2.'</a>';endif; ?>
+          <?php if ($editor2): echo 'and <a href="'.$editor_url2 .'">'.$editor2.'</a>';endif; ?>
         </li>
         <li>
           Design by <a href="<?php echo $design_url; ?>"><?php echo $design; ?></a>
-          <?php if ($design2): echo 'and <a href="'.$design2_url .'">'.$design2.'</a>';endif; ?>
+          <?php if ($design2): echo 'and <a href="'.$design_url2 .'">'.$design2.'</a>';endif; ?>
         </li>
         <li>
           Development by <a href="http://twitter.com/MartianMoose">Audrey Kuo</a>
-          <?php if ($dev2): echo 'and <a href="'.$dev2_url .'">'.$dev2.'</a>';endif; ?>
+          <?php if ($dev2): echo 'and <a href="'.$dev_url2 .'">'.$dev2.'</a>';endif; ?>
         </li>
         <li>
           Transcriptions by <a href="http://www.cassiekaiser.com">Cassie Kaiser</a>
-          <?php if ($transcribe2): echo 'and <a href="'.$transcribe2_url .'">'.$transcribe2.'</a>';endif; ?>
+          <?php if ($transcribe2): echo 'and <a href="'.$transcribe_url2 .'">'.$transcribe2.'</a>';endif; ?>
         </li>
       </ul>
       <?php include($path_inc."site-credits.php"); ?>
