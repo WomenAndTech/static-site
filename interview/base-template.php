@@ -125,27 +125,27 @@
       </li>
       <li>
         Photography by <a href="<?php echo $photos_url; ?>"><?php echo $photos; ?></a>
-        <?php if ($photos2): echo 'and <a href="'.$photos2_url .'">'.$photos2.'</a>';endif; ?>
+        <?php if ($photos2): echo 'and <a href="'.$photos_url2 .'">'.$photos2.'</a>';endif; ?>
       </li>
       <li>
         Editing by <a href="<?php echo $editor_url; ?>"><?php echo $editor; ?></a>
-        <?php if ($editor2): echo 'and <a href="'.$editor2_url .'">'.$editor2.'</a>';endif; ?>
+        <?php if ($editor2): echo 'and <a href="'.$editor_url2 .'">'.$editor2.'</a>';endif; ?>
       </li>
       <li>
         Art Direction by <a href="<?php echo $ad_url; ?>"><?php echo $ad; ?></a>
-        <?php if ($ad2): echo 'and <a href="'.$ad2_url .'">'.$ad2.'</a>';endif; ?>
+        <?php if ($ad2): echo 'and <a href="'.$ad_url2 .'">'.$ad2.'</a>';endif; ?>
       </li>
       <li>
         Design by <a href="<?php echo $design_url; ?>"><?php echo $design; ?></a>
-        <?php if ($design2): echo 'and <a href="'.$design2_url .'">'.$design2.'</a>';endif; ?>
+        <?php if ($design2): echo 'and <a href="'.$design_url2 .'">'.$design2.'</a>';endif; ?>
       </li>
       <li>
         Development by <a href="<?php echo $dev_url; ?>"><?php echo $dev; ?></a>
-        <?php if ($dev2): echo 'and <a href="'.$dev2_url .'">'.$dev2.'</a>';endif; ?>
+        <?php if ($dev2): echo 'and <a href="'.$dev_url2 .'">'.$dev2.'</a>';endif; ?>
       </li>
       <li>
         Transcriptions by <a href="<?php echo $transcribe_url; ?>"><?php echo $transcribe; ?></a>
-        <?php if ($transcribe2): echo 'and <a href="'.$transcribe2_url .'">'.$transcribe2.'</a>';endif; ?>
+        <?php if ($transcribe2): echo 'and <a href="'.$transcribe_url2 .'">'.$transcribe2.'</a>';endif; ?>
       </li>
     </ul>
     <?php include($path_inc."site-credits.php"); ?>
