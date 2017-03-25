@@ -1,2 +1,2 @@
-<p class="no-italic">Don't miss another interview, <a href="#subscribe" class="secondary-link">subscribe below</a>.</p>
-<p>This site uses Monotype's Avenir Next by Adrian Fruteger and Akira Kobayashi, icon by Cathy Moser, Github, Cloudflare, and Windows Azure.</p>
+<p>Don't miss another interview, <strong><a href="#subscribe">subscribe below</a></strong>.</p>
+<p class="italic">This site uses Monotype's Avenir Next by Adrian Fruteger and Akira Kobayashi, icon by Cathy Moser, Github, Cloudflare, and Windows Azure.</p>
