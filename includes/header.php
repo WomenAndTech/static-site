@@ -15,6 +15,12 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="<?php echo $path_css; ?>style.css">
+  <style>
+    .theme-purple .team-listing .name, .theme-coral .team-listing .name, .theme-yellow .team-listing .name ,
+    .theme-blue .team-listing .name, .theme-green .team-listing .name {
+      background:none;
+    }
+  </style>
 </head>
 <body class="<?php echo $page_theme; ?>">
 
