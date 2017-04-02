@@ -20,6 +20,15 @@
     .theme-blue .team-listing .name, .theme-green .team-listing .name {
       background:none;
     }
+    .theme-purple .no-border a.no-line, .theme-coral .no-border a.no-line, .theme-yellow .no-border a.no-line,
+    .theme-blue .no-border a.no-line, .theme-green .no-border a.no-line{
+      background:none;
+    }
+    @media only screen and (max-width: 660px) {
+      article h2 {
+          margin: 42px 0 22px;
+      }
+    }
   </style>
 </head>
 <body class="<?php echo $page_theme; ?>">

@@ -16,8 +16,10 @@
   */
   $interviewer = "Cassie Kaiser";
   $interviewer_url = "https://twitter.com/casskaiser";
-  $photos = "Emma Arsenault";
-  $photos_url = "https://instagram.com/emmaearsenault/";
+  $photos = "Mihn Le";
+  $photos_url = "https://g2minhlephotography.wordpress.com/";
+  $photos2 = "Aashni Shah";
+  $photos_url2 = "https://twitter.com/aashnisshah";
   $editor = "Sophie He";
   $editor_url = "http://twitter.com/sophiehe";
   $editor2 = "Cassie Kaiser";
@@ -39,7 +41,7 @@
     <!-- Featured Image -->
       <div class="border img-feature">
         <figure>
-          <img src="<?php echo $path_img; ?>landscape-aashni-shah.jpg" alt="Aashni Shah">
+          <img src="<?php echo $path_img; ?>featured-aashni-shah.jpg" alt="Aashni Shah">
         </figure>
       </div>
 
@@ -97,7 +99,7 @@
         <dt class="interview-q">What kind of things did you get a chance to go out and do? </dt>
         <!-- // Answer -->
         <dd class="interview-a">
-          <p>My school took us on Intercultural trips where we would travel to different parts of the country and interact with the people and culture in those areas. That would include going to a four-to-five day camping trip that is quite literally in the middle of nowhere and learning about the Maasai traditions. We would build huts, tend to goats, celebrate with the local Maasai tribesmen and women and hike. One of our school trips included climbing to the top of Mt Kenya, the second highest mountain in Africa.. It was incredible. Outside of school trips, I’d also travel often with family and friends. I love going scuba diving at the coast and seeing the wildlife in Maasai Mara.</p>
+          <p>My school took us on intercultural trips where we would travel to different parts of the country and interact with the people and culture in those areas. That would include going to a four-to-five day camping trip that is quite literally in the middle of nowhere and learning about the <a href="http://www.maasai-association.org/maasai.html" title="Maasai association website">Maasai</a> traditions. We would build huts, tend to goats, celebrate with the local Maasai tribesmen and women and hike. One of our school trips included climbing to the top of <a href="http://www.kws.go.ke/content/mount-kenya-national-park-reserve" title="Mount Kenya National Park Reserve website">Mt Kenya</a>, the second highest mountain in Africa. It was incredible. Outside of school trips, I’d also travel often with family and friends. I love going scuba diving at the coast and seeing the wildlife in <a href="http://www.maasaimara.com/" title=”Click to find out more about Maasai Mara Wildlife Reserve”>Maasai Mara</a>.</p>
         </dd>
       </dl>
 
@@ -118,14 +120,15 @@
         <dt class="interview-q">What destinations have you traveled to? </dt>
         <!-- // Answer -->
         <dd class="interview-a">
-          <p>Within the US, I’ve traveled to Seattle, San Francisco, California in general, Cleveland, Indianapolis, and Florida. Within Kenya, I’ve traveled to a lot of the different parts, such as Mombasa, Malindi, Maasai Mara, Sabado, Eldoret, and Kisumu. Other countries I’ve been to in Africa include Tanzania, South Africa, Zambia. Then around the rest of the world, there’s Turkey, Indonesia, Singapore, Thailand, Mauritius, India, United Arab Emirates, England, Italy, France, and Malaysia. After graduating, I took an amazing trip around Europe with some friends, and got to visit Greece, Austria, Hungary, Czech Republic, Germany and more of Italy - definitely one of the best trips I’ve ever had! I like collecting shot glasses of all the places I’ve travelled to (since starting University), and have a pretty great collection so far!</p>
+          <p>Within the US, I’ve traveled to Seattle, San Francisco, California in general, Cleveland, Indianapolis, and Florida. Within Kenya, I’ve traveled to a lot of the different parts, such as Mombasa, Malindi, Maasai Mara, Sabado, Eldoret, and Kisumu. Other countries I’ve been to in Africa include Tanzania, South Africa, Zambia. Then around the rest of the world, there’s Turkey, Indonesia, Singapore, Thailand, Mauritius, India, United Arab Emirates, England, Italy, France, and Malaysia. </p>
+          <p>After graduating, I took an amazing trip around Europe with some friends, and got to visit Greece, Austria, Hungary, Czech Republic, Germany and more of Italy - definitely one of the best trips I’ve ever had! I like collecting shot glasses of all the places I’ve travelled to (since starting University), and have a pretty great collection so far!</p>
         </dd>
       </dl>
 
       <!-- // Image - Landscape -->
       <div class="border img-landscape">
         <figure>
-          <img src="<?php echo $path_img; ?>landscape-aashni-shah-travels.jpg" alt="Aashni Shah travel collage">
+          <img src="<?php echo $path_img; ?>landscape-aashni-shah-elephant.jpg" alt="Aashni Shah photo of an Elephant">
           <figcaption>Aashni has had the chance to visit and explore many beautiful places. Travel is an important part of who she is.
           </figcaption>
         </figure>
@@ -161,7 +164,7 @@
      <!-- // Image - Landscape -->
      <div class="border img-landscape">
        <figure>
-         <img src="<?php echo $path_img; ?>landscape-aashni-shah-family.jpg" alt="Aashni Shah family">
+         <img src="<?php echo $path_img; ?>landscape-aashni-shah-camera.jpg" alt="Aashni Shah with camera">
          <figcaption>Aashni’s love for photography goes beyond travel flicks. Check out her <a href="https://instagram.com/aashnisshah">Instagram</a> account to follow her #Project365 initiative where she posts one photos per day to document her life, the places she visits and the people she meets.
          </figcaption>
        </figure>
@@ -174,8 +177,8 @@
        <!-- // Answer -->
        <dd class="interview-a">
          <p>I found out about an event called Hack for Her, hosted at Google Waterloo, and thought, “This sounds really interesting.” I convinced about 15-20 people to come with me. It was different from the normal hackathons I plan, because at this event you were given a problem to solve in 5-6 hours, rather than the full 36 hours of coding. Our team actually came first, so I was super excited! </p>
-         <p>A couple of weeks later, I took part in a hackathon at the Canadian Undergraduate Tech Conference (CUTC). I began to wonder, “Why don’t we have something like MHacks and <a href="http://2015f.pennapps.com" title="PennApps website">PennApps</a> in Canada?” I already had a team of people who were interested and we just kind of decided, “Let’s do this.” </p>
-         <p>We spent the summer planning our first event. I was back home in Kenya, which meant I was awake at 2AM skyping the team in Toronto trying to sort everything out. I was also working, so I’d have to get up at 8AM for work. It was intense, but I have no regrets. I think it was one of the best things I’ve gotten to do! </p>
+         <p>A couple of weeks later, I took part in a hackathon at the Canadian Undergraduate Tech Conference (CUTC). I began to wonder, "Why don’t we have something like <a href="http://mhacks.org" title="MHacks website">MHacks</a> and <a href="http://2015f.pennapps.com" title="PennApps">PennApps</a> in Canada?" I already had a team of people who were interested and we just kind of decided, “Let’s do this.” </p>
+         <p>We spent the summer planning our first event for <a href="https://uofthacks.com/" title="UofT Hacks website">UofTHacks</a>. I was back home in Kenya, which meant I was awake at 2AM skyping the team in Toronto trying to sort everything out. I was also working, so I’d have to get up at 8AM for work. It was intense, but I have no regrets. I think it was one of the best things I’ve gotten to do! </p>
        </dd>
      </dl>
 
@@ -198,13 +201,18 @@
        </dd>
      </dl>
 
+     <!-- // Pull Quote -->
+     <aside class="border pull-quote">
+       <p>When you mix people from different areas and different parts of the world, you really bring together different ideas and solutions</p>
+     </aside>
+
      <!-- // Q & A -->
      <dl class="border">
        <!-- // Question -->
-       <dt class="interview-q">Are you doing anything specifically to encourage more women to attend? </dt>
+       <dt class="interview-q">Did you do anything to encourage more women to attend UofTHacks?</dt>
        <!-- // Answer -->
        <dd class="interview-a">
-         <p>With UofTHacks, we definitely accepted a higher percentage of women since there’s always a lower attendance rate compared to acceptance rate. I’d personally invite women I knew to apply for the event, as well as heavily advertise in women related tech groups. Part of the problem I see with many events is that they’re only advertised in the same set of channels or groups, and if women aren’t a part of those groups then they won’t see the event. Personally talking to women, and especially sharing my positive experiences about the event usually has a better chance of convincing more women to attend. I tag team a lot with one of my best friends, who is the President of the Women’s Computer Science Association. We try to host many other events, not hackathons necessarily, and constantly push increasing women’s involvement at these events.</p>
+         <p>We definitely accepted a higher percentage of women since there was always a lower attendance rate compared to acceptance rate. I’d personally invite women I knew to apply for the event, as well as heavily advertise in women related tech groups. Part of the problem I saw with many events is that they’re only advertised in the same set of channels or groups, and if women aren’t a part of those groups then they won’t see the event. Personally talking to women, and especially sharing my positive experiences about the event usually had a better chance of convincing more women to attend. I tag teamed a lot with one of my best friends, who was the President of the Women’s Computer Science Association. We hosted many other events, not hackathons necessarily, and constantly pushed increasing women’s involvement at those events.</p>
        </dd>
      </dl>
 
@@ -236,7 +244,7 @@
        <!-- // Answer -->
        <dd class="interview-a">
          <p>Do you remember the website <a href="http://www.neopets.com/" title="Neopets website">Neopets</a>? I was a huge Neopets fan as a kid, so I made my own websites for that. I loved making websites. I taught myself HTML and CSS as well as some general website management. </p>
-         <p>When I was 16 and doing the IB program at school, and I had to pick what my courses were going to be. Whatever you’re going to pick is a two-year commitment, so I figured whatever I pick now I need to make sure it applied to what I wanted to do in university. I was pretty sure I wanted to do computer science, maybe law down the line, and since I knew HTML and CSS, I thought it’d be similar enough that I’d figure it out, because obviously HTML is the same thing. I very quickly found out that they’re not the same thing, but fell in love anyway. </p>
+         <p>When I was 16 and doing the <a href="http://www.ibo.org/" title="website for International Baccalaureate organization">International Baccalaureate</a> program at school, and I had to pick what my courses were going to be. Whatever you’re going to pick is a two-year commitment, so I figured whatever I pick now I need to make sure it applied to what I wanted to do in university. I was pretty sure I wanted to do computer science, maybe law down the line, and since I knew HTML and CSS, I thought it’d be similar enough that I’d figure it out, because obviously HTML is the same thing. I very quickly found out that they’re not the same thing, but fell in love anyway. </p>
        </dd>
      </dl>
 
@@ -308,7 +316,7 @@
       <!-- // Answer -->
       <dd class="interview-a">
         <p>We have a space here called the Garage that’s a maker space. This week and last week they had children oriented March break camps. I’d like to start getting more involved in those kinds of things. </p>
-        <p>Outside of work, I’m involved in a project called <a href="http://www.elixirlabs.org/" title="Elixir Labs website">Elixir Labs</a>, a registered non-profit organization that’s committed to building solutions for social good. It started when Aswin Pranam went to a hackathon in Greece where they were working on apps to help Syrian refugees. When he returned to the States he posted a call out on Facebook asking if anyone else would be interested in working on similar type of work. I was like, this is exactly what I want in my life. I wanted to find a way to mix my technical knowledge with my social good intentions and this was a really good way to go about it. We partner with other non-profit organizations who need to build out apps or websites. The great thing is that these aren’t projects or initiatives that we’re starting, these already exist and we’re going in to help implement a technical solution. </p>
+        <p>Outside of work, I’m involved in a project called <a href="http://www.elixirlabs.org/" title="Elixir Labs website">Elixir Labs</a>, a registered non-profit organization that’s committed to building solutions for social good. It started when <a href="https://www.linkedin.com/in/aswinpranam" title="Go to Aswin Pranam’s LinkedIn profile">Aswin Pranam</a> went to a hackathon in Greece where they were working on apps to help Syrian refugees. When he returned to the States he posted a call out on Facebook asking if anyone else would be interested in working on similar type of work. I was like, this is exactly what I want in my life. I wanted to find a way to mix my technical knowledge with my social good intentions and this was a really good way to go about it. We partner with other non-profit organizations who need to build out apps or websites. The great thing is that these aren’t projects or initiatives that we’re starting, these already exist and we’re going in to help implement a technical solution. </p>
       </dd>
     </dl>
 
@@ -319,13 +327,25 @@
       <!-- // Answer -->
       <dd class="interview-a">
         <p>My parents and sister without a doubt. My parents really encouraged me as a child to just go and try everything and anything I could get my hands on. That was anything from photography to math to white water rafting. My dad is a huge math buff, and he passed that love for math to me. As for white water rafting, I’ve done it in three countries now. There’s a pretty good video of me falling into the water. These experiences make it easier to connect with people who share similar interests which means I’m now meeting more people and learning about even more things. </p>
+      </dd>
+    </dl>
+
+    <!-- // Pull Quote -->
+    <aside class="border pull-quote">
+      <p>I try to live by the idea that if I have the ability to help make someone else’s life better, there’s no reason for me not to.</p>
+    </aside>
+
+    <!-- // Q & A -->
+    <dl class="border">
+      <!-- // Answer -->
+      <dd class="interview-a">
         <p>My aunt, who is based in the Toronto area, has had such a heavy influence on me as well. She has helped me out a thousand times over while I studied in Toronto.. My grandparents on both sides are another big influence as well. Their drive, the way that they treat other people, the way 100% of their energy goes toward helping other people-- all that really drives me and makes me want to do the same. I want to make them proud, but I’m also doing this for myself and because it genuinely interests me. I try to live by the idea that if I have the ability to help make someone else’s life better, there’s no reason for me not to.</p>
       </dd>
     </dl>
 
     <div class="border img-landscape">
      <figure>
-       <img src="<?php echo $path_img; ?>" alt="">
+       <img src="<?php echo $path_img; ?>landscape-aashni-shah-family.jpg" alt="Aashni Shah family photo">
        <figcaption>
          Aashni contributes her motivation and success to her family. As a child, her parents both encouraged her to try everything that interested her.
        </figcaption>
