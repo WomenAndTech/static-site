@@ -14,7 +14,7 @@
         <img src="<?php echo $path_img; ?>thumbnail-aashni-shah.jpg" alt="Aashni Shah">
         <h3>Aashni Shah</h3>
         <p>with Cassie Kaiser</p>
-        <p>Computer Science student, organizer, leader and speaker within the tech community.</p>
+        <p>Software Enginner at Microsoft and former Computer Science student at University of Toronto, Aashni is also an active speaker, organizer and leader.</p>
       </a>
     </article>
     <article class="grid-4-2-1">
