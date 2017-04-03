@@ -5,8 +5,11 @@
   */
 
   $page_title = 'Infographic: Parental Leave Worldwide';
-  $page_theme = 'theme-green';
-  include '../header.php';
+  $page_theme = 'theme-coral';
+  include $_SERVER['DOCUMENT_ROOT'].'/config.php';
+  include ($path_inc."header.php");
+
+
 ?>
 
 <main role="main">
@@ -33,4 +36,5 @@
   </footer>
 
 </main>
-<?php include '../footer.php'; ?>
+
+<?php include($path_inc."footer.php"); ?>
