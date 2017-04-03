@@ -30,14 +30,18 @@
   $ad_url2 = "http://twitter.com/britburger";
   $design = "Cassie McDaniel";
   $design_url = "http://work.cassiemcdaniel.com/";
-  $dev = "Brett Bergmann";
-  $dev_url = "http://twitter.com/brttb";
-  $dev2 = "Ray Kao";
-  $dev_url2 = "http://twitter.com/raykao";
-  $transcribe = "Smith Schwartz";
-  $transcribe_url = "http://twitter.com/smithschwartz";
-  $transcribe2 = "Ivonne Karamoy";
-  $transcribe_url2 = "https://twitter.com/ivonnekn";
+  $dev = "Audrey Kuo";
+  $dev_url = "https://twitter.com/MartianMoose";
+  $dev2 = "Brett Bergmann";
+  $dev_url2 = "http://twitter.com/brttb";
+  $dev3 = "Ray Kao";
+  $dev_url3 = "http://twitter.com/raykao";
+  $transcribe = "Cassie Kaiser";
+  $transcribe_url = "http://cassiekaiser.com";
+  $transcribe2 = "Smith Schwartz";
+  $transcribe_url2 = "http://twitter.com/smithschwartz";
+  $transcribe3 = "Ivonne Karamoy";
+  $transcribe_url3 = "https://twitter.com/ivonnekn";
 
   /* Do not change these settings */
   include $_SERVER['DOCUMENT_ROOT'].'/config.php';
@@ -95,8 +99,6 @@
       <dd class="interview-a">
         <p>My parents immigrated when I was ten months old to Regina, Saskatchewan. I grew up with three older brothers and all of us ended up in technology, despite neither of our parents being computer literate. I was the youngest so I had to fight for the things I wanted. That’s probably why I’m good at working in this male-dominated field, because if you want something you have to fight for it.</p>
         <p>I was fairly tomboyish; I played sports all through elementary and high school. I played basketball on a co-ed team. I learned that when you want to do something, it shouldn’t matter who you’re doing it with. Just do what you want to do.</p>
-
-        <p>We were a stereotypical prairie Chinese family [The Canadian prairies stretch over Alberta, Manitoba and Saskatchewan.] We owned a Chinese restaurant. I worked there from when I was twelve. When it wasn’t busy I would read. We had a library half a block away, and if I was interested in something I would clear out that section and read whatever was there. I remember getting a book on BASIC and typing out programs from it. Doing those exercises early on made me realize technology is something you can actually control; you can have it do anything, or make something out of nothing. That was probably the first time I started programming.</p>
       </dd>
     </dl>
 
@@ -104,6 +106,16 @@
     <aside class="border pull-quote">
       <p>Technology is something you can actually control; you can have it do anything, or make something out of nothing.</p>
     </aside>
+
+    <!-- // Q & A -->
+    <dl class="border">
+      <!-- // Answer -->
+      <dd class="interview-a">
+        <p>We were a stereotypical prairie Chinese family <em>[The Canadian prairies stretch over Alberta, Manitoba and Saskatchewan.]</em> We owned a Chinese restaurant. I worked there from when I was twelve. When it wasn’t busy I would read. We had a library half a block away, and if I was interested in something I would clear out that section and read whatever was there. I remember getting a book on BASIC and typing out programs from it. Doing those exercises early on made me realize technology is something you can actually control; you can have it do anything, or make something out of nothing. That was probably the first time I started programming.</p>
+      </dd>
+    </dl>
+
+
 
     <!-- // Q & A -->
     <dl class="border">
@@ -429,23 +441,23 @@
         </li>
         <li>
           Editing by <a href="<?php echo $editor_url; ?>"><?php echo $editor; ?></a>
-          <?php if ($editor2): echo 'and <a href="'.$editor2_url .'">'.$editor2.'</a>';endif; ?>
+          <?php if ($editor2): echo 'and <a href="'.$editor_url2 .'">'.$editor2.'</a>';endif; ?>
         </li>
         <li>
           Art Direction by <a href="<?php echo $ad_url; ?>"><?php echo $ad; ?></a>
-          <?php if ($ad2): echo 'and <a href="'.$ad2_url .'">'.$ad2.'</a>';endif; ?>
+          <?php if ($ad2): echo 'and <a href="'.$ad_url2 .'">'.$ad2.'</a>';endif; ?>
         </li>
         <li>
           Design by <a href="<?php echo $design_url; ?>"><?php echo $design; ?></a>
-          <?php if ($design2): echo 'and <a href="'.$design2_url .'">'.$design2.'</a>';endif; ?>
+          <?php if ($design2): echo 'and <a href="'.$design_url2 .'">'.$design2.'</a>';endif; ?>
         </li>
         <li>
-          Development by <a href="http://twitter.com/MartianMoose">Audrey Kuo</a>, <a href="<?php echo $dev_url; ?>"><?php echo $dev; ?></a>
-          <?php if ($dev2): echo 'and <a href="'.$dev2_url .'">'.$dev2.'</a>';endif; ?>
+          Development by <a href="<?php echo $dev_url; ?>"><?php echo $dev; ?>, <a href="<?php echo $dev_url2; ?>"><?php echo $dev2; ?></a>
+          <?php if ($dev3): echo 'and <a href="'.$dev_url3 .'">'.$dev3.'</a>';endif; ?>
         </li>
         <li>
-          Transcriptions by <a href="http://www.cassiekaiser.com">Cassie Kaiser</a>, <a href="<?php echo $transcribe_url; ?>"><?php echo $transcribe; ?></a>
-          <?php if ($transcribe2): echo 'and <a href="'.$transcribe2_url .'">'.$transcribe2.'</a>';endif; ?>
+          Transcriptions by <a href="<?php echo $transcribe_url; ?>"><?php echo $transcribe; ?>, <a href="<?php echo $transcribe_url2; ?>"><?php echo $transcribe2; ?></a>
+          <?php if ($transcribe3): echo 'and <a href="'.$transcribe_url3 .'">'.$transcribe3.'</a>';endif; ?>
         </li>
       </ul>
       <?php include($path_inc."site-credits.php"); ?>

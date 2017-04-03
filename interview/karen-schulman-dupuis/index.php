@@ -265,22 +265,6 @@
       </dd>
     </dl>
 
-    <!-- // Pull Quote -->
-    <aside class="border pull-quote">
-      <p>Make sure that when we talk to young girls, we don’t focus on their appearance [...] Next time you meet a girl between the ages of two and eighteen, ask her instead about her interests.</p>
-    </aside>
-
-    <!-- // Q & A -->
-    <dl class="border">
-      <!-- // Question -->
-      <dt class="interview-q">In our last interview, <a href="http://womenandtech.com/interview/amber-macarthur/">Amber MacArthur</a> asked: How can we encourage a younger generation of women to care more about brains than beauty when they’re bombarded with images such as Miley Cyrus twerking?</dt>
-      <!-- // Answer -->
-      <dd class="interview-a">
-        <p>On an individual level, one of the most important things we can do is to make sure that when we talk to young girls, we don't focus on their appearance as the topic of conversation. Every time we meet a little girl and say, "Oh, aren't you the cutest! What a pretty dress!" we’re reinforcing the idea that her appearance is the most important thing about her.</p>
-        <p>Next time you meet a girl between the ages of two and eighteen, ask her instead about her interests, her favorite book, or her favorite subject at school. Ask her to tell you about her hobbies.</p>
-      </dd>
-    </dl>
-
     <!-- // Team Signature -->
     <div class="border signature">
       <p>

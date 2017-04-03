@@ -203,23 +203,6 @@
       </dd>
     </dl>
 
-    <!-- // Pull Quote -->
-    <aside class="border pull-quote">
-      <p>There was something abstract about [programming], something tangible that I really liked. I'm not a mathematician [...] but it seemed visual and physical, something I could get my hands on.</p>
-    </aside>
-
-    <!-- // Q & A -->
-    <dl class="border">
-      <!-- // Question -->
-      <dt class="interview-q">So you had a start in technology before recording your first album. Looking back at your career, I had the impression your successes in music, design and technology were all distinct periods of your life, but perhaps they were more interwoven than I had imagined.</dt>
-      <!-- // Answer -->
-      <dd class="interview-a">
-        <p>When I was younger I really wanted to go to art school here at OCAD (it was the Ontario College of Art at the time), and I needed to make money to pay for my tuition. I got this funny little job where a woman trained me to do punch card programming for big mainframe computers. This was before there were even keyboards and displays. I didn't know anything about it, but it had a logic to it that I really liked, and I was not afraid of it. Once I learned to do basic programming I realize that I enjoyed it, and I could work independently; I didn't have to do a 9-5 job, I could program and do data entry and data analysis in the middle of the night if I wanted. It was a good job and it put me through art school.</p>
-        <p>There was something abstract about it, something tangible that I really liked. I'm not a mathematician (I don't have that kind of brain), but it seemed visual and physical, something I could get my hands on. Also, lots of people didn't know how to do it, so it felt sort of like a secret and I felt kind of powerful.</p>
-        <p>At the Ontario College of Art, I was most interested in working in sound, video, <a href="http://en.wikipedia.org/wiki/Holography" target="_blank">holography</a> and disciplines that had technology supporting them. I also did painting and drawing which I had always done, but I wanted to figure out how to combine them. So I took animation, film and video editing; I created sound pieces and edited video to them. The great thing was that in those early days – I'm talking about the late 70s – we had all of the facilities here at the school. We had some of the very first synthesizers, which were not keyboard synthesizers but <a href="http://en.wikipedia.org/wiki/EMS_Synthi_A" target="_blank">peg-board synthesizers</a>.</p>
-        <p>And then I met my pals from the band that I ended up joining, Martha and the Muffins, and we were all really interested in using new instruments and experimenting with tape and sound. We were playing with technology and making abstract sound pieces before we were making music together.</p>
-      </dd>
-    </dl>
 
     <!-- // Image - Landscape -->
     <div class="border img-landscape">
@@ -230,6 +213,32 @@
         </figcaption>
       </figure>
     </div>
+
+    <!-- // Q & A -->
+    <dl class="border">
+      <!-- // Question -->
+      <dt class="interview-q">So you had a start in technology before recording your first album. Looking back at your career, I had the impression your successes in music, design and technology were all distinct periods of your life, but perhaps they were more interwoven than I had imagined.</dt>
+      <!-- // Answer -->
+      <dd class="interview-a">
+        <p>When I was younger I really wanted to go to art school here at OCAD (it was the Ontario College of Art at the time), and I needed to make money to pay for my tuition. I got this funny little job where a woman trained me to do punch card programming for big mainframe computers. This was before there were even keyboards and displays. I didn't know anything about it, but it had a logic to it that I really liked, and I was not afraid of it. Once I learned to do basic programming I realize that I enjoyed it, and I could work independently; I didn't have to do a 9-5 job, I could program and do data entry and data analysis in the middle of the night if I wanted. It was a good job and it put me through art school.</p>
+        <p>There was something abstract about it, something tangible that I really liked. I'm not a mathematician (I don't have that kind of brain), but it seemed visual and physical, something I could get my hands on. Also, lots of people didn't know how to do it, so it felt sort of like a secret and I felt kind of powerful.</p>
+      </dd>
+    </dl>
+
+
+    <!-- // Pull Quote -->
+    <aside class="border pull-quote">
+      <p>There was something abstract about [programming], something tangible that I really liked. I'm not a mathematician [...] but it seemed visual and physical, something I could get my hands on.</p>
+    </aside>
+
+    <!-- // Q & A -->
+    <dl class="border">
+      <!-- // Answer -->
+      <dd class="interview-a">
+        <p>At the Ontario College of Art, I was most interested in working in sound, video, <a href="http://en.wikipedia.org/wiki/Holography" target="_blank">holography</a> and disciplines that had technology supporting them. I also did painting and drawing which I had always done, but I wanted to figure out how to combine them. So I took animation, film and video editing; I created sound pieces and edited video to them. The great thing was that in those early days – I'm talking about the late 70s – we had all of the facilities here at the school. We had some of the very first synthesizers, which were not keyboard synthesizers but <a href="http://en.wikipedia.org/wiki/EMS_Synthi_A" target="_blank">peg-board synthesizers</a>.</p>
+        <p>And then I met my pals from the band that I ended up joining, Martha and the Muffins, and we were all really interested in using new instruments and experimenting with tape and sound. We were playing with technology and making abstract sound pieces before we were making music together.</p>
+      </dd>
+    </dl>
 
     <!-- // Q & A -->
     <dl class="border">
@@ -364,8 +373,6 @@
       <!-- // Answer -->
       <dd class="interview-a">
         <p>It wasn't just about being a woman or a mother; having a career in technology whether you’re a woman or a man – there's so much you need to do to keep up, even if it's just in your particular area of technoculture. In the beginning, we were on the edge; we were a part of creating the revolution in information, communication, and entertainment technologies. Things were happening fast, and they are now moving and accelerating all the time and the stuff that I don't know about my field is now much, much larger than the stuff that I do know. But it's okay, because I don't think you have to know everything about everything to understand your field and to make an impact in it.</p>
-        <p>I think it's really important for women to work. It was important for me that I work to set an example for my own daughters and for me to know enough about technology to be current – in fact, creating currency – and to teach them; I really wanted my daughters to feel comfortable with technology and to enjoy it. I bought them drawing programs for the computer when they were little, they played with my computer, learned how to be technologically creative with software like <a href="http://en.wikipedia.org/wiki/Kid_Pix" target="_blank">Kid Pix</a> and they loved video games like <a href="http://en.wikipedia.org/wiki/The_Sims" target="_blank">the Sims</a>.</p>
-        <p>It’s one of my regrets that I probably didn’t get to spend enough time with the girls when they were little. But when you work in technology, when you work in music, when you work in design – you are inevitably clocking late nights. You sometimes work all through the night and I still occasionally do that if I’ve got a deadline. You just have to keep going. It all worked out and now both my daughters work in technology so they appreciate what it means to have to work to those crazy deadlines.</p>
       </dd>
     </dl>
 
@@ -373,6 +380,15 @@
     <aside class="border pull-quote">
       <p>We were on the edge; we were a part of creating the revolution in information, communication, and entertainment technologies.</p>
     </aside>
+
+    <!-- // Q & A -->
+    <dl class="border">
+      <!-- // Answer -->
+      <dd class="interview-a">
+        <p>I think it's really important for women to work. It was important for me that I work to set an example for my own daughters and for me to know enough about technology to be current – in fact, creating currency – and to teach them; I really wanted my daughters to feel comfortable with technology and to enjoy it. I bought them drawing programs for the computer when they were little, they played with my computer, learned how to be technologically creative with software like <a href="http://en.wikipedia.org/wiki/Kid_Pix" target="_blank">Kid Pix</a> and they loved video games like <a href="http://en.wikipedia.org/wiki/The_Sims" target="_blank">the Sims</a>.</p>
+        <p>It’s one of my regrets that I probably didn’t get to spend enough time with the girls when they were little. But when you work in technology, when you work in music, when you work in design – you are inevitably clocking late nights. You sometimes work all through the night and I still occasionally do that if I’ve got a deadline. You just have to keep going. It all worked out and now both my daughters work in technology so they appreciate what it means to have to work to those crazy deadlines.</p>
+      </dd>
+    </dl>
 
     <!-- // Q & A -->
     <dl class="border">

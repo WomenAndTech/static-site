@@ -137,7 +137,7 @@
     <!-- // Q & A -->
     <dl class="border">
       <!-- // Question -->
-      <dt class="interview-q">Why CBC then?</dt>
+      <dt class="interview-q">Why <a href="https://en.wikipedia.org/wiki/Canadian_Broadcasting_Corporation">CBC</a> then?</dt>
       <!-- // Answer -->
       <dd class="interview-a">
         <p>CBC is just who popped up. It's certainly not the only place to be able to explore the questions that <em>Spark</em> does, but it's a pretty wonderful place to be able to explore them, particularly some of the deeper, softer questions around technology and human relationships, rather than covering the new iPhone or the latest business story about technology – all of which are completely reasonable stories to do about technology, but they're done a lot; we don't need to be doing that. I would say that CBC has given us a lot of freedom in that respect.</p>
@@ -153,7 +153,6 @@
       <dd class="interview-a">
         <p>My stance towards technology is engaged; it's critical but not fearful.</p>
         <p>There's something specifically lovable about seeing somebody doing something really, really smart on the Web. Human ingenuity and creativity is a source of delight, and I have an almost endless appetite for it. It makes me hopeful that this incredibly open dynamic platform can be used to do some amazing things.</p>
-        <p>The hate, I think, comes partly from the irritation everyone feels when something is badly designed or is controlling in ways that you don't want to be controlled.</p>
       </dd>
     </dl>
 
@@ -162,6 +161,13 @@
       <p>My stance towards technology is engaged; it's critical but not fearful.</p>
     </aside>
 
+    <!-- // Q & A -->
+    <dl class="border">
+      <!-- // Answer -->
+      <dd class="interview-a">
+        <p>The hate, I think, comes partly from the irritation everyone feels when something is badly designed or is controlling in ways that you don't want to be controlled.</p>
+      </dd>
+    </dl>
 
       <div class="border img-landscape">
         <figure>
@@ -286,7 +292,7 @@
     <!-- // Q & A -->
     <dl class="border">
       <!-- // Question -->
-      <dt class="interview-q">One of the issues you raise in your book, The Virtual Self, is what is public and what is private, what belongs to us as individuals vs. what is ours collectively. Can you draw a line between them?</dt>
+      <dt class="interview-q">One of the issues you raise in your book, <a href="https://www.amazon.ca/The-Virtual-Self-Digital-Altering/dp/0771070640">The Virtual Self</a>, is what is public and what is private, what belongs to us as individuals vs. what is ours collectively. Can you draw a line between them?</dt>
       <!-- // Answer -->
       <dd class="interview-a">
         <p>No I don’t think you can, or it is challenging to do that.</p>
