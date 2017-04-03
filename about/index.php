@@ -40,7 +40,7 @@
       <p>Thank you for sticking by us and contributing to the conversation. We hope you continue to support us, to get to know the people that make our industry great and to find comfort and inspiration in their stories.</p>
       <p>We've breathed new life into this project and welcome any support. <a href="https://www.patreon.com/WomenAndTech">Become a Patreon</a> and donate to our project if you can. This will help us continue to provide real, meaningful, and diverse stories. </p>
 
-      <p>To contribute an interview or volunteer with the team, please <a href=”mailto:volunteer@womenandtech.com”>email us</a>.</p>
+      <p>To contribute an interview or volunteer with the team, please <a href="mailto:volunteer@womenandtech.com">email us</a>.</p>
 
       <p>For more conversations on diversity, inclusion, tokenism, bias and privilege, we’ve collected <a href="https://medium.com/p/699946389fb/" title="Go to our Medium post with articles highlighting diversity and inclusion">some articles</a> that we think shed light on these topics.</p>
 

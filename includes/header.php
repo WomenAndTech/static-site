@@ -14,6 +14,7 @@
     ?></title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="shortcut icon" href="<?php echo $path_img; ?>favicon-32x32.ico" type="image/x-icon">
   <link rel="stylesheet" href="<?php echo $path_css; ?>style.css">
   <style>
     .theme-purple .team-listing .name, .theme-coral .team-listing .name, .theme-yellow .team-listing .name ,
