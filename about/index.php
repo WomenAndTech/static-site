@@ -46,7 +46,7 @@
 
       <h2>Supporters</h2>
       <p>Our team does this project in our spare time, so support from our friends and community truly keeps us going. We mean it: Thank you!</p>
-      <p><a href=”mailto:contact@womenandtech.com”>Contact us</a> for sponsorship opportunities.</p>
+      <p><a href="mailto:contact@womenandtech.com">Contact us</a> for sponsorship opportunities.</p>
 
       <div class="supporter-logos no-underline">
         <a href="http://camptech.ca"><img src="<?php echo $path_img; ?>camp_tech_logo.png" alt="Camp Tech logo"></a>
