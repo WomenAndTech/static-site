@@ -29,8 +29,8 @@
     }
 
     .fade-in {
-      -webkit-animation-duration: 0.25s;
-      animation-duration:0.25s;
+      -webkit-animation-duration: 0.2s;
+      animation-duration:0.2s;
     }
 
 
