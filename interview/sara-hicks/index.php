@@ -2,7 +2,7 @@
   // $page_theme values: theme-coral, theme-purple, theme-yellow, theme-green, theme-blue
   $page_theme = 'theme-green';
   $interviewee_name = 'Sara Hicks'; // Page title & share links
-  $interviewee_url = 'sandi-lin'; // Share links URLs
+  $interviewee_url = 'sara-hicks'; // Share links URLs
 
   // Twitter & Facebook sharing info
   $social_title = 'Interview with Sara Hicks by Sophie He';
