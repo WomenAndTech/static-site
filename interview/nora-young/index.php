@@ -4,6 +4,11 @@
   $interviewee_name = 'Nora Young'; // Page title & share links
   $interviewee_url = 'nora-young'; // Share links URLs
 
+  // Twitter & Facebook sharing info
+  $social_title = 'Interview with Nora Young by Cassie McDaniel';
+  $social_desc = 'Inquisitive journalist and honeyed voice behind CBC’s long-running technology and culture podcast, Spark, Nora is also author of The Virtual Self.';
+  // Social images are added in header.php but make sure the thumbnail image always follows this format: thumbnail-firstname-lastname.jpg
+
   /*
     INTERVIEW CREDITS:
     If you need a second name, add a variable with a '2' the end. Example:

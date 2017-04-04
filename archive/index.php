@@ -44,7 +44,7 @@
       </a>
     </article>
     <article class="grid-4-2-1">
-      <a href="/interview/bi-ying-miao/" class="no-underline">
+      <a href="/interview/biying-miao/" class="no-underline">
         <img src="<?php echo $path_img; ?>thumbnail-biying-miao.jpg" alt="Biying Miao">
         <h3>Biying Miao</h3>
         <p>with Ruby Watson</p>

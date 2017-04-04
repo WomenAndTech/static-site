@@ -4,6 +4,11 @@
   $interviewee_name = 'Martha Ladly'; // Page title & share links
   $interviewee_url = 'martha-ladly'; // Share links URLs
 
+  // Twitter & Facebook sharing info
+  $social_title = 'Interview with Martha Ladly by Mark Staplehurst';
+  $social_desc = 'Martha\'s career has gone from 80s band member, creative at Peter Gabriel’s Real World properties, co-editor of one of the first mobile design anthologies and now PhD.';
+  // Social images are added in header.php but make sure the thumbnail image always follows this format: thumbnail-firstname-lastname.jpg
+
   /*
     INTERVIEW CREDITS:
     If you need a second name, add a variable with a '2' the end. Example:

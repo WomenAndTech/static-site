@@ -4,6 +4,11 @@
   $interviewee_name = 'Aashni Shah'; // Page title & share links
   $interviewee_url = 'aashni-shah'; // Share links URLs
 
+  // Twitter & Facebook sharing info
+  $social_title = 'Interview with Aashni Shah by Cassie Kaiser';
+  $social_desc = 'Software Enginner at Microsoft and former Computer Science student at University of Toronto, Aashni is also an active speaker, organizer and leader.';
+  // Social images are added in header.php but make sure the thumbnail image always follows this format: thumbnail-firstname-lastname.jpg
+
   /*
     INTERVIEW CREDITS:
     If you need a second name, add a variable with a '2' the end. Example:

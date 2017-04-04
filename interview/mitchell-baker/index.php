@@ -4,6 +4,11 @@
   $interviewee_name = 'Mitchell Baker'; // Page title & share links
   $interviewee_url = 'mitchell-baker'; // Share links URLs
 
+  // Twitter & Facebook sharing info
+  $social_title = 'Interview with Mitchell Baker by Cassie McDaniel';
+  $social_desc = 'Founder of the non-profit tech company Mozilla, creator of Firefox and champion of the open web.';
+  // Social images are added in header.php but make sure the thumbnail image always follows this format: thumbnail-firstname-lastname.jpg
+
   /*
     INTERVIEW CREDITS:
     If you need a second name, add a variable with a '2' the end. Example:

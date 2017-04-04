@@ -4,6 +4,11 @@
   $interviewee_name = 'Sandi Lin'; // Page title & share links
   $interviewee_url = 'sandi-lin'; // Share links URLs
 
+  // Twitter & Facebook sharing info
+  $social_title = 'Interview with Sandi Lin by Sarah Sutherland';
+  $social_desc = 'Engineer turned co-founder and CEO of Seattle-based startup Skilljar, an online course delivery platform.';
+  // Social images are added in header.php but make sure the thumbnail image always follows this format: thumbnail-firstname-lastname.jpg
+
   /*
     INTERVIEW CREDITS:
     If you need a second name, add a variable with a '2' the end. Example:

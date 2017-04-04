@@ -4,6 +4,11 @@
   $interviewee_name = 'Pearl Chen'; // Page title & share links
   $interviewee_url = 'pearl-chen'; // Share links URLs
 
+  // Twitter & Facebook sharing info
+  $social_title = 'Interview with Pearl Chen by Ivonne Karamoy';
+  $social_desc = 'Pearl is a seasoned developer, writer, speaker, and runs tech workshops through her studio, Karma Laboratory.';
+  // Social images are added in header.php but make sure the thumbnail image always follows this format: thumbnail-firstname-lastname.jpg
+
   /*
     INTERVIEW CREDITS:
     If you need a second name, add a variable with a '2' the end. Example:

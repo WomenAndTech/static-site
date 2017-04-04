@@ -4,6 +4,11 @@
   $interviewee_name = 'Heather Payne'; // Page title & share links
   $interviewee_url = 'heather-payne'; // Share links URLs
 
+  // Twitter & Facebook sharing info
+  $social_title = 'Interview with Heather Payne by Cassie McDaniel';
+  $social_desc = 'Heather co-founded Ladies Learning Code, a not-for-profit to teach women how to code, and its sister company HackerYou.';
+  // Social images are added in header.php but make sure the thumbnail image always follows this format: thumbnail-firstname-lastname.jpg
+
   /*
     INTERVIEW CREDITS:
     If you need a second name, add a variable with a '2' the end. Example:

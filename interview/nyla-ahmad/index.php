@@ -4,6 +4,11 @@
   $interviewee_name = 'Nyla Ahmad'; // Page title & share links
   $interviewee_url = 'nyla-ahmad'; // Share links URLs
 
+  // Twitter & Facebook sharing info
+  $social_title = 'Interview with Nyla Ahmad by Audrey Kuo';
+  $social_desc = 'VP at Rogers Communications Inc. and recipient of the 2009 Canadian Women in Communications Technology Innovator Award.';
+  // Social images are added in header.php but make sure the thumbnail image always follows this format: thumbnail-firstname-lastname.jpg
+
   /*
     INTERVIEW CREDITS:
     If you need a second name, add a variable with a '2' the end. Example:

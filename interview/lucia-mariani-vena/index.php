@@ -4,6 +4,11 @@
   $interviewee_name = 'Lucia Mariani-Vena'; // Page title & share links
   $interviewee_url = 'lucia-mariani-vena'; // Share links URLs
 
+  // Twitter & Facebook sharing info
+  $social_title = 'Interview with Lucia Mariani-Vena by Ivonne Karamoy';
+  $social_desc = 'Co-founder of the Toronto chapter of Girls in Tech, a global movement to unite women working in technology.';
+  // Social images are added in header.php but make sure the thumbnail image always follows this format: thumbnail-firstname-lastname.jpg
+
   /*
     INTERVIEW CREDITS:
     If you need a second name, add a variable with a '2' the end. Example:
@@ -316,7 +321,7 @@
       </p>
     </div>
 
-  
+
 
     <!-- // Latest 3 Interviews -->
     <?php include($path_inc."latest-interviews.php"); ?>

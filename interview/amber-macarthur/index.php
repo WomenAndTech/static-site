@@ -4,6 +4,11 @@
   $interviewee_name = 'Amber MacArthur';; // Page title & share links
   $interviewee_url = 'amber-macarthur'; // Share links URLs
 
+  // Twitter & Facebook sharing info
+  $social_title = 'Interview with Amber MacArthur by Kelly Seagram';
+  $social_desc = 'Amber writes for Fast Company, speaks regularly, and is an entrepreneur several times over.';
+  // Social images are added in header.php but make sure the thumbnail image always follows this format: thumbnail-firstname-lastname.jpg
+
   /*
     INTERVIEW CREDITS:
     If you need a second name, add a variable with a '2' the end. Example:

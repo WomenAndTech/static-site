@@ -3,6 +3,10 @@
   $page_theme = 'theme-coral';
   $interviewee_name = 'Ayla Newhouse'; // Page title & share links
   $interviewee_url = 'ayla-newhouse'; // Share links URLs
+  // Twitter & Facebook sharing info
+  $social_title = 'Interview with Ayla Newhouse by Brett Bergmann';
+  $social_desc = 'Communication designer bridging the gap between technology and emotion with 1THING and her recent book, Dating by Design.';
+  // Social images are added in header.php but make sure the thumbnail image always follows this format: thumbnail-firstname-lastname.jpg
 
   /*
     INTERVIEW CREDITS:

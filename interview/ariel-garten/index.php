@@ -4,6 +4,11 @@
   $interviewee_name = 'Ariel Garten';; // Page title & share links
   $interviewee_url = 'ariel-garten'; // Share links URLs
 
+  // Twitter & Facebook sharing info
+  $social_title = 'Interview with Ariel Garten by Sophie He';
+  $social_desc = 'Artist, scientist and entrepreneur, Ariel is the CEO of InteraXon, a company specialized in thought-controlled computing.';
+  // Social images are added in header.php but make sure the thumbnail image always follows this format: thumbnail-firstname-lastname.jpg
+
   /*
     INTERVIEW CREDITS:
     If you need a second name, add a variable with a '2' the end. Example:
@@ -280,7 +285,7 @@
       </p>
     </div>
 
-    
+
 
     <!-- // Latest 3 Interviews -->
     <?php include($path_inc."latest-interviews.php"); ?>
