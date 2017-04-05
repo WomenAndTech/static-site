@@ -15,7 +15,7 @@
   <article class="border">
     <div class="wrapper-sm">
       <h2>Letter to our Readers</h2>
-      <p>We’re relaunched! Let us tell you why…</p>
+      <p>We’ve relaunched! Let us tell you why…</p>
       <p>This little project launched in 2012, a time when gender equality conversations was just gaining momentum. When we founded Women && Tech, it was to challenge the ideas of tech as a male-dominated field. Our original goal was to invite and interview 50 women we admire out for a coffee, talk to them about their work, their experiences and their awesomeness, and share that with the world. By sharing these stories, we wanted to recognize the efforts that women are contributing to this industry, while also elevating one another.</p>
       <p>We’ve interviewed designers, developers, entrepreneurs and multi-faceted women who are shaping and navigating the tech industry. Though we started in Toronto, our readers come from all over the world.  We have shared contributions from other people who have interviewed women in their own cities and communities and are doing their part to elevate and encourage more diversity in our industry. We feel, humbled and encouraged by the response and reach we’ve had in the community.</p>
       <p>Women && Tech has always been a passion project, and behind the scenes we’ve shifted team members, changed hands and struggled to keep up with a publishing schedule that was burdened by an inefficient publishing process. </p>
