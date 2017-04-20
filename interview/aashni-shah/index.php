@@ -21,7 +21,7 @@
   */
   $interviewer = "Cassie Kaiser";
   $interviewer_url = "https://twitter.com/casskaiser";
-  $photos = "Mihn Le";
+  $photos = "Minh Le";
   $photos_url = "https://g2minhlephotography.wordpress.com/";
   $photos2 = "Aashni Shah";
   $photos_url2 = "https://twitter.com/aashnisshah";
