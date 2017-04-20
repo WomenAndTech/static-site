@@ -1,8 +1,8 @@
 <?php
   // $page_theme values: theme-coral, theme-purple, theme-yellow, theme-green, theme-blue
   $page_theme = 'theme-blue';
-  $interviewee_name = 'Christina Truong'; // Page title & share links
-  $interviewee_url = 'christina-truong'; // Share links URLs
+  $interviewee_name = 'Christina Truong'; // Use for page title & share links
+  $interviewee_url = 'christina-truong'; // Used for share links URLs
 
   // Twitter & Facebook sharing info
   $social_title = 'Interview with Aashni Shah with Cassie Kaiser';
@@ -53,13 +53,13 @@
   <!-- // Interview Header -->
   <header class="border header-interview">
     <div class="wrapper-sm">
-      <h2>Interviewee Name</h2>
-      <p class="intro">Intro paragraph.</p>
+      <h2>Interviewee Name [update this]</h2>
+      <p class="intro">Intro paragraph.[update this]</p>
 
       <?php // Don't update. Using the same info as is Interview Credits. ?>
       <p class="author">An interview with <a href="<?php echo $interviewer_url; ?>"><?php echo $interviewer; ?></a></p>
 
-      <?php // Don't update. Using info from PHP variables. ?>
+      <?php // Don't update. Using the info from PHP variables at the top of the page. ?>
       <ul class="social-share">
         <li>
           <a href="http://www.facebook.com/sharer.php?u=http://womenandtech.com/interview/<?php echo $interviewee_url;?>/" title="Share on Facebook">
@@ -83,23 +83,23 @@
     </div>
   </header>
 
-
-  <!-- // Q & A -->
+  <?php // Add as many as required. You can delete this line. ?>
+  <!-- // Q & A -  Add as many as required. -->
   <dl class="border">
-    <dt class="interview-q">Question 1?</dt>
+    <dt class="interview-q">Question 1? [update this]</dt>
     <dd class="interview-a">
       <p>Paragraph 1. If the q&a's are separated by images or pullquotes, you'll have to add this whole block again after (the image block or pullquote block).</p>
       <p>Paragraph 2 (if needed).</p>
     </dd>
   </dl>
 
-
+  <?php // Add as many as required. You can delete this line. ?>
   <!-- // Pull Quote -->
   <aside class="border pull-quote">
     <p>Pull quote example. Move this whole block after a Q&A block or image.</p>
   </aside>
 
-
+  <?php // Add as many as required. You can delete this line. ?>
   <!-- // Image - Landscape -->
   <div class="border img-landscape">
     <figure>
@@ -111,7 +111,6 @@
     </figure>
   </div>
 
-
   <!-- // Team Signature -->
   <div class="border signature">
     <p>
@@ -121,8 +120,8 @@
   </div>
 
   <!-- // Interview Credits -->
+  <?php  // If you don't need a specific credit, delete the whole <li>. Add the names in the customization options at the top of the page. ?>
   <footer class="border credits">
-    <?php  // If you don't need a credit, delete the whole <li>. ?>
     <ul>
       <li>
         Interview by <a href="<?php echo $interviewer_url; ?>"><?php echo $interviewer; ?></a>
@@ -153,11 +152,14 @@
         <?php if ($transcribe2): echo 'and <a href="'.$transcribe_url2 .'">'.$transcribe2.'</a>';endif; ?>
       </li>
     </ul>
-    <?php include($path_inc."site-credits.php"); ?>
+    <?php // Global site credits
+    include($path_inc."site-credits.php");
+    ?>
   </footer>
 
   <!-- // Latest 3 Interviews -->
   <?php include($path_inc."latest-interviews.php"); ?>
 </main>
 
+<!-- // Global Footer -->
 <?php include($path_inc."footer.php"); ?>
