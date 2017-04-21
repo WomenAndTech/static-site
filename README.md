@@ -25,7 +25,7 @@ This project uses [editorconfig](http://editorconfig.org/) to maintain consisten
 
 ### Local development setup
 
-If you're unfamiliar with Git, Github and the Command Line, view the [Intro to Git](docs/intro-to-git.md) doc.
+**If you're unfamiliar with Git, Github and the Command Line, view the [Intro to Git](docs/intro-to-git.md) doc.
 
 **Step 1:** Clone this repo to make a local copy
 
