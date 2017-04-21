@@ -1,5 +1,7 @@
-# Women&&Tech Static Site
+# Women&&Tech
+Below are instructions for adding interviews to the current site. If global changes are required, they should be updated in the Style Guide as well.
 
+<br>
 ## Style Guide
 
 The Style Guide contains examples, style patterns, code snippets and page templates and can be viewed here:
@@ -8,23 +10,27 @@ The Style Guide contains examples, style patterns, code snippets and page templa
 The Style Guide repo can be viewed here:
 <https://github.com/WomenAndTech/style_guide>
 
+<br>
 ## Text Editors and Consistent Code Styles
 This project uses [editorconfig](http://editorconfig.org/) to maintain a consistent coding style. Make sure your text editor has the editorconfig [plugin](http://editorconfig.org/#download) installed.
 
 **Atom Users:** The Whitespace plugin (installed by default) has `Trim trailing whitespace` option turned on. Turn this *off* in the Whitespace plugin settings, otherwise it overwrites the setting in [.editorconfig](.editorconfig).
 
+<br>
 ## Making Updates
 
 ### Local development setup
 
-1. Make a local copy of this repo. Save it to your computer by cloning it.
-[Clone a copy](https://help.github.com/articles/cloning-a-repository/) of this repo using Command Line.
+**Step 1:** Make a local copy of this repo and ave it to your computer by *cloning* it.
 
-You can also use software such as [SourceTree](https://www.sourcetreeapp.com) to [clone the repo](https://confluence.atlassian.com/bitbucket/clone-a-repository-223217891.html#Clonearepository-CloningarepositorywithSourceTree) instead.
+[Clone a copy](https://help.github.com/articles/cloning-a-repository/) using Command Line OR use software such as [SourceTree](https://www.sourcetreeapp.com) to [clone the repo](https://confluence.atlassian.com/bitbucket/clone-a-repository-223217891.html#Clonearepository-CloningarepositorywithSourceTree).
 
-2. To view PHP files, you must run a local server.
+For more info about Git and Github, view the [Intro to Git](docs/intro-to-git.md) doc.
+
+**Step 2:** Unlike HTML files, to view PHP files, you must run a local server.
 
 For Macs:
+
 * Open Terminal and navigate to your local copy, saved in step 1.
   * use the *change directory* (`cd`) command and the path to your project files
   * shortcut: type cd, space then drag your folder into Terminal
@@ -43,6 +49,7 @@ View the site locally at <http://localhost:8000> (also listed in your Terminal w
 
 You can also use software and tools such as Codekit, Mamp, Grunt or Gulp to run a local server. However, don't save any files generated from these tools into the main repo. We're trying to reduce the number of dependencies on specific tools to make it flexible for different workflow preferences.
 
+<br>
 ## File Naming and Structure
 
 ### Interviews
