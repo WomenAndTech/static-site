@@ -1,43 +1,49 @@
 # Women&&Tech
-Below are instructions for adding interviews to the current site. If global changes are required, they should be updated in the Style Guide as well.
+Below are instructions for adding interviews and page content to the current site. If global changes are required, they should be updated in the Style Guide which contains all the development files (e.g. Sass files). The updated CSS file and any HTML revisions should then be added back to this repo.
 
 <br>
+
 ## Style Guide
 
-The Style Guide contains examples, style patterns, code snippets and page templates and can be viewed here:
+The Style Guide should be used as a reference for adding content to the site. It contains examples, style patterns, code snippets and page templates and can be viewed here:
 <http://womenandtech.github.io/style_guide>
 
-The Style Guide repo can be viewed here:
+The Style Guide *repo* can be viewed here:
 <https://github.com/WomenAndTech/style_guide>
 
 <br>
+
 ## Text Editors and Consistent Code Styles
-This project uses [editorconfig](http://editorconfig.org/) to maintain a consistent coding style. Make sure your text editor has the editorconfig [plugin](http://editorconfig.org/#download) installed.
+
+This project uses [editorconfig](http://editorconfig.org/) to maintain consistent coding styles. Make sure your text editor has the editorconfig [plugin](http://editorconfig.org/#download) installed.
 
 **Atom Users:** The Whitespace plugin (installed by default) has `Trim trailing whitespace` option turned on. Turn this *off* in the Whitespace plugin settings, otherwise it overwrites the setting in [.editorconfig](.editorconfig).
 
 <br>
+
 ## Making Updates
 
 ### Local development setup
 
-**Step 1:** Make a local copy of this repo and ave it to your computer by *cloning* it.
+If you're unfamiliar with Git, Github and the Command Line, view the [Intro to Git](docs/intro-to-git.md) doc.
 
-[Clone a copy](https://help.github.com/articles/cloning-a-repository/) using Command Line OR use software such as [SourceTree](https://www.sourcetreeapp.com) to [clone the repo](https://confluence.atlassian.com/bitbucket/clone-a-repository-223217891.html#Clonearepository-CloningarepositorywithSourceTree).
+**Step 1:** Clone this repo to make a local copy
 
-For more info about Git and Github, view the [Intro to Git](docs/intro-to-git.md) doc.
+Use Command Line or software such as [SourceTree](https://www.sourcetreeapp.com) or [Github Desktop](https://help.github.com/desktop/) to clone the repo.
 
-**Step 2:** Unlike HTML files, to view PHP files, you must run a local server.
+**Step 2:** Run a local server
+
+This site uses PHP files to do basic templating and add dynamic content. Unlike HTML files, to view PHP files, you must run a local server.
 
 For Macs:
 
-* Open Terminal and navigate to your local copy, saved in step 1.
-  * use the *change directory* (`cd`) command and the path to your project files
-  * shortcut: type cd, space then drag your folder into Terminal
+* Open Terminal and navigate to your local copy from step 1.
+* use the *change directory* (`cd`) command and the path to your project files
 
 ```
 cd /Users/username/path/to/static-site
 ```
+**shortcut:** type cd, space then drag your folder into Terminal to add the file directory path
 
 * Run the following command in Terminal to start your local server.
 
@@ -47,13 +53,15 @@ php -S localhost:8000
 
 View the site locally at <http://localhost:8000> (also listed in your Terminal window message).
 
-You can also use software and tools such as Codekit, Mamp, Grunt or Gulp to run a local server. However, don't save any files generated from these tools into the main repo. We're trying to reduce the number of dependencies on specific tools to make it flexible for different workflow preferences.
+**Note:** You can also use software and tools such as Codekit, Mamp, Grunt or Gulp to run a local server. However, don't save any files generated from these tools into the main repo. We're trying to reduce the number of dependencies on specific tools to make it flexible for different workflow preferences.
 
 <br>
+
 ## File Naming and Structure
 
 ### Interviews
-Save all interviews within the **`interview`** directory. Create a new folder for the interviewee using their `firstname-lastname`. Name the interview content file index.php.
+
+Save all interviews within the **`interview`** directory. Create a new folder for the interviewee and save the interview content into an index.php file following the structure below.
 
 ```
 interview/firstname-lastname/index.php
@@ -62,7 +70,8 @@ interview/firstname-lastname/index.php
 #### Interview Images
 Save all images within the `assets > img` folder.
 
-Name each file using a prefix to indicate the type of image and the name of the interviewee.
+To indicate the type of image, use a prefix followed by the name of the interviewee.
+Refer to the [style guide](http://womenandtech.github.io/style_guide) for image options and code samples.
 
 ```
 assets/img/featured-firstname-lastname.jpg
@@ -88,18 +97,20 @@ For the past interview cards & archive page thumbnails, use this convention:
 ```
 assets/img/thumbnail-first-lastname.jpg
 ```
+<br>
 
 ## Adding Interview Content
 
 Use the **`base-template.php`** starter file, located in the **`interview`** folder. Copy the contents into your `index.php` as your starting point.
 
-This template includes the global header, footer as well as some common content modules and instructions for customizing the page.
+This template includes the global header, footer, common content modules and instructions for customizing the page.
 
 Add or remove content modules as required. Refer to the [style guide](http://womenandtech.github.io/style_guide) for options and code samples.
 
+<br>
 
 ## Customizing the templates
-Use the PHP variables to customize the page themes, title and various content. There are notes included at the top of the **`base-template.php`** file. It looks like the below snippet.
+Use the PHP variables to customize the page themes, title and various content. There are notes included at the top of the **`base-template.php`** file for the different variable options. Below is an example snippet.
 
 ```
 <?php
@@ -111,8 +122,11 @@ Use the PHP variables to customize the page themes, title and various content. T
 ?>
 ```
 
+<br>
+
 ## Home page
-To add the latest interview to the home page, update the `$current` variable in the PHP snippet to the name of the interviewee using the same structure as the folder name.
+
+To add the latest interview to the home page, update the `$current` variable in the PHP snippet to the name of the interviewee, using the same structure as the folder name.
 
 ```
 <?php
