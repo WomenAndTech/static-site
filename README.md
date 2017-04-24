@@ -1,13 +1,13 @@
 # Women&&Tech
 Below are instructions for adding interviews and page content to the current site. 
 
-If global changes are required, they should be updated in the [Style Guide repo](https://github.com/WomenAndTech/style_guide), which contains all the development files (e.g. Sass files). The updated CSS and/or JS file and any HTML revisions should then be added back to this repo.
+If global changes are required, they should be updated in the [Style Guide repo](https://github.com/WomenAndTech/style_guide), which contains all the development files (e.g. Sass files). Any updates to the CSS, JS and any HTML should then be added back to this repo.
 
 <br>
 
 ## Style Guide
 
-The Style Guide is a reference for adding content to the site. It contains examples, style patterns, code snippets and page templates and can be viewed here:
+The Style Guide is a reference for adding content to the site. It contains page module examples, style patterns, code snippets and page templates. View the guide here:
 <http://womenandtech.github.io/style_guide>
 
 Common design patterns and content modules are added using the example HTML markup and CSS classes for consistency and efficiency.
