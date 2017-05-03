@@ -21,14 +21,14 @@
   <meta name="twitter:creator" content="@WomenAndTech">
   <meta name="twitter:title" content="<?php echo $social_title; ?>">
   <meta name="twitter:description" content="<?php echo $social_desc; ?>">
-  <meta name="twitter:image" content="http://womenandtech.com<?php echo $path_img;?>thumbnail-<?php echo $interviewee_url; ?>.jpg">
+  <meta name="twitter:image" content="http://womenandtech.com<?php echo $path_img;?>featured-<?php echo $interviewee_url; ?>.jpg">
 
   <!-- Facebook Open Graph -->
   <meta property="og:url" content="http://womenandtech.com/interview/<?php echo $interviewee_url;?>/">
   <meta property="og:type" content="article">
   <meta property="og:title" content="<?php echo $social_title; ?>">
   <meta property="og:description" content="<?php echo $social_desc; ?>">
-  <meta property="og:image" content="http://womenandtech.com<?php echo $path_img;?>thumbnail-<?php echo $interviewee_url; ?>.jpg">
+  <meta property="og:image" content="http://womenandtech.com<?php echo $path_img;?>featured-<?php echo $interviewee_url; ?>.jpg">
 
   <link rel="shortcut icon" href="<?php echo $path_img; ?>favicon-32x32.ico" type="image/x-icon">
   <link rel="stylesheet" href="<?php echo $path_css; ?>style.css">

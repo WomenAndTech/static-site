@@ -7,7 +7,7 @@
   // Twitter & Facebook sharing info
   $social_title = 'Interview with Aashni Shah with Cassie Kaiser';
   $social_desc = 'Use the description from the archive page.';
-  // Social images are added in header.php but make sure the thumbnail image always follows this format: thumbnail-firstname-lastname.jpg
+  // Social images are added in header.php to always pull in the feature image from this interview. Make sure the featured image always follows this format: featured-firstname-lastname.jpg
 
   /*
     INTERVIEW CREDITS:
