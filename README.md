@@ -157,4 +157,4 @@ To add the latest interview to the home page, update the `$current` variable in 
 ?>
 ```
 
-
+## Testing update trigger on server
