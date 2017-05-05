@@ -158,3 +158,5 @@ To add the latest interview to the home page, update the `$current` variable in 
 ```
 
 ## Testing update trigger on server
+
+Setting up github webhook to auto deploy new updates in master branch
