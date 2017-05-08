@@ -157,6 +157,6 @@ To add the latest interview to the home page, update the `$current` variable in 
 ?>
 ```
 
-## Testing update trigger on server
+## Auto push updates and purge caching
 
-Setting up github webhook to auto deploy new updates in master branch
+Deploy.php via github webhooks will deploy updates and purge cache automatically.
