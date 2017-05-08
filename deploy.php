@@ -63,3 +63,6 @@ if(hash_equals($computed_signature, $github_signature)){
 	echo json_encode($response_body);
 
 }
+else {
+	echo "Sorry!";
+}
