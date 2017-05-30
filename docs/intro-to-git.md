@@ -60,7 +60,7 @@ When working with an existing repo, your workflow should follow these steps:
 5. Push to add your changes to the repo
 6. Repeat steps 2-5
 
-Bonus step: When working with multiple collaborators, you'll need to `pull` to grab updates that have been added to the repo after you've cloned it.
+**Bonus step:** When working with multiple collaborators, you'll need to `pull` to grab updates that have been added to the repo after you've cloned it.
 
 <br>
 
@@ -73,7 +73,6 @@ The command line (**Terminal** in Mac, **Powershell** in PC) is a tool used to i
 
 Instead, tasks are executed through the command line (e.g. open files, edit files, delete files, run programs) instead of the UI.
 
-<br>
 
 ### Opening the Command Line
 
@@ -98,7 +97,6 @@ Powershell:
 
 Note that the `$` in Terminal or the `>` in Powershell at the end of the line. This is the **prompt**. It always appears, so you don't actually have to type the `>` or `$` symbol.
 
-<br>
 
 ### Command Line Tools/Commands
 
@@ -153,12 +151,12 @@ To go back up a folder, use `..` with the `cd` command.
 
 **Shortcuts**  
 
-Use the `tab` key: Start typing a directory name, then press the `tab` key and command line will autocomplete it if there is a match.  If there are more than one directory that starts with the same characters, it will list all matching directory names.
+**The `tab` key:** Start typing a directory name, then press the `tab` key and command line will autocomplete it if there is a match.  If there are more than one directory that starts with the same characters, it will list all matching directory names.
 
     $ cd D
     Desktop/   Documents/   Downloads/   Dropbox/
 
-Drag & drop: *Drag* the folder from your Finder/Window into the command line *after* typing `cd` and a space, to autocomplete the directory file path.
+**Drag & drop:** *Drag* the folder from your Finder/Window into the command line *after* typing `cd` and a space, to autocomplete the directory file path.
 
 **Make a directory**  
 `mkdir` is the command for making a new directory. The *argument* that follows this command is the name you want to give the directory.
