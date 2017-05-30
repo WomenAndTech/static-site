@@ -103,12 +103,12 @@ For example, to create the url: `womenadtech.com/about/`, name the folder "about
 Pages:  
 about/index.php
 
-Interviews:  
+Interviews:   
 interview/firstname-lastname/index.php
 
 <br>
 
-## Adding Content
+## Adding Content 
 
 There are starter files/templates for both interview pages and non-interview pages. Copy the contents into your `index.php` as your starting point. Add or remove content modules as required. Refer to the [style guide](http://womenandtech.github.io/style_guide) for options and code samples.
 
