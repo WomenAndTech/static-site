@@ -11,7 +11,7 @@
   include ($path_inc."header.php");
 ?>
 
-<main role="main" class="page">
+<main role="main" data-page>
   Add content modules here. Refer to the Style Guide: <a href="http://womenandtech.github.io/style_guide/">here</a>.
 </main>
 
