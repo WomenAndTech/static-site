@@ -2,23 +2,24 @@
   // $page_theme values: theme-coral, theme-purple, theme-yellow, theme-green, theme-blue
   $page_theme = 'theme-blue';
   $interviewee_name = 'Christina Truong'; // Use for page title & share links
-  $interviewee_url = 'christina-truong'; // Used for share links URLs
+  $interviewee_url = 'christina-truong'; // Used for share links URLs, use the same name as the interviewee's folder name
 
   // Twitter & Facebook sharing info
+  //-----------------------------------------------------------------------------
+  // Social media images are added in the metatags in includes/header.php to always pull in the feature image from this interview. Make sure the featured image always follows this format: featured-firstname-lastname.jpg
   $social_title = 'Interview with Aashni Shah with Cassie Kaiser';
   $social_desc = 'Use the description from the archive page.';
-  // Social images are added in header.php to always pull in the feature image from this interview. Make sure the featured image always follows this format: featured-firstname-lastname.jpg
 
-  /*
-    INTERVIEW CREDITS:
-    If you need a second name, add a variable with a '2' the end. Example:
+  // INTERVIEW CREDITS
+  //-----------------------------------------------------------------------------
+  /* If you need a second name, add a variable with a '2' the end. Example:
     $interviewer = "First Person";
     $interviewer_url = "http://twitter.com";
     $interviewer2 = "Second Person";
     $interviewer_url2 = "http://mywebsite.com";
-
     If you don't need a credit, delete the whole <li> in the HTML.
   */
+
   $interviewer = "Full Name";
   $interviewer_url = "";
   $photos = "Full Name";
@@ -41,7 +42,7 @@
 ?>
 
 <main role="main" data-interview>
-  <!-- All content goes between these main tags. Delete this comment. -->
+  <!-- ALL content goes between the <main> tags. Below are some common modules for this page. Delete, revise or add more components as required. Refer to the Style Guide documentation for more details. Delete this comment when you've completed this page. -->
 
 
   <!-- // Featured Image -->
@@ -58,7 +59,7 @@
       <h2>Interviewee Name [update this]</h2>
       <p class="intro">Intro paragraph.[update this]</p>
 
-      <?php // Don't update. Using the same info as in Interview Credits. ?>
+      <?php // Don't update. Using the info from PHP variables at the top of the page. ?>
       <p class="author">An interview with <a href="<?php echo $interviewer_url; ?>"><?php echo $interviewer; ?></a></p>
 
       <?php // Don't update. Using the info from PHP variables at the top of the page. ?>
@@ -107,12 +108,11 @@
     <figure>
       <img src="<?php echo $path_img; ?>landscape-christina-truong-teehan-and-lax.jpg" alt="Christina Truong Teehan + Lax">
       <figcaption>
-        (Example of image block with caption) Photo credit:
-        <a href="http://www.flickr.com/photos/brendanlynch" title="Brendan Lynch's flickr photostream" target="_blank">Brendan Lynch</a>
+        Photo credit:
+        <a href="http://www.flickr.com/photos/brendanlynch" title="Brendan Lynch's flickr photostream">Brendan Lynch</a>
       </figcaption>
     </figure>
   </div>
-
 
 
   <!-- // Team Signature -->
@@ -123,8 +123,9 @@
     </p>
   </div>
 
+
   <!-- // Interview Credits -->
-  <?php  // If you don't need a specific credit, delete the whole <li>. Add the names in the customization options at the top of the page. ?>
+  <?php  // If you don't need a specific credit, delete the whole <li>. Other than that, you don't need to change any HTML. Add the names in the PHP variables at the top of the page. ?>
   <footer class="border credits">
     <ul>
       <li>
