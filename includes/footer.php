@@ -19,7 +19,7 @@
       <p>Connect with us: </p>
       <ul class="footer-links">
         <li>
-          <a href="//facebook.com" title="Facebook">
+          <a href="//facebook.com/womenandtech" title="Facebook">
             <i class="fa fa-facebook" aria-hidden="true"></i>
             <span class="screen-readers">Facebook</span>
           </a>
