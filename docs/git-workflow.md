@@ -14,7 +14,12 @@ You can use any app, tool or command line but all the documentation refers to th
 If you have already cloned the repo, skip to the [Adding a branch] section.
 
 ### Cloning the repo
+Select the "Clone or download" button and copy the Git URL.
 
+In SourceTree, select "New" and paste in the URL. 
+This is your local copy. Save it to an empty folder in your directory.
+
+By default you'll have a copy of the "master" branch, which is the main branch. To add the "content-updates" branch, follow the instructions below.
 
 ### Adding a branch
 To add the 'content-updates' branch to your existing local copy:

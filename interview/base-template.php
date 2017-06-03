@@ -41,6 +41,8 @@
 ?>
 
 <main role="main" data-interview>
+  <!-- All content goes between these main tags. Delete this comment. -->
+
 
   <!-- // Featured Image -->
   <div class="border img-feature">
@@ -56,7 +58,7 @@
       <h2>Interviewee Name [update this]</h2>
       <p class="intro">Intro paragraph.[update this]</p>
 
-      <?php // Don't update. Using the same info as is Interview Credits. ?>
+      <?php // Don't update. Using the same info as in Interview Credits. ?>
       <p class="author">An interview with <a href="<?php echo $interviewer_url; ?>"><?php echo $interviewer; ?></a></p>
 
       <?php // Don't update. Using the info from PHP variables at the top of the page. ?>
@@ -83,7 +85,7 @@
     </div>
   </header>
 
-  <?php // Add as many as required. You can delete this line. ?>
+
   <!-- // Q & A -  Add as many as required. -->
   <dl class="border">
     <dt class="interview-q">Question 1? [update this]</dt>
@@ -93,13 +95,13 @@
     </dd>
   </dl>
 
-  <?php // Add as many as required. You can delete this line. ?>
+
   <!-- // Pull Quote -->
   <aside class="border pull-quote">
     <p>Pull quote example. Move this whole block after a Q&A block or image.</p>
   </aside>
 
-  <?php // Add as many as required. You can delete this line. ?>
+
   <!-- // Image - Landscape -->
   <div class="border img-landscape">
     <figure>
@@ -110,6 +112,8 @@
       </figcaption>
     </figure>
   </div>
+
+
 
   <!-- // Team Signature -->
   <div class="border signature">
