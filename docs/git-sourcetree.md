@@ -1,4 +1,8 @@
-# Git and SourceTree
+# Working with Git and SourceTree
+
+If you are experienced with Git, use any tool or software you want. Just be sure to follow the same branching workflow as the rest of the team and do not commit any files into the repo that are only required for your tool (i.e. grunt config file).
+
+If you want to work with SourceTree, follow the instructions below.
 
 ## Table of contents
 - [Getting started](#getting-started)
@@ -8,6 +12,8 @@
   - [Create a new branch](#create-a-new-branch)
   - [Add an existing branch](#add-an-existing-branch)
 - [Adding changes](#adding-changes)
+- [Staying up to date](#staying-up-to-date)
+- [Merge updates to live site](#merge-updates-to-the-live-site)
 
 <br>
 
@@ -139,51 +145,108 @@ Move the unstaged files to the **Staged files** area by selecting the checkbox. 
 
 ### Add a commit message & push
 
-Clicking inside the text area field at the bottom of app. Leave a descriptive message. This is what will be saved in the repo along with your changes.
-
-![Sourcetree commit example](images/sourcetree-commit-msg.png)
+Clicking inside the text area field at the bottom of app. Leave a descriptive message. This is what will be saved in the repo along with your changes. Then **push** to add your updates to the github repo so other team members using the branch can pull your changes into their local copy.
 
 Select the "Push changes immediate to origin/your-branch-name" option. If it says "origin/master" you are in the master branch. Make sure you're in the right one first before committing!
 
-**Push** will add your updates to the github repo. Other team members using the branch can now pull your changes into their local copy.
-
-If you want to just commit a change but push later, just uncheck this option.
+![Sourcetree commit example](images/sourcetree-commit-msg.png)
 
 <br>
 
-## Pulling changes / Adding updates
-After you add the branch or repo for the first time, remember to **pull** in updates.  It doesn't matter if you do it before you make changes or after but it needs to be done before you add/**push** a commit.
+If you want to just commit a change but push later, just uncheck the "Push changes immediate to origin/your-branch-name" option. All "unpushed" commits will show in a notification at the top fo the app. You can push from here and make sure you have the right branch selected.
 
-When you open the SourceTree app, if there have been updates added to the repo since you last working on it, you should see a notification on the Pull button. If you don't see any notifications, that means there were no updates. However, sometimes there is a slight delay when opening SourceTree and you make see the notifications after a few minutes.
+![Sourcetree push](images/sourcetree-push.gif)
+
 
 <br>
 
-## Updating the site
-Updates made to the **content-updates** branch are only shared between team members. To add your changes to the live site, you will need to **merge** the commits in the **content-updates**  branch to the **master** branch.
+## Staying up to date
+After you add the branch or repo, you will need to do a **pull** to get any updates added *after* you cloned a copy.  It doesn't matter if you do it before you make changes or after but it needs to be done before you **push** a commit.
 
-You can do this with command line or the SourceTree app but Github has a more straightforward way of doing it.
+In the SourceTree app, if there have been updates added to the repo, you will see a notification on the Pull button. If you don't see any notifications, that means there were no updates. Sometimes there is a delay and you may see the notifications a few minutes after an update was added to the repo. You'll also see the notification under **BRANCHES**.
 
-Go to the main repo page: https://github.com/WomenAndTech/static-site
+![sourcetree pull notification](images/sourcetree-pull-notification.png)
 
-Select the "Compare & pull request" button.
+Select the **Pull** button and commit merged changes to bring the updates from the *remote* branch into your *local* branch.
 
-It will take you to a "Pull Request" screen where you can review your revision or change the commit message.
+![sourcetree pull](images/sourcetree-pull.png)
 
-Here are some things to look out for:
 
-* Make sure the buttons above the commit message say "base:master" and "compare:content-updates" and there is an "Able to merge" message beside it
-* The first textbox is your commit message, you can leave it or update it. You can also leave additional comments in the larger text box.
-* You can review your changes in the box at the bottom of the page.
 
-When everything is good, select the "Create a pull request" button. This will send your updates to the master branch for approval.
+<br>
 
-Once the pull request is created the page will update to show a "Merge pull request" button.  If the message says "This branch has no conflicts with the base branch" go ahead and press the button to approve the pull request.
+## Merge updates to the live site
+
+Updates made to the feature branch are only shared between team members. To add your changes to the live site, you will need to **merge** the commits in the feature branch to the **master** branch.
+
+You can do this with the SourceTree app but Github has a more straightforward way of doing it.
+
+### Step 1: Create a pull request
+ 
+Go to the main repo page: https://github.com/WomenAndTech/static-site  
+If you've recently added a commit, you'll see the yellow bar. Select the **Compare & pull request** button.   
+If you don't see the yellow bar, select the **New pull request** button instead.
+
+![github pull request](images/github-new-pr.png)
+
+### Step 2: Open a pull request
+
+Here you can review various details before submitting the pull request. Here are some things to look out for:
+
+1.  Make sure the buttons say "base:master" and "compare:your-branch-name" to make sure the feature branch is being merged into the master branch.
+2. Check for the "Able to merge" message. This means there are no conflicts to resolve first.
+3. Add a commit message. 
+4. You can also leave additional comments. Use the @mention method to tag a team member.
+5. (Optional) Review the commits that will be added in the merge. Each entry is a link to the commit.
+6. (Optional) Review your changes in the box at the bottom of the page.
+7. If everything is good, select the "Create pull request" button. This will send your pull request to the master branch for approval. But your changes have **NOT** been added to the master branch yet. It must be approved first.
+
+
+![github pull request](images/github-open-pr1.png)
+
+After you create a pull request, you will be automatically taken to the approval screen.
+
+<br>
+
+### Step 3: Approving a pull request and going live!
+
+You don't have to approve the pull request right and **merge** your branch to the master branch right away. You can always access it later from the **Pull request** tab.
+
+![github pull request tab](images/github-review-pr.gif)
+
+<br>
+**Closing a pull request**   
+
+You don't even have to approve it at all! If you want to approve it, select the **Merge pull request** button. If you decide you don't want to merge the changes into master anymore, you can **Close pull request**.
+
+![github approve or close pull request](images/github-approve-or-close-pr.png)
+
+<br>
+**Reopening a pull request**   
+
+Once you close a pull request, you can still access it under the **Pull requests > Closed**.  If you want to use the pull request after all, select the **Reopen pull request** button at the bottom of the screen to reopen it and merge the pull request to the master branch.
+
+![github reopen pull request](images/github-reopen-closed-pr.gif)
+
+<br>
+**Approving a pull request**
+
+When you're finally ready to push your changes to the master branch and go live, approve the pull request by *merging* the feature branch into the master branch.
+
+In the pull request, you will see  a "Merge pull request" button with the message "This branch has no conflicts with the base branch." This means Git will be able to merge your branch to the master branch with no conflicts between the files.
+
+Go ahead and press the button to **Merge pull request** button!
+
+![github pull request](images/github-pullrequest3.png)
 
 Once you confirm the merge it will take you to a final screen. There's a message that says "Pull request successfully merged and closed" and a "Delete branch" option.
 
-**Don't delete the branch.** Keep the branch to continue to add your content updates to in and only merge to **master** when you're done. 
+Delete the branch if you're done with it (e.g. added a new interview).
+Keep the branch if you plan on continuing to update it (e.g. a dev branch for dev updates).
 
-Your **content-updates** revisions are now added to the **master** branch and the live site!
+If you delete the branch and decide you still need it (e.g. revisions to an interview), no worries! Just create a new branch.
+
+Your feature branch revisions are now added to the **master** branch AND the live site!
 
 
 
@@ -191,17 +254,17 @@ Your **content-updates** revisions are now added to the **master** branch and th
 
 ## Keeping the branches in sync
 
-When you merge a pull request from the **content-updates** branch to the master branch, that will add additional commits.
+When you merge a pull request from the feature branch to the master branch, all the commits you added to the branch will be added to master, as well as one additional commits to the master branch, the **Merge pull request..."** commit.
 
-Also, any commits added directly to **master** branch will not be automatically added to the **content-branch** either.
+![github merge branch commit](images/github-merge-branch-commit.png)
 
-If there is a message that says "This branch is [x] commits behind master." that means the master branch has 3 commits that the content-updates branch doesn't have. 
+Any commits added to **master** branch will not be automatically added to the feature branch either. 
 
-In theory, you don't really need to use the **master** branch anymore because you'll be making all your updates to the **content-updates** branch. 
+In theory, you don't really need to use the **master** branch anymore because you'll be making all your updates to your feature branches. 
 
-But if you want to keep your *master* branch up to date, you can *checkout* your master branch and **pull** the updates.
+But, if you want to keep your **master** branch up to date, you can *checkout* your master branch and **pull** the updates.
 
-Just remember to *checkout* the **content-updates** branch again before making more revisions.
+Just remember to *checkout* the feature branch again before making more revisions.
 
 
 
