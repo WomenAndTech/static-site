@@ -3,9 +3,11 @@
 ## Table of contents
 - [Getting started](#getting-started)
 - [Clone the repo](#clone-the-repo)
+- [Understanding the Github flow](understanding-the-github-flow)
 - [Working with branches](#working-with-branches)
   - [Create a new branch](#create-a-new-branch)
   - [Add an existing branch](#add-an-existing-branch)
+- [Adding changes](#adding-changes)
 
 <br>
 
@@ -13,16 +15,14 @@
 
 Download the SourceTree app: <https://www.sourcetreeapp.com>  
 
-Follow the installation steps and connect to your Github account.  You will be required to create a (free) Atlassian account (the creators of SourceTree). 
+Follow the installation steps and connect to your Github account.  You will be required to create a (free) Atlassian account (the creators of SourceTree). You may also be prompted to create a Bitbucket account (another Atlassian product) but it is not required.
 
-You may also be prompted to create a Bitbucket account (another Atlassian product) but it is not required.
-
-[Atlassian Reference](https://confluence.atlassian.com/get-started-with-sourcetree/install-sourcetree-847359094.html)
+You can view more details in the Atlassian [getting started guide](https://confluence.atlassian.com/get-started-with-sourcetree/install-sourcetree-847359094.html).
 
 <br>
 
 ## Clone the repo
-You only have to do this step once. Cloning the repo with grab the latest files from the Github repository and save it to your computer.
+You only have to do this step once. Cloning the repo will grab the latest files from the Github repository and save it to your computer.
 
 If you have already cloned the repo, skip to the [Working with branches](#working-with-branches) section.
 
@@ -39,28 +39,35 @@ Back in SourceTree, select **File > New** from the main menu.
 ![Sourcetree clone](images/sourcetree-new-clone1.png)
 
 
-OR, select **+New** from the Repository Browser.
+OR
+
+Select **+New** from the Repository Browser.
 
 ![Sourcetree clone](images/sourcetree-new-clone2.png)
 
 **Step 3:**   
-Select a **Destination Path** for your *local* copy. Make sure the folder is empty. 
-
-You can name it anything you want in the **Name** field or just leave it the same as the repo name.
+Select a **Destination Path** for your *local* copy. Make sure the folder is empty.
+Select the button with the ellipsis to change the destination path. You can name it anything you want in the **Name** field or just leave it the same as the repo name.
 
 ![Sourcetree clone](images/sourcetree-new-clone3.png)
 
 <br>
 
+## Understanding the Github flow
+Below are specific instructions for getting the latest files, adding content and pushing your changes to the site using SourceTree.
+
+If you'd like a general overview of how the Github workflow works, [check out this guide](https://guides.github.com/introduction/flow/).
+
 ## Working with Branches
 
-Every Git repository has a **master** branch by default. For the Women&&Tech site, this is not only the main branch, think of it as the "good copy".
+Every Git repository has a **master** branch by default. This is generally considered to be the final version or the "good copy". 
 
-**IMPORTANT**: Any commits added to the **master** branch are **automatically pushed live to the site.**  Do not add updates directly to the master branch.
+**IMPORTANT**: For the Women&&Tech site, any commits added to the **master** branch are **automatically pushed live to the site.**  Do not add updates directly to the master branch.
 
-Instead, create a branch for each new feature you add (e.g. new interview, new page, content revisions). This will give you a separate area to work on and test your updates before it goes live.
+Instead, create a branch for each new feature you add (e.g. new interview, new page, content revisions). Give the branch a descriptive name like `firstname-lastname` for a new interview, or `new-about-page` for updates to the About page.
 
-You can create a new branch or add an existing branch to your local copy.
+This will give you a separate area to work in and test your updates before it goes live. You can even work with other team members and collaborate on the same branch.
+ 
 
 ### Create a new branch
 [still need to add]
@@ -71,10 +78,10 @@ If another team member has already created a branch and you'd like to work on th
 To add a branch to your local copy:
 
 * Make sure you don't have any modified files (yellow icon with ellipsis).
-* `commit` any modified files or temporarily remove them by using the [stash](https://confluence.atlassian.com/sourcetreekb/stash-a-file-with-sourcetree-785332122.html) command.
+* `commit` any modified files or temporarily remove them by using the [stash](https://confluence.atlassian.com/sourcetreekb/stash-a-file-with-sourcetree-785332122.html) option.
 * Untracked files are ok. (purple icons with a question mark)
 
-Go to **remotes > origin** and expand it
+Go to **remotes > origin** and expand it  
 Right-click on 'branch-name' and select 'Checkout...'
 
 'content-updates' is used for these example but replace that with the name of the branch you want to checkout.
@@ -87,34 +94,60 @@ Leave the default settings and select OK.
 
 ![Adding a branch](images/branch-add2.png)
 
-Once complete, you will see the branch name under your **Branches**, highlighted with bold text and a circle to the left.
+Once complete, you will see the branch name under *your* **BRANCHES**, highlighted with bold text and a circle to the left. **REMOTES** are the branches in the github repo, hosted on github.com.
 
-![Adding a branch](images/branch-add2.png)
+![Adding a branch](images/branch-add3.png)
 
-Make your content updates in your branch until you're ready to push it live to the Women&&Tech site.
+Remote = live on github.com  
+Local = the copy on your computer
 
-** Make sure that the branch name is highlighted** in SourceTree to ensure that you are in this branch, instead of the master branch.
+Make your content updates and commits in your branch until you're ready to push it live to the Women&&Tech site. Check that the branch name is highlighted in SourceTree to ensure that you are in your feature branch, instead of the master branch.
 
-You can work on several branches at the same time. There is no limit. To switch over to any branch, select **branch-name**, right-click, then **checkout branch-name**.
+### Working with multiple branches
+
+You can work on several branches at the same time. There is no limit. 
+"Checkout" means to switch to any branch, whether it's a temporary feature branch or the master branch.
+
+To switch over to any branch, make sure you don't have any modified files. Same rules as when you were adding an existing branch.
+
+Select **branch-name**, right-click, then **checkout branch-name**.
 
 <br>
 
 
 ## Adding changes
 
-After making changes to your files, follow these steps:
+After making changes to your files, **commit** your changes to the files. 
 
-**Step 1.** **commit** the file. 
+Go to your **File status** area.  The files that you have modified in some way (deleted, changed, renamed or new file) are the  **Unstaged files**. The revisions have not been push up to the repo yet.
 
-**Unstaged** files are the copy on your local computer and has not been push up to the repo yet.
+![sourctree file status](images/sourcetree-filestatus.png)
 
-Move the files to the **Staged files** area by selecting the checkbox.  To remove a file from the staged area, uncheck the checkbox.
+Yellow icons are modified files. This files exist in the repo and you have made changes to them.  
+Purple icons indicate untracked files, which are files that have not yet been added to the repo.  
+Gray icons are deleted files.
 
-Add a commit message by clicking inside the text area field at the bottom of app. Leave a descriptive message. This is what will be saved in the repo along with your changes.
+Renamed files will show twice, as a deleted and new file.
 
-Select the "Push changes immediate to origin/content-updates" option. If it says "origin/master" you are in the master branch. Make sure you're in the right one first before committing!
+![sourctree renamed file](images/sourcetree-renamed.png)
 
-Push will add your updates to the github repo. Other team members using the branch can now pull your changes into their local copy.
+
+Move the unstaged files to the **Staged files** area by selecting the checkbox.  To remove a file from the staged area, uncheck the checkbox. You don't have to commit all your files at once.
+
+![sourctree staging & unstaging files](images/sourcetree-stage-unstage.gif)
+
+
+### Add a commit message & push
+
+Clicking inside the text area field at the bottom of app. Leave a descriptive message. This is what will be saved in the repo along with your changes.
+
+![Sourcetree commit example](images/sourcetree-commit-msg.png)
+
+Select the "Push changes immediate to origin/your-branch-name" option. If it says "origin/master" you are in the master branch. Make sure you're in the right one first before committing!
+
+**Push** will add your updates to the github repo. Other team members using the branch can now pull your changes into their local copy.
+
+If you want to just commit a change but push later, just uncheck this option.
 
 <br>
 
@@ -151,6 +184,8 @@ Once you confirm the merge it will take you to a final screen. There's a message
 **Don't delete the branch.** Keep the branch to continue to add your content updates to in and only merge to **master** when you're done. 
 
 Your **content-updates** revisions are now added to the **master** branch and the live site!
+
+
 
 <br>
 
