@@ -30,6 +30,8 @@ View the guide here: <http://womenandtech.github.io/style_guide>
 
 ## Getting started
 
+You can use whatever tool or app you prefer to manage Git. Just be sure to follow these steps and the other guidelines listed in this doc.
+
 To contribute to the site, follow these steps:
 
 1. Clone this repo to create your own copy.
@@ -39,35 +41,41 @@ To contribute to the site, follow these steps:
 5. Accept the pull request. This will add your changes to the **master** branch and will **automatically push your changes live** to womenandtech.com.
 6. Delete the branch if you are no longer using it.
 
-You can use whatever tool or app you prefer to manage Git. Just be sure to follow these steps and the other guidelines listed in the doc.
+
+### Documentation
 
 To view more details about using Git, check out these guides:
 
 * [Intro to Git and Github](docs/git-intro.md)
-* [Github and SourceTree](docs/git-sourcetree.md)
-* [Github and Command Line](docs/git-command-line.md)
+* [Using Github with SourceTree](docs/git-sourcetree.md)
+* [Using Github with the Command Line](docs/git-command-line.md) [in progress]
 
 <br>
+
 ## Local development setup
 
-**Run a local server**
+PHP files are used for basic templating and customization and must run a local server to be viewed in the browser.
 
-This site uses PHP files for basic templating and customization.  
-PHP files must run a local server to be viewed in the browser.
+### Run a local server
 
 For Macs:
 
-* Open **Terminal**
-* Use the *change directory* (`cd`) command to navigate to your project folder by adding the entire file path, then press enter.
-    ```
-    cd /Users/username/path/to/static-site
-    ```
-  * **shortcut:** type cd, space, then drag your folder into Terminal to add the file directory path
-  ![change directory in Terminal](docs/images/terminal-cd.gif)
-* Run the following command in Terminal to start your local server.
-    ```
-    php -S localhost:8000
-    ```
+**Step 1:** Open **Terminal**
+
+**Step 2:** Use the *change directory* command to navigate to your project folder.  
+Type `cd`, space, then the entire file path. Then press enter.
+
+```
+cd /Users/username/path/to/static-site
+```
+**Shortcut:** Drag your folder into Terminal to add the file directory path
+
+![change directory in Terminal](docs/images/terminal-cd.gif)
+  
+**Step 3:** Run the following command in Terminal to start your local server.
+```
+php -S localhost:8000
+```
 
 View the site locally at <http://localhost:8000>.
 
@@ -75,12 +83,30 @@ View the site locally at <http://localhost:8000>.
 
 **This only works for Macs.**
 
-You can use software and tools such as Codekit, Mamp, Grunt or Gulp to run a local server. However, don't save any files generated from these tools into the main repo. We're trying to reduce the number of dependencies on specific tools to make it flexible for different workflow preferences.
+You can also use software and tools such as Codekit, Mamp, Grunt or Gulp to run a local server. However, don't save any files generated from these tools into the main repo. We're trying to reduce the number of dependencies on specific tools to make it flexible for different workflow preferences.
 
 <br>
 
 ## File Naming and Structure
 It's important to follow these naming conventions and file structure because the site architecture depends on it.
+
+<br>
+
+### Pages
+For non-interview pages (i.e. About), create a folder and name the folder the way you want it to appear in the URL.
+
+For example, to create the url: `womenadtech.com/about/`, name the folder "about". Then add your content in an `index.php` file. 
+
+```
+static-site/
+├── about/
+│   ├── index.php
+└── interview/
+    ├── firstname-lastname/
+        └── index.php
+```
+
+<br>
 
 ### Interviews
 Save all interviews within the **`interview`** folder. Create a new folder for the interviewee, using their name, and save the content into an `index.php` file following the structure below.
@@ -128,23 +154,6 @@ static-site/
 │   ├── img/
 │       ├── portrait-first-lastname.jpg
 │       ├── thumbnail-first-lastname.jpg
-└── interview/
-    ├── firstname-lastname/
-        └── index.php
-```
-
-    
-<br>
-
-### Non-interview pages
-For non-interview pages (i.e. About), create a folder and name the folder the way you want it to appear in the URL.
-
-For example, to create the url: `womenadtech.com/about/`, name the folder "about". Then add your content in an `index.php` file. 
-
-```
-static-site/
-├── about/
-│   ├── index.php
 └── interview/
     ├── firstname-lastname/
         └── index.php
