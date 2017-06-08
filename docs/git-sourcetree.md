@@ -74,9 +74,12 @@ Instead, create a branch for each new feature you add (e.g. new interview, new p
 
 This will give you a separate area to work in and test your updates before it goes live. You can even work with other team members and collaborate on the same branch.
  
+<br>
 
 ### Create a new branch
-[still need to add]
+[ still need to add :( ]
+
+<br>
 
 ### Add an existing branch
 If another team member has already created a branch and you'd like to work on that branch as well, you'll need to add the *remote* branch.
@@ -237,9 +240,16 @@ In the pull request, you will see  a "Merge pull request" button with the messag
 
 Go ahead and press the button to **Merge pull request** button!
 
-![github pull request](images/github-pullrequest3.png)
+![github approve pull request](images/github-approve-pr.png)
 
-Once you confirm the merge it will take you to a final screen. There's a message that says "Pull request successfully merged and closed" and a "Delete branch" option.
+
+**Merge pull request confirmation**
+
+Once you confirm the merge it will take you to a final screen. You will now see a **Merged** badge in the pull request.
+
+There's also a message at the bottom that says "Pull request successfully merged and closed" and a "Delete branch" option.
+
+![github merged pull request](images/github-merged-pr.png)
 
 Delete the branch if you're done with it (e.g. added a new interview).
 Keep the branch if you plan on continuing to update it (e.g. a dev branch for dev updates).
