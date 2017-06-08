@@ -1,27 +1,44 @@
-# Updating womenandtech.com
+# Git and SourceTree
 
-## Git and Github Workflow
+## Getting started
 
-The **master** branch is the main and "good copy" version of the Women&&Tech site.
-Any commits added here are automatically pushed live to the site.
+Download the SourceTree app: <https://www.sourcetreeapp.com>  
+Follow the installation steps and connect to your Github account.  
+You will be required to create a (free) Atlassian account (the creators of SourceTree). You may be prompted to create a Bitbucket account (another Atlassian product) but it is not required.
+
+[Reference](https://confluence.atlassian.com/get-started-with-sourcetree/install-sourcetree-847359094.html)
+
+## Clone the repo
+If you have already cloned the repo, skip to the [Adding a branch](#adding-a-branch) section.
+
+From the [main repository page](https://github.com/WomenAndTech/static-site), select the `Clone or download` button and copy the URL. 
+
+This will either be an SSH or HTTPS URL, depending on how you authenticate to GitHub. If you're not sure how your account is authenticated, use the HTTPS URL.
+
+![Github clone](images/git-clone.gif)
+
+Back in SourceTree, select **File > New** from the main menu.
+
+![Sourcetree clone](images/sourcetree-new-clone1.png)
+
+
+OR, select **+New** from the Repository Browser.
+![Sourcetree clone](images/sourcetree-new-clone2.png)
+
+
+This is going to be your *local* copy. Save it to an empty folder (Destination Path) in your directory. You can name it anything you want in the **Name** field or just leave it the same as the repo name.
+
+![Sourcetree clone](images/sourcetree-new-clone1.png)
+
+
+## Adding a branch
+
+The **master** branch is the main and "good copy" of the Women&&Tech site. 
+**Any commits added here are automatically pushed live to the site.**
 
 The **content-updates** branch is used to add interviews or other content updates until you're ready to push it live to the site.
 
-## Setup up your files
 
-You can use any app, tool or command line but all the documentation refers to the [SourceTree] app.
-
-If you have already cloned the repo, skip to the [Adding a branch] section.
-
-### Cloning the repo
-Select the "Clone or download" button and copy the Git URL.
-
-In SourceTree, select "New" and paste in the URL. 
-This is your local copy. Save it to an empty folder in your directory.
-
-By default you'll have a copy of the "master" branch, which is the main branch. To add the "content-updates" branch, follow the instructions below.
-
-### Adding a branch
 To add the 'content-updates' branch to your existing local copy:
 
 Make sure you don't have any modified files. (yellow icon with ellipsis)

@@ -9,15 +9,16 @@ If changes to the site structure, CSS or JavaScript are required, they should be
 <br>
 
 ## Table of contents
-- [Style guide](#whats-included)
+- [Style guide](#style-guide)
 - [Getting started](#getting-started)
 - [Local development setup](#local-development-setup)
-- [File Naming and Structure](#file-naming-and-structure)
+- [File Naming and structure](#file-naming-and-structure)
 - [Adding content](#adding-content)
 - [Customizing the templates](#customizing-the-templates)
 - [Updating the home page](#updating-the-home-page)
 - [Misc](#misc)
 
+<br>
 
 ## Style guide
 
@@ -46,12 +47,13 @@ To view more details about using Git, check out these guides:
 * [Github and SourceTree](docs/git-sourcetree.md)
 * [Github and Command Line](docs/git-command-line.md)
 
-
+<br>
 ## Local development setup
 
 **Run a local server**
 
-This site uses PHP files for basic templating and customization. PHP files must run a local server to be viewed in the browser.
+This site uses PHP files for basic templating and customization.  
+PHP files must run a local server to be viewed in the browser.
 
 For Macs:
 
@@ -61,7 +63,7 @@ For Macs:
     cd /Users/username/path/to/static-site
     ```
   * **shortcut:** type cd, space, then drag your folder into Terminal to add the file directory path
-  ![docs/images/terminal-cd.gif](change directory in Terminal)
+  ![change directory in Terminal](docs/images/terminal-cd.gif)
 * Run the following command in Terminal to start your local server.
     ```
     php -S localhost:8000
@@ -69,7 +71,7 @@ For Macs:
 
 View the site locally at <http://localhost:8000>.
 
-![docs/images/terminal-local-server.gif](running a local server in Terminal)
+![running a local server in Terminal](docs/images/terminal-local-server.gif)
 
 **This only works for Macs.**
 
@@ -81,7 +83,7 @@ You can use software and tools such as Codekit, Mamp, Grunt or Gulp to run a loc
 It's important to follow these naming conventions and file structure because the site architecture depends on it.
 
 ### Interviews
-Save all interviews within the **`interview`** folder. Create a new folder for the interviewee, using their name, and save the content into an index.php file following the structure below.
+Save all interviews within the **`interview`** folder. Create a new folder for the interviewee, using their name, and save the content into an `index.php` file following the structure below.
 
 ```
 interview/firstname-lastname/index.php
