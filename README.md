@@ -25,7 +25,7 @@ If changes to the site structure, CSS or JavaScript are required, they should be
 
 ## Style guide
 
-The Style Guide is a reference for adding content to the site. It contains content module examples, style patterns, code snippets and page templates. Each modules was created to work as standalone components. Add modules as needed to build the page content with consistent designs.
+The Style Guide is a reference for adding content to the site. It contains content module examples, style patterns, code snippets and page templates. Each module was created to work as a standalone component. Add modules as needed to build the page content with consistent designs.
 
 View the guide here: <http://womenandtech.github.io/style_guide>
 
@@ -38,16 +38,16 @@ You can use whatever tool or app you prefer to manage Git. Just be sure to follo
 To contribute to the site, follow these steps:
 
 1. Clone this repo to create your own copy.
-2. Create a new branch from **master** for each new interview.
+2. Create a new branch from `master` for each interview, content update or feature.
 3. Add all your updates to your branch and test it.
-4. Merge your branch to **master** by sending a pull request. If you would like someone to test your changes before going live, leave a comment, with their username, in the pull request.
-5. Accept the pull request. This will add your changes to the **master** branch and will **automatically push your changes live** to womenandtech.com.
+4. Merge your branch to `master` by sending a pull request. If you would like someone to test your changes before going live, leave a comment, with their username, in the pull request.
+5. Accept the pull request. This will add your changes to the `master` branch and will **automatically push your changes live** to womenandtech.com.
 6. Delete the branch if you are no longer using it.
 
 
 ### Using Git & Github Documentation
 
-To view more details about using Git, check out these guides:
+To view more details about using Git and following these steps, check out these guides:
 
 * [Intro to Git and Github](docs/git-intro.md)
 * [Using Github with SourceTree](docs/git-sourcetree.md)
@@ -86,12 +86,12 @@ View the site locally at <http://localhost:8000>.
 
 **This only works for Macs.**
 
-You can also use software and tools such as Codekit, Mamp, Grunt or Gulp to run a local server. However, don't save any files generated from these tools into the main repo. We're trying to reduce the number of dependencies on specific tools to make it flexible for different workflow preferences.
+You can also use software and tools such as Codekit, Mamp, Grunt or Gulp to run a local server. However, don't save any files generated from these tools into the main repo (e.g. config files). We're trying to reduce the number of dependencies on specific tools to make it flexible for different workflow preferences.
 
 <br>
 
 ## File Naming and Structure
-It's important to follow these naming conventions and file structure because the site architecture depends on it.
+It's important to follow these naming conventions and the file structure because the are parts of the site architecture that depend on it.
 
 <br>
 
@@ -144,7 +144,7 @@ assets/img/portrait-first-lastname.jpg
 assets/img/portrait-first-lastname-with-dog.jpg
 ```
 
-For the past interview cards & archive page thumbnails, it uses the same image. Use this naming convention:
+The Latest Interview cards & archive page thumbnails both use the same image. Use this naming convention:
 ```
 assets/img/thumbnail-first-lastname.jpg
 ```
@@ -167,9 +167,7 @@ static-site/
 
 ## Adding content 
 
-There are starter template files for both interview pages and non-interview pages. 
-
-**Copy the contents into your `index.php` as your starting point.** 
+There are starter template files for both interview pages and non-interview pages. Copy the contents into *your* `index.php` file and use it as your starting point.
 
 There are some common content modules already included in the template but you can add or remove the content modules as required. Refer to the [style guide](http://womenandtech.github.io/style_guide) for options and code samples.
 
@@ -252,7 +250,7 @@ This project uses [editorconfig](http://editorconfig.org/) to maintain consisten
 
 ### Auto push updates and purge caching
 
-All commits added to the **master** branch will be deployed to the live site.
+All commits added to the `master` branch will be deployed to the live site.
 
 Deploy.php via github webhooks will deploy updates and purge cache automatically.
 

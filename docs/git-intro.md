@@ -1,6 +1,19 @@
-# Intro to Git and Github
+# Women&&Tech 
 
-**Git** is a version control system for tracking and providing a history of file changes. Git also coordinates changes among multiple contributors.
+If you're new to Git, Github or command line, this doc will provide an general overview, to help you understand the Git workflow for updating content for this site.
+
+If you already familiar with Git and Github, make sure to read the instructions in the [readme file](../README.md). This contains specific instructions for maintaining the site.
+
+
+## Table of Contents
+- [Intro to Git and Github](#intro-to-git-and-github)
+- [Terminology](#terminology)
+
+
+<br>
+## Intro to Git and Github
+
+**Git** is a *version control system* for tracking revisions and providing a history of file changes. Git also coordinates changes among multiple contributors allowing you to work on the same project files at the same time.
 
 **Github** is one of many services for hosting Git project files.
 
@@ -8,53 +21,56 @@
 
 ## Terminology
 
+There are a lot of Git related terms. Here are a few common ones which will be referenced throughout the documentation.
+
 **Repository**  
 Contains all the project files to be tracked (e.g. folders, html files, css, javascript, images, etc.) Also referred to as "repo" for short. Repos stores information about each file's revision history. 
 
 **Branch**  
 All repos have a `master` branch by default, which is the main branch.
 
-Additional branches can also be created. This is often used to add updates/features separate from the main branch and then *merged* back into the `master` branch when the update is complete.
+Additional branches can also be created. This is often used to add updates and new features. These feature branches are separate from the main `master` branch and provides an area for you to update and test.  Once your feature is complete, the branch is *merged* back into the `master` branch.
 
 **Clone**  
-The repo is the hosted copy that all users with access to it can view and work from. To make changes, create a *local* copy by *cloning* the files to your computer.
+The repo is the *hosted* version also referred to as the *remote* version. Any user with access to the repo can view or `clone` it. 
 
-A clone is a copy of the repository files.  It is also the command used for creating a local copy of your hosted repo onto your computer. 
+To make changes, create a *local* copy by *cloning* the files to your computer. `Clone` is also the name of the command. 
 
-The cloned copy is also connected to the remote version to sync the changes between the two using two additional commands, `push` and `pull`.
+The cloned copy is also connected to the remote version. To sync the changes between the remote and local copy, two additional commands are used, `push` and `pull`.
 
 **Staging**   
-The staging area collects the revisions and changes to be saved as a "snapshot" or version of your project files up to that point.
+The staging area collects the revisions and changes to be saved as a "snapshot" of your project files up to that point.
 
 **Commit**  
-A commit refers to the actual file revision. Revisions includes changes to existing files as well as adding, renaming, moving or deleting files. A commit can contain changes for one or multiple files. 
+A commit refers to the actual file revision. Revisions includes changes to existing files as well as adding, renaming, moving or deleting files. A single commit can contain changes for one or multiple files. 
 
-Files are added to the *staging area*, then committed and should contain a commit message to describe what changes were made.
+Files are added to the *staging area*, then committed. Each commit should contain a commit message to describe what changes were made.
 
-Committing does **not** add your files to the live repo.
+Committing does **not** add your files to the live repo. This is still happening locally on your computer.
 
 **Push**  
-After committing your changes, `push` adds your commits from your local copy into the hosted repository. Other users will now be able to see your changes in the repo.
+After committing your changes, `push` adds your commits from your local copy into the hosted repository. Other users will be able to see your changes, in the repo, after you push.
 
 All your changes and commits happen locally on your computer until you `push.` 
 
 **Pull**   
-When you first `clone` a repo, you are copying the latest file versions of the project at that moment. If several people are working on the project, there may be changes added *after* you've cloned the repo.  The `pull` command allows you to download the latest changes to your local version.
+When you first `clone` a repo, you are copying the latest versions of the project files at that moment. If several people are working on the project, there may be changes added *after* you've cloned the repo.  The `pull` command allows you to download the latest changes to your local version.
 
 To view an more comprehensive list of terminology, check out the [Github Glossary](https://help.github.com/articles/github-glossary/).
 
 <br>
 
 ## Git Workflow
-There are different apps that can be used with Git such as [SourceTree app](https://www.sourcetreeapp.com). You can also use the Command Line/Terminal. Each app may have a different user interface but the steps are the same. 
+There are different apps that can be used with Git such as the [SourceTree app](https://www.sourcetreeapp.com). You can also use the Command Line/Terminal. Each app may have a different user interface but the steps are the same. 
 
 When working with an existing repo, your workflow should follow these steps:
 1. Clone the repo (make a local copy)
-  a. (Optional) Create a branch
-2. Make your changes in your local copy
+  * (Optional) Create a branch
+2. Make changes in your local copy
 3. Add/stage your changes
-4. Commit your changes
+4. Commit your changes with a message
 5. Push your changes to the repo
+  * If using a branch, merge it into the master branch when you're done
 6. Repeat steps 2-5
 
 **Bonus step:** When working with multiple collaborators, you'll need to do a `pull` to get the latest updates added to the repo, *after* you've cloned it.
@@ -64,7 +80,7 @@ When working with an existing repo, your workflow should follow these steps:
 ## Command Line Basics
 Using the command line is **not** required to use Git and Github because there are software and apps that can be used instead. However, it may be useful to have some basic understanding of how the command line works.
 
-**If you prefer to use an app instead of the command line, skip down to the [SourceTree information section](https://github.com/WomenAndTech/static-site/blob/master/docs/intro-to-git.md#git-and-sourcetree).**
+If you prefer to use an app instead of the command line, go to the [Working with Git and SourceTree](https://github.com/WomenAndTech/static-site/blob/master/docs/intro-to-git.md#git-and-sourcetree) doc.
 
 The command line (**Terminal** in Mac, **Powershell** in PC) is a tool used to interact *directly* with the operating system rather than using the GUI (e.g. graphical controls the user can select using a mouse or keyboard).
 
