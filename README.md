@@ -11,6 +11,9 @@ If changes to the site structure, CSS or JavaScript are required, they should be
 ## Table of contents
 - [Style guide](#style-guide)
 - [Getting started](#getting-started)
+  - [Intro to Git and Github](docs/git-intro.md)
+  - [Using Github with SourceTree](docs/git-sourcetree.md)
+  - [Using Github with the Command Line](docs/git-command-line.md) [in progress]
 - [Local development setup](#local-development-setup)
 - [File Naming and structure](#file-naming-and-structure)
 - [Adding content](#adding-content)
@@ -42,7 +45,7 @@ To contribute to the site, follow these steps:
 6. Delete the branch if you are no longer using it.
 
 
-### Documentation
+### Using Git & Github Documentation
 
 To view more details about using Git, check out these guides:
 

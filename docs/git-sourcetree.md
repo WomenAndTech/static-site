@@ -10,7 +10,7 @@ If you want to work with SourceTree, follow the instructions below.
 - [Understanding the Github flow](understanding-the-github-flow)
 - [Working with branches](#working-with-branches)
   - [Create a new branch](#create-a-new-branch)
-  - [Add an existing branch](#add-an-existing-branch)
+  - [Add a remote branch](#add-a-remote-branch)
 - [Adding changes](#adding-changes)
 - [Staying up to date](#staying-up-to-date)
 - [Merge updates to live site](#merge-updates-to-the-live-site)
@@ -60,29 +60,103 @@ Select the button with the ellipsis to change the destination path. You can name
 <br>
 
 ## Understanding the Github flow
-Below are specific instructions for getting the latest files, adding content and pushing your changes to the site using SourceTree.
+Below are specific instructions for getting the latest files, working with branches, adding content and pushing your changes to the site using SourceTree.
 
 If you'd like a general overview of how the Github workflow works, [check out this guide](https://guides.github.com/introduction/flow/).
 
 ## Working with Branches
 
+### Master branch & feature branches
 Every Git repository has a **master** branch by default. This is generally considered to be the final version or the "good copy". 
 
-**IMPORTANT**: For the Women&&Tech site, any commits added to the **master** branch are **automatically pushed live to the site.**  Do not add updates directly to the master branch.
+**IMPORTANT**: For the Women&&Tech site, any commits added to the `master` branch are *automatically pushed live to the site.*  Do not add updates directly to the master branch. 
 
-Instead, create a branch for each new feature you add (e.g. new interview, new page, content revisions). Give the branch a descriptive name like `firstname-lastname` for a new interview, or `new-about-page` for updates to the About page.
+Instead, create a branch for each new feature you add (e.g. new interview, new page, content revisions). This will give you a separate area to work in and test your updates before it goes live. You can even work with other team members and collaborate on the same branch.
 
-This will give you a separate area to work in and test your updates before it goes live. You can even work with other team members and collaborate on the same branch.
+Give your branch a descriptive name like `firstname-lastname` for interviews. Or name it after the feature you're working on like `dev-updates` or `about-page-revisions`.
+
+Always create a new branch from `master` because it contains all the current files which are live on the site and have been tested.
+
+### Checkout a branch
+In Git, to *checkout* a branch means to switch over to that branch. Your local files will show the current status of that current branch. For example:
+
+```
+about-page-revisions -- you made a change to the about page in this branch
+pearl-chen -- you added an interview in this branch
+```
+
+If you're in the `about-page-revisions` you will not see the new interview and vice versa.  These branches are separate from other branches and the `master` branch.
+
+When switching between branches, here are a few things to note:
+
+* Make sure you don't have any modified files (yellow icon with ellipsis).
+* `commit` any modified files or temporarily remove them by using the [stash](#git-stash) option.
+* Untracked files (purple icons with a question mark) are ok. 
+
+### Git stash
+Stashing files is temporarily removing or hiding the files for later without committing them. Stash the files, then switch branches. 
+
+![Sourcetree stash](images/sourcetree-stash.gif)
+
+When you go back to the branch with the stashed modifications, *apply* the stash to add your modifications back in.
+ 
+![Sourcetree apply stash](images/sourcetree-stash-apply.gif)
+
+
+Go to the [Add a remote branch](#add-a-remote-branch) section to get instructions for adding an existing branch to your local copy.  Or
+[create a new branch](#create-a-new-branch). 
  
 <br>
 
 ### Create a new branch
-[ still need to add :( ]
+
+You can create a branch on github.com or through SourceTree.
+
+#### Create a branch with SourceTree
+
+Always create a new branch from the `master` branch because it contains all the current files which are live on the site and have been tested. Make sure you're in your master branch *first* before creating a new branch. It should be highlighted in SourceTree (bold with a circle). 
+
+![sourcetree-master-branch.png](images/sourcetree-master-branch.png)
+
+If it isn't, double click `master` under **BRANCHES** to *checkout* the  branch OR right-click and select **Checkout master**.
+
+![Sourcetree checkout master](images/sourcetree-checkout-master.png)
+
+If you have unsaved modified files, you'll see a warning.
+![sourcetree-confirm-branch-switch.png](images/sourcetree-confirm-branch-switch.png)
+
+If you choose the "Discard local changes" option, Git will delete your modifications. Your other option is to `commit` your changes or [stash](#git-stash) them before checking out the branch.
+
+Once you're in the `master` branch, select the **Branch** icon, add a branch name select **Create Branch**.
+
+![sourcetree-branch-new.gif](images/sourcetree-branch-new.gif)
+
+You have created a *local* branch.  When you add your first commit, it will be pushed up to the Github repo and other team members will be able to see and checkout your branch.
+
+#### Create a branch on github.com 
+
+Always create a new branch from the `master` branch because it contains all the current files which are live on the site and have been tested.
+
+From the main repository page, select the **Branch: master** button to create a branch from the master branch. 
+
+![Github branch button](images/github-branch-btn.png)
+
+<br>
+Click to show a dropdown, add a name for your new branch by typing it in the dropdown text field. Then press enter. Once it's created, the Github repository page will automatically switch over to the new branch repo.
+
+![Github create branch](images/github-create-branch.gif  )
+
+<br>
+Creating a branch on github.com means you've created a *remote* branch. Go to the next section, and follow the instructions for [adding an existing branch](#add-an-existing-branch) to add your new branch to your local copy.  
+
+If you made a branch and need to delete it, you can access it under the **branches** link and delete it from there.
+![Delete branch from Github](images/github-delete-branch.gif)
+
 
 <br>
 
-### Add an existing branch
-If another team member has already created a branch and you'd like to work on that branch as well, you'll need to add the *remote* branch.
+### Add a remote branch [this section needs revisions]
+Adding a *remote* branch mean you are making a *local* copy of a branch hosted on github.com.
 
 To add a branch to your local copy:
 
@@ -90,8 +164,10 @@ To add a branch to your local copy:
 * `commit` any modified files or temporarily remove them by using the [stash](https://confluence.atlassian.com/sourcetreekb/stash-a-file-with-sourcetree-785332122.html) option.
 * Untracked files are ok. (purple icons with a question mark)
 
-Go to **remotes > origin** and expand it  
-Right-click on 'branch-name' and select 'Checkout...'
+Back in SourceTree, go to **remotes > origin** and expand it  
+Right-click on the `branch-name` and select **Checkout...**
+
+If you don't see the remote branch you're looking for, you may need to refresh it.
 
 'content-updates' is used for these example but replace that with the name of the branch you want to checkout.
 
@@ -100,6 +176,8 @@ Right-click on 'branch-name' and select 'Checkout...'
 "Checkout" means you are switching over to that branch. The changes you make in this branch does not affect the **master** branch.
 
 Leave the default settings and select OK.
+
+What if you don't see the branch? You may need to refresh it in SourceTree.
 
 ![Adding a branch](images/branch-add2.png)
 
@@ -253,6 +331,11 @@ There's also a message at the bottom that says "Pull request successfully merged
 
 Delete the branch if you're done with it (e.g. added a new interview).
 Keep the branch if you plan on continuing to update it (e.g. a dev branch for dev updates).
+
+You can also delete the branch from the **branches** link, located on the repository landing page.
+
+![Delete branch from Github](images/github-delete-branch.gif)
+
 
 If you delete the branch and decide you still need it (e.g. revisions to an interview), no worries! Just create a new branch.
 
