@@ -8,6 +8,8 @@ If you already familiar with Git and Github, make sure to read the instructions 
 ## Table of Contents
 - [Intro to Git and Github](#intro-to-git-and-github)
 - [Terminology](#terminology)
+- [Git Workflow](#git-workflow)
+- [Command Line Basics](#command-line-basics)
 
 
 <br>

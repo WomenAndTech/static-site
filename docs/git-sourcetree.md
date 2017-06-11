@@ -1,6 +1,6 @@
 # Working with Git and SourceTree
 
-If you are experienced with Git, use any tool or software you want. Just be sure to follow the same branching workflow as the rest of the team and do not commit any files into the repo that are only required for your tool (i.e. grunt config file).
+If you are experienced with Git, use any tool or software you want. Just be sure to follow the same branching workflow as the rest of the team and do not commit any files into the repo that are only required for your tool (e.g. grunt config file).
 
 If you want to work with SourceTree, follow the instructions below.
 
@@ -11,6 +11,8 @@ If you want to work with SourceTree, follow the instructions below.
 - [Working with branches](#working-with-branches)
   - [Create a new branch](#create-a-new-branch)
   - [Add a remote branch](#add-a-remote-branch)
+  - [Delete a branch](#delete-a-branch)
+  - [Working with multiple branches](#working-with-multiple-branches)
 - [Adding changes](#adding-changes)
 - [Staying up to date](#staying-up-to-date)
 - [Merge updates to live site](#merge-updates-to-the-live-site)
@@ -21,7 +23,7 @@ If you want to work with SourceTree, follow the instructions below.
 
 Download the SourceTree app: <https://www.sourcetreeapp.com>  
 
-Follow the installation steps and connect to your Github account.  You will be required to create a (free) Atlassian account (the creators of SourceTree). You may also be prompted to create a Bitbucket account (another Atlassian product) but it is not required.
+Follow the installation steps and connect it to your Github account.  You will be required to create a (free) Atlassian account (the creators of SourceTree). You may also be prompted to create a Bitbucket account (another Atlassian product) but it is not required.
 
 You can view more details in the Atlassian [getting started guide](https://confluence.atlassian.com/get-started-with-sourcetree/install-sourcetree-847359094.html).
 
@@ -35,7 +37,7 @@ If you have already cloned the repo, skip to the [Working with branches](#workin
 **Step 1:**  
 From the [main repository page](https://github.com/WomenAndTech/static-site), select the `Clone or download` button and copy the URL. 
 
-This will either be an SSH or HTTPS URL, depending on how you authenticate to GitHub. If you're not sure how your account is authenticated, use the HTTPS URL.
+This will either be the SSH or HTTPS URL, depending on how you authenticate to GitHub. If you're not sure how your account is authenticated, use the HTTPS URL.
 
 ![Github clone](images/github-clone.gif)
 
@@ -60,18 +62,19 @@ Select the button with the ellipsis to change the destination path. You can name
 <br>
 
 ## Understanding the Github flow
-Below are specific instructions for getting the latest files, working with branches, adding content and pushing your changes to the site using SourceTree.
+Below are specific instructions for getting the latest files, working with branches, adding content and pushing your changes to the Women&&Tech site, using SourceTree.
 
-If you'd like a general overview of how the Github workflow works, [check out this guide](https://guides.github.com/introduction/flow/).
+If you'd like an overview of how the Github workflow works, in general, [check out this guide](https://guides.github.com/introduction/flow/).
 
+<br>
 ## Working with Branches
 
 ### Master branch & feature branches
-Every Git repository has a **master** branch by default. This is generally considered to be the final version or the "good copy". 
+Every Git repository has a `master` branch by default. This is generally considered to be the clean copy or the "good copy". The master branch contains all of the production ready files and code and has been tested.
 
-**IMPORTANT**: For the Women&&Tech site, any commits added to the `master` branch are *automatically pushed live to the site.*  Do not add updates directly to the master branch. 
+**IMPORTANT**: For the Women&&Tech site, any commits added to the `master` branch are *automatically pushed live to the site.*  Do not add updates directly to the `master` branch. 
 
-Instead, create a branch for each new feature you add (e.g. new interview, new page, content revisions). This will give you a separate area to work in and test your updates before it goes live. You can even work with other team members and collaborate on the same branch.
+Instead, create a branch for each new feature (e.g. new interview, new page, content revisions). This will give you a separate area to work in and test your updates before it goes live. You can even work with other team members and collaborate on the same branch.
 
 Give your branch a descriptive name like `firstname-lastname` for interviews. Or name it after the feature you're working on like `dev-updates` or `about-page-revisions`.
 
@@ -94,17 +97,19 @@ When switching between branches, here are a few things to note:
 * Untracked files (purple icons with a question mark) are ok. 
 
 ### Git stash
-Stashing files is temporarily removing or hiding the files for later without committing them. Stash the files, then switch branches. 
+Stashing files is temporarily removing or hiding the files for later without committing them. If you have changes you don't want to commit yet but you need to *checkout* another branch, you can *stash* the files first, then switch branches. 
 
 ![Sourcetree stash](images/sourcetree-stash.gif)
 
-When you go back to the branch with the stashed modifications, *apply* the stash to add your modifications back in.
+When you go back to the branch with the stashed modifications, *apply* the stash to add your modifications back in. You can delete the stash when you apply it by checking the **Delete after applying** or just right-click the item under the **STASHES** menu and delete it from there.
  
 ![Sourcetree apply stash](images/sourcetree-stash-apply.gif)
 
 
-Go to the [Add a remote branch](#add-a-remote-branch) section to get instructions for adding an existing branch to your local copy.  Or
-[create a new branch](#create-a-new-branch). 
+<br>
+Go to the [Add a remote branch](#add-a-remote-branch) section to get instructions for adding an existing branch to your local copy.  
+
+Or go to the [create a new branch](#create-a-new-branch) section to add a new feature branch. 
  
 <br>
 
@@ -131,13 +136,16 @@ Once you're in the `master` branch, select the **Branch** icon, add a branch nam
 
 ![sourcetree-branch-new.gif](images/sourcetree-branch-new.gif)
 
-You have created a *local* branch.  When you add your first commit, it will be pushed up to the Github repo and other team members will be able to see and checkout your branch.
+<br>
+You have now created a *local* branch.  
+
+When you add your first commit, the commit AND the branch will be pushed up to the Github repo and other team members will then be able to see and checkout your feature branch.
 
 #### Create a branch on github.com 
 
 Always create a new branch from the `master` branch because it contains all the current files which are live on the site and have been tested.
 
-From the main repository page, select the **Branch: master** button to create a branch from the master branch. 
+From the [main repository page](https://github.com/WomenAndTech/static-site), select the **Branch: master** button to create a branch from the master branch. 
 
 ![Github branch button](images/github-branch-btn.png)
 
@@ -147,11 +155,7 @@ Click to show a dropdown, add a name for your new branch by typing it in the dro
 ![Github create branch](images/github-create-branch.gif  )
 
 <br>
-Creating a branch on github.com means you've created a *remote* branch. Go to the next section, and follow the instructions for [adding an existing branch](#add-an-existing-branch) to add your new branch to your local copy.  
-
-If you made a branch and need to delete it, you can access it under the **branches** link and delete it from there.
-![Delete branch from Github](images/github-delete-branch.gif)
-
+Creating a branch on github.com means you've created a *remote* branch. Go to the next section, and follow the instructions for [adding a remote branch](#add-a-remote-branch) to add your new branch to your local copy.  
 
 <br>
 
@@ -189,6 +193,19 @@ Remote = live on github.com
 Local = the copy on your computer
 
 Make your content updates and commits in your branch until you're ready to push it live to the Women&&Tech site. Check that the branch name is highlighted in SourceTree to ensure that you are in your feature branch, instead of the master branch.
+
+
+### Delete a branch
+
+There are several ways to delete a branch. 
+
+On github.com, from the main repo page, go to the **branches** link and select the trash can icon.
+
+![Delete branch from Github](images/github-delete-branch.gif)
+
+This only deletes your *remote* branch.  You still need to delete your *local* branch.
+
+
 
 ### Working with multiple branches
 
