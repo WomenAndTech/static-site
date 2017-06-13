@@ -8,7 +8,7 @@
   //-----------------------------------------------------------------------------
   // Social media images are added in the metatags in includes/header.php to always pull in the feature image from this interview. Make sure the featured image always follows this format: featured-firstname-lastname.jpg
   $social_title = 'Interview with Emilie Baltz with Victoria Whang';
-  $social_desc = 'Use the description from the archive page.';
+  $social_desc = 'Artist, experience designer, and food technologist, based in New York City.';
 
   // INTERVIEW CREDITS
   //-----------------------------------------------------------------------------
@@ -21,17 +21,17 @@
   */
 
   $interviewer = "Victoria Whang";
-  $interviewer_url = "http://twitter.com/victoriawhang";
+  $interviewer_url = "https://twitter.com/victoriawhang";
   $editor = "Ivonne Karamoy";
   $editor_url = "https://twitter.com/ivonnekn";
   $editor2 = "Ria Lupton";
-  $editor2_url = "https://twitter.com/RoastedKeyboard";
+  $editor_url2 = "https://twitter.com/RoastedKeyboard";
   $editor3 = "Cassie Kaiser";
-  $editor3_url = "https://twitter.com/CassKaiser";
-  $dev = "Full Name";
-  $dev_url = "";
+  $editor_url3 = "https://twitter.com/CassKaiser";
+  $dev = "Victoria Whang";
+  $dev_url = "https://twitter.com/victoriawhang";
   $transcribe = "Victoria Whang";
-  $transcribe_url = "http://twitter.com/victoriawhang";
+  $transcribe_url = "https://twitter.com/victoriawhang";
 
 
   /* Do not change these settings */
@@ -407,6 +407,7 @@
       <li>
         Editing by <a href="<?php echo $editor_url; ?>"><?php echo $editor; ?></a>
         <?php if ($editor2): echo 'and <a href="'.$editor_url2 .'">'.$editor2.'</a>';endif; ?>
+        <?php if ($editor3): echo 'and <a href="'.$editor_url3 .'">'.$editor3.'</a>';endif; ?>
       </li>
       <li>
         Development by <a href="<?php echo $dev_url; ?>"><?php echo $dev; ?></a>
