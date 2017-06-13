@@ -22,14 +22,12 @@
 
   $interviewer = "Victoria Whang";
   $interviewer_url = "http://twitter.com/victoriawhang";
-  $photos = "Full Name";
-  $photos_url = "";
-  $editor = "Full Name";
-  $editor_url = "";
-  $ad = "Full Name";
-  $ad_url = "";
-  $design = "Full Name";
-  $design_url = "";
+  $editor = "Ivonne Karamoy";
+  $editor_url = "https://twitter.com/ivonnekn";
+  $editor2 = "Ria Lupton";
+  $editor2_url = "https://twitter.com/RoastedKeyboard";
+  $editor3 = "Cassie Kaiser";
+  $editor3_url = "https://twitter.com/CassKaiser";
   $dev = "Full Name";
   $dev_url = "";
   $transcribe = "Victoria Whang";
@@ -407,20 +405,8 @@
         <?php if ($interviewer2): echo 'and <a href="'.$interviewer_url2 .'">'.$interviewer2.'</a>';endif; ?>
       </li>
       <li>
-        Photography by <a href="<?php echo $photos_url; ?>"><?php echo $photos; ?></a>
-        <?php if ($photos2): echo 'and <a href="'.$photos_url2 .'">'.$photos2.'</a>';endif; ?>
-      </li>
-      <li>
         Editing by <a href="<?php echo $editor_url; ?>"><?php echo $editor; ?></a>
         <?php if ($editor2): echo 'and <a href="'.$editor_url2 .'">'.$editor2.'</a>';endif; ?>
-      </li>
-      <li>
-        Art Direction by <a href="<?php echo $ad_url; ?>"><?php echo $ad; ?></a>
-        <?php if ($ad2): echo 'and <a href="'.$ad_url2 .'">'.$ad2.'</a>';endif; ?>
-      </li>
-      <li>
-        Design by <a href="<?php echo $design_url; ?>"><?php echo $design; ?></a>
-        <?php if ($design2): echo 'and <a href="'.$design_url2 .'">'.$design2.'</a>';endif; ?>
       </li>
       <li>
         Development by <a href="<?php echo $dev_url; ?>"><?php echo $dev; ?></a>
