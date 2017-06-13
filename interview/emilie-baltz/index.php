@@ -30,8 +30,8 @@
   $editor_url3 = "https://twitter.com/CassKaiser";
   $dev = "Victoria Whang";
   $dev_url = "https://twitter.com/victoriawhang";
-  $dev = "Christina Truong";
-  $dev_url = "https://twitter.com/christinatruong";
+  $dev2 = "Christina Truong";
+  $dev_url2 = "https://twitter.com/christinatruong";
   $transcribe = "Victoria Whang";
   $transcribe_url = "https://twitter.com/victoriawhang";
 
