@@ -135,7 +135,8 @@
       <img src="https://upload.wikimedia.org/wikipedia/commons/e/e7/Thorrenc%2C_ch%C3%A2teau.JPG" alt="Emilie Baltz restored a French chateau">
       <figcaption>
         Photo credit:
-        <a href="https://commons.wikimedia.org/wiki/File%3AThorrenc%2C_ch%C3%A2teau.JPG" title="Thorrenc chateau Wiki">Pasquion</a>
+        <a href="https://commons.wikimedia.org/wiki/File%3AThorrenc%2C_ch%C3%A2teau.JPG" title="Thorrenc chateau Wiki">Pasquion</a><br>
+        Château de Thorrenc dates back to at least 1025 and is made up of three towers. Emilie spent some time in France restoring the chateau on a job before returning to the U.S. 
       </figcaption>
     </figure>
   </div>
