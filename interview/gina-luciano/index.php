@@ -52,7 +52,7 @@
     <header class="border header-interview">
       <div class="wrapper-sm">
         <h2>Gina Luciano</h2>
-        Gina Luciano is the co-founder and CEO of Cambridge-based gift experience startup&nbsp;<a href="https://delightfully.com/2/" target="_blank">Delightfully</a>. Split between art and science since an early age, Gina has found an outlet for both her passions in her journey as a woman entrepreneur.
+        <p class="intro">Gina Luciano is the co-founder and CEO of Cambridge-based gift experience startup&nbsp;<a href="https://delightfully.com/2/" target="_blank">Delightfully</a>. Split between art and science since an early age, Gina has found an outlet for both her passions in her journey as a woman entrepreneur.</p>
 
         <?php // Don't update. Using the same info as is Interview Credits. ?>
         <p class="author">An interview with <a href="<?php echo $interviewer_url; ?>"><?php echo $interviewer; ?></a></p>
