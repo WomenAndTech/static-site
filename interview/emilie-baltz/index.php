@@ -32,6 +32,8 @@
   $dev_url = "https://twitter.com/victoriawhang";
   $dev2 = "Christina Truong";
   $dev_url2 = "https://twitter.com/christinatruong";
+  $dev3 = "Ivonne Karamoy";
+  $dev_url3 = "https://twitter.com/ivonnekn";
   $transcribe = "Victoria Whang";
   $transcribe_url = "https://twitter.com/victoriawhang";
 
@@ -412,7 +414,8 @@
       </li>
       <li>
         Development by <a href="<?php echo $dev_url; ?>"><?php echo $dev; ?></a>
-        <?php if ($dev2): echo 'and <a href="'.$dev_url2 .'">'.$dev2.'</a>';endif; ?>
+        <?php if ($dev2): echo ', <a href="'.$dev_url2 .'">'.$dev2.'</a>';endif; ?>
+        <?php if ($dev3): echo 'and <a href="'.$dev_url3 .'">'.$dev3.'</a>';endif; ?>
       </li>
       <li>
         Transcriptions by <a href="<?php echo $transcribe_url; ?>"><?php echo $transcribe; ?></a>
