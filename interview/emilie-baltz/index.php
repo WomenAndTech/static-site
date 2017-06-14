@@ -58,7 +58,7 @@
   <header class="border header-interview">
     <div class="wrapper-sm">
       <h2>Emilie Baltz</h2>
-      <p class="intro">Emilie Baltz is an artist, an experience designer, and a food technologist but those terms don’t quite do her justice . She has taken all of her experiences ranging from childhood microwave experiments to studying contemporary dance and screenwriting, to inviting guests for colourful interactive dinners at her home and built a career in which she creates and tells interactive stories using food and the five senses in the most playful and unconventional ways. Based in New York City, she is also one of the founding members of New Inc., a founding faculty member of the School of Visual Arts Products of Design MFA Program, and the founder of Food Design Studio at Pratt Institute. She is also an award winning author of “L.O.V.E. Foodbook” and a public speaker at engagements such as TedX, the TODAY Show, FITC, and more. </p>
+      <p class="intro">Emilie Baltz is an artist, an experience designer, and a food technologist but those terms don’t quite do her justice. She has taken all of her experiences ranging from childhood microwave experiments to studying contemporary dance and screenwriting, to inviting guests for colourful interactive dinners at her home and built a career in which she creates and tells interactive stories using food and the five senses in the most playful and unconventional ways. Based in New York City, she is also one of the founding members of <a href="http://www.newinc.org/" alt="New Inc. New York">New Inc.</a>, a founding faculty member of the School of Visual Arts <a href="http://productsofdesign.sva.edu/" alt="Products of Design MFA Program at SVA">Products of Design MFA Program</a>, and the founder of Food Design Studio at Pratt Institute. She is also an award winning author of “L.O.V.E. Foodbook” and a public speaker at engagements such as TedX, the TODAY Show, FITC, and more. </p>
 
       <?php // Don't update. Using the info from PHP variables at the top of the page. ?>
       <p class="author">An interview with <a href="<?php echo $interviewer_url; ?>"><?php echo $interviewer; ?></a></p>
@@ -92,20 +92,20 @@
   <dl class="border">
     <dt class="interview-q">Emilie walked into the Osgoode boardroom at the Hilton hotel, between seminars, at <a href="http://fitc.ca/event/to17/" target="_blank">FITC 2017</a>, just as I finished testing my Zoom recorder. She would be sharing her expertise in <a href="http://fitc.ca/presentation/sensploration/" target="_blank">Sensploration</a> the following day and I had the opportunity to ask her everything from her work, to her background, to being a woman in tech. The kind of experiences Emilie designed blew my mind and broke down everything I had learned about experience design thus far. On my way to our meeting, I picked up a unicorn themed cupcake for Emilie from <a href="http://www.cutiepiecupcakes.ca/" target="_blank">Cutie Pie Cupcakes</a>. As it turns out, her personal company name she’s trademarked is called Unicorn Exists.</dt>
     <dd class="interview-a">
-      <p>When I was coming up with a business name for my accountant to register, I told him: Baltz Works, Baltz Inc. and just as a joke, Unicorns Exist. The next day, I received my paperwork and it read, ‘Unicorn Exists is live and open for business’ and I was like, what the f***?</p> 
- 
+      <p>When I was coming up with a business name for my accountant to register, I told him: Baltz Works, Baltz Inc. and just as a joke, Unicorns Exist. The next day, I received my paperwork and it read, ‘Unicorn Exists is live and open for business’ and I was like, what the f***?</p>
+
       <p>‘Baltz Works was taken.’</p>
 
-      <p>I said, ‘what about Baltz Inc?’ He said, ‘oh, I don’t know, the third one was funny.’ So he picked the third one but he misspelled it! He spelled it Unicorn Exists. He put the S after exist which makes no sense at all. I called him back and said Brian, you misspelled it!</p> 
+      <p>I said, ‘what about Baltz Inc?’ He said, ‘oh, I don’t know, the third one was funny.’ So he picked the third one but he misspelled it! He spelled it Unicorn Exists. He put the S after exist which makes no sense at all. I called him back and said Brian, you misspelled it!</p>
 
       <p>‘You have to change it now, I have to bill now!’ </p>
 
-      <p>I went to buy the domain and as I was typing out Unicorns Exist on <a href="https://www.name.com/" target="_blank">name.com</a>, I looked at it, and what I’ve typed is, unicornsexist. That’s the way it’s spelled as a domain. So obviously, I call him back and said never mind!</p> 
+      <p>I went to buy the domain and as I was typing out Unicorns Exist on <a href="https://www.name.com/" target="_blank">name.com</a>, I looked at it, and what I’ve typed is, unicornsexist. That’s the way it’s spelled as a domain. So obviously, I call him back and said never mind!</p>
 
       <p>That’s why Unicorn Exists is my (business) name. In the end it’s quite wonderful because I also believe in accidents. Unicorn Exists stands for hunting for possibilities because within accidents and mistakes, you can often find possibilities. It was a perfect metaphor for what I believe in anyway. We’re all hunting for the missing S (which is all the other unicorns who also search for possibilities!).</p>
     </dd>
   </dl>
-    
+
 <!-- // Q & A -  Add as many as required. -->
   <dl class="border">
     <dt class="interview-q">What is a food technologist and how do you define what you do?</dt>
@@ -114,7 +114,7 @@
       <p>For me, being a food technologist is about being able to create new possibilities; new arrangements that aren’t expected everyday, [creating] delightful inventions for tomorrow. I’m using a lot of digital technology now, a lot of sensor technology, mostly because I like the outcomes that it is able to deliver. I’m interested in rearranging the way that we eat and the way that we consume. Just like you can have a creative technologist, you can have a food technologist. I like to look through that lens and question how can we create tastier ways to engage with our technology.</p>
     </dd>
   </dl>
-    
+
     <!-- // Q & A -  Add as many as required. -->
   <dl class="border">
     <dt class="interview-q">How did you first start doing this? Did someone approach you?</dt>
@@ -126,7 +126,7 @@
         <p>Now, my practical experience is that I went to college and got a degree in screenwriting and contemporary dance. I’ve always been interested in storytelling. I was enamoured with this way of seeing the world, and also feeling the world. I wanted to study how to do that. Screenwriting is a way of organizing storytelling by architecting it through language, and dance is a form of not only expressing it for an audience, but also for feeling it yourself through your body. One is a verbal form of storytelling, and one is a physical form of storytelling. That said, after college I decided to write my own adventure and left film and dance behind to go into photography, then got a wild job restoring a french medieval chateau with Winston Churchill’s grandson, then came back to New York and waitressed. </p>
     </dd>
   </dl>
-    
+
   <!-- // Image - Landscape -->
   <div class="border img-landscape">
     <figure>
@@ -137,7 +137,7 @@
       </figcaption>
     </figure>
   </div>
-    
+
   <!-- // Pull Quote -->
   <aside class="border pull-quote">
     <p>We all must eat to live and in that quest for some sense of truth and human understanding in the world, I could find no other material other than food that seemed to connect all of us.</p>
@@ -150,22 +150,22 @@
       <p>I love humans. I love the stories that we live, and the feelings that we feel. With this experience in hospitality, I knew this was something that I wanted to do. Food had started to bring together the disciplines I had studied: screenwriting and dance, language and the human body, human behavior and human movement.</p>
     </dd>
   </dl>
-    
+
   <!-- // Pull Quote -->
   <aside class="border pull-quote">
-    <p>Food had started to bring together the disciplines I had studied: screenwriting and dance, language and the human body, human behavior and human movement. 
+    <p>Food had started to bring together the disciplines I had studied: screenwriting and dance, language and the human body, human behavior and human movement.
 </p>
   </aside>
-    
+
     <!-- // Q & A -  Add as many as required. -->
   <dl class="border">
     <dt class="interview-q">How long did you work there for?</dt>
     <dd class="interview-a">
-      <p>I worked there for a year. Then I went back to school and got a masters degree in industrial design. Afterwards, I worked in product design and development, from cell phones to jackets, product innovation for Microsoft, ping pong tables for Puma,, all sorts of “stuff”. Eventually I reached a certain point where I got bored of what was happening in my daily life because I was quite far from materials and from the user.</p>
+      <p>I worked there for a year. Then I went back to school and got a masters degree in industrial design. Afterwards, I worked in product design and development, from cell phones to jackets, product innovation for Microsoft, ping pong tables for Puma, all sorts of “stuff”. Eventually I reached a certain point where I got bored of what was happening in my daily life because I was quite far from materials and from the user.</p>
       <p>I had done my graduate thesis on food, specifically looking at why Americans eat the way they do: what are the environmental and contextual factors that influence our everyday consumption behaviours? I developed a whole series of different products and artifacts that were reflections of what I had been researching. But this was 2005, and this was a new space. People were not using food as a material for design at that period as much as we are today, so I chose to let that go and worked practically as an industrial designer. When I got a little disillusioned in a corporate/commercial setting, I started making wild dinners in my own home to rekindle this love of food and behavior.</p>
     </dd>
   </dl>
-    
+
   <!-- // Image - Landscape -->
   <div class="border img-landscape">
     <figure>
@@ -183,10 +183,10 @@
       <p>With my colour themed dinners, guests left with an understanding of a particular colour that expanded the boundaries of their previous understanding. Maybe you never thought that helium was pink, but of course it can be! This kind of radical hospitality allows us to not just engage in new ways with each other, but also expand an understanding of ourselves and the world around us. That is my fundamental goal in life. </p>
     </dd>
   </dl>
-    
+
   <!-- // Pull Quote -->
   <aside class="border pull-quote">
-    <p>How can we create more plural lexicons and richer fluencies together as human beings so we understand that though we are alone, we are also together? What if the language of diversity didn’t just stop at the colour of our skin, or the nationality that’s on our passport, but it also had to do with the way we see the world as humans? 
+    <p>How can we create more plural lexicons and richer fluencies together as human beings so we understand that though we are alone, we are also together? What if the language of diversity didn’t just stop at the colour of our skin, or the nationality that’s on our passport, but it also had to do with the way we see the world as humans?
 </p>
   </aside>
 
@@ -195,7 +195,7 @@
     <figure>
       <img src="<?php echo $path_img; ?>landscape-emilie-baltz-food-junkie.jpg" alt="Emilie Baltz Food Junkie page">
       <figcaption>
-          Emilie’s side experiments with food didn’t end there. She, with the help of her intern, used to make crazy recipes out of office snacks. She posted the recipes on a friend’s website at <a href="http://www.core77.com/" target="_blank">core77.com</a> and called it, <a href="http://www.eatmedaily.com/2009/11/office-snack-gourmet-by-emilie-baltz-food-art/" target="_blank">Office Snack Gourmet</a>. 
+          Emilie’s side experiments with food didn’t end there. She, with the help of her intern, used to make crazy recipes out of office snacks. She posted the recipes on a friend’s website at <a href="http://www.core77.com/" target="_blank">core77.com</a> and called it, <a href="http://www.eatmedaily.com/2009/11/office-snack-gourmet-by-emilie-baltz-food-art/" target="_blank">Office Snack Gourmet</a>.
       </figcaption>
     </figure>
   </div>
@@ -206,7 +206,7 @@
       <p> I made five gastronomic recipes, some of which I had grown up with, remade with American junk food from crappy office pantry snacks. When it posted online, it went a little bit viral and I got a call from a book publisher in the States who said, ‘We’ve always wanted to make a book like this. Would you be interested? And can you make 101 recipes?’ And I said, “Of course!” </p>
     </dd>
   </dl>
-    
+
   <!-- // Image - Landscape -->
   <div class="border img-landscape">
     <figure>
@@ -216,7 +216,7 @@
       </figcaption>
     </figure>
   </div>
-    
+
     <!-- // Q & A -  Add as many as required. -->
   <dl class="border">
     <dt class="interview-q">What made you want to go back to school for industrial design?</dt>
@@ -224,12 +224,12 @@
       <p>I wanted to learn how to make things. I like to use my body, but I also like people. Industrial design, specifically the study of product design, is the study of how things and human behaviour intersect. (Think of it this way, if we are living the Theatre of Life, I think product design is the Props). Industrial design is a great way to learn about form, material, and shape, but it’s also a great way to learn about human behaviour. There’s so much user research that goes into it, including behavioural studies and user testing. You’re actually learning about people throughout the entire process. At heart, it is a problem solving discipline, so you have to have an empathetic understanding of a user to deliver a solution.</p>
     </dd>
   </dl>
-    
+
   <!-- // Pull Quote -->
   <aside class="border pull-quote">
     <p>Industrial design is a great way to learn about form, material, and shape, but it’s also a great way to learn about human behaviour.</p>
   </aside>
-    
+
     <!-- // Q & A -  Add as many as required. -->
   <dl class="border">
     <dt class="interview-q">How do you test with users and sympathize with their needs when designing for food experiences?</dt>
@@ -238,7 +238,7 @@
       <p>That said, at the end of the day, what people remember is, as Maya Angelou wrote, ‘people will not remember me for what I do, they will remember me for how I made them feel.’ That’s what’s so interesting for me about the design of food. The creative departure can be less focused on what you do, and more about what you want to feel.</p>
     </dd>
   </dl>
-    
+
     <!-- // Q & A -  Add as many as required. -->
   <dl class="border">
     <dt class="interview-q">What’s your favourite restaurant?</dt>
@@ -247,7 +247,7 @@
       <p>For the theatre of life, <a href="https://www.alinearestaurant.com/" target="_blank">Alinea</a>, in Chicago is Grant Achatz’s opera of food and it is just wild. Also I love anything Albert Adria does, Ferran Adria’s brother, (the two guys who started <a href="http://elbulli.com/" target="_blank">El Bulli</a>). Albert is just a genius and anything he does is amazing. I was fortunate enough to eat in a place called <a href="http://www.nytimes.com/2011/05/08/travel/08bites-41degrees.html" target="_blank">41 Degrees</a> which closed a couple of years ago, and now he’s opened one called <a href="http://www.enigmaconcept.es/" target="_blank">Enigma</a>. I also love a coffee shop in New York called <a href="http://www.ocafenyc.com/" target="_blank">O Cafe</a>. A friend of mine, Fernando, runs it. I love it because everything tastes like what it is. Either I like things that are super fantastic or I love just to eat an avocado, a really good egg, a really nice piece of dark chocolate, and really nice salt. Those are the two poles.</p>
     </dd>
   </dl>
-    
+
     <!-- // Q & A -  Add as many as required. -->
   <dl class="border">
     <dt class="interview-q">Tell me about some of your favourite projects.</dt>
@@ -255,7 +255,7 @@
       <p>There was a very epic  one called <a href="http://emiliebaltz.com/commissions/energia-dinner/" target="_blank">Energia</a>. It was a dinner at a nuclear reactor in Stockholm. That was wild. That dinner was designed for risk. How can we foster risk and create a place, a space, for people to experience risk? Well, you put them into an elevator, you plunge them 25 metres under Stockholm city centre and you have them explore the innards of a decommissioned nuclear reactor through all sorts of wild food experiences. It was epic and wonderful and I loved making it!</p>
     </dd>
   </dl>
-    
+
   <!-- // Image - Landscape -->
   <div class="border img-landscape">
     <figure>
@@ -266,7 +266,7 @@
       </figcaption>
     </figure>
   </div>
-    
+
     <!-- // Q & A -  Add as many as required. -->
   <dl class="border">
     <dd class="interview-a">
@@ -286,7 +286,7 @@
     <!-- // Q & A -  Add as many as required. -->
   <dl class="border">
     <dd class="interview-a">
-      <p>The <a href="http://emiliebaltz.com/commissions/cotton-candy-theremin/" target="_blank">cotton candy theremin machine</a> was also a collaborative project with <a href="http://sharkbox.com/" target="_blank">Charlie Whitney</a> and <a href="http://www.stewardesslollipop.com/" target="_blank">Philip Sierzega</a>. Phil is an interactive director and artist and Charlie is a programmer and an artist. Cotton candy serves as a good metaphor for the project because it involved spinning so many different disciplines together. We worked with sound designers and motion graphics designers, coders, industrial designers, and chefs.</p>
+      <p>The <a href="http://emiliebaltz.com/commissions/cotton-candy-theremin/" target="_blank">Cotton Candy Theremin Machine</a> was also a collaborative project with <a href="http://sharkbox.com/" target="_blank">Charlie Whitney</a> and <a href="http://www.stewardesslollipop.com/" target="_blank">Philip Sierzega</a>. Phil is an interactive director and artist and Charlie is a programmer and an artist. Cotton candy serves as a good metaphor for the project because it involved spinning so many different disciplines together. We worked with sound designers and motion graphics designers, coders, industrial designers, and chefs.</p>
     </dd>
   </dl>
   <!-- // Image - Landscape -->
@@ -320,7 +320,7 @@
       <p>New Inc is the New Museum’s incubator for art design and technology and supports entrepreneurship in various forms. The <a href="http://www.newmuseum.org/" target="_blank">New Museum</a> is such an interesting institution because it’s constantly questioning itself. What is a museum? What does it mean to be emerging in the contemporary scene right now? New Inc is great. I was the first class there. It was a special time and place as well, because the first class of anything is usually filled with people who are ready and willing to experiment.</p>
     </dd>
   </dl>
-    
+
   <!-- // Image - Landscape -->
   <div class="border img-landscape">
     <figure>
@@ -331,7 +331,7 @@
       </figcaption>
     </figure>
   </div>
-    
+
     <!-- // Q & A -  Add as many as required. -->
   <dl class="border">
     <dt class="interview-q">You founded the Food Design Studio at Pratt Institute as well. Tell me about that. </dt>
@@ -341,7 +341,7 @@
       <p>That’s the first half of the food design studio and the second half is a series of commercial applications. We design a cookie, a meal, and different levels of consumer packaged goods for in-home experiences, to spectacular events. The final project can be of any area of interest so some students might explore sustainability, while some people are really interested in play.</p>
     </dd>
   </dl>
-    
+
   <!-- // Image - Landscape -->
   <div class="border img-landscape">
     <figure>
@@ -352,7 +352,7 @@
       </figcaption>
     </figure>
   </div>
-    
+
     <!-- // Q & A -  Add as many as required. -->
   <dl class="border">
     <dt class="interview-q">Where do you see UX/UI education going in the future?</dt>
@@ -364,7 +364,7 @@
   <aside class="border pull-quote">
     <p>If you switch your point of entry to an emotional point of entry, I believe that our end outcome is different. It is more empathetic and generous. Those are abstract terms but I do think it can change the content in the end by creating something that’s a little more human. </p>
   </aside>
-    
+
     <!-- // Q & A -  Add as many as required. -->
   <dl class="border">
     <dt class="interview-q">Has your gender ever affected your work experience?</dt>
@@ -380,8 +380,8 @@
   </aside>
 
 <dl class="border">
-    <dd class="interview-a">
-        <p>As we gathered our things to make our way out of the boardroom, she put on a sparkly aviator cap that reminded me of the one Natalie Portman wore in Garden State.</p>
+    <dd class="interview-q">
+        <p>As we gathered our things to make our way out of the boardroom, Emilie put on a sparkly aviator cap that reminded me of the one Natalie Portman wore in Garden State.</p>
         <p>“Where is your hat from?”</p>
         <p>I asked eagerly, because I’ve never seen anything like it before.</p>
         <p>“Paris,” she replied as she ties the clasp on below her chin. Of course it is...everything about Emilie Baltz is a technicolor dream.</p>
@@ -407,8 +407,7 @@
         <?php if ($interviewer2): echo 'and <a href="'.$interviewer_url2 .'">'.$interviewer2.'</a>';endif; ?>
       </li>
       <li>
-        Editing by <a href="<?php echo $editor_url; ?>"><?php echo $editor; ?></a>
-        <?php if ($editor2): echo 'and <a href="'.$editor_url2 .'">'.$editor2.'</a>';endif; ?>
+        Editing by <a href="<?php echo $editor_url; ?>"><?php echo $editor; ?></a><?php if ($editor2): echo ', <a href="'.$editor_url2 .'">'.$editor2.'</a>';endif; ?>
         <?php if ($editor3): echo 'and <a href="'.$editor_url3 .'">'.$editor3.'</a>';endif; ?>
       </li>
       <li>
