@@ -262,7 +262,7 @@
       <img src="<?php echo $path_img; ?>landscape-emilie-baltz-energia.jpg" alt="Emilie Baltz - Energia dinner">
       <figcaption>
         Photo credit:
-        <a href="http://emiliebaltz.com/commissions/energia-dinner/" title="Emilie Baltz - Energia">Emilie Baltz website</a>
+        <a href="http://emiliebaltz.com/commissions/energia-dinner/" title="Emilie Baltz - Energia">Emilie Baltz</a>
       </figcaption>
     </figure>
   </div>
@@ -279,7 +279,7 @@
       <img src="<?php echo $path_img; ?>landscape-emilie-baltz-lickestra.jpg" alt="Emilie Baltz - Lickestra">
       <figcaption>
         Photo credit:
-        <a href="http://emiliebaltz.com/experiments/lickestra/" title="Emilie Baltz - Lickestra">Emilie Baltz website</a>
+        <a href="http://emiliebaltz.com/experiments/lickestra/" title="Emilie Baltz - Lickestra">Emilie Baltz</a>
       </figcaption>
     </figure>
   </div>
@@ -295,7 +295,7 @@
       <img src="<?php echo $path_img; ?>landscape-emilie-baltz-cotton-candy.jpg" alt="Emilie Baltz Cotton Candy Theremin">
       <figcaption>
         Photo credit:
-        <a href="http://emiliebaltz.com/commissions/cotton-candy-universe/" title="Emilie Baltz Cotton Candy Theremin">Emilie Baltz website</a>
+        <a href="http://emiliebaltz.com/commissions/cotton-candy-universe/" title="Emilie Baltz Cotton Candy Theremin">Emilie Baltz</a>
       </figcaption>
     </figure>
   </div>
@@ -327,7 +327,7 @@
       <img src="<?php echo $path_img; ?>landscape-emilie-baltz-newinc.jpg" alt="Emilie Baltz - New Inc.">
       <figcaption>
         Photo credit:
-        <a href="http://www.newinc.org/" title="New Inc building in NYC">New Inc. website</a>
+        <a href="http://www.newinc.org/" title="New Inc building in NYC">New Inc.</a>
       </figcaption>
     </figure>
   </div>
@@ -348,7 +348,7 @@
       <img src="<?php echo $path_img; ?>landscape-emilie-baltz-travelcakes.jpg" alt="Emilie Baltz - croissants at Food Design Studio">
       <figcaption>
         Photo credit:
-        <a href="http://emiliebaltz.com/workshops/travel-cakes/" title="Emilie Baltz Food Design Studio">Emilie Baltz website</a>
+        <a href="http://emiliebaltz.com/workshops/travel-cakes/" title="Emilie Baltz Food Design Studio">Emilie Baltz</a>
       </figcaption>
     </figure>
   </div>
