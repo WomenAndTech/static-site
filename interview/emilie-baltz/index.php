@@ -413,8 +413,7 @@
         <?php if ($editor3): echo 'and <a href="'.$editor_url3 .'">'.$editor3.'</a>';endif; ?>
       </li>
       <li>
-        Development by <a href="<?php echo $dev_url; ?>"><?php echo $dev; ?></a>
-        <?php if ($dev2): echo ', <a href="'.$dev_url2 .'">'.$dev2.'</a>';endif; ?>
+        Development by <a href="<?php echo $dev_url; ?>"><?php echo $dev; ?></a><?php if ($dev2): echo ', <a href="'.$dev_url2 .'">'.$dev2.'</a>';endif; ?>
         <?php if ($dev3): echo 'and <a href="'.$dev_url3 .'">'.$dev3.'</a>';endif; ?>
       </li>
       <li>
