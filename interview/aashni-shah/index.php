@@ -54,7 +54,7 @@
       <header class="border header-interview">
         <div class="wrapper-sm">
           <h2>Aashni Shah</h2>
-          <p>Aashni is a Software Engineer at Microsoft in Vancouver, Canada. Originally from Kenya, she moved to Toronto in 2011 to study Computer Science at the <a href="https://www.utoronto.ca/" title="University of Toronto website">University of Toronto</a>. A former Computer Science Student Union president, a member of the Undergraduate Women in Computer Science group, and an organizer for various events, Aashni has spoken at conferences highlighting hackathons and women’s empowerment and leadership. Aashni founded UofTHacks, the first Collegiate hackathon in Canada, and has since watched hackathons evolve and grow.</p>
+          <p class="intro">Aashni is a Software Engineer at Microsoft in Vancouver, Canada. Originally from Kenya, she moved to Toronto in 2011 to study Computer Science at the <a href="https://www.utoronto.ca/" title="University of Toronto website">University of Toronto</a>. A former Computer Science Student Union president, a member of the Undergraduate Women in Computer Science group, and an organizer for various events, Aashni has spoken at conferences highlighting hackathons and women’s empowerment and leadership. Aashni founded UofTHacks, the first Collegiate hackathon in Canada, and has since watched hackathons evolve and grow.</p>
 
           <?php // Don't update. Using the same info as is Interview Credits. ?>
           <p class="author">An interview with <a href="<?php echo $interviewer_url; ?>"><?php echo $interviewer; ?></a></p>
