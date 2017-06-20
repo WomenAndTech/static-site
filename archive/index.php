@@ -10,6 +10,14 @@
 <main role="main" class="interview-cards wrapper-lg">
   <div class="grid-wrapper">
     <article class="grid-4-2-1">
+      <a href="/interview/emilie-baltz/" class="no-underline">
+        <img src="<?php echo $path_img; ?>thumbnail-emilie-baltz.jpg" alt="Emilie Baltz">
+        <h3>Emilie Baltz</h3>
+        <p>with Victoria Whang</p>
+        <p>Artist, experience designer, and food technologist, based in New York City.</p>
+      </a>
+    </article>
+    <article class="grid-4-2-1">
       <a href="/interview/aashni-shah/" class="no-underline">
         <img src="<?php echo $path_img; ?>thumbnail-aashni-shah.jpg" alt="Aashni Shah">
         <h3>Aashni Shah</h3>

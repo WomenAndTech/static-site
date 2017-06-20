@@ -23,6 +23,14 @@ Do not include any links.
     <a class="view-all" href="/archive/">view all</a>
     <div class="grid-wrapper">
       <article class="grid-3-1">
+        <a href="/interview/emilie-baltz/" class="no-underline">
+          <img src="<?php echo $path_img; ?>thumbnail-emilie-baltz.jpg" alt="Emilie Baltz">
+          <h3>Emilie Baltz</h3>
+          <p>with Victoria Whang</p>
+          <p>Artist, experience designer, and food technologist, based in New York City.</p>
+        </a>
+      </article>
+      <article class="grid-3-1">
         <a href="/interview/aashni-shah/" class="no-underline">
           <img src="<?php echo $path_img; ?>thumbnail-aashni-shah.jpg" alt="Aashni Shah">
           <h3>Aashni Shah</h3>
@@ -37,14 +45,6 @@ Do not include any links.
           <p>with Sophie He</p>
           <p>Co-founder and CEO of Reaction Commerce, an open-source ecommerce platform.
             </p>
-        </a>
-      </article>
-      <article class="grid-3-1">
-        <a href="/interview/mitchell-baker/" class="no-underline">
-          <img src="<?php echo $path_img; ?>thumbnail-mitchell-baker.jpg" alt="Mitchell Baker">
-          <h3>Mitchell Baker</h3>
-          <p>with Cassie McDaniel</p>
-          <p>Founder of the non-profit tech company Mozilla, creator of Firefox and champion of the open web.</p>
         </a>
       </article>
     </div>
