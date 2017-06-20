@@ -53,6 +53,7 @@
         <div class="supporter-logos no-underline">
           <a href="http://camptech.ca"><img src="<?php echo $path_img; ?>camp_tech_logo.png" alt="Camp Tech logo"></a>
           <a href="http://www.ecentricarts.com/"><img src="<?php echo $path_img; ?>ecentricarts.png"alt="ecentricarts logo"></a>
+          <a href="http://fitc.com/"></a><img src="<?php echo $path_img; ?>fitc_logo.png" alt="FITC logo"></a>
           <a href="http://www.microsoft.com/en-us/diversity/"><img src="<?php echo $path_img; ?>microsoft.png" alt="Microsoft logo"></a>
           <a href="http://peopleandcode.com/"></a><img src="<?php echo $path_img; ?>peopleandcode.png" alt="People & Code logo"></a>
         </div>
