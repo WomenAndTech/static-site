@@ -74,26 +74,34 @@
         <li>
           <p class="name"><a href="http://twitter.com/CassKaiser">Cassie Kaiser</a></p>
           <p class="role">Lead Designer, Coordinator</p>
+          <!--p>Cassie is key to our design and operations as Lead Designer and Managing Coordinator. Cassie is currently a UX Researcher @shopify Toronto.</p-->
         </li>
         <li>
           <p class="name"><a href="http://twitter.com/raykao">Ray Kao</a></p>
           <p class="role">Operations & Support</p>
+          <!--p>As one of our founding members, Ray is integral to our daily operations offering his technical support in every way. Ray is currently Open Source Tech Lead @microsoftcanada.
+            </p-->
         </li>
         <li>
           <p class="name"><a href="http://twitter.com/ivonnekn">Ivonne Karamoy</a></p>
           <p class="role">Lead Designer, Director</p>
+          <!--p>As one of our founding members, Ivonne continues to manage and direct this project and our team. Ivonne is an independent freelance designer focusing on branding and UX/UI design.</p-->
         </li>
         <li>
           <p class="name"><a href="http://twitter.com/RoastedKeyboard">Ria Lupton</a></p>
-          <p class="role">Editor, Communications Lead</p>
+          <p class="role">Editor, Community Builder</p>
+          <!--p>Ria is our chief editor and our lead community builder. She is founder of @communitybuilders and helps us develop our community through partnerships within the tech community.</p-->
         </li>
         <li>
           <p class="name"><a href="http://twitter.com/christinatruong">Christina Truong</a></p>
           <p class="role">Developer, Front-End Architect</p>
+          <!--p>Christina is our Lead Front-End Architect and Developer. She's built our site from the ground up to be scalable and flexible yet light weight. She is an independent developer, educator, consultant and diversity advocate.</p-->
         </li>
         <li>
           <p class="name"><a href="http://twitter.com/victoriawhang">Victoria Whang</a></p>
-          <p class="role">Designer, Social Media Manager</p>
+          <p class="role">Designer, Social Media Engagement</p>
+          <!--p>Victoria wears many hats and has helped us with everything from producing content, photography, design and she's the one behind our social campaigns. Say hi to her on our twitter and instagram.
+            </p-->
         </li>
       </ul>
       <p>&nbsp;</p>
