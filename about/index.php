@@ -73,31 +73,32 @@
       <ul>
         <li>
           <p class="name"><a href="http://twitter.com/CassKaiser">Cassie Kaiser</a></p>
-          <!--p class="role">Designer</p-->
+          <p class="role">Lead Designer, Coordinator</p>
         </li>
         <li>
           <p class="name"><a href="http://twitter.com/raykao">Ray Kao</a></p>
-          <!--p class="role">Developer</p-->
+          <p class="role">Operations & Support</p>
         </li>
         <li>
           <p class="name"><a href="http://twitter.com/ivonnekn">Ivonne Karamoy</a></p>
-          <!--p class="role">Designer</p-->
+          <p class="role">Lead Designer, Director</p>
         </li>
         <li>
           <p class="name"><a href="http://twitter.com/RoastedKeyboard">Ria Lupton</a></p>
-          <!--p class="role">Communications</p-->
+          <p class="role">Editor, Communications Lead</p>
         </li>
         <li>
           <p class="name"><a href="http://twitter.com/christinatruong">Christina Truong</a></p>
-          <!--p class="role">Developer</p-->
+          <p class="role">Developer, Front-End Architect</p>
         </li>
         <li>
           <p class="name"><a href="http://twitter.com/victoriawhang">Victoria Whang</a></p>
-          <!--p class="role">Designer</p-->
+          <p class="role">Designer, Social Media Manager</p>
         </li>
       </ul>
       <p>&nbsp;</p>
-      <p class="thanks">All of us conduct interviews, produce content and shape the direction of W&&T. <br>
+      <p class="thanks">All of us conduct interviews, produce content and shape the direction of W&&T. </p>
+      <p class="thanks">
       Special thanks to our founder <a href="https://twitter.com/cassiemc">Cassie McDaniel</a>, our <a href="https://twitter.com/britburger">founding</a> <a href="https://twitter.com/brttb">team</a> <a href="https://twitter.com/milang">members</a>, past team members and supporters. If you have ideas about how you can help, <a href="mailto:contact@womenandtech.com">email us</a>.</p>
     </aside>
 
