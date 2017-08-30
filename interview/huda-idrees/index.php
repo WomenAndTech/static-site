@@ -228,7 +228,7 @@
     <dd class="interview-a">
       <p>I think that the only serendipitous thing that happened to me and started all of this was Wattpad. After that everything has been very calculated. I don’t think it always comes across that way. Wave was a very conscious decision for me. I could have chosen to go back to Wattpad and continue in that journey, or I could’ve chosen to go elsewhere.
       </p>
-      <p>The long term plan of all this is me entering into technology and startups in the area of design and the beginnings of product and then slowly moving into stuff that is going to be more and more useful for people.There was a very conscious move from Wattpad, which was entertainment, to Wealthsimple. I want to use my powers for good and I want to apply it to stuff that people actually need, stuff that somebody cannot be without. I have slowly moved in the direction that I’ve really wanted, which is healthcare. Healthcare has been this long term dream of mine. I never really found somebody doing the stuff I wanted to do.</p>
+      <p>The long term plan of all this is me entering into technology and startups in the area of design and the beginnings of product and then slowly moving into stuff that is going to be more and more useful for people. There was a very conscious move from Wattpad, which was entertainment, to Wealthsimple. I want to use my powers for good and I want to apply it to stuff that people actually need, stuff that somebody cannot be without. I have slowly moved in the direction that I’ve really wanted, which is healthcare. Healthcare has been this long term dream of mine. I never really found somebody doing the stuff I wanted to do.</p>
     </dd>
   </dl>
 
