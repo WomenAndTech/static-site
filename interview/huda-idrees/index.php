@@ -120,7 +120,7 @@
   <!-- // Q & A -->
   <dl class="border">
     <!-- // Question -->
-    <dt class="interview-q">You graduated from the <a href=”https://www.mie.utoronto.ca/”>University of Toronto</a> in Industrial Engineering, did you know at that point where you wanted your career to go?
+    <dt class="interview-q">You graduated from the <a href="https://www.mie.utoronto.ca/">University of Toronto</a> in Industrial Engineering, did you know at that point where you wanted your career to go?
     </dt>
     <!-- // Answer -->
     <dd class="interview-a">
@@ -182,7 +182,7 @@
     <dd class="interview-a">
       <p>I didn’t know it was called design. I would read a lot of stuff and go to all these free conferences as a student. I would read about and look up to designers. I just sort of learned.
       </p>
-      <p>One of my favourite designers and the person that has probably taught me the most is a guy called <a href=”http://fabiosasso.com/”>Fabio Sasso</a>. He ran <a href=”http://abduzeedo.com/”>Abduzeedo</a>. The name is short form for abducted by design. It’s very different now, but it used to be a tutorial site to help you learn Photoshop, Illustrator and basically the whole Adobe Creative Suite. I started looking up to people like him and hearing them speak and talk about the power of design in different contexts and I began formulating my own thoughts around it. </p>
+      <p>One of my favourite designers and the person that has probably taught me the most is a guy called <a href="http://fabiosasso.com/">Fabio Sasso</a>. He ran <a href="http://abduzeedo.com/">Abduzeedo</a>. The name is short form for abducted by design. It’s very different now, but it used to be a tutorial site to help you learn Photoshop, Illustrator and basically the whole Adobe Creative Suite. I started looking up to people like him and hearing them speak and talk about the power of design in different contexts and I began formulating my own thoughts around it. </p>
       <p>I should give a lot of credit to U of T [University of Toronto] because I learned so much there. I think a large part of Engineering that people don’t give any credit for is design. Engineers don’t just build stuff, they design it. At U of T, a large part of what we learned, almost subliminally, was how to approach problems. It’s invaluable. I should add that I think schools are very expensive, but I believe you should learn how to problem solve at some point, and engineering schools are valuable for that. </p>
       <p>I learned [design] because of that background and then added on multiple facets to that through learning, through doing, through experience. Allen gave me a huge platform to do stuff in a very contained environment of entertainment and storytelling but loose enough that I could put my mark on something. The entire Wattpad team was awesome. I give them a lot of credit.
       </p>
@@ -240,9 +240,9 @@
     <!-- // Answer -->
     <dd class="interview-a">
       <p>I think on some level we all think that way. I’m a bit more vocal about it. You start a company with the best intentions and ideas about how you’re going to be a B Corp and do all of these [good] things and then you don’t end up doing it. I’ve seen this in places so many times. I think if you centre your work around it, it becomes a necessity, you cannot escape it. If you were to say, I’m going to run an ad company, like Facebook. It’s going to make tons of ad revenue and then I’m going to create the Chan-Zuckerburg initiative and solve all of the problems. That is a very valid thesis for somebody to come up with and I’m glad that they’ve managed to do it. But it’s very easy to say, I did my first bit of being a hugely successful ad company and nobody made me sign a contract to say that I’m going to do any social good, so I’m not doing it. If the thing that you do is inherently social good, then you can’t escape it. </p>
-      <p>There are companies that do this. <a href="http://www.patagonia.com/company-info.html" title="Patagonia company info">Patagonia</a> is a good [for-profit] that comes to mind because <a href="https://en.wikipedia.org/wiki/Yvon_Chouinard" title="About Yvon Chouinard, founder of Patagonia">Yvon</a>’s philosophy for the company (even though it’s hugely profitable) is for it to do good for the people that work there, do good for the people making stuff, do good. Khan Academy is another. They do education en masse but doing good in the world of education is built into their DNA.
+      <p>There are companies that do this. <a href="http://www.patagonia.com/company-info.html" title="Patagonia company info">Patagonia</a> is a good [for-profit] that comes to mind because <a href="https://en.wikipedia.org/wiki/Yvon_Chouinard" title="About Yvon Chouinard, founder of Patagonia">Yvon</a>’s philosophy for the company (even though it’s hugely profitable) is for it to <em>do good</em> for the people that work there, <em>do good</em> for the people making stuff, <em>do good</em>. Khan Academy is another. They do education en masse but doing good in the world of education is built into their DNA.
       </p>
-      <p>If I come out and say Dot Health is going to build what nobody is choosing to build for the consumer, then I have nowhere to hide. So I think when you make that decision, you make that decision. With Dot Health, if you’re a quad-zillionaire, I’m not going to charge you any more for accessing your health data. It’s a plain and simple offering.
+      <p>If I come out and say Dot Health is going to build what nobody is choosing to build for the consumer, then I have nowhere to hide. So I think when you make that decision, you <em>make</em> that decision. With Dot Health, if you’re a quad-zillionaire, I’m not going to charge you any more for accessing your health data. It’s a plain and simple offering.
       </p>
     </dd>
   </dl>
@@ -258,7 +258,7 @@
     <dt class="interview-q">Can you describe Dot Health?</dt>
     <!-- // Answer -->
     <dd class="interview-a">
-      <p>Dot Health at the core of it enables you to access your own health data. Today, an average Ontario resident has been to about 2.3 different health professionals in the span of a year. These care providers have treated this person and have kept records of what happened within those treatments. All of that information lives in the ether, it doesn’t communicate with each other. What we’re building is essentially the platform that enables the real-time access of this data, but more importantly the real-time access of this data that is controlled by you, the person. So instead of relying on a healthcare professional to send an x-ray to your specialist, you can access and send your own x-ray.</p>
+      <p>Dot Health at the core of it enables you to access your own health data. Today, an average Ontario resident has been to about 2.3 different health professionals in the span of a year. These care providers have treated this person and have kept records of what happened within those treatments. All of that information lives in the ether, it doesn’t communicate with each other. What we’re building is essentially the platform that enables the real-time access of this data, but more importantly the real-time access of this data that is controlled by <em>you</em>, the person. So instead of relying on a healthcare professional to send an x-ray to your specialist, you can access and send your own x-ray.</p>
       <p>I want to be clear that this isn’t a new concept. I also want to be clear that this concept is something that we’ve seen everywhere. It has happened in every other industry except healthcare. It’s like this black box. It is one of the only industries where we don’t have access to our own data. It’s a little bit dis-intermediation and on the other side, consumerization of your own health and wellness data. </p>
     </dd>
   </dl>
@@ -358,13 +358,13 @@
   <div class="border img-side-by-side">
     <figure>
       <img src="<?php echo $path_img; ?>landscape-huda-betakit-diversity.jpg" alt="Huda speaking at BetaKit panel on diversity">
-      <figcaption>Huda is a regular contributor and speaker within the tech community. Photo credit: Betakit.
+      <figcaption>Huda is a regular contributor and speaker within the tech community. Photo credit: <a href="http://betakit.com/dmz-panel-tackling-stems-diversity-problem-says-get-the-hell-out-of-the-way/">Betakit</a>.
       </figcaption>
     </figure>
     <figure>
       <img src="<?php echo $path_img; ?>landscape-huda-brookfield-speaking.jpg" alt="Huda speaking at Brookfield event">
       <figcaption>
-         She speaks regularly about product and design as well as diversity and inclusion. Photo credit: Brookfield Institute.
+         She speaks regularly about product and design as well as diversity and inclusion. Photo credit: <a href="https://www.flickr.com/photos/136584968@N04/sets/72157674971896690">Brookfield Institute</a>.
       </figcaption>
     </figure>
   </div>
@@ -372,10 +372,10 @@
   <!-- // Q & A -->
   <dl class="border">
     <!-- // Question -->
-    <dt class="interview-q">I want to talk about diversity and inclusion, if you don’t mind. You’ve spoken and <a href="https://medium.com/@hidrees/" title="Huda's writing on Medium">written</a> openly about diversity and inclusivity. As a person whose identity can fall into many categories, do you feel talking about these topics is a responsibility that is imposed on you or is it a conscious choice that you can make?</dt>
+    <dt class="interview-q">I want to talk about diversity and inclusion, if you don’t mind. You’ve spoken and written openly about diversity and <a href="https://beta.theglobeandmail.com/report-on-business/small-business/talent/how-startups-can-create-a-culture-of-inclusiveness/article27865146/?ref=http://www.theglobeandmail.com&">inclusivity</a>. As a person whose identity can fall into many categories, do you feel talking about these topics is a responsibility that is imposed on you or is it a conscious choice that you can make?</dt>
     <!-- // Answer -->
     <dd class="interview-a">
-      <p>I’m a huge fan of giving people the ability/option/space to make their own choices. I 100% think it’s a choice. And I don’t think we should ever expect people to just be that person. I do think there are certain public/public-ish figures who should be called into question because they’ve stood for them before and continue to not do that. I think that is a different story. So I’ve been vocally pretty anti ‘The Lean In movement’, for example. And I continue to <a href="https://medium.com/@hidrees/silence-of-the-masses-ca9d85e0ed63">hold Sheryl Sandberg accountable</a> for talking about women’s issues and then staying silent when they matter most. So I want to make that distinction very clear. I think when you start off, you or me or Christina [Truong], we can make that choice. And I have made that choice to speak about it. </p>
+      <p>I’m a huge fan of giving people the ability/option/space to make their own choices. I 100% think it’s a choice. And I don’t think we should ever expect people to just be <em>that</em> person. I do think there are certain public/public-ish figures who should be called into question because they’ve stood for them before and continue to not do that. I think that is a different story. So I’ve been vocally pretty anti ‘The Lean In movement’, for example. And I continue to <a href="https://medium.com/@hidrees/silence-of-the-masses-ca9d85e0ed63">hold Sheryl Sandberg accountable</a> for talking about women’s issues and then staying silent when they matter most. So I want to make that distinction very clear. I think when you start off, you or me or Christina [Truong], we can make that choice. And I have made that choice to speak about it. </p>
     </dd>
   </dl>
 
@@ -389,7 +389,7 @@
     <!-- // Answer -->
     <dd class="interview-a">
       <p>I do think though that if you look at the entire community, there are some people who have more influence. Oprah, or Beyonce, or Rihanna have a platform. They have the ability to reach out to broader audiences. And I think that responsibility is fortunately or unfortunately thrust upon them. They feel obligated to their community because they have a certain story and come from a certain background. I don’t think it’s necessary, I think it’s useful. </p>
-      <p>If you have the ability to speak, it’s actually a luxury, most people don’t have that. I was speaking to someone the other day and he identifies as a minority, works at an organization where he’s very clearly the outlier. One of the things that led him to me was my Twitter feed which made him think, “These are all the things that I think but I can’t say because I’m attached to this organization”. So I think we take it for granted. I definitely do sometimes. I can say anything I want. The reason I can do that is because my employer, which is me, is okay with it. If you worked at Apple for example, that might not be the case.</p>
+      <p>If you have the ability to speak, it’s actually a luxury, most people don’t have that. I was speaking to someone the other day and he identifies as a minority, works at an organization where he’s very clearly the outlier. One of the things that led him to me was my <a href="https://twitter.com/hidrees">Twitter feed</a> which made him think, “These are all the things that I think but I can’t say because I’m attached to this organization”. So I think we take it for granted. I definitely do sometimes. I can say anything I want. The reason I can do that is because my employer, which is me, is okay with it. If you worked at Apple for example, that might not be the case.</p>
       <p>You also need to recognize that you’re just speaking from your perspective but your story can be indicative of many other stories. I will never pretend to speak for multiple people, I will only share my own story. I think we should recognize that and use that to fuel some of the storytelling that we do. Most of my twitter followers are a homogenous group, mostly male, mostly techies. So when I share my stories it is going to exactly the audience I want it to go to.</p>
       <p>The large majority of the inclusivity offenders are  people who do it without malicious intent. If you can tell stories to those people and if you have that platform then I think it’s not a responsibility, but it’s pretty cool. Because then you’re gonna get a response back and people are gonna start having those conversations with you where you can enlighten them or help broaden their horizons somehow.</p>
       <p>[To Christina] Would you add to that? Because you talk about diversity so much.</p>
