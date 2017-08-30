@@ -1,6 +1,6 @@
 <?php
   // $page_theme values: theme-coral, theme-purple, theme-yellow, theme-green, theme-blue
-  $page_theme = 'theme-green';
+  $page_theme = 'theme-yellow';
   $interviewee_name = 'Huda Idrees'; // Use for page title & share links
   $interviewee_url = 'huda-idrees'; // Used for share links URLs, use the same name as the interviewee's folder name
 
@@ -22,6 +22,8 @@
 
   $interviewer = "Ivonne Karamoy";
   $interviewer_url = "https://twitter.com/ivonnekn";
+  $interviewer2 = "Christina Truong";
+  $interviewer_url2 = "https://twitter.com/christinatruong";
   $editor = "Ivonne Karamoy";
   $editor_url = "https://twitter.com/ivonnekn";
   $editor2 = "Ria Lupton";
@@ -32,6 +34,8 @@
   $dev_url = "https://twitter.com/ivonnekn";
   $transcribe = "Cassie Kaiser";
   $transcribe_url = "https://twitter.com/CassKaiser";
+  $photographer ="Natalia Dolan";
+  $photographer_url = "http://nataliadolan.com/";
 
 
   /* Do not change these settings */
@@ -47,7 +51,6 @@
   <div class="border img-feature">
     <figure>
       <img src="<?php echo $path_img; ?>featured-huda-idrees.jpg" alt="Huda Idrees">
-        <figcaption>Photo credit: Tim Wilson</figcaption>
     </figure>
   </div>
 
@@ -56,11 +59,11 @@
   <header class="border header-interview">
     <div class="wrapper-sm">
       <h2>Huda Idrees</h2>
-      <p class="intro">Huda is a design powerhouse. Born and raised in Saudi Arabia and trained as an engineer, Huda’s design career has included leading product and design at <a href="#">Wattpad</a>, <a href="#">Wave</a> and <a href="#">Wealthsimple</a>. She’s combined her skills in design and engineering with her leadership and entrepreneurship know-how to use her powers for good. Huda is CEO and Founder of <a href="#">Dot Health</a>, a service that gives people easier access to their personal health data.
+      <p class="intro">Huda is a design powerhouse. Born and raised in Saudi Arabia and trained as an engineer, Huda’s design career has included leading product and design at <a href="https://www.wattpad.com/">Wattpad</a>, <a href="https://www.waveapps.com/">Wave</a> and <a href="https://www.wealthsimple.com/en-ca/" title="Wealthsimple website">Wealthsimple</a>. She’s combined her skills in design and engineering with her leadership and entrepreneurship know-how to use her powers for good. Huda is CEO and Founder of <a href="#">Dot Health</a>, a service that gives people easier access to their personal health data.
       </p>
 
       <?php // Don't update. Using the info from PHP variables at the top of the page. ?>
-      <p class="author">An interview with <a href="<?php echo $interviewer_url; ?>"><?php echo $interviewer; ?></a></p>
+      <p class="author">An interview with <a href="<?php echo $interviewer_url; ?>"><?php echo $interviewer; ?></a> and <a href="<?php echo $interviewer_url2; ?>"><?php echo $interviewer2; ?></a></p>
 
       <?php // Don't update. Using the info from PHP variables at the top of the page. ?>
       <ul class="social-share">
@@ -89,306 +92,362 @@
 
   <!-- // Q & A -  Add as many as required. -->
   <dl class="border">
-    <dt class="interview-q">Emilie walked into the Osgoode boardroom at the Hilton hotel, between seminars, at <a href="http://fitc.ca/event/to17/" target="_blank">FITC 2017</a>, just as I finished testing my Zoom recorder. She would be sharing her expertise in <a href="http://fitc.ca/presentation/sensploration/" target="_blank">Sensploration</a> the following day and I had the opportunity to ask her everything from her work, to her background, to being a woman in tech. The kind of experiences Emilie designed blew my mind and broke down everything I had learned about experience design thus far. On my way to our meeting, I picked up a unicorn themed cupcake for Emilie from <a href="http://www.cutiepiecupcakes.ca/" target="_blank">Cutie Pie Cupcakes</a>. As it turns out, her personal company name she’s trademarked is called Unicorn Exists.</dt>
+    <!-- // Question -->
+    <dt class="interview-q">You started computer programming at a young age and actually started your own business. Can you tell us about how you grew up and how you became interested in design and technology?
+    </dt>
+    <!-- // Answer -->
     <dd class="interview-a">
-      <p>When I was coming up with a business name for my accountant to register, I told him: Baltz Works, Baltz Inc. and just as a joke, Unicorns Exist. The next day, I received my paperwork and it read, ‘Unicorn Exists is live and open for business’ and I was like, what the f***?</p>
-
-      <p>‘Baltz Works was taken.’</p>
-
-      <p>I said, ‘what about Baltz Inc?’ He said, ‘oh, I don’t know, the third one was funny.’ So he picked the third one but he misspelled it! He spelled it Unicorn Exists. He put the S after exist which makes no sense at all. I called him back and said Brian, you misspelled it!</p>
-
-      <p>‘You have to change it now, I have to bill now!’ </p>
-
-      <p>I went to buy the domain and as I was typing out Unicorns Exist on <a href="https://www.name.com/" target="_blank">name.com</a>, I looked at it, and what I’ve typed is, unicornsexist. That’s the way it’s spelled as a domain. So obviously, I call him back and said never mind!</p>
-
-      <p>That’s why Unicorn Exists is my (business) name. In the end it’s quite wonderful because I also believe in accidents. Unicorn Exists stands for hunting for possibilities because within accidents and mistakes, you can often find possibilities. It was a perfect metaphor for what I believe in anyway. We’re all hunting for the missing S (which is all the other unicorns who also search for possibilities!).</p>
+      <p>When I was 12, design was not a thing. There was graphic design and there was the internet. Making websites was a whole new field that we were observing and we’ve now matured into design. The seeds of it were always there but I didn’t know what to call it. I just knew that if I made websites and made them prettier, I got more money. </p>
+      <p>I had a lot of fun growing up. I feel like people have a lot of misconceptions about Saudi Arabia. I loved my childhood there. The one thing that’s very interesting about that country is that kids don’t work in the summer. Most kids would have after school jobs but not in the summer. Summer is for you to spend time with family. It is a really culturally embedded thing.
+      </p>
+      <p>I grew up in a big family. I’m one of six kids so I have 3 sisters and 2 brothers and I’m one of the younger ones. I think that’s had a big impact on what I thought I could be in life. It’s like getting a puzzle that’s half made already. I felt like I had to live up to a lot very early. It was always in the back of my mind.
+      </p>
     </dd>
   </dl>
 
-<!-- // Q & A -  Add as many as required. -->
+  <!-- // Q & A -->
   <dl class="border">
-    <dt class="interview-q">What is a food technologist and how do you define what you do?</dt>
+    <!-- // Question -->
+    <dt class="interview-q">Are your siblings in design or tech? Do they work in the industry?
+    </dt>
+    <!-- // Answer -->
     <dd class="interview-a">
-      <p>When I say food technologist, I think of technology as not necessarily as only limited to the digital interface that we’re working in today, but technology at its heart, which is the organization of diverse parts. For example, when you look at a machine, you’re looking at gears that are moving to create a desired outcome. The printing press is a form of technology. Fire is a form of technology. This is human ingenuity at its best. </p>
-      <p>For me, being a food technologist is about being able to create new possibilities; new arrangements that aren’t expected everyday, [creating] delightful inventions for tomorrow. I’m using a lot of digital technology now, a lot of sensor technology, mostly because I like the outcomes that it is able to deliver. I’m interested in rearranging the way that we eat and the way that we consume. Just like you can have a creative technologist, you can have a food technologist. I like to look through that lens and question how can we create tastier ways to engage with our technology.</p>
+      <p>No, I’m from a family of engineers and that’s what I’m trained in. My dad’s an engineer, my older brother is, one of my sisters is, one of my sisters is an architect and she switched careers into illustration.
+      </p>
     </dd>
   </dl>
 
-    <!-- // Q & A -  Add as many as required. -->
+  <!-- // Q & A -->
   <dl class="border">
-    <dt class="interview-q">How did you first start doing this? Did someone approach you?</dt>
+    <!-- // Question -->
+    <dt class="interview-q">You graduated from the <a href=”https://www.mie.utoronto.ca/”>University of Toronto</a> in Industrial Engineering, did you know at that point where you wanted your career to go?
+    </dt>
+    <!-- // Answer -->
     <dd class="interview-a">
-      <p>Nobody approached me. I invented it.</p>
-      <p>I was four years old and this new invention came into our house. It was called the microwave! I wanted to make tomato soup, so I put a tomato in a bowl of water, placed it in the microwave and pressed GO! And that was tomato soup. Then, there was this guy named Mr. Rogers who showed us how to make peanut butter. You put peanuts and butter in a ziplock bag and smashed them together. Those experiments made up the genesis of where it all started. </p>
-        <p>I grew up south of Chicago in a town called Joliet, Illinois, which is very much like a midwestern strip mall town. My french mother continued her traditions in the home. It was important for her to continue her culture and to engage us in a part of herself. She did that by continuing her culinary traditions, which is such a huge part of french culture. In the midwest of America in the 80s, we didn’t have the food revolution that we have today in America, so for me, food became a symbol of where I belonged, but also where I did not belong. Having two cultures within me, and the challenge of trying to integrate them, is something I’ve always struggled with.</p>
-        <p>Since then, I’ve always been interested in these questions: How do we create culture? How do we create a sense of belonging? How do we create new interactions for people and how do we design spaces where people feel good doing that? I think food is a universal material. Every culture in the world eats. The frequency of it obviously depends on a number of factors, but we all eat. We all must eat to live and in that quest for some sense of truth and human understanding in the world, I could find no other material other than food that seemed to connect all of us.</p>
-        <p>Now, my practical experience is that I went to college and got a degree in screenwriting and contemporary dance. I’ve always been interested in storytelling. I was enamoured with this way of seeing the world, and also feeling the world. I wanted to study how to do that. Screenwriting is a way of organizing storytelling by architecting it through language, and dance is a form of not only expressing it for an audience, but also for feeling it yourself through your body. One is a verbal form of storytelling, and one is a physical form of storytelling. That said, after college I decided to write my own adventure and left film and dance behind to go into photography, then got a wild job restoring a french medieval chateau with Winston Churchill’s grandson, then came back to New York and waitressed. </p>
+      <p>When I graduated, yes, because I had worked at Wattpad already. Wattpad was my 16 month co-op in the middle. With co-op you either learn what you don’t want to do or, if you’re one of the lucky ones, you find something that you want to do. Wattpad was the best co-op, best decision I’ve ever made because I realized what I wanted to do.
+      </p>
     </dd>
   </dl>
 
-  <!-- // Image - Landscape -->
-  <div class="border img-landscape">
+  <!-- // Image - Left & Right -->
+  <div class="border img-side-by-side">
     <figure>
-      <img src="https://upload.wikimedia.org/wikipedia/commons/e/e7/Thorrenc%2C_ch%C3%A2teau.JPG" alt="Emilie Baltz restored a French chateau">
-      <figcaption>
-        Château de Thorrenc dates back to at least 1025 and is made up of three towers. Emilie spent some time in France restoring the chateau on a job before returning to the U.S. Photo credit:
-        <a href="https://commons.wikimedia.org/wiki/File%3AThorrenc%2C_ch%C3%A2teau.JPG" title="Thorrenc chateau Wiki">Pasquion</a><br>
-
+      <img src="<?php echo $path_img; ?>landscape-huda-wealthsimple-mobile.jpg" alt="Wealthsimple Mobile App design">
+      <figcaption>Huda’s first project at Wealthsimple was leading their mobile app development.
+      </figcaption>
+    </figure>
+    <figure>
+      <img src="<?php echo $path_img; ?>landscape-huda-wealthsimple-laptop.jpg" alt="Wealthsimple multi-platform design">
+      <figcaption>Shortly after joining the team, she became Head of Product and Design. Photo Credit: <a href="https://www.wealthsimple.com/en-ca/">Wealthsimple</a>.
       </figcaption>
     </figure>
   </div>
 
-  <!-- // Pull Quote -->
-  <aside class="border pull-quote">
-    <p>We all must eat to live and in that quest for some sense of truth and human understanding in the world, I could find no other material other than food that seemed to connect all of us.</p>
-  </aside>
-
-    <!-- // Q & A -  Add as many as required. -->
+  <!-- // Q & A -->
   <dl class="border">
+    <!-- // Question -->
+    <dt class="interview-q">I read that you crafted your design role at Wattpad yourself.</dt>
+    <!-- // Answer -->
     <dd class="interview-a">
-      <p>Strangely enough, though waitressing seemed to be the most base job I could have gotten, therein came the greatest discovery. I immediately felt, ‘oh, this is what I love. This is the theatre of life. This place is a set.’ Just like in film or in theatre, restaurants are sets. You walk into them and some kind of story is being told. Some chefs even go to the height of defining their restaurants as emotional narratives: ‘This is about love. This is about risk.’ You’re able to feel their stories even more because you’re eating it. I loved that experience. I also loved the process of being part of the restaurant staff and us all coming together at 5pm, just like you do in the theatre. You prep, shine glassware, and then the doors would open. The people would come but there was no real script, so you were always discovering people - maybe even facilitating breakups and proposals! -  and that led me to see the dining table as a stage for the daily dramas of life. </p>
-      <p>I love humans. I love the stories that we live, and the feelings that we feel. With this experience in hospitality, I knew this was something that I wanted to do. Food had started to bring together the disciplines I had studied: screenwriting and dance, language and the human body, human behavior and human movement.</p>
-    </dd>
-  </dl>
-
-  <!-- // Pull Quote -->
-  <aside class="border pull-quote">
-    <p>Food had started to bring together the disciplines I had studied: screenwriting and dance, language and the human body, human behavior and human movement.
-</p>
-  </aside>
-
-    <!-- // Q & A -  Add as many as required. -->
-  <dl class="border">
-    <dt class="interview-q">How long did you work there for?</dt>
-    <dd class="interview-a">
-      <p>I worked there for a year. Then I went back to school and got a masters degree in industrial design. Afterwards, I worked in product design and development, from cell phones to jackets, product innovation for Microsoft, ping pong tables for Puma, all sorts of “stuff”. Eventually I reached a certain point where I got bored of what was happening in my daily life because I was quite far from materials and from the user.</p>
-      <p>I had done my graduate thesis on food, specifically looking at why Americans eat the way they do: what are the environmental and contextual factors that influence our everyday consumption behaviours? I developed a whole series of different products and artifacts that were reflections of what I had been researching. But this was 2005, and this was a new space. People were not using food as a material for design at that period as much as we are today, so I chose to let that go and worked practically as an industrial designer. When I got a little disillusioned in a corporate/commercial setting, I started making wild dinners in my own home to rekindle this love of food and behavior.</p>
-    </dd>
-  </dl>
-
-  <!-- // Image - Landscape -->
-  <div class="border img-landscape">
-    <figure>
-      <img src="http://emiliebaltz.com/wp-content/uploads/2015/08/COLOR-FEAST-2.jpg" alt="Emilie Baltz color feast">
-      <figcaption>
-          Emilie began describing her colour themed dinner parties. Her guests would arrive dressed in that colour, they would eat food that was that colour, and they would present their interpretations of that colour after the meal. You could act out a play, perform a contemporary dance…one time, a guest brought a helium balloon and declared it was the sound of pink.
-      </figcaption>
-    </figure>
-  </div>
-
-    <!-- // Q & A -  Add as many as required. -->
-  <dl class="border">
-    <dd class="interview-a">
-      <p>It was so radically wonderful. I think I would frame that as a kind of “radical hospitality”. It’s a gift to someone to feel welcome, and transformed, in a space. Going to someone’s home who is a wonderful host is just delicious, but there can be another layer to it: if you’re a radical host, you can change the way people see the world around them. </p>
-      <p>With my colour themed dinners, guests left with an understanding of a particular colour that expanded the boundaries of their previous understanding. Maybe you never thought that helium was pink, but of course it can be! This kind of radical hospitality allows us to not just engage in new ways with each other, but also expand an understanding of ourselves and the world around us. That is my fundamental goal in life. </p>
+      <p>Yes! With Wattpad, I thought working within technology startups was super cool and I really want to do this [design work]. At Wave, my role really morphed from designer to product owner. I led two product lines while I was there. At Wealthsimple it was obvious to me, you’re not just a designer. You now have to own multiple layers of the job.</p>
+      <p>The Toronto tech ecosystem has matured into the role of product. Product was not a thing when I was at Wattpad. UX design was big and it was a big leap for Wattpad. You were either a designer or a developer or you’re <a href="https://twitter.com/allenlau">Allen</a> [CEO and co-founder of Wattpad]. You don’t have other roles. Now, you’re a product owner! You’re a researcher! Or any of the other facets. </p>
     </dd>
   </dl>
 
   <!-- // Pull Quote -->
   <aside class="border pull-quote">
-    <p>How can we create more plural lexicons and richer fluencies together as human beings so we understand that though we are alone, we are also together? What if the language of diversity didn’t just stop at the colour of our skin, or the nationality that’s on our passport, but it also had to do with the way we see the world as humans?
-</p>
+    <p>We knew we could expand and stretch the capabilities of the developer every time we add a designer.</p>
   </aside>
 
-  <!-- // Image - Landscape -->
-  <div class="border img-landscape">
-    <figure>
-      <img src="<?php echo $path_img; ?>landscape-emilie-baltz-food-junkie.jpg" alt="Emilie Baltz Food Junkie page">
-      <figcaption>
-          Emilie’s side experiments with food didn’t end there. She, with the help of her intern, used to make crazy recipes out of office snacks. She posted the recipes on a friend’s website at <a href="http://www.core77.com/" target="_blank">core77.com</a> and called it, <a href="http://www.eatmedaily.com/2009/11/office-snack-gourmet-by-emilie-baltz-food-art/" target="_blank">Office Snack Gourmet</a>.
-      </figcaption>
-    </figure>
-  </div>
-
-    <!-- // Q & A -  Add as many as required. -->
+  <!-- // Q & A -->
   <dl class="border">
+    <!-- // Question -->
+    <dt class="interview-q">You jump started the design team at Wattpad and were also fresh into a design role. How did you approach building the team?
+    </dt>
+    <!-- // Answer -->
     <dd class="interview-a">
-      <p> I made five gastronomic recipes, some of which I had grown up with, remade with American junk food from crappy office pantry snacks. When it posted online, it went a little bit viral and I got a call from a book publisher in the States who said, ‘We’ve always wanted to make a book like this. Would you be interested? And can you make 101 recipes?’ And I said, “Of course!” </p>
+      <p>Allen and <a href="https://twitter.com/ivanyuen">Ivan</a> [Co-founder of Wattpad] were understanding and acknowledging of the role of design in their organization. They understood why it was important. I remember way back, on the homepage, there used to be a recommended stories thing. It was not really visible. We moved that to the top and it increased our clicks on storytelling by 85%. I remember that being a turning point where we thought, this [UX design] is a real thing. There’s a name attached to it.
+      </p>
+      <p>We took it from there, and learned that we could expand and stretch the capabilities of a developer every time we added a designer. We used that formula as we grew. I was there when we were 7 people and we grew to about 30-35 by the time I left. It was a huge period of growth and was really interesting.
+      </p>
+    </dd>
+  </dl>
+
+
+  <!-- // Q & A -->
+  <dl class="border">
+    <!-- // Question -->
+    <dt class="interview-q">Do you feel like knowing the value of design came intuitively to you? </dt>
+    <!-- // Answer -->
+    <dd class="interview-a">
+      <p>I didn’t know it was called design. I would read a lot of stuff and go to all these free conferences as a student. I would read about and look up to designers. I just sort of learned.
+      </p>
+      <p>One of my favourite designers and the person that has probably taught me the most is a guy called <a href=”http://fabiosasso.com/”>Fabio Sasso</a>. He ran <a href=”http://abduzeedo.com/”>Abduzeedo</a>. The name is short form for abducted by design. It’s very different now, but it used to be a tutorial site to help you learn Photoshop, Illustrator and basically the whole Adobe Creative Suite. I started looking up to people like him and hearing them speak and talk about the power of design in different contexts and I began formulating my own thoughts around it. </p>
+      <p>I should give a lot of credit to U of T [University of Toronto] because I learned so much there. I think a large part of Engineering that people don’t give any credit for is design. Engineers don’t just build stuff, they design it. At U of T, a large part of what we learned, almost subliminally, was how to approach problems. It’s invaluable. I should add that I think schools are very expensive, but I believe you should learn how to problem solve at some point, and engineering schools are valuable for that. </p>
+      <p>I learned [design] because of that background and then added on multiple facets to that through learning, through doing, through experience. Allen gave me a huge platform to do stuff in a very contained environment of entertainment and storytelling but loose enough that I could put my mark on something. The entire Wattpad team was awesome. I give them a lot of credit.
+      </p>
     </dd>
   </dl>
 
   <!-- // Image - Landscape -->
   <div class="border img-landscape">
     <figure>
-      <img src="<?php echo $path_img; ?>landscape-emilie-baltz-donut.jpg" alt="Emilie Baltz - pink donut">
-      <figcaption>
-          That opportunity led Emilie to <a href="https://www.amazon.ca/Junk-Foodie-Delicious-Gourmand-Paperback/dp/B011W9OJ2C/ref=sr_1_3?s=books&ie=UTF8&qid=1493656200&sr=1-3" target="_blank">Junk Foodie: 51 Delicious Recipes for the Low Brow Gourmand</a>. It was an accomplishment which led to quitting her agency job and beginning her scintillating journey as a food designer.
-      </figcaption>
+      <img src="<?php echo $path_img; ?>landscape-huda-candid-photo.jpg" alt="Huda Idrees">
+      <figcaption>Photo credit: <a href="http://nataliadolan.com/">Natalia Dolan</a></figcaption>
     </figure>
   </div>
 
-    <!-- // Q & A -  Add as many as required. -->
+
+  <!-- // Q & A -->
   <dl class="border">
-    <dt class="interview-q">What made you want to go back to school for industrial design?</dt>
+    <!-- // Question -->
+    <dt class="interview-q">You have experience building a design team. You’re now a founder and CEO and building your own company. How does education play a role in how you find or select people to add to your team?
+    </dt>
+    <!-- // Answer -->
     <dd class="interview-a">
-      <p>I wanted to learn how to make things. I like to use my body, but I also like people. Industrial design, specifically the study of product design, is the study of how things and human behaviour intersect. (Think of it this way, if we are living the Theatre of Life, I think product design is the Props). Industrial design is a great way to learn about form, material, and shape, but it’s also a great way to learn about human behaviour. There’s so much user research that goes into it, including behavioural studies and user testing. You’re actually learning about people throughout the entire process. At heart, it is a problem solving discipline, so you have to have an empathetic understanding of a user to deliver a solution.</p>
+      <p>I don’t really care if you went to school or if you went to school for something else. If you can do the job, that’s it. I’ve learned the difference between experience and raw talent, and the ability to shape raw talent.
+      </p>
+      <p>At Dot Health, we deal with health data, which is complex. When I’m building my team, I like to look at parallels for different people and where they could come play in this space. At the end of the day you won’t know until you work with them and I’ve been fairly lucky. We’ve added most people after knowing them and working with them for a while. That’s been really good.
+      </p>
     </dd>
   </dl>
 
   <!-- // Pull Quote -->
   <aside class="border pull-quote">
-    <p>Industrial design is a great way to learn about form, material, and shape, but it’s also a great way to learn about human behaviour.</p>
+    <p>I want to use my powers for good and I want to apply it to stuff that people actually need, stuff that somebody cannot be without.
+    </p>
   </aside>
 
-    <!-- // Q & A -  Add as many as required. -->
+
+  <!-- // Q & A -->
   <dl class="border">
-    <dt class="interview-q">How do you test with users and sympathize with their needs when designing for food experiences?</dt>
+    <!-- // Question -->
+    <dt class="interview-q">I want to step back and look at your career path. It seems like you’ve transitioned seamlessly from being a designer to a leader to now a founder. Do you feel like you made those transitions deliberately? How do you approach navigating your career?
+    </dt>
+    <!-- // Answer -->
     <dd class="interview-a">
-      <p>My own process is that I come up with a feeling. How do I want people to feel? Then, I come up with a script and a user flow. What will the experience journey be? How do I want people to interact with this object that I made, instrument, event or dinner? How will they enter the space? What will they do first? And what might they feel while doing it? Then we create it and test to see if it works. Usually it doesn’t! (Because nothing ever works on the first try). I think it’s the same process as all forms of creation: ideate, create, test, refine. </p>
-      <p>That said, at the end of the day, what people remember is, as Maya Angelou wrote, ‘people will not remember me for what I do, they will remember me for how I made them feel.’ That’s what’s so interesting for me about the design of food. The creative departure can be less focused on what you do, and more about what you want to feel.</p>
+      <p>I think that the only serendipitous thing that happened to me and started all of this was Wattpad. After that everything has been very calculated. I don’t think it always comes across that way. Wave was a very conscious decision for me. I could have chosen to go back to Wattpad and continue in that journey, or I could’ve chosen to go elsewhere.
+      </p>
+      <p>The long term plan of all this is me entering into technology and startups in the area of design and the beginnings of product and then slowly moving into stuff that is going to be more and more useful for people.There was a very conscious move from Wattpad, which was entertainment, to Wealthsimple. I want to use my powers for good and I want to apply it to stuff that people actually need, stuff that somebody cannot be without. I have slowly moved in the direction that I’ve really wanted, which is healthcare. Healthcare has been this long term dream of mine. I never really found somebody doing the stuff I wanted to do.</p>
     </dd>
   </dl>
 
-    <!-- // Q & A -  Add as many as required. -->
+  <!-- // Q & A -->
   <dl class="border">
-    <dt class="interview-q">What’s your favourite restaurant?</dt>
+    <!-- // Question -->
+    <dt class="interview-q">You’ve said, “I don’t want startups to stand purely for dollar signs. That’s relatively easier than trying to work for hospitals, for example. But if we all do that, how will anyone change? Somebody has to do this.” From your work to your writing, you seem grounded in this desire to make the world better. Where do you think that passion and drive for social good comes from?
+    </dt>
+    <!-- // Answer -->
     <dd class="interview-a">
-      <p>I love so many places! I am very sad because one of my favourite restaurants of all time just closed. My two friends, Jose Ramirez-Ruiz and Pam Yung had a restaurant called <a href="https://www.starchefs.com/cook/chefs/bio/jos-ram-rez-ruiz" target="_blank">Semilla</a> in Brooklyn. It was <a href="http://saltyisland.com/food-trends-vegetable-forward/" target="_blank">vegetable forward</a>. They were interested in lost and forgotten vegetables. They did incredible work and pioneered vegetable forward cuisine. I loved that place.</p>
-      <p>For the theatre of life, <a href="https://www.alinearestaurant.com/" target="_blank">Alinea</a>, in Chicago is Grant Achatz’s opera of food and it is just wild. Also I love anything Albert Adria does, Ferran Adria’s brother, (the two guys who started <a href="http://elbulli.com/" target="_blank">El Bulli</a>). Albert is just a genius and anything he does is amazing. I was fortunate enough to eat in a place called <a href="http://www.nytimes.com/2011/05/08/travel/08bites-41degrees.html" target="_blank">41 Degrees</a> which closed a couple of years ago, and now he’s opened one called <a href="http://www.enigmaconcept.es/" target="_blank">Enigma</a>. I also love a coffee shop in New York called <a href="http://www.ocafenyc.com/" target="_blank">O Cafe</a>. A friend of mine, Fernando, runs it. I love it because everything tastes like what it is. Either I like things that are super fantastic or I love just to eat an avocado, a really good egg, a really nice piece of dark chocolate, and really nice salt. Those are the two poles.</p>
-    </dd>
-  </dl>
-
-    <!-- // Q & A -  Add as many as required. -->
-  <dl class="border">
-    <dt class="interview-q">Tell me about some of your favourite projects.</dt>
-    <dd class="interview-a">
-      <p>There was a very epic  one called <a href="http://emiliebaltz.com/commissions/energia-dinner/" target="_blank">Energia</a>. It was a dinner at a nuclear reactor in Stockholm. That was wild. That dinner was designed for risk. How can we foster risk and create a place, a space, for people to experience risk? Well, you put them into an elevator, you plunge them 25 metres under Stockholm city centre and you have them explore the innards of a decommissioned nuclear reactor through all sorts of wild food experiences. It was epic and wonderful and I loved making it!</p>
-    </dd>
-  </dl>
-
-  <!-- // Image - Landscape -->
-  <div class="border img-landscape">
-    <figure>
-      <img src="<?php echo $path_img; ?>landscape-emilie-baltz-energia.jpg" alt="Emilie Baltz - Energia dinner">
-      <figcaption>
-        Photo credit:
-        <a href="http://emiliebaltz.com/commissions/energia-dinner/" title="Emilie Baltz - Energia">Emilie Baltz</a>
-      </figcaption>
-    </figure>
-  </div>
-
-    <!-- // Q & A -  Add as many as required. -->
-  <dl class="border">
-    <dd class="interview-a">
-      <p>I also love collaborations. One was called <a href="http://emiliebaltz.com/experiments/lickestra/" target="_blank">Lickestra</a>, the licking ice cream orchestra. That was the first project that brought me into the realm of sensing technology and was done with a great friend of mine, <a href="http://carladiana.com/blog/" target="_blank">Carla Diana</a>, who’s an artist and technologist. Lickestra was grown from a sense of play. It was weird, it was fun, and it provoked all parts of you.</p>
-    </dd>
-  </dl>
-  <!-- // Image - Landscape -->
-  <div class="border img-landscape">
-    <figure>
-      <img src="<?php echo $path_img; ?>landscape-emilie-baltz-lickestra.jpg" alt="Emilie Baltz - Lickestra">
-      <figcaption>
-        Photo credit:
-        <a href="http://emiliebaltz.com/experiments/lickestra/" title="Emilie Baltz - Lickestra">Emilie Baltz</a>
-      </figcaption>
-    </figure>
-  </div>
-    <!-- // Q & A -  Add as many as required. -->
-  <dl class="border">
-    <dd class="interview-a">
-      <p>The <a href="http://emiliebaltz.com/commissions/cotton-candy-theremin/" target="_blank">Cotton Candy Theremin Machine</a> was also a collaborative project with <a href="http://sharkbox.com/" target="_blank">Charlie Whitney</a> and <a href="http://www.stewardesslollipop.com/" target="_blank">Philip Sierzega</a>. Phil is an interactive director and artist and Charlie is a programmer and an artist. Cotton candy serves as a good metaphor for the project because it involved spinning so many different disciplines together. We worked with sound designers and motion graphics designers, coders, industrial designers, and chefs.</p>
-    </dd>
-  </dl>
-  <!-- // Image - Landscape -->
-  <div class="border img-landscape">
-    <figure>
-      <img src="<?php echo $path_img; ?>landscape-emilie-baltz-cotton-candy.jpg" alt="Emilie Baltz Cotton Candy Theremin">
-      <figcaption>
-        Photo credit:
-        <a href="http://emiliebaltz.com/commissions/cotton-candy-universe/" title="Emilie Baltz Cotton Candy Theremin">Emilie Baltz</a>
-      </figcaption>
-    </figure>
-  </div>
-    <!-- // Q & A -  Add as many as required. -->
-  <dl class="border">
-    <dt class="interview-q">Motion graphic designers?</dt>
-    <dd class="interview-a">
-      <p>When you spin the cotton candy, there’s a sensor ray around inside of the ring. They are infrared sensors so it detects your motion, your speed of spinning, and it then affects a projected world of motion graphics by controlling the wind and the direction of the sugar crystal world around you, as well as the soundscape. The Cotton Candy Machine suddenly becomes an interface. </p>
-    </dd>
-  </dl>
-    <!-- // Q & A -  Add as many as required. -->
-  <dl class="border">
-    <dt class="interview-q">How do these collaborations come about?</dt>
-    <dd class="interview-a">
-      <p>It’s a combination of many things. The Cotton Candy Theremin was an idea I had for several years. When I was a member at <a href="http://www.newinc.org/" target="_blank">New Inc</a> we had the opportunity to do a collaborative project. I met Phil and Charlie there, we sat next to each other’s table and I said, “hey, I have this idea!” That’s usually how collaborations happen. I usually have an idea, (I have a lot of ideas, maybe that’s my forte!) but I also find great people to work with on them. </p>
-    </dd>
-  </dl>
-    <!-- // Q & A -  Add as many as required. -->
-  <dl class="border">
-    <dt class="interview-q">Tell me about New Inc.</dt>
-    <dd class="interview-a">
-      <p>New Inc is the New Museum’s incubator for art design and technology and supports entrepreneurship in various forms. The <a href="http://www.newmuseum.org/" target="_blank">New Museum</a> is such an interesting institution because it’s constantly questioning itself. What is a museum? What does it mean to be emerging in the contemporary scene right now? New Inc is great. I was the first class there. It was a special time and place as well, because the first class of anything is usually filled with people who are ready and willing to experiment.</p>
-    </dd>
-  </dl>
-
-  <!-- // Image - Landscape -->
-  <div class="border img-landscape">
-    <figure>
-      <img src="<?php echo $path_img; ?>landscape-emilie-baltz-newinc.jpg" alt="Emilie Baltz - New Inc.">
-      <figcaption>
-        Photo credit:
-        <a href="http://www.newinc.org/" title="New Inc building in NYC">New Inc.</a>
-      </figcaption>
-    </figure>
-  </div>
-
-    <!-- // Q & A -  Add as many as required. -->
-  <dl class="border">
-    <dt class="interview-q">You founded the Food Design Studio at Pratt Institute as well. Tell me about that. </dt>
-    <dd class="interview-a">
-      <p>That was wild fun. I went to Pratt for my masters degree in Industrial Design. I went back and started a food design studio that introduces food as a material of design to industrial designers. It’s a 17-week long course exploring food through the lens of the sensory sciences. The first half of the semester, we explore how food communicates visually, sonically, olfactorily, texturally, by taste…through all the 5 senses. Food is such an interesting material because unlike a chair or a camera, we put it in our mouth which actually acts as a ginormous amplifier! When you eat, you’re doing more than tasting, you are experiencing flavour. And flavor is a combination of all of our senses. What food looks like as it comes up to our mouth sends signals to our brain that precipitates meaning. When we put something in our mouth, the texture of it has meaning that communicates to us. The sound of eating also communicates (we always forget how loud it is when we eat inside of our face!).</p>
-      <p>We take students through all these different sensory exercises, just as food scientists would, to learn how food communicates. And then, just like you would use colour to communicate a certain emotion, you also learn to choose a level of crispiness to communicate to a consumer when designing a chip, for example. We have similar toolboxes of creativity as designers, it’s just about translating from one discipline into another. In this way, we create fluency, so that now, I, as a designer, can go talk to a chef and we have a shared language that allows us to create better and faster together.</p>
-      <p>That’s the first half of the food design studio and the second half is a series of commercial applications. We design a cookie, a meal, and different levels of consumer packaged goods for in-home experiences, to spectacular events. The final project can be of any area of interest so some students might explore sustainability, while some people are really interested in play.</p>
-    </dd>
-  </dl>
-
-  <!-- // Image - Landscape -->
-  <div class="border img-landscape">
-    <figure>
-      <img src="<?php echo $path_img; ?>landscape-emilie-baltz-travelcakes.jpg" alt="Emilie Baltz - croissants at Food Design Studio">
-      <figcaption>
-        Photo credit:
-        <a href="http://emiliebaltz.com/workshops/travel-cakes/" title="Emilie Baltz Food Design Studio">Emilie Baltz</a>
-      </figcaption>
-    </figure>
-  </div>
-
-    <!-- // Q & A -  Add as many as required. -->
-  <dl class="border">
-    <dt class="interview-q">Where do you see UX/UI education going in the future?</dt>
-    <dd class="interview-a">
-      <p>I’ll tell you where I would like to see it going. What’s interesting when you use food as an interface is, sure, you’re thinking about how’s this person going to act, what are they going to need, but you also have to think about how they feel. With UX, that usually comes last. When you’re making dinner for someone, the biggest question is “are they going to like it?”. Will it be delicious? Will they feel good about it? Will I feel good? That’s how I would love to see UX taught. How will I feel when I design this system? When I’m designing a wireframe, will the user feel good about that or will they feel bad about that? Within those questions, we’re still going to be doing the same things. We’re still going to be designing landing pages and CRMs and all sorts of stuff but if you switch your point of entry to an emotional point of entry, I believe that our end outcome is different. It is more empathetic and generous. Those are abstract terms but I do think it can change the content in the end by creating something that’s a little more human. </p>
-    </dd>
-  </dl>
-  <!-- // Pull Quote -->
-  <aside class="border pull-quote">
-    <p>If you switch your point of entry to an emotional point of entry, I believe that our end outcome is different. It is more empathetic and generous. Those are abstract terms but I do think it can change the content in the end by creating something that’s a little more human. </p>
-  </aside>
-
-    <!-- // Q & A -  Add as many as required. -->
-  <dl class="border">
-    <dt class="interview-q">Has your gender ever affected your work experience?</dt>
-    <dd class="interview-a">
-      <p>I’ve never thought of myself as a woman. I’ve thought about myself as a curious human who loves to make things and learn. I live to learn stuff. Over the last few years, I’ve started to see more of a gender divide. I do see myself now, as a woman in this body working in the field of technology, but I’ve never really been someone who has made judgments about that for myself.</p>
-      <p>I grew up in a culture where my parents were very supportive of creativity and gender didn’t really play into that. I’ve always tried to make as much as I can. With more transparency in the world now, there are things in my life that are different because I’m a woman, for better and for worse, but this is the body that I come in. So what am I going to do and what are we going to do together? Those are the questions I ask. It’s not a hindrance, or an obstacle. It just requires more consideration of the constraints.</p>
+      <p>I think on some level we all think that way. I’m a bit more vocal about it. You start a company with the best intentions and ideas about how you’re going to be a B Corp and do all of these [good] things and then you don’t end up doing it. I’ve seen this in places so many times. I think if you centre your work around it, it becomes a necessity, you cannot escape it. If you were to say, I’m going to run an ad company, like Facebook. It’s going to make tons of ad revenue and then I’m going to create the Chan-Zuckerburg initiative and solve all of the problems. That is a very valid thesis for somebody to come up with and I’m glad that they’ve managed to do it. But it’s very easy to say, I did my first bit of being a hugely successful ad company and nobody made me sign a contract to say that I’m going to do any social good, so I’m not doing it. If the thing that you do is inherently social good, then you can’t escape it. </p>
+      <p>There are companies that do this. <a href="http://www.patagonia.com/company-info.html" title="Patagonia company info">Patagonia</a> is a good [for-profit] that comes to mind because <a href="https://en.wikipedia.org/wiki/Yvon_Chouinard" title="About Yvon Chouinard, founder of Patagonia">Yvon</a>’s philosophy for the company (even though it’s hugely profitable) is for it to do good for the people that work there, do good for the people making stuff, do good. Khan Academy is another. They do education en masse but doing good in the world of education is built into their DNA.
+      </p>
+      <p>If I come out and say Dot Health is going to build what nobody is choosing to build for the consumer, then I have nowhere to hide. So I think when you make that decision, you make that decision. With Dot Health, if you’re a quad-zillionaire, I’m not going to charge you any more for accessing your health data. It’s a plain and simple offering.
+      </p>
     </dd>
   </dl>
 
   <!-- // Pull Quote -->
   <aside class="border pull-quote">
-    <p>I’ve never thought of myself as a woman. I’ve thought about myself as a curious human who loves to make things and learn.</p>
+    <p>If the thing that you do is inherently social good, then you can’t escape it.</p>
   </aside>
 
-<dl class="border">
-    <dd class="interview-q">
-        <p>As we gathered our things to make our way out of the boardroom, Emilie put on a sparkly aviator cap that reminded me of the one Natalie Portman wore in Garden State.</p>
-        <p>“Where is your hat from?”</p>
-        <p>I asked eagerly, because I’ve never seen anything like it before.</p>
-        <p>“Paris,” she replied as she ties the clasp on below her chin. Of course it is...everything about Emilie Baltz is a technicolor dream.</p>
+  <!-- // Q & A -->
+  <dl class="border">
+    <!-- // Question -->
+    <dt class="interview-q">Can you describe Dot Health?</dt>
+    <!-- // Answer -->
+    <dd class="interview-a">
+      <p>Dot Health at the core of it enables you to access your own health data. Today, an average Ontario resident has been to about 2.3 different health professionals in the span of a year. These care providers have treated this person and have kept records of what happened within those treatments. All of that information lives in the ether, it doesn’t communicate with each other. What we’re building is essentially the platform that enables the real-time access of this data, but more importantly the real-time access of this data that is controlled by you, the person. So instead of relying on a healthcare professional to send an x-ray to your specialist, you can access and send your own x-ray.</p>
+      <p>I want to be clear that this isn’t a new concept. I also want to be clear that this concept is something that we’ve seen everywhere. It has happened in every other industry except healthcare. It’s like this black box. It is one of the only industries where we don’t have access to our own data. It’s a little bit dis-intermediation and on the other side, consumerization of your own health and wellness data. </p>
     </dd>
-</dl>
+  </dl>
+
+  <!-- // Image - Landscape -->
+  <div class="border img-landscape">
+    <figure>
+      <img src="<?php echo $path_img; ?>landscape-huda-dot-health.gif" alt="Dot Health Website" style="border: 1px solid #ccc;">
+      <figcaption>
+        Huda launched Dot Health in February 2017 to enable people to access their own personal health data.
+      </figcaption>
+    </figure>
+  </div>
+
+  <!-- // Q & A -->
+  <dl class="border">
+    <!-- // Question -->
+    <dt class="interview-q">Do you need to rely on healthcare professionals to input that data about you?
+    </dt>
+    <!-- // Answer -->
+    <dd class="interview-a">
+      <p>Nope. Like any good solution, we do the grunt work for you and make it really simple for you to tell us your information. When you sign up for our service–we’ve been steadily onboarding our waitlisted clients since we announced–you give us 4 basic pieces of information about you and we go fetch your data, and we keep fetching it for you as long as you have a Dot Health subscription. It doesn’t require buy-in from every single individual healthcare professional. We get updated information the moment it’s updated on whatever system they’re using.
+      </p>
+    </dd>
+  </dl>
+
+  <!-- // Q & A -->
+  <dl class="border">
+    <!-- // Question -->
+    <dt class="interview-q">It must be a challenge working with all the different systems.</dt>
+    <!-- // Answer -->
+    <dd class="interview-a">
+      <p>We have ways around it. We have certain partnerships that allow us to gain access to all these real-time feeds without having to individually work with all the different systems.
+      </p>
+    </dd>
+  </dl>
+
+  <!-- // Q & A -->
+  <dl class="border">
+    <!-- // Question -->
+    <dt class="interview-q">Do you need the patient’s consent?</dt>
+    <!-- // Answer -->
+    <dd class="interview-a">
+      <p>The Personal Health Information Privacy Act actually stipulates that all the information that’s collected about you belongs to you. It is your information. Often, when you pick up a copy of your x-ray or lab work, you pay money for that service and the reason is because you’re paying for the paper. You get charged over a dollar per sheet of medical record and some of those records are just a tiny prescription at the top. It makes no sense. So we’re just turning the system on its head a little bit.
+      </p>
+      <p>If you can imagine, everything that’s been done within the Canadian healthcare system is top-down. What we’re doing is the exact opposite. We are the bottom-up economy of healthcare. You’re a person, you need to access all these services and to feel empowered and be in control of what you’re doing. We help you augment that ability. That’s the service that we’re providing to each of our clients.
+      </p>
+    </dd>
+  </dl>
 
 
+  <!-- // Q & A -->
+  <dl class="border">
+    <!-- // Question -->
+    <dt class="interview-q">That’s really interesting. I use wellness apps and I input information into it. But then I go to my doctor and there’s forms, test results, etc. that’s filled in on paper and then inputted into their system. There’s no relationship between my personal observations and records of my wellbeing and the clinic’s health records.
+    </dt>
+    <!-- // Answer -->
+    <dd class="interview-a">
+      <p>You bring up an interesting point because those are two data sets in the eyes of your health provider–not in your eyes. The important part about good preventative health systems is that behavioural data is a large part of it. When you think about preventative health you think about chronic disease and how to prevent it. All these things are currently happening with people on a small scale but can help the diagnosis in the long term. For example, patients with type 1 diabetes have a system inserted inside their body at all times that tracks their blood sugar levels and insulin levels so they can take insulin. But it’s never shared with the doctor. This type of technology has always been outside of it.
+      </p>
+    </dd>
+  </dl>
+
+
+  <!-- // Pull Quote -->
+  <aside class="border pull-quote">
+    <p>We are the bottom-up economy of healthcare. You’re a person, you need to access all these services and to feel empowered
+    </p>
+  </aside>
+
+  <!-- // Q & A -->
+  <dl class="border">
+    <!-- // Question -->
+    <dt class="interview-q">What challenges have you encountered in healthcare that are unique to healthcare?</dt>
+    <!-- // Answer -->
+    <dd class="interview-a">
+      <p>The biggest thing we butt up against is how everybody feels like we cannot/do not have the ability innovate when it’s a public healthcare system. That’s the largest mental roadblock for most people.
+      </p>
+      <p>Health technology, unlike all other technology, is relationship management. Other technology has the luxury of being a utility. If I am an investment management company there’s certain numbers and figures and I trade them and that’s it. Yes, there is a relationship component because you have to figure out the client’s risk assessment but it almost ends there. With healthcare you’re constantly managing this relationship between multiple parties for a single entity.
+      </p>
+      <p>When we look at a public funded infrastructure and ways to work with them, there’s way more embedded agendas for everybody that is not in the interest of the patient. I use that word very specifically here because I don’t call our clients "patients". But in the healthcare system they are referred to as patients and treated as such, which I think is unfortunate.
+      </p>
+    </dd>
+  </dl>
+
+  <!-- // Q & A -->
+  <dl class="border">
+    <!-- // Question -->
+    <dt class="interview-q">I commend you for tackling it. Between the complexity and the politics, it sounds like such a challenge!</dt>
+    <!-- // Answer -->
+    <dd class="interview-a">
+      <p>Let’s be real. It’s all politics. It’s not even a technology problem. We’ve known how to write API’s for decades. We have known how to send and receive requests for decades. This is a political problem. Dealing with the politics of it is interesting.</p>
+    </dd>
+  </dl>
+
+  <!-- // Image - Left & Right -->
+  <div class="border img-side-by-side">
+    <figure>
+      <img src="<?php echo $path_img; ?>landscape-huda-betakit-diversity.jpg" alt="Huda speaking at BetaKit panel on diversity">
+      <figcaption>Huda is a regular contributor and speaker within the tech community. Photo credit: Betakit.
+      </figcaption>
+    </figure>
+    <figure>
+      <img src="<?php echo $path_img; ?>landscape-huda-brookfield-speaking.jpg" alt="Huda speaking at Brookfield event">
+      <figcaption>
+         She speaks regularly about product and design as well as diversity and inclusion. Photo credit: Brookfield Institute.
+      </figcaption>
+    </figure>
+  </div>
+
+  <!-- // Q & A -->
+  <dl class="border">
+    <!-- // Question -->
+    <dt class="interview-q">I want to talk about diversity and inclusion, if you don’t mind. You’ve spoken and <a href="https://medium.com/@hidrees/" title="Huda's writing on Medium">written</a> openly about diversity and inclusivity. As a person whose identity can fall into many categories, do you feel talking about these topics is a responsibility that is imposed on you or is it a conscious choice that you can make?</dt>
+    <!-- // Answer -->
+    <dd class="interview-a">
+      <p>I’m a huge fan of giving people the ability/option/space to make their own choices. I 100% think it’s a choice. And I don’t think we should ever expect people to just be that person. I do think there are certain public/public-ish figures who should be called into question because they’ve stood for them before and continue to not do that. I think that is a different story. So I’ve been vocally pretty anti ‘The Lean In movement’, for example. And I continue to <a href="https://medium.com/@hidrees/silence-of-the-masses-ca9d85e0ed63">hold Sheryl Sandberg accountable</a> for talking about women’s issues and then staying silent when they matter most. So I want to make that distinction very clear. I think when you start off, you or me or Christina [Truong], we can make that choice. And I have made that choice to speak about it. </p>
+    </dd>
+  </dl>
+
+  <!-- // Pull Quote -->
+  <aside class="border pull-quote">
+    <p>There are certain public/public-ish figures who should be called into question because they’ve stood for [diversity &amp; inclusion] before and continue to not do that.</p>
+  </aside>
+
+  <!-- // Q & A -->
+  <dl class="border">
+    <!-- // Answer -->
+    <dd class="interview-a">
+      <p>I do think though that if you look at the entire community, there are some people who have more influence. Oprah, or Beyonce, or Rihanna have a platform. They have the ability to reach out to broader audiences. And I think that responsibility is fortunately or unfortunately thrust upon them. They feel obligated to their community because they have a certain story and come from a certain background. I don’t think it’s necessary, I think it’s useful. </p>
+      <p>If you have the ability to speak, it’s actually a luxury, most people don’t have that. I was speaking to someone the other day and he identifies as a minority, works at an organization where he’s very clearly the outlier. One of the things that led him to me was my Twitter feed which made him think, “These are all the things that I think but I can’t say because I’m attached to this organization”. So I think we take it for granted. I definitely do sometimes. I can say anything I want. The reason I can do that is because my employer, which is me, is okay with it. If you worked at Apple for example, that might not be the case.</p>
+      <p>You also need to recognize that you’re just speaking from your perspective but your story can be indicative of many other stories. I will never pretend to speak for multiple people, I will only share my own story. I think we should recognize that and use that to fuel some of the storytelling that we do. Most of my twitter followers are a homogenous group, mostly male, mostly techies. So when I share my stories it is going to exactly the audience I want it to go to.</p>
+      <p>The large majority of the inclusivity offenders are  people who do it without malicious intent. If you can tell stories to those people and if you have that platform then I think it’s not a responsibility, but it’s pretty cool. Because then you’re gonna get a response back and people are gonna start having those conversations with you where you can enlighten them or help broaden their horizons somehow.</p>
+      <p>[To Christina] Would you add to that? Because you talk about diversity so much.</p>
+    </dd>
+  </dl>
+
+  <!-- // Q & A -->
+  <dl class="border">
+    <!-- // Question -->
+    <dt class="interview-q">[CT] I think the bad part comes when people just expect you to do it and sometimes you don’t feel like it. Or that’s the only time they call on you. So there’s a fine line between being respected for your ideas and opinions and being tokenized.</dt>
+    <!-- // Answer -->
+    <dd class="interview-a">
+      <p>I agree.</p>
+    </dd>
+  </dl>
+
+  <!-- // Q & A -->
+  <dl class="border">
+    <!-- // Question -->
+    <dt class="interview-q">[CT] And I think that it’s not necessarily a responsibility to help others, it’s a responsibility to be yourself. You just literally being who you are is a movement in a way. If you make yourself the same as everyone else then it’s not healthy for you. Even if you’re only helping yourself, that can inadvertently help other people. </dt>
+    <!-- // Answer -->
+    <dd class="interview-a">
+      <p>Totally. You bring up a really good point around authenticity because I think we also take that for granted. This person who I was talking about could’ve been authentically ‘this is who I am’. But he can’t say that. Even his authentic self is policed by his company because he somehow represents the opinion of his employer. </p>
+    </dd>
+  </dl>
+
+  <!-- // Pull Quote -->
+  <aside class="border pull-quote">
+    <p>I think [non-disparagement agreements] is taking away some part of a person’s story</p>
+  </aside>
+
+  <!-- // Q & A -->
+  <dl class="border">
+    <!-- // Question -->
+    <dt class="interview-q">[CT] And at what point do you stop? If you start off being yourself, people know who you are. You might lose opportunities at the beginning but if you don’t start being yourself, then can you ever? So just do it from the beginning and the people who want to be around you will be around you and you’ll never have to wait till you get to a certain position to be your true self. You have nothing to lose.</dt>
+    <!-- // Answer -->
+    <dd class="interview-a">
+      <p>Yeah and there’s a shift that happens once you leave certain organizations. What I would love to start a movement around is to ban non-disparagement agreements. When employees leave companies, they are asked to sign non-disparagement agreements. I disagree that that should be a thing in tech specifically because I think we’re actively working against an inclusive environment every time we do that. You [as a company] should be confident enough in the stuff you’ve done. Usually, non-disparagement agreements are just a sign that you as an employer did non-kosher stuff. So if you didn’t do anything disparaging then you can say ‘You know what Christina, you’re leaving, and that’s fine, we had a working relationship. This is your release and this is what we owe you and goodbye.’ And then she can make choices to say whatever, instead of the company trying to put boundaries on it.</p>
+      <p>I think that’s taking away some part of a person’s story which is so criminal. I don’t know why we need to do it. It’s awful. </p>
+    </dd>
+  </dl>
+
+  <!-- // Pull Quote -->
+  <aside class="border pull-quote">
+    <p>What defines success for us is better care for people.</p>
+  </aside>
+
+  <!-- // Q & A -->
+  <dl class="border">
+    <!-- // Question -->
+    <dt class="interview-q">What’s next for you and Dot Health? What can we expect? </dt>
+    <!-- // Answer -->
+    <dd class="interview-a">
+      <p>We’re super excited to be starting in Ontario, but we want this to be Canada-wide before this becomes global. So some of the things you can start expecting is different, better, more seamless transitions for people who have high interactions with the healthcare system. </p>
+      <p>What defines success for us is better care for people so we hope to be making movement towards helping deliver better care for Canadians, for now. Then looking at models as we extend across different borders and different healthcare systems across the world, and looking at how global healthcare can be a thing. People travel everywhere but somehow our health information doesn’t. It’s like someone telling you, you’re leaving Canada, you can’t use this credit card anymore. </p>
+      <p>I’m really looking forward to announce the dissolving of provincial or national boundaries as a result of some of the work we’re doing.</p>
+    </dd>
+  </dl>
   <!-- // Team Signature -->
   <div class="border signature">
     <p>
@@ -417,6 +476,10 @@
       <li>
         Transcriptions by <a href="<?php echo $transcribe_url; ?>"><?php echo $transcribe; ?></a>
         <?php if ($transcribe2): echo 'and <a href="'.$transcribe_url2 .'">'.$transcribe2.'</a>';endif; ?>
+      </li>
+      <li>
+        Photography by <a href="<?php echo $photographer_url; ?>"><?php echo $photographer; ?></a>
+        <?php if ($photographer2): echo 'and <a href="'.$photographer_url2 .'">'.$photographer2.'</a>';endif; ?>
       </li>
     </ul>
     <?php // Global site credits
