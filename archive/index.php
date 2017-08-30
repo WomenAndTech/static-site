@@ -10,6 +10,14 @@
 <main role="main" class="interview-cards wrapper-lg">
   <div class="grid-wrapper">
     <article class="grid-4-2-1">
+      <a href="/interview/huda-idrees/" class="no-underline">
+        <img src="<?php echo $path_img; ?>thumbnail-huda-idrees.jpg" alt="Huda Idrees">
+        <h3>Huda Idrees</h3>
+        <p>with Ivonne Karamoy <br>&amp; Christina Truong</p>
+        <p>Designer and Engineer turned founder and CEO of Dot Health, a service that enables people to access their own health data.</p>
+      </a>
+    </article>
+    <article class="grid-4-2-1">
       <a href="/interview/emilie-baltz/" class="no-underline">
         <img src="<?php echo $path_img; ?>thumbnail-emilie-baltz.jpg" alt="Emilie Baltz">
         <h3>Emilie Baltz</h3>
