@@ -58,7 +58,7 @@
     <header class="border header-interview">
       <div class="wrapper-sm">
         <h2>Amber MacArthur</h2>
-        Our tenth interviewee is Amber MacArthur, or the prodigious <a href="https://twitter.com/ambermac">@ambermac</a>, well-known technology TV host, podcaster and author of the bestselling book <em><a href="http://www.amazon.ca/Power-Friending-Demystifying-Social-Business/dp/1591843286">Power Friending</a></em>. Amber writes for <em>Fast Company</em>, speaks regularly, and is an entrepreneur several times over.
+        <p class="intro">Our tenth interviewee is Amber MacArthur, or the prodigious <a href="https://twitter.com/ambermac">@ambermac</a>, well-known technology TV host, podcaster and author of the bestselling book <em><a href="http://www.amazon.ca/Power-Friending-Demystifying-Social-Business/dp/1591843286">Power Friending</a></em>. Amber writes for <em>Fast Company</em>, speaks regularly, and is an entrepreneur several times over.</p>
 
         <?php // Don't update. Using the same info as is Interview Credits. ?>
         <p class="author">An interview with <a href="<?php echo $interviewer_url; ?>"><?php echo $interviewer; ?></a></p>

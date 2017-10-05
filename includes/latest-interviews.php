@@ -23,28 +23,27 @@ Do not include any links.
     <a class="view-all" href="/archive/">view all</a>
     <div class="grid-wrapper">
       <article class="grid-3-1">
+        <a href="/interview/huda-idrees/" class="no-underline">
+          <img src="<?php echo $path_img; ?>thumbnail-huda-idrees.jpg" alt="Huda Idrees">
+          <h3>Huda Idrees</h3>
+          <p>with Ivonne Karamoy <br>&amp; Christina Truong</p>
+          <p>Designer and Engineer turned founder and CEO of Dot Health, a service that enables people to access their own health data.</p>
+        </a>
+      </article>
+      <article class="grid-3-1">
+        <a href="/interview/emilie-baltz/" class="no-underline">
+          <img src="<?php echo $path_img; ?>thumbnail-emilie-baltz.jpg" alt="Emilie Baltz">
+          <h3>Emilie Baltz</h3>
+          <p>with Victoria Whang</p>
+          <p>Artist, experience designer, and food technologist, based in New York City.</p>
+        </a>
+      </article>
+      <article class="grid-3-1">
         <a href="/interview/aashni-shah/" class="no-underline">
           <img src="<?php echo $path_img; ?>thumbnail-aashni-shah.jpg" alt="Aashni Shah">
           <h3>Aashni Shah</h3>
           <p>with Cassie Kaiser</p>
-          <p>Computer Science student, organizer, leader and speaker within the tech community.</p>
-        </a>
-      </article>
-      <article class="grid-3-1">
-        <a href="/interview/sara-hicks/" class="no-underline">
-          <img src="<?php echo $path_img; ?>thumbnail-sara-hicks.jpg" alt="Sara Hicks">
-          <h3>Sara Hicks</h3>
-          <p>with Sophie He</p>
-          <p>Co-founder and CEO of Reaction Commerce, an open-source ecommerce platform.
-            </p>
-        </a>
-      </article>
-      <article class="grid-3-1">
-        <a href="/interview/mitchell-baker/" class="no-underline">
-          <img src="<?php echo $path_img; ?>thumbnail-mitchell-baker.jpg" alt="Mitchell Baker">
-          <h3>Mitchell Baker</h3>
-          <p>with Cassie McDaniel</p>
-          <p>Founder of the non-profit tech company Mozilla, creator of Firefox and champion of the open web.</p>
+          <p>Software Enginner at Microsoft and former Computer Science student at University of Toronto, Aashni is also an active speaker, organizer and leader.</p>
         </a>
       </article>
     </div>

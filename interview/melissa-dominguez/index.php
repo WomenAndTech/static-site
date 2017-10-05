@@ -58,7 +58,7 @@
     <header class="border header-interview">
       <div class="wrapper-sm">
         <h2>Melissa Dominguez</h2>
-        <p>Melissa is an engineer and holds a PhD in Computer Science. She is the tech lead for <a title="iTunes link for Gmail App for iOS" href="https://itunes.apple.com/us/app/gmail/id422689480" target="_blank">Gmail for iOS</a> at Google and leads Google Women Engineers&nbsp;Waterloo, a support network for women engineers. It is her mission to show young girls what a career in technology means.</p>
+        <p class="intro">Melissa is an engineer and holds a PhD in Computer Science. She is the tech lead for <a title="iTunes link for Gmail App for iOS" href="https://itunes.apple.com/us/app/gmail/id422689480" target="_blank">Gmail for iOS</a> at Google and leads Google Women Engineers&nbsp;Waterloo, a support network for women engineers. It is her mission to show young girls what a career in technology means.</p>
 
         <?php // Don't update. Using the same info as is Interview Credits. ?>
         <p class="author">An interview with <a href="<?php echo $interviewer_url; ?>"><?php echo $interviewer; ?></a></p>

@@ -15,11 +15,12 @@ If changes to the site structure, CSS or JavaScript are required, they should be
   - [Using Github with SourceTree](docs/git-sourcetree.md)
   - [Using Github with the Command Line](docs/git-command-line.md) [in progress]
 - [Local development setup](#local-development-setup)
-- [File Naming and structure](#file-naming-and-structure)
+- [File naming and structure](#file-naming-and-structure)
 - [Adding content](#adding-content)
 - [Customizing the templates](#customizing-the-templates)
 - [Updating the home page](#updating-the-home-page)
-- [Misc](#misc)
+- [Consistent code styles](#consistent-code-styles)
+- [Auto deploy updates](#auto-deploy-updates)
 
 <br>
 
@@ -45,9 +46,9 @@ To contribute to the site, follow these steps:
 6. Delete the branch if you are no longer using it.
 
 
-### Using Git & Github Documentation
+### Git & Github Documentation
 
-To view more details about using Git and following these steps, check out these guides:
+For more details about using Git and Github, check out these guides:
 
 * [Intro to Git and Github](docs/git-intro.md)
 * [Using Github with SourceTree](docs/git-sourcetree.md)
@@ -61,12 +62,9 @@ PHP files are used for basic templating and customization and must run a local s
 
 ### Run a local server
 
-For Macs:
+(The following instructions are only for Macs.)
 
-**Step 1:** Open **Terminal**
-
-**Step 2:** Use the *change directory* command to navigate to your project folder.  
-Type `cd`, space, then the entire file path. Then press enter.
+Open **Terminal** and use the *change directory* command to navigate to your project folder. Type `cd`, space, then the entire file path and press "enter".
 
 ```
 cd /Users/username/path/to/static-site
@@ -75,7 +73,9 @@ cd /Users/username/path/to/static-site
 
 ![change directory in Terminal](docs/images/terminal-cd.gif)
   
-**Step 3:** Run the following command in Terminal to start your local server.
+<br>
+
+After you've switch to the direction, run the following command in Terminal to start your local server.
 ```
 php -S localhost:8000
 ```
@@ -86,11 +86,13 @@ View the site locally at <http://localhost:8000>.
 
 **This only works for Macs.**
 
-You can also use software and tools such as Codekit, Mamp, Grunt or Gulp to run a local server. However, don't save any files generated from these tools into the main repo (e.g. config files). We're trying to reduce the number of dependencies on specific tools to make it flexible for different workflow preferences.
+Whether you're on a Mac or PC, there are many tools and software such as Codekit, Mamp, Grunt or Gulp to run a local server. Use whatever tools you want. 
+
+However, don't save any files generated from these tools into the main repo (e.g. config files). We're trying to reduce the number of dependencies on specific tools to make it flexible for different workflow preferences.
 
 <br>
 
-## File Naming and Structure
+## File naming and structure
 It's important to follow these naming conventions and the file structure because the are parts of the site architecture that depend on it.
 
 <br>
@@ -239,8 +241,8 @@ staic-site/
   
 <br>
 
-## Misc
-### Text Editors and Consistent Code Styles
+
+## Consistent code styles
 
 This project uses [editorconfig](http://editorconfig.org/) to maintain consistent coding styles. Make sure your text editor has the editorconfig [plugin](http://editorconfig.org/#download) installed.
 
@@ -248,11 +250,13 @@ This project uses [editorconfig](http://editorconfig.org/) to maintain consisten
 
 <br>
 
-### Auto push updates and purge caching
+## Auto deploy
 
 All commits added to the `master` branch will be deployed to the live site.
 
-Deploy.php via github webhooks will deploy updates and purge cache automatically.
+The `deploy.php` file will automatically deploy updates and purge cache via github webhooks.  
+
+There is nothing you need to do other than ensure that your updates get merged into the `master` branch when you are ready to make your changes go live.
 
 
 

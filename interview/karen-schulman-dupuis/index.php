@@ -56,7 +56,7 @@
     <header class="border header-interview">
       <div class="wrapper-sm">
         <h2>Karen Schulman Dupuis</h2>
-        <p>Karen is Manager, Business Development, ICE Practice at&nbsp;<a title="MaRs Discovery Center" href="http://www.marsdd.com/" target="_blank">MaRS</a>. She is passionate about online communication and the relationship between technology and the human condition.</p>
+        <p class="intro">Karen is Manager, Business Development, ICE Practice at&nbsp;<a title="MaRs Discovery Center" href="http://www.marsdd.com/" target="_blank">MaRS</a>. She is passionate about online communication and the relationship between technology and the human condition.</p>
 
         <?php // Don't update. Using the same info as is Interview Credits. ?>
         <p class="author">An interview with <a href="<?php echo $interviewer_url; ?>"><?php echo $interviewer; ?></a></p>
