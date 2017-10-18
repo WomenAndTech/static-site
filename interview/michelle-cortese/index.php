@@ -57,7 +57,8 @@
   <header class="border header-interview">
     <div class="wrapper-sm">
       <h2>Michelle Cortese</h2>
-      <p class="intro">Michelle Cortese walked in for our interview wearing straight bangs across her forehead and all black everything from head to toe. She is exactly what I would imagine from a tech creative who knows design, code, and the tweaking of electrical cords to building gadgets and bringing ideas to the physical realm.</p>
+      <p class="intro">Michelle is a Toronto-born UI designer navigating both digital and material interfaces. Her experience is a creative exploration in art direction, physical computing, fabrication, and graphics programming, blurring the lines between artist and engineer. She's studied at Ryerson University, OCAD, and NYU, and continues to pursue further education in the hopes of contributing to a brighter future for UI and human communication.</p>
+        <p>At the time of the interview, Michelle was a Senior Technologist at Refinery29 but she has since moved on to Facebook as VR Product Designer.</p>
 
       <?php // Don't update. Using the info from PHP variables at the top of the page. ?>
       <p class="author">An interview with <a href="<?php echo $interviewer_url; ?>"><?php echo $interviewer; ?></a></p>
@@ -88,6 +89,13 @@
 
 
   <!-- // Q & A -  Add as many as required. -->
+
+  <dl class="border">
+    <dt class="interview-q">Michelle Cortese walked in for our interview wearing straight bangs across her forehead and all black everything from head to toe. She is exactly what I would imagine from a tech creative who knows design, code, and the tweaking of electrical cords to building gadgets and bringing ideas to the physical realm.</dt>
+    <dd class="interview-a">
+    </dd>
+  </dl>
+    
   <dl class="border">
     <dt class="interview-q">Hey, you were awesome on stage yesterday!</dt>
     <dd class="interview-a">
@@ -98,7 +106,7 @@
 <!-- // Image - Landscape -->
   <div class="border img-landscape">
     <figure>
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/Xoz2EERmZZ8?rel=0" frameborder="0" allowfullscreen></iframe>
+        <iframe width="640" height="390" align="center" src="https://www.youtube.com/embed/Xoz2EERmZZ8?rel=0" frameborder="0" allowfullscreen></iframe>
       <figcaption>
         Michelle's FITC 2017 talk in Toronto explores how we can rethink UI design and consider Natural User Interface vs Zero User Interface.
       </figcaption>
@@ -108,9 +116,9 @@
   <dl class="border">
     <dt class="interview-q">You have your own experience with wearables. Will you tell me about the <a href="http://www.ellecor.com/?portfolio=logme" title="Log.Me necklace page">Log.Me necklaces</a>?</dt>
     <dd class="interview-a">
-      <p>I was doing my masters at NYU (New York University) in this emerging technology program called <a href="https://tisch.nyu.edu/itp/admissions" title="ITP program NYU"></a>Interactive Telecommunications Program. I had been working in UX/UI/fashion and I do a lot of physical stuff and I love assistive technology but I had never made a wearable before.</p>
+      <p>I was doing my masters at NYU (New York University) in this emerging technology program called <a href="https://tisch.nyu.edu/itp/admissions" title="ITP program NYU">Interactive Telecommunications Program</a>. I had been working in UX/UI/fashion and I do a lot of physical stuff and I love assistive technology but I had never made a wearable before.</p>
         <p>During my undergrad at OCAD (Ontario College of Art and Design), I was working on a project where the intention was to turn closed captioning for the deaf and hard of hearing into this kinetic, emotive, expressive version of itself with an algorithm. I was fascinated with the idea of translating language into other forms. How many different ways can you take something that’s abstract and turn it into something else?</p>
-        <p>I started working with language and distilling it into symbols. I had made this library of function words (prepositions and articles like I, you, me, the, a). They are the smallest subsection of words but also the most used yet least represented. I honed in on them because I was reading a <a href="http://www.secretlifeofpronouns.com/" title="Secret Life of Pronouns book by James Pennebaker">book by James Pennebaker</a> about how the ratio at which you say function words actually describes a lot about your mood and your state of mind. From this idea, I tried to take function words and turn them into symbols. I studied bodies of text and translated them to discover what the individual’s primary function word was. That eventually led me to build an algorithm that would scan through someone’s text or speech and use the ratio of function words to determine how they were appearing to other people, how confident, honest, angry, sad, mad, or happy.</p>
+        <p>I started working with language and distilling it into symbols. I had made this library of function words (prepositions and articles like <i>I, you, me, the, a</i>). They are the smallest subsection of words but also the most used yet least represented. I honed in on them because I was reading a <a href="http://www.secretlifeofpronouns.com/" title="Secret Life of Pronouns book by James Pennebaker">book by James Pennebaker</a> about how the ratio at which you say function words actually describes a lot about your mood and your state of mind. From this idea, I tried to take function words and turn them into symbols. I studied bodies of text and translated them to discover what the individual’s primary function word was. That eventually led me to build an algorithm that would scan through someone’s text or speech and use the ratio of function words to determine how they were appearing to other people, how confident, honest, angry, sad, mad, or happy.</p>
         <p>I started building a tiny wearable you can wear near your heart that would listen to your speech. Using bluetooth, it pings your emotional scores throughout the day creating this intimate and personal technology. The wearable market tends to be very binary and composed of objects that say, you walked this many steps today why don’t you walk this many more? Instead, I wanted to give people abstract feedback about their lives and have them decide whatever they wanted to do with it; rather than making something quantitative, make it qualitative.</p>
     </dd>
   </dl>
@@ -144,7 +152,7 @@
   <dl class="border">
     <dt class="interview-q">How did you end up at Refinery29?</dt>
     <dd class="interview-a">
-      <p>I have done so much UX/UI work in fashion. I kept trying to take hard turns out of it but it just kept on coming back to find me. After OCAD,I wanted to design assistive technology. I wanted to make interfaces for users with disabilities but then I got scooped up by Hudson’s Bay company. I met with the creative director, <a href="http://www.antony-smith.com/" title="Antony Smith portfolio page">Tony Smith</a> who was in the process of leading a big redesign around 2009 to 2011 I wanted to be a part of that massive change so I signed on as a senior designer. I ultimately ended up becoming an art director there. I wanted to bring really interesting, cool, fun, emerging technology to places that are usually considered “women’s interest”. It was inspiring but I still wanted to veer away from fashion. I reached a point where I didn’t feel very purposeful so I left Toronto for my masters program. I worked at Lord &amp; Taylor in the US while going to school but when I got out, I found my next job at a media lab in New York working in experimental tech for ad agencies. When you wanted to pitch a crazy experimental tech thing to your clients, you would come to us. It was really fun but we never got to own our own work. We would consult with all these agencies but then they would just go alone from there. I only ever got to do one project beginning to end and it was for NYX Cosmetics.</p>
+      <p>I have done so much UX/UI work in fashion. I kept trying to take hard turns out of it but it just kept on coming back to find me. After OCAD,I wanted to design assistive technology. I wanted to make interfaces for users with disabilities but then I got scooped up by Hudson’s Bay company. I met with the then creative director, <a href="http://www.antony-smith.com/" title="Antony Smith portfolio page">Tony Smith</a> (no longer at HBC) who was in the process of leading a big redesign around 2009 to 2011 I wanted to be a part of that massive change so I signed on as a senior designer. I ultimately ended up becoming an art director there. I wanted to bring really interesting, cool, fun, emerging technology to places that are usually considered “women’s interest”. It was inspiring but I still wanted to veer away from fashion. I reached a point where I didn’t feel very purposeful so I left Toronto for my masters program. I worked at Lord &amp; Taylor in the US while going to school but when I got out, I found my next job at a media lab in New York working in experimental tech for ad agencies. When you wanted to pitch a crazy experimental tech thing to your clients, you would come to us. It was really fun but we never got to own our own work. We would consult with all these agencies but then they would just go alone from there. I only ever got to do one project beginning to end and it was for NYX Cosmetics.</p>
     </dd>
   </dl>
     
@@ -211,7 +219,7 @@
   <dl class="border">
     <dt class="interview-q">What are some of your favourite projects at Refinery29?</dt>
     <dd class="interview-a">
-      <p>Two of them are things I’m working on right now. We are launching a <a href="http://www.ellecor.com/?portfolio=vr29-refinery29s-webvr-viewer" title="Refinery29 VR web page">VR viewing portal</a> that is completely web based for all the VR content we’ve been shooting for the past year. I think web VR is going to be more prevalent in the future because it’s easy consumption VR and for us to integrate it into <a href="http://www.refinery29.com/interactive/vr29/" title="VR web portal">the site/</a> feels cohesive and on brand. I’m really proud of the user experience and that we were able to take standard web content and make it immersive.</p>
+      <p>Two of them are things I’m working on right now. We are launching a <a href="http://www.ellecor.com/?portfolio=vr29-refinery29s-webvr-viewer" title="Refinery29 VR web page">VR viewing portal</a> that is completely web based for all the VR content we’ve been shooting for the past year. I think web VR is going to be more prevalent in the future because it’s easy consumption VR and for us to integrate it into <a href="http://www.refinery29.com/interactive/vr29/" title="VR web portal">the site</a> feels cohesive and on brand. I’m really proud of the user experience and that we were able to take standard web content and make it immersive.</p>
     </dd>
   </dl>
     
