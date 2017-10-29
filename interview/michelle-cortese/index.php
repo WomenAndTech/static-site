@@ -7,7 +7,7 @@
   // Twitter & Facebook sharing info
   //-----------------------------------------------------------------------------
   // Social media images are added in the metatags in includes/header.php to always pull in the feature image from this interview. Make sure the featured image always follows this format: featured-firstname-lastname.jpg
-  $social_title = 'Interview with Michelle Cortese with Victoria Whang';
+  $social_title = 'Interview with Michelle Cortese by Victoria Whang';
   $social_desc = ''; //Use the description from the archive page.
 
   // INTERVIEW CREDITS
@@ -126,7 +126,7 @@
   <!-- // Image - Landscape -->
   <div class="border img-landscape">
     <figure>
-      <img src="http://www.ellecor.com/wp-content/uploads/2015/03/8b.png" alt="Log.Me necklace and model">
+      <img src="<?php echo $path_img; ?>landscape-michelle-cortese-log-me-necklace.png" alt="Log.Me necklace and model">
       <figcaption>
         Photo credit:
         <a href="http://www.ellecor.com/" title="Michelle Cortese portfolio site">Michelle Cortese</a>
@@ -160,14 +160,14 @@
     <dt class="interview-q">Tell me more about the NYX installation.</dt>
     <dd class="interview-a">
       <p>NYX had just been acquired by L’Oreal. They had no stores. They had no brick and mortar presence whatsoever. But they were this huge brand that existed online and they had a really huge identity so the design goal was how do we take their digital experience and bring it to reality? We narrowed that down into three different offerings. We needed to translate the digital feeds (access the trending hashtags) and have exploratory stations where users can see the products on other people similar to their site. We needed to reflect the tutorial aspect of NYX because they had so many Youtube tutorials that have become such a big part of their brand.</p>
-        <p>We created this <a href="http://www.ellecor.com/?portfolio=nyx-interactive-in-store-experience" title="NYX project page">giant wall of a screen</a> displaying a stream showing whatever the current trend is. You go inside of the store and all of the product shelves have iPads you can walk up to and scan a product. That product will appear on the screen and you can look at all the different colours that are offered and when you open that, instead of just being descriptions of the product, it’s instagram photos that have been tagged with that product. As for the tutorial experience, we developed video players and made them interactive. We set them up inside of those makeup stations where girls could sit and try out a tutorial on their own. They had all the makeup required in front of them, they could follow along, pinpoint certain products and stop or repeat through steps. That was our way of embodying the digital makeup experience.</p>
+      <p>We created this <a href="http://www.ellecor.com/?portfolio=nyx-interactive-in-store-experience" title="NYX project page">giant wall of a screen</a> displaying a stream showing whatever the current trend is. You go inside of the store and all of the product shelves have iPads you can walk up to and scan a product. That product will appear on the screen and you can look at all the different colours that are offered and when you open that, instead of just being descriptions of the product, it’s instagram photos that have been tagged with that product. As for the tutorial experience, we developed video players and made them interactive. We set them up inside of those makeup stations where girls could sit and try out a tutorial on their own. They had all the makeup required in front of them, they could follow along, pinpoint certain products and stop or repeat through steps. That was our way of embodying the digital makeup experience.</p>
     </dd>
   </dl>
     
   <!-- // Image - Landscape -->
   <div class="border img-landscape">
     <figure>
-      <img src="http://www.ellecor.com/wp-content/uploads/2015/10/1.png" alt="6 image collage from NYX Toronto opening">
+      <img src="<?php echo $path_img; ?>landscape-michelle-cortese-nyx-toronto-opening.png" alt="6 image collage from NYX Toronto opening">
       <figcaption>
         Photo credit:
         <a href="http://www.ellecor.com/" title="Michelle Cortese portfolio site">Michelle Cortese</a>
@@ -179,14 +179,14 @@
     <dt class="interview-q">How did <a href="http://www.ellecor.com/?portfolio=chipcodes" title="Chip Codes project page">Chip Codes</a> come about?</dt>
     <dd class="interview-a">
       <p>I really enjoy hardware hacking. I like taking things that previously existed and repurposing them into new things. I think we need to be really mindful as we move into the next stages of destroying our earth and throwing out electronics. Just because it no longer serves the purpose we intended for it to serve doesn’t mean it’s useless. There are still a million useable components in there and it’s a shame to just toss it. I started playing around with the idea of recycling all of my Gameboys. I started taking out all of my old ones (I have so many of them) and hacking them and turning them into synthesizers.</p>
-        <p>Now, my husband is a professional musician. He’s not an engineer. At the same time, I found it fascinating that the <a href="https://en.wikipedia.org/wiki/Chiptune" title="Chiptunes Wikipedia page">Chiptunes</a> world is mostly computer science-y, tech people. You have to do a fair amount of hacking to actually get a Gameboy playable, and even if you do get it, to be able to then connect it to mini-controllers is pretty difficult. I wanted to bridge that gap so that people in the musical world with knowledge to create music could access this medium and this sound. I pitched the idea to <a href="https://www.moogmusic.com/" title="Moog Music">Moog Music</a> when they had their festival going on. I felt it was in the vision of founder <a href="https://en.wikipedia.org/wiki/Robert_Moog" title="Robert Moog Wikipedia page">Robert Moog</a> and his intention to bring a lot of weird things to the masses. The theremin wasn’t really a commercialized instrument until he made it so. I wanted to do what he did but with Game Boys. They thought it sounded insane but they agreed to it. What they gave me was a tiny amount of money that didn’t fully fund the project but I was willing to go broke doing this.</p>
+      <p>Now, my husband is a professional musician. He’s not an engineer. At the same time, I found it fascinating that the <a href="https://en.wikipedia.org/wiki/Chiptune" title="Chiptunes Wikipedia page">Chiptunes</a> world is mostly computer science-y, tech people. You have to do a fair amount of hacking to actually get a Gameboy playable, and even if you do get it, to be able to then connect it to mini-controllers is pretty difficult. I wanted to bridge that gap so that people in the musical world with knowledge to create music could access this medium and this sound. I pitched the idea to <a href="https://www.moogmusic.com/" title="Moog Music">Moog Music</a> when they had their festival going on. I felt it was in the vision of founder <a href="https://en.wikipedia.org/wiki/Robert_Moog" title="Robert Moog Wikipedia page">Robert Moog</a> and his intention to bring a lot of weird things to the masses. The theremin wasn’t really a commercialized instrument until he made it so. I wanted to do what he did but with Game Boys. They thought it sounded insane but they agreed to it. What they gave me was a tiny amount of money that didn’t fully fund the project but I was willing to go broke doing this.</p>
     </dd>
   </dl>
    
   <!-- // Image - Landscape -->
   <div class="border img-landscape">
     <figure>
-      <img src="http://www.ellecor.com/wp-content/uploads/2015/03/ChipCodes_Team1.jpg" alt="Michelle and husband holding chipcodes instruments">
+      <img src="<?php echo $path_img; ?>landscape-michelle-cortese-husband-chipcodes.jpg" alt="Michelle and husband holding chipcodes instruments">
       <figcaption>
         Photo credit:
         <a href="http://www.ellecor.com/" title="Michelle Cortese portfolio site">Michelle Cortese</a>
@@ -226,7 +226,7 @@
   <!-- // Image - Landscape -->
   <div class="border img-landscape">
     <figure>
-      <img src="http://www.ellecor.com/wp-content/uploads/2017/06/5.png" alt="Refinery29 VR portal on mobile">
+      <img src="<?php echo $path_img; ?>landscape-michelle-cortese-refinery29.png" alt="Refinery29 VR portal on mobile">
       <figcaption>
         Photo credit:
         <a href="http://www.ellecor.com/" title="Michelle Cortese portfolio site">Michelle Cortese</a>
@@ -245,7 +245,7 @@
   <!-- // Image - Landscape -->
   <div class="border img-landscape">
     <figure>
-      <img src="http://www.ellecor.com/wp-content/uploads/2017/02/rooms4.png" alt="29 Rooms screenshot">
+      <img src="<?php echo $path_img; ?>landscape-michelle-cortese-29-rooms.png" alt="29 Rooms screenshot">
       <figcaption>
         Photo credit:
         <a href="http://www.ellecor.com/" title="Michelle Cortese portfolio site">Michelle Cortese</a>
@@ -266,7 +266,7 @@
   <!-- // Image - Landscape -->
   <div class="border img-landscape">
     <figure>
-      <img src="http://www.ellecor.com/wp-content/uploads/2017/06/2.png" alt="VR onboarding flowchart">
+      <img src="<?php echo $path_img; ?>landscape-michelle-cortese-vr-onboarding-flowchart.png" alt="VR onboarding flowchart">
       <figcaption>
         Photo credit:
         <a href="http://www.ellecor.com/" title="Michelle Cortese portfolio site">Michelle Cortese</a>
@@ -318,6 +318,7 @@
       <p>I’m in that zone right now where I’m trying to scope out the next five years. I’d like to contribute to saving UI from the vagueness and the abstract as we move into this immersive world. I think there’s a lot of risk right now. I’m afraid that if design sensibility falls into place as is, it could help support a world where fake news is prevalent, where people are not as informed as they could be, and where we can’t communicate to our satisfaction. I want to make sure that the right design standards are set into motion and that the people that really care are the ones setting the standards. I want to go find a really good HCI (Human Computer Interaction) program, get a PhD and play a part in that movement. That’s my number one goal.</p>
     </dd>
   </dl>
+
 
   <!-- // Team Signature -->
   <div class="border signature">
