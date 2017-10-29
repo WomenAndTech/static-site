@@ -8,7 +8,7 @@
   //-----------------------------------------------------------------------------
   // Social media images are added in the metatags in includes/header.php to always pull in the feature image from this interview. Make sure the featured image always follows this format: featured-firstname-lastname.jpg
   $social_title = 'Interview with Michelle Cortese with Victoria Whang';
-  $social_desc = 'Use the description from the archive page.';
+  $social_desc = ''; //Use the description from the archive page.
 
   // INTERVIEW CREDITS
   //-----------------------------------------------------------------------------
@@ -104,7 +104,7 @@
   </dl>
     
 <!-- // Image - Landscape -->
-  <div class="border img-landscape">
+  <div class="border img-landscape video-landscape">
     <figure>
         <iframe width="640" height="390" align="center" src="https://www.youtube.com/embed/Xoz2EERmZZ8?rel=0" frameborder="0" allowfullscreen></iframe>
       <figcaption>
@@ -318,24 +318,6 @@
       <p>I’m in that zone right now where I’m trying to scope out the next five years. I’d like to contribute to saving UI from the vagueness and the abstract as we move into this immersive world. I think there’s a lot of risk right now. I’m afraid that if design sensibility falls into place as is, it could help support a world where fake news is prevalent, where people are not as informed as they could be, and where we can’t communicate to our satisfaction. I want to make sure that the right design standards are set into motion and that the people that really care are the ones setting the standards. I want to go find a really good HCI (Human Computer Interaction) program, get a PhD and play a part in that movement. That’s my number one goal.</p>
     </dd>
   </dl>
-    
-  <!-- // Pull Quote -->
-  <aside class="border pull-quote">
-    <p>Pull quote example. Move this whole block after a Q&A block or image.</p>
-  </aside>
-
-
-  <!-- // Image - Landscape -->
-  <div class="border img-landscape">
-    <figure>
-      <img src="<?php echo $path_img; ?>landscape-christina-truong-teehan-and-lax.jpg" alt="Christina Truong Teehan + Lax">
-      <figcaption>
-        Photo credit:
-        <a href="http://www.flickr.com/photos/brendanlynch" title="Brendan Lynch's flickr photostream">Brendan Lynch</a>
-      </figcaption>
-    </figure>
-  </div>
-
 
   <!-- // Team Signature -->
   <div class="border signature">
