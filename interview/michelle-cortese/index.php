@@ -26,12 +26,10 @@
   $photos_url = "https://victoriawhang.com/";
   $editor = "Ivonne Karamoy";
   $editor_url = "https://www.ivonnekaramoy.com/";
-  $ad = "Full Name";
-  $ad_url = "";
-  $design = "Full Name";
-  $design_url = "";
   $dev = "Victoria Whang";
   $dev_url = "https://victoriawhang.com/";
+  $dev2 = "Christina Truong";
+  $dev_url2 = "http://christinatruong.com/";
   $transcribe = "Victoria Whang";
   $transcribe_url = "https://victoriawhang.com/";
 
@@ -57,7 +55,7 @@
   <header class="border header-interview">
     <div class="wrapper-sm">
       <h2>Michelle Cortese</h2>
-      <p class="intro">Michelle is a Toronto-born UI designer navigating both digital and material interfaces. Her experience is a creative exploration in art direction, physical computing, fabrication, and graphics programming, blurring the lines between artist and engineer. She's studied at Ryerson University, OCAD, and NYU, and continues to pursue further education in the hopes of contributing to a brighter future for UI and human communication.</p>
+      <p class="intro">Michelle is a Toronto-born UI designer navigating both digital and material interfaces. Her experience ranges in a creative exploration in art direction, physical computing, fabrication, and graphics programming, blurring the lines between artist and engineer. She's studied at Ryerson University, OCAD, and NYU, and continues to pursue further education in the hopes of contributing to a brighter future for UI and human communication.</p>
         <p>At the time of the interview, Michelle was a Senior Technologist at Refinery29 but she has since moved on to Facebook as VR Product Designer.</p>
 
       <?php // Don't update. Using the info from PHP variables at the top of the page. ?>
