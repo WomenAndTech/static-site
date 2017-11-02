@@ -10,6 +10,14 @@
 <main role="main" class="interview-cards wrapper-lg">
   <div class="grid-wrapper">
     <article class="grid-4-2-1">
+      <a href="/interview/michelle-cortese/" class="no-underline">
+        <img src="<?php echo $path_img; ?>thumbnail-michelle-cortese.jpg" alt="Michelle Cortese">
+        <h3>Michelle Cortese</h3>
+        <p>with Victoria Whang</p>
+        <p>Refinery29's Senior Design Technologist and hardware hacker from Toronto, currently tinkering with VR at Facebook.</p>
+      </a>
+    </article>
+    <article class="grid-4-2-1">
       <a href="/interview/huda-idrees/" class="no-underline">
         <img src="<?php echo $path_img; ?>thumbnail-huda-idrees.jpg" alt="Huda Idrees">
         <h3>Huda Idrees</h3>
