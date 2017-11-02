@@ -344,10 +344,6 @@
         <?php if ($editor2): echo 'and <a href="'.$editor_url2 .'">'.$editor2.'</a>';endif; ?>
       </li>
       <li>
-        Design by <a href="<?php echo $design_url; ?>"><?php echo $design; ?></a>
-        <?php if ($design2): echo 'and <a href="'.$design_url2 .'">'.$design2.'</a>';endif; ?>
-      </li>
-      <li>
         Development by <a href="<?php echo $dev_url; ?>"><?php echo $dev; ?></a>
         <?php if ($dev2): echo 'and <a href="'.$dev_url2 .'">'.$dev2.'</a>';endif; ?>
       </li>

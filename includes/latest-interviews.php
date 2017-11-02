@@ -23,6 +23,14 @@ Do not include any links.
     <a class="view-all" href="/archive/">view all</a>
     <div class="grid-wrapper">
       <article class="grid-3-1">
+        <a href="/interview/michelle-cortese/" class="no-underline">
+          <img src="<?php echo $path_img; ?>thumbnail-michelle-cortese.jpg" alt="Michelle Cortese">
+          <h3>Michelle Cortese</h3>
+          <p>with Victoria Whang</p>
+          <p>Toronto-born VR Product Designer at Facebook navigating both digital and material interfaces.</p>
+        </a>
+      </article>
+      <article class="grid-3-1">
         <a href="/interview/huda-idrees/" class="no-underline">
           <img src="<?php echo $path_img; ?>thumbnail-huda-idrees.jpg" alt="Huda Idrees">
           <h3>Huda Idrees</h3>
@@ -36,14 +44,6 @@ Do not include any links.
           <h3>Emilie Baltz</h3>
           <p>with Victoria Whang</p>
           <p>Artist, experience designer, and food technologist, based in New York City.</p>
-        </a>
-      </article>
-      <article class="grid-3-1">
-        <a href="/interview/aashni-shah/" class="no-underline">
-          <img src="<?php echo $path_img; ?>thumbnail-aashni-shah.jpg" alt="Aashni Shah">
-          <h3>Aashni Shah</h3>
-          <p>with Cassie Kaiser</p>
-          <p>Software Enginner at Microsoft and former Computer Science student at University of Toronto, Aashni is also an active speaker, organizer and leader.</p>
         </a>
       </article>
     </div>
