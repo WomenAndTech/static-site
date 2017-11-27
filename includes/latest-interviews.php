@@ -23,6 +23,14 @@ Do not include any links.
     <a class="view-all" href="/archive/">view all</a>
     <div class="grid-wrapper">
       <article class="grid-3-1">
+        <a href="/interview/helen-papagiannis/" class="no-underline">
+          <img src="<?php echo $path_img; ?>thumbnail-helen-papagiannis.jpg" alt="Helen Papagiannis">
+          <h3>Dr. Helen Papagiannis</h3>
+          <p>with Ivonne Karamoy</p>
+          <p>Researcher, designer, author, speaker and internationally recognized leading expert in Augmented Reality.</p>
+        </a>
+      </article>
+      <article class="grid-3-1">
         <a href="/interview/michelle-cortese/" class="no-underline">
           <img src="<?php echo $path_img; ?>thumbnail-michelle-cortese.jpg" alt="Michelle Cortese">
           <h3>Michelle Cortese</h3>
@@ -36,14 +44,6 @@ Do not include any links.
           <h3>Huda Idrees</h3>
           <p>with Ivonne Karamoy <br>&amp; Christina Truong</p>
           <p>Designer and Engineer turned founder and CEO of Dot Health, a service that enables people to access their own health data.</p>
-        </a>
-      </article>
-      <article class="grid-3-1">
-        <a href="/interview/emilie-baltz/" class="no-underline">
-          <img src="<?php echo $path_img; ?>thumbnail-emilie-baltz.jpg" alt="Emilie Baltz">
-          <h3>Emilie Baltz</h3>
-          <p>with Victoria Whang</p>
-          <p>Artist, experience designer, and food technologist, based in New York City.</p>
         </a>
       </article>
     </div>

@@ -10,6 +10,14 @@
 <main role="main" class="interview-cards wrapper-lg">
   <div class="grid-wrapper">
     <article class="grid-4-2-1">
+      <a href="/interview/helen-papagiannis/" class="no-underline">
+        <img src="<?php echo $path_img; ?>thumbnail-helen-papagiannis.jpg" alt="Helen Papagiannis">
+        <h3>Dr. Helen Papagiannis</h3>
+        <p>with Ivonne Karamoy</p>
+        <p>Researcher, designer, author, speaker and internationally recognized leading expert in Augmented Reality.</p>
+      </a>
+    </article>
+    <article class="grid-4-2-1">
       <a href="/interview/michelle-cortese/" class="no-underline">
         <img src="<?php echo $path_img; ?>thumbnail-michelle-cortese.jpg" alt="Michelle Cortese">
         <h3>Michelle Cortese</h3>
