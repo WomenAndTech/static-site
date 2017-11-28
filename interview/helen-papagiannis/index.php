@@ -57,7 +57,7 @@
   <header class="border header-interview">
     <div class="wrapper-sm">
       <h2>Helen Papagiannis</h2>
-      <p class="intro">Dr. Helen Papagiannis is an internationally recognized expert in the field of Augmented Reality. Her work has taken her around the globe as a researcher, designer, author and speaker focusing on storytelling and creating meaningful experiences in AR. Her book <em>Augmented Human: How Technology is Shaping the New Reality</em> was published in 2017 by <a href="http://shop.oreilly.com/product/0636920041313.do" title="Augmented Human on O'Reilly">O’Reilly Media</a> and provides readers a look into our virtual future, how AR is evolving, where the opportunities are and where we’re headed. We sit down and talk about art, tech, yoga and the transformative power of Augmented Reality.</p>
+      <p class="intro">Dr. Helen Papagiannis is an internationally recognized expert in the field of Augmented Reality. Her work has taken her around the globe as a researcher, designer, author and speaker focusing on storytelling and creating meaningful experiences in AR. Her book <em><a href="https://www.augmentedhuman.co/" title="Augmented Human written by Dr. Helen Papagiannis">Augmented Human: How Technology is Shaping the New Reality</a></em> was published in 2017 by O’Reilly Media and provides readers a look into our virtual future, how AR is evolving, where the opportunities are and where we’re headed. We sit down and talk about art, tech, yoga and the transformative power of Augmented Reality.</p>
 
       <?php // Don't update. Using the info from PHP variables at the top of the page. ?>
       <p class="author">An interview with <a href="<?php echo $interviewer_url; ?>"><?php echo $interviewer; ?></a></p>
@@ -207,7 +207,7 @@
   </div>
 
   <dl class="border">
-    <dt class="interview-q">Let’s talk about your book, <em>Augmented Human: How Technology is Shaping the New Reality</em>. There’s a chapter in the book that talks about each of the human senses and how technology will extend those capabilities. Can you tell us about one of those ideas?
+    <dt class="interview-q">Let’s talk about your book, <em><a href="https://www.augmentedhuman.co/" title="Augmented Human written by Dr. Helen Papagiannis">Augmented Human: How Technology is Shaping the New Reality</a></em>. There’s a chapter in the book that talks about each of the human senses and how technology will extend those capabilities. Can you tell us about one of those ideas?
     </dt>
     <dd class="interview-a">
       <p>Yes, an example of this is vision technologies that explore how the human brain can be trained to see with the other senses, like hearing, effectively learning how to see with sound. The <a href="https://www.seeingwithsound.com/">vOICe system</a> [OIC = “Oh, I See”] developed by Peter Meijer, translates images from a camera into audio signals to assist people who are congenitally blind to see. The vOICE consists of a pair of sunglasses with a camera, connected to a computer and pair of headphones, and it can also be used on a smartphone by downloading the software and using the phone’s built-in camera. The camera scans your environment from left to right and the vOICe software converts pixels into sound, transforming your surroundings into a soundscape for you to see with your ears. Frequency is used to indicate an object’s height, and volume is used to represent brightness. With training and practice, wearers begin to identify different sounds with objects.</p>
