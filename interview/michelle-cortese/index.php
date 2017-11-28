@@ -102,13 +102,13 @@
   </dl>
     
 <!-- // Image - Landscape -->
-  <div class="border img-landscape video-landscape">
-    <figure>
-        <iframe width="640" height="390" align="center" src="https://www.youtube.com/embed/Xoz2EERmZZ8?rel=0" frameborder="0" allowfullscreen></iframe>
-      <figcaption>
-        Michelle's FITC 2017 talk in Toronto explores how we can rethink UI design and consider Natural User Interface vs Zero User Interface.
-      </figcaption>
-    </figure>
+  <div class="border video-landscape widescreen">
+    <div class="embed-container">
+      <iframe width="640" height="390" align="center" src="https://www.youtube.com/embed/Xoz2EERmZZ8?rel=0" frameborder="0" allowfullscreen></iframe>
+    </div>
+    <p class="caption">
+      Michelle's FITC 2017 talk in Toronto explores how we can rethink UI design and consider Natural User Interface vs Zero User Interface.
+    </p>
   </div>
 
   <dl class="border">

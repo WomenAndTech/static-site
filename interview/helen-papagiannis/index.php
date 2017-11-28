@@ -146,15 +146,14 @@
 
 
   <!-- // Video Embed -->
-  <div class="border img-landscape video-landscape">
-    <figure>
-        <iframe src="https://player.vimeo.com/video/25608606?title=0&byline=0&portrait=0" width="940" height="705" frameborder="0"  allowfullscreen></iframe>
-      <figcaption>
-        Inspired by AR psychotherapy studies for the treatment of phobias, Helen created “Who’s Afraid of Bugs?”, the world’s first Augmented Reality pop-up book, in 2011-2012.
-      </figcaption>
-    </figure>
+  <div class="border video-landscape">
+    <div class="embed-container">
+      <iframe src="https://player.vimeo.com/video/25608606?title=0&byline=0&portrait=0" width="940" height="705" frameborder="0"  allowfullscreen></iframe>
+    </div>
+    <p class="caption">
+      Inspired by AR psychotherapy studies for the treatment of phobias, Helen created “Who’s Afraid of Bugs?”, the world’s first Augmented Reality pop-up book, in 2011-2012.
+    </p>
   </div>
-
 
 
   <dl class="border">
@@ -262,14 +261,13 @@
   </div-->
 
   <!-- // Image - Landscape -->
-  <div class="border img-landscape video-landscape">
-    <figure>
-
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/5rg8VU4iZQg?rel=0&amp;controls=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
-      <figcaption>
-        Helen speaking on Advancing AR for Humanity at Augmented World Expo (AWE) 2015.
-      </figcaption>
-    </figure>
+  <div class="border video-landscape widescreen">
+    <div class="embed-container">
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/5rg8VU4iZQg?rel=0&amp;controls=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
+    </div>
+    <p class="caption">
+      Helen speaking on Advancing AR for Humanity at Augmented World Expo (AWE) 2015.
+    </p>
   </div>
 
   <dl class="border">
