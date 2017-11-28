@@ -387,7 +387,7 @@
   <!-- // Q & A -->
   <dl class="border">
     <!-- // Question -->
-    <dt class="interview-q"><em>Dr. Helen Papagiannis will be hosting a book signing for her latest book, Augmented Human, between 7pm and 8pm at House of VR in Toronto located at 639 Queen St W. Bring your copy of the book or purchase one at the event. <a href="https://www.eventbrite.ca/e/fitc-holiday-jam-tickets-38066664418?aff=erelpanelorg" title="FITC Holiday Jam at House of VR">Register for this free event</a>. </em></dt>
+    <dt class="interview-q"><em>Dr. Helen Papagiannis will be hosting a book signing for her latest book, Augmented Human, this Saturday, December 2, 2017 between 7pm and 8pm at House of VR in Toronto located at 639 Queen St W. Bring your copy of the book or purchase one at the event. <a href="https://www.eventbrite.ca/e/fitc-holiday-jam-tickets-38066664418?aff=erelpanelorg" title="FITC Holiday Jam at House of VR">Register for this free event</a>. </em></dt>
     <!-- // Answer -->
     <dd class="interview-a">
       <p></p>
