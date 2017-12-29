@@ -27,7 +27,7 @@
   $editor = "Christina Truong";
   $editor_url = "http://christinatruong.com";
   $editor2 = "Joni Di Placido";
-  $editor_url2 = "";
+  $editor_url2 = "https://www.linkedin.com/in/joni-di-placido-590013118/";
   $ad = "";
   $ad_url = "";
   $design = "";
@@ -62,7 +62,7 @@
   <header class="border header-interview">
     <div class="wrapper-sm">
       <h2>Mina Markham</h2>
-      <p class="intro">Mina is a front-end architect, speaker, formerly the Senior Software Engineer, a.k.a. Pantsuit Seamstress, for Hillary for America and currently a Senior Engineer at <a href="https://slack.com">Slack</a>. I caught up with Mina after her <a href="http://fitc.ca/presentation/styling-hillary/">Styling Hilary</a> talk at FITC Toronto and we sat down to chat about working on the campaign's website, moving from design to programming, conference speaking and more.</p>
+      <p class="intro">Mina is a front-end architect, speaker, formerly the Senior Software Engineer, a.k.a. Pantsuit Seamstress for Hillary for America and currently a Senior Engineer at <a href="https://slack.com">Slack</a>. I caught up with Mina after her <a href="http://fitc.ca/presentation/styling-hillary/">Styling Hilary</a> talk at FITC Toronto and we sat down to chat about working on the campaign's website, moving from design to programming, conference speaking and more.</p>
 
       <?php // Don't update. Using the info from PHP variables at the top of the page. ?>
       <p class="author">An interview with <a href="<?php echo $interviewer_url; ?>"><?php echo $interviewer; ?></a></p>
@@ -97,26 +97,30 @@
     <dt class="interview-q">You have a degree in Graphic Arts and Women's Studies. How did your interest in these areas come to be and what were you hoping to become?</dt>
     <dd class="interview-a">
       <p>Once upon a time, I thought that I would be a magazine editor, for something like Essence. And so I started out at Syracuse University with the intention of becoming a journalist. I realized while I was there that I liked designing the layout for my stories more than I like writing the stories. So I switched to graphic design. </p>
-      <p>My interest in women studies evolved from taking Women's Studies 101. I loved the class and kept going from there.</p>
+      <p>My interest in women studies evolved from taking Women's Studies 101 course. I loved the class and kept going from there.</p>
     </dd>
   </dl>
   <dl class="border">
     <dt class="interview-q">When did you start to move more into the programming and engineering side of things? </dt>
     <dd class="interview-a">
-      <p>It was pretty organic. I started my career designing things for print. During my last year of college I took one class in web design, it was in Flash. I didn't really learn how to code, I just learned how to move things around in Flash.  I kept going from there, trying to build my own portfolio site. </p>
+      <p>It was pretty organic. I started my career designing things for print. During my last year of college I took one class in web design. It was in Flash. I didn't really learn how to code, I just learned how to move things around in Flash.  I kept going from there, trying to build my own portfolio site. </p>
       <p>That's actually how a lot of my interest in development happens. I was trying to create a site to showcase my design work and I was digging more into how to implement the vision I had. I just went down a rabbit hole and got deeper and deeper into figuring out how to do certain things in code. Eventually I realized I really liked this so I shifted my focus to learning as much as I could about getting into front-end. Eventually I was able to shift entirely to doing that full-time.</p>
     </dd>
   </dl>
-
-  <!-- // Pull Quote -->
-  <aside class="border pull-quote">
-    <p>You can totally make a career out of being a self-taught developer. I'm living proof of that.</p>
-  </aside>
 
   <dl class="border">
     <dt class="interview-q">A lot of people getting into code are not quite sure how to do it or whether they even need to go to school since so many developers are self-taught. Do you have any advice for people?</dt>
     <dd class="interview-a">
       <p>I learned everything the hard way. It was a little harder and a little rougher than I would have liked, but you can totally make a career out of being a self-taught developer. I'm living proof of that. As far as I'm concerned, not having a CS degree has not held me back. Some of the bigger organizations might look for a more traditional computer science education. But I don't know anyone that does not have the degree, that wants to be working in tech, that isn't.</p>
+    </dd>
+  </dl>
+
+  <aside class="border pull-quote">
+    <p>You can totally make a career out of being a self-taught developer. I'm living proof of that.</p>
+  </aside>
+
+  <dl class="border">
+    <dd class="interview-a">
       <p>I learned by viewing the source code and by trying to mimic things I saw online. Now there's lots of different online learning resources like <a href="https://www.codeschool.com">Code School</a> and <a href="https://teamtreehouse.com/">Treehouse</a>. That's how I learned Sass. There's also <a href="https://www.girldevelopit.com/">Girl Develop It</a> and <a href="https://www.womenwhocode.com/">Women Who Code</a> and those kinds of community environments and organizations. I feel like there are lots more avenues available now that weren't available when I was trying to figure this whole thing out.</p>
       <p>So it works if that's the way you learn. But I lacked a mentor. I didn't have people to talk to, so that was the hardest part of it. I had to just trust what I was seeing without being able to talk through any of the things that were confusing me. I had to hope that someone asked the same question on <a href="https://stackoverflow.com/">Stack Overflow</a>.</p>
     </dd>
@@ -140,7 +144,7 @@
     <dt class="interview-q">What made you decide to get into conference speaking and organizing?</dt>
     <dd class="interview-a">
       <p>I went to my first conference on a whim. Someone I really liked was speaking at the <a href="http://frontenddesignconference.com/">Front-end Design Conference</a> in St. Petersburg's. The people were great and I had so much fun there.</p>
-      <p>They had one day set aside for attendee presentations. Anyone could sign up to do a 20-minute presentation on whatever they wanted. I thought that was a friendly, not-so-intimidating way to get into it. So the next time I went to that conference (the following year) I thought, I'll talk about this thing I've been doing. I did the talk and I got great feedback. I didn't realize it at the time but people I had been learning from for years were in that room. Like freaking <a href="https://chriscoyier.net/">Chris Coyier</a> and <a href="http://daverupert.com/">Dave Rupert</a> are staring at me the entire time.</p>
+      <p>They had one day set aside for attendee presentations. Anyone could sign up to do a 20-minute presentation on whatever they wanted. I thought that was a friendly, not-so-intimidating way to get into it. So the next time I went to that conference (the following year) I thought, I'll talk about this thing I've been doing. I did the talk and I got great feedback. I didn't realize it at the time but people I had been learning from for years were in that room. Like freaking <a href="https://chriscoyier.net/">Chris Coyier</a> and <a href="http://daverupert.com/">Dave Rupert</a> are staring at me the entire time!</p>
       <p>Anyway, that first talk is what started my journey to working for Hillary Clinton. I didn't know it at the time but Dan Ryan, who was the Director of Front-end for Obama in 2012, was also in the room. He saw me speak, remembered me, and recommended me.</p>
     </dd>
   </dl>
@@ -161,25 +165,25 @@
   <dl class="border">
     <dt class="interview-q">I look at you and see you doing all these conferences and assume you never get rejected.</dt>
     <dd class="interview-a">
-      <p>In this particular moment in my life, people have been coming to me and it's because I worked on a very visible project. But before, I would submit open CFPs (calls for proposals). I just kinda sent it out there and sometimes it came back with a yes and sometimes a no. I never really knew why I would get a no but I just moved on to the next thing. When I did give talks, not all the feedback I got was great. Some people said they didn't like the tone of my voice or I spoke too fast or it wasn't interesting. I didn't always get positive feedback.</p>
+      <p>In this particular moment in my life, people have been coming to me and it's because I worked on a very visible project. But before, I would submit to open CFPs (calls for proposals). I just kinda sent it out there and sometimes it came back with a yes and sometimes a no. I never really knew why I would get a no but I just moved on to the next thing. When I did give talks, not all the feedback I got was great. Some people said they didn't like the tone of my voice or I spoke too fast or it wasn't interesting. I didn't always get positive feedback.</p>
     </dd>
   </dl>
 
   <!-- // Image - Left & Right -->
   <div class="border img-side-by-side">
     <figure>
-      <img src="<?php echo $path_img; ?>left-mina-markham-badge.jpg" alt="Biying Miao">
+      <img src="<?php echo $path_img; ?>left-mina-markham-badge.jpg" alt="Mina's conference speaker swag">
       <figcaption>
         Image source: <a href="https://twitter.com/MinaMarkham/status/918541950776639490">Mina Markham</a>, <a href="https://www.flickr.com/photos/oreillyconf/17041023430/in/album-72157652070881532/">Fluent Conf</a>
       </figcaption>
     </figure>
     <figure>
-      <img src="<?php echo $path_img; ?>right-mina-markham-fluent.jpg" alt="Biying Miao">
+      <img src="<?php echo $path_img; ?>right-mina-markham-fluent.jpg" alt="Mina at Fluent Conf">
     </figure>
   </div>
 
   <dl class="border">
-    <dt class="interview-q">You touched on the lack of diversity in conference speaking. Perhaps because there's a level of privilege required to be able to do stuff for free. Author and speaker, <a href="http://luvvie.org">Luvvie Ajayi</a> recently took to <a href="http://twitter.com/Luvvie/status/841714404731322370">Twitter</a> to voice an experience where she was told there was <a href="https://mic.com/articles/171287/the-next-web-tech-conference-is-under-fire-for-stiffing-professional-speakers#.gC1OmGzpw">no budget</a> for travel or compensation, which ended up being not completely true. What are your thoughts around compensating speakers or how to handle doing stuff for free?</dt>
+    <dt class="interview-q">You touched on the lack of diversity in conference speaking. Perhaps because one reason is there's a level of privilege required to be able to do stuff for free. Author and speaker, <a href="http://luvvie.org">Luvvie Ajayi</a> recently took to <a href="http://twitter.com/Luvvie/status/841714404731322370">Twitter</a> to voice an experience where she was told there was <a href="https://mic.com/articles/171287/the-next-web-tech-conference-is-under-fire-for-stiffing-professional-speakers#.gC1OmGzpw">no budget</a> for travel or compensation, which ended up being not completely true. What are your thoughts around compensating speakers or how to handle doing stuff for free?</dt>
     <dd class="interview-a">
       <p>I have a rule: I don't go to conferences that don't pay for travel and accommodation. I think conferences that don't pay for the speaker's travel expenses assume the speaker’s employer might take care of it. The company I worked for when I first started speaking wasn't supportive. They didn't see what they got out of it so I had to take vacation time to go to these conferences and was losing money because of that. I did it a couple of times and it's such a burden.</p>
       <p>Now, when I get invited, I just ask people up front. I'll say, "here's my speaker's fee plus travel and accommodation." If they come back with "we can't do that" then I'll say, "I can't talk at your event." It does take a certain amount of confidence so, if you're a new speaker and you don't feel like you earned the right to say that or you don't feel comfortable asking for a fee, I would say at least do not go out of pocket. You're providing a service and content. Their event depends largely on you doing this so, at the very least, they should take care of getting you there.</p>
@@ -199,11 +203,11 @@
   </dl>
 
   <dl class="border">
-    <dt class="interview-q">I love your slides. Do you have any tips for making sure your visuals are engaging?</dt>
+    <dt class="interview-q">I love your slides. Do you have any tips for making your visuals engaging?</dt>
     <dd class="interview-a">
-      <p>One of the resources I use is speaking.io by Zach Holman. He has a whole site dedicated to tips for public speaking and it's really great advice.</p>
+      <p>One of the resources I use is <a href="//speaking.io">speaking.io</a> by Zach Holman. He has a whole site dedicated to tips for public speaking and it's really great advice.</p>
       <p>As far as slide design goes, the bigger the better. At the beginning, I always made my type too small, nobody could read it. Also, the fewer words on the slides the better. People tend to think they need to put as much information as possible on the slide and write out all their thoughts. If you do that, people will read the slide instead of listening to you. It’s also tempting to read the slide and I hate when people do that. Keep the information on the slide high level and brief to illustrate the point. Then you can talk and elaborate on that.</p>
-      <p>I also troll Speaker Deck and see which presentations catch my eye, which ones are most engaging and try to find inspiration there.</p>
+      <p>I also troll <a href="https://speakerdeck.com">Speaker Deck</a> and see which presentations catch my eye, which ones are most engaging and try to find inspiration there.</p>
       <p>I also have a very large gif repository.</p>
     </dd>
   </dl>
@@ -211,7 +215,7 @@
   <dl class="border">
     <dt class="interview-q">I know, I've seen it!</dt>
     <dd class="interview-a">
-      <p>A lot of time and energy goes into selecting these gifs so I'm really happy that people like them. I find they're a nice way to break up information and illustrate a feeling I had at a particular moment. It's also a really good way to sneak in a pause.</p>
+      <p>A lot of time and energy goes into selecting these gifs so I'm really happy that people like them. I find they're a nice way to break up information and illustrate a feeling I had at a particular moment. It's also a really good way to sneak in a pause to take a drink of water.</p>
     </dd>
   </dl>
 
@@ -234,20 +238,20 @@
   <!-- // Image - Left & Right -->
   <div class="border img-side-by-side">
     <figure>
-      <img src="<?php echo $path_img; ?>left-mina-markham-bill-clinton.jpg" alt="Biying Miao">
+      <img src="<?php echo $path_img; ?>left-mina-markham-bill-clinton.jpg" alt="President Bill Clinton visiting the Hillary for America office">
       <figcaption>
-        Image source: Mina Markham <a href="https://twitter.com/MinaMarkham/status/642400690451705861">left</a>, <a href="https://twitter.com/MinaMarkham/status/814518976051113984">right</a>
+        Image source: <a href="https://twitter.com/MinaMarkham/status/642400690451705861">left</a>, <a href="https://twitter.com/MinaMarkham/status/814518976051113984">right</a>
       </figcaption>
     </figure>
     <figure>
-      <img src="<?php echo $path_img; ?>right-mina-markham-hillary-clinton.jpg" alt="Biying Miao">
+      <img src="<?php echo $path_img; ?>right-mina-markham-hillary-clinton.jpg" alt="Hillary Clinton visiting the office">
     </figure>
   </div>
 
   <dl class="border">
     <dd class="interview-a">
-      <p>A lot of people also think &emdash; and it just might be partially my fault because of the pictures that I have &emdash; that one, I am closer to Hillary Clinton than I am. I'm not. And two, that she was in the office a lot. I met her twice and she was in the office probably three times.</p>
-      <p>Working on the tech team was probably one of the best experiences I've had. It was a lot of fun. I've never felt more respected and trusted as a person but also as a developer. For the director of front-end to tell me we need a design system and literally just leave me to my own devices and let me do it, that's unheard of.</p>
+      <p>A lot of people also think &mdash; and it just might be partially my fault because of the pictures that I have &mdash; that one, I am closer to Hillary Clinton than I am. I'm not. And two, that she was in the office a lot. I met her twice and she was in the office probably three times.</p>
+      <p>Working on the tech team was probably one of the best experiences I've had. It was a lot of fun. I've never felt more respected and trusted as a person but also as a developer. For the director of front-end to tell me we need a design system and literally just leave me to my own devices and let me do it. That's unheard of.</p>
     </dd>
   </dl>
 
@@ -261,6 +265,13 @@
     </dd>
   </dl>
 
+  <dl class="border">
+    <dt class="interview-q">It shouldn't be shocking.</dt>
+    <dd class="interview-a">
+      <p>That shouldn't shock me! That should just be expected. I should be able to go to a company and they should trust me to do my job. I was given this responsibility and trusted to do it and given the space to do it. It was amazing.</p>
+    </dd>
+  </dl>
+
   <!-- // Image - Landscape -->
   <div class="border img-landscape">
     <figure>
@@ -271,13 +282,6 @@
       </figcaption>
     </figure>
   </div>
-  
-  <dl class="border">
-    <dt class="interview-q">It shouldn't be shocking.</dt>
-    <dd class="interview-a">
-      <p>That shouldn't shock me! That should just be expected. I should be able to go to a company and they should trust me to do my job. I was given this responsibility and trusted to do it and given the space to do it. It was amazing.</p>
-    </dd>
-  </dl>
 
   <dl class="border">
     <dt class="interview-q">As you know, this interview series focuses specifically on women in tech because highlighting the experiences of being a woman helps to raise awareness. But sometimes, it feels like if we talk too much about it, it may overshadow the actual work. You're more than just a woman. You are an engineer who happens to be a woman. And so, I noticed that your talks have been non diversity-related. Was that intentional?</dt>
@@ -304,7 +308,7 @@
   </dl>
 
   <dl class="border">
-    <dt class="interview-q">I guess it depends on what you feel the intention of the question is?</dt>
+    <dt class="interview-q">I guess it depends on what you feel the intention of the question was?</dt>
     <dd class="interview-a">
       <p>Yeah, normally when people ask me that, it’s because they’re just curious. But every once in awhile I can just see they’re just rapt, they just want to hear how bad it was.</p>
     </dd>
@@ -319,11 +323,6 @@
     </dd>
   </dl>
 
-  <!-- // Pull Quote -->
-  <aside class="border pull-quote">
-    <p>Intersectionality is a thing and it’s real, if you occupy more than one underrepresented or more than one marginalized space, simultaneous things act against you.</p>
-  </aside>
-
   <dl class="border">
     <dt class="interview-q">When you spoke at the <a href="http://iwd.devto.ca/">DevTO International Women’s Day</a> event, you shared some similar stories. I thought it was important that you made the distinction of being a black woman because a lot of times the “woman in tech” conversation leaves out other ways our experiences intersect with our other identities. Do you think it’s important to make that distinction? </dt>
     <dd class="interview-a">
@@ -332,6 +331,20 @@
     </dd>
   </dl>
 
+  <aside class="border pull-quote">
+    <p>Intersectionality is a thing and it’s real, if you occupy more than one underrepresented or more than one marginalized space, simultaneous things act against you.</p>
+  </aside>
+
+  <!-- // Image - Landscape -->
+  <div class="border img-landscape">
+    <figure>
+      <img src="<?php echo $path_img; ?>landscape-mina-markham-tweets.jpg" alt="Mina speaking at FITC about intersectionality by referencing her Tweets">
+      <figcaption>
+        FITC: Styling Hilary. Photo credit: <a href="http://bymiguelweston.com">Miguel Weston</a>
+      </figcaption>
+    </figure>
+  </div>
+
   <dl class="border">
     <dt class="interview-q">Right. But it’s good to name your intersectional experience.</dt>
     <dd class="interview-a">
@@ -339,21 +352,11 @@
     </dd>
   </dl>
 
-  <!-- // Image - Landscape -->
-  <div class="border img-landscape">
-    <figure>
-      <img src="<?php echo $path_img; ?>landscape-mina-markham-tweets.jpg" alt="Mina Markham and others remember Sandra Bland, #sayhername">
-      <figcaption>
-        FITC: Styling Hilary, Photo credit: <a href="http://bymiguelweston.com">Miguel Weston</a>
-      </figcaption>
-    </figure>
-  </div>
-
   <dl class="border">
-    <dt class="interview-q">Right, if you want to support women in tech you have to understand that it means <em>all</em> women.</dt>
+    <dt class="interview-q">If you want to support women in tech you have to understand that it means <em>all</em> women.</dt>
     <dd class="interview-a">
       <p><em>All</em> women in tech. We talk about diversity in conferences and to some extent, there’s this idea that diversity means white women. Oh, the gender diversity, the ratio is good, so we’re good right? We’re diverse. No. That’s not it. </p>
-      <p>I’ve seen  conferences where they  have a good gender balance but you won’t see a woman of color or a person of color. You’re still not quite there yet, because it’s not just about gender. </p>
+      <p>I’ve seen conferences where they have a good gender balance but you won’t see a woman of color or a person of color. You’re still not quite there yet, because it’s not just about gender. </p>
     </dd>
   </dl>
 
@@ -364,14 +367,20 @@
   <!-- // Image - Landscape -->
   <div class="border img-landscape">
     <figure>
-      <img src="<?php echo $path_img; ?>landscape-mina-markham-slack.jpg" alt="Slack's welcome box">
+      <img src="<?php echo $path_img; ?>landscape-mina-markham-slack.jpg" alt="Mina's welcome box from Slack">
       <figcaption>
         Photo credit:
         <a href="https://twitter.com/MinaMarkham/status/836278596805222400">Mina Markham</a>
       </figcaption>
     </figure>
   </div>
-
+  <dl class="border">
+    <dt class="interview-q">Let's talk about your new job at Slack. Do you want to share a little bit about your role there and what’s happening now?</dt>
+    <dd class="interview-a">
+      <p>I started at Slack and it’s great. One of the big draws that got me to Slack, speaking of diversity, is that there are a whole lot of black women at Slack.</p>
+    </dd>
+  </dl>
+  
   <dl class="border">
     <dt class="interview-q">I saw <a href="https://twitter.com/MinaMarkham/status/844369570106245120">the tweet</a> of when you stumbled upon a podcast recording. I’d never seen that many black women, in one room, at a tech company before.</dt>
     <dd class="interview-a">
