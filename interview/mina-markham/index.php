@@ -8,7 +8,7 @@
   //-----------------------------------------------------------------------------
   // Social media images are added in the metatags in includes/header.php to always pull in the feature image from this interview. Make sure the featured image always follows this format: featured-firstname-lastname.jpg
   $social_title = 'Interview with Mina Markham by Christina Truong';
-  $social_desc = 'Use the description from the archive page.';
+  $social_desc = 'Front-end architect, speaker, formerly the Senior Software Engineer for Hillary for America and currently a Senior Engineer at Slack.';
 
   // INTERVIEW CREDITS
   //-----------------------------------------------------------------------------
