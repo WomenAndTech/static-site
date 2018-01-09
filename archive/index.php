@@ -10,6 +10,14 @@
 <main role="main" class="interview-cards wrapper-lg">
   <div class="grid-wrapper">
     <article class="grid-4-2-1">
+      <a href="/interview/mina-markham/" class="no-underline">
+        <img src="<?php echo $path_img; ?>thumbnail-mina-markham.jpg" alt="Mina Markham">
+        <h3>Mina Markham</h3>
+        <p>with Christina Truong</p>
+        <p>Front-end architect, speaker, formerly the Senior Software Engineer for Hillary for America and currently a Senior Engineer at Slack.</p>
+      </a>
+    </article>
+    <article class="grid-4-2-1">
       <a href="/interview/helen-papagiannis/" class="no-underline">
         <img src="<?php echo $path_img; ?>thumbnail-helen-papagiannis.jpg" alt="Helen Papagiannis">
         <h3>Dr. Helen Papagiannis</h3>
