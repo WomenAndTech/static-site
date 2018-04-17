@@ -23,6 +23,14 @@ Do not include any links.
     <a class="view-all" href="/archive/">view all</a>
     <div class="grid-wrapper">
       <article class="grid-3-1">
+        <a href="/interview/starcon/" class="no-underline">
+          <img src="<?php echo $path_img; ?>thumbnail-starcon.jpg" alt="StarCon Ladies">
+          <h3>Anna Lorimer, Evy Kassirer, Arshia Mufti</h3>
+          <p>with Ivonne Karamoy</p>
+          <p>Founders of StarCon, a two-day software engineering conference in Waterloo, Ontario, Canada.</p>
+        </a>
+      </article>
+      <article class="grid-3-1">
         <a href="/interview/mina-markham/" class="no-underline">
           <img src="<?php echo $path_img; ?>thumbnail-mina-markham.jpg" alt="Mina Markham">
           <h3>Mina Markham</h3>
@@ -36,14 +44,6 @@ Do not include any links.
           <h3>Dr. Helen Papagiannis</h3>
           <p>with Ivonne Karamoy</p>
           <p>Researcher, designer, author, speaker and internationally recognized leading expert in Augmented Reality.</p>
-        </a>
-      </article>
-      <article class="grid-3-1">
-        <a href="/interview/michelle-cortese/" class="no-underline">
-          <img src="<?php echo $path_img; ?>thumbnail-michelle-cortese.jpg" alt="Michelle Cortese">
-          <h3>Michelle Cortese</h3>
-          <p>with Victoria Whang</p>
-          <p>Toronto-born VR Product Designer at Facebook navigating both digital and material interfaces.</p>
         </a>
       </article>
     </div>

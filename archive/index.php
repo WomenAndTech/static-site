@@ -10,6 +10,14 @@
 <main role="main" class="interview-cards wrapper-lg">
   <div class="grid-wrapper">
     <article class="grid-4-2-1">
+      <a href="/interview/starcon/" class="no-underline">
+        <img src="<?php echo $path_img; ?>thumbnail-starcon.jpg" alt="StarCon Ladies">
+        <h3>Anna Lorimer, Evy Kassirer, Arshia Mufti</h3>
+        <p>with Ivonne Karamoy</p>
+        <p>Founders of StarCon, a two-day software engineering conference in Waterloo, Ontario, Canada.</p>
+      </a>
+    </article>
+    <article class="grid-4-2-1">
       <a href="/interview/mina-markham/" class="no-underline">
         <img src="<?php echo $path_img; ?>thumbnail-mina-markham.jpg" alt="Mina Markham">
         <h3>Mina Markham</h3>
