@@ -1,14 +1,14 @@
 <?php
   // $page_theme values: theme-coral, theme-purple, theme-yellow, theme-green, theme-blue
   $page_theme = 'theme-yellow';
-  $interviewee_name = 'Ladies of StarCon'; // Use for page title & share links
+  $interviewee_name = 'Ladies of StarCon (@StarConUW)'; // Use for page title & share links
   $interviewee_url = 'starcon'; // Used for share links URLs, use the same name as the interviewee's folder name
 
   // Twitter & Facebook sharing info
   //-----------------------------------------------------------------------------
   // Social media images are added in the metatags in includes/header.php to always pull in the feature image from this interview. Make sure the featured image always follows this format: featured-firstname-lastname.jpg
   $social_title = 'Interview with Anna Lorimer, Evy Kassirer, and Arshia Mufti by Ivonne Karamoy';
-  $social_desc = 'Computer Science students and tech professionals Anna, Evy and Arshia are founders of StarCon, a software engineering conference that strives to set the bar for all future tech conferences, one that is respectful, inclusive and ensures diversity.';
+  $social_desc = 'Computer Science students and tech professionals Anna, Evy and Arshia are founders of StarCon, a software engineering conference that strives to set the bar for all future tech conferences, one that is respectful, inclusive and diverse.';
 
   // INTERVIEW CREDITS
   //-----------------------------------------------------------------------------
