@@ -23,6 +23,14 @@ Do not include any links.
     <a class="view-all" href="/archive/">view all</a>
     <div class="grid-wrapper">
       <article class="grid-3-1">
+        <a href="/interview/andrea-crofts/" class="no-underline">
+          <img src="<?php echo $path_img; ?>thumbnail-andrea-crofts.jpg" alt="Andrea Crofts">
+          <h3>Andréa Crofts</h3>
+          <p>with Victoria Whang</p>
+          <p>Design leader and community builder, currently leading a team at League as Product Design Manager.</p>
+        </a>
+      </article>
+      <article class="grid-3-1">
         <a href="/interview/starcon/" class="no-underline">
           <img src="<?php echo $path_img; ?>thumbnail-starcon.jpg" alt="StarCon Ladies">
           <h3>Anna Lorimer, Evy Kassirer, Arshia Mufti</h3>
