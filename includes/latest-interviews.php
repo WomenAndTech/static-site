@@ -46,13 +46,5 @@ Do not include any links.
           <p>Front-end architect, speaker, formerly the Senior Software Engineer for Hillary for America and currently a Senior Engineer at Slack.</p>
         </a>
       </article>
-      <article class="grid-3-1">
-        <a href="/interview/helen-papagiannis/" class="no-underline">
-          <img src="<?php echo $path_img; ?>thumbnail-helen-papagiannis.jpg" alt="Helen Papagiannis">
-          <h3>Dr. Helen Papagiannis</h3>
-          <p>with Ivonne Karamoy</p>
-          <p>Researcher, designer, author, speaker and internationally recognized leading expert in Augmented Reality.</p>
-        </a>
-      </article>
     </div>
   </aside>

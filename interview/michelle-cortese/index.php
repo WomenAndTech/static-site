@@ -7,8 +7,8 @@
   // Twitter & Facebook sharing info
   //-----------------------------------------------------------------------------
   // Social media images are added in the metatags in includes/header.php to always pull in the feature image from this interview. Make sure the featured image always follows this format: featured-firstname-lastname.jpg
-  $social_title = 'Interview with Michelle Cortese by Victoria Whang';
-  $social_desc = ''; //Use the description from the archive page.
+  $social_title = "Interview with Michelle Cortese by Victoria Whang";
+  $social_desc = "Refinery29's Senior Design Technologist and hardware hacker from Toronto, currently tinkering with VR at Facebook.";
 
   // INTERVIEW CREDITS
   //-----------------------------------------------------------------------------
@@ -93,16 +93,16 @@
     <dd class="interview-a">
     </dd>
   </dl>
-    
+
   <dl class="border">
     <dt class="interview-q">Hey, you were awesome on stage yesterday!</dt>
     <dd class="interview-a">
       <p>I’m just really in love with what I’m talking about. I’m hoping my enthusiasm wears on other people.</p>
     </dd>
   </dl>
-    
+
 <!-- // Image - Landscape -->
-  <div class="border video-landscape widescreen">
+  <div class="border video widescreen">
     <div class="embed-container">
       <iframe width="640" height="390" align="center" src="https://www.youtube.com/embed/Xoz2EERmZZ8?rel=0" frameborder="0" allowfullscreen></iframe>
     </div>
@@ -120,7 +120,7 @@
         <p>I started building a tiny wearable you can wear near your heart that would listen to your speech. Using bluetooth, it pings your emotional scores throughout the day creating this intimate and personal technology. The wearable market tends to be very binary and composed of objects that say, you walked this many steps today why don’t you walk this many more? Instead, I wanted to give people abstract feedback about their lives and have them decide whatever they wanted to do with it; rather than making something quantitative, make it qualitative.</p>
     </dd>
   </dl>
-    
+
   <!-- // Image - Landscape -->
   <div class="border img-landscape">
     <figure>
@@ -131,14 +131,14 @@
       </figcaption>
     </figure>
   </div>
-  
+
   <dl class="border">
     <dt class="interview-q">Did you have to know how to code to do that?</dt>
     <dd class="interview-a">
       <p>Yes. I’ve had this tumultuous journey from being a graphic designer to being a bit of a creative technologist. I’ve been back to school three times along the way because I kept feeling like I didn’t have enough information to build the things I wanted to build. I learned Cocoa so that I could build the Log.Me app natively for iOS.  I’ve done some hardware stuff for a really long time and that knowledge came in handy in customizing a bluetooth chip.</p>
     </dd>
   </dl>
-    
+
   <dl class="border">
     <dt class="interview-q">What’s your educational background?</dt>
     <dd class="interview-a">
@@ -146,14 +146,14 @@
         <p>Actually, <a href="https://www2.ocadu.ca/bio/kate-hartman-0" title="Kate Hartman OCAD bio">Kate Hartman</a>, also from ITP, is leading a program like that at OCAD called <a href="https://www.ocadu.ca/academics/undergraduate/digital-futures.htm" title="OCAD program page for Digital Futures">Digital Futures</a>. It didn’t exist when I was shopping around, I probably would have done that if it did.</p>
     </dd>
   </dl>
-    
+
   <dl class="border">
     <dt class="interview-q">How did you end up at Refinery29?</dt>
     <dd class="interview-a">
       <p>I have done so much UX/UI work in fashion. I kept trying to take hard turns out of it but it just kept on coming back to find me. After OCAD,I wanted to design assistive technology. I wanted to make interfaces for users with disabilities but then I got scooped up by Hudson’s Bay company. I met with the then creative director, <a href="http://www.antony-smith.com/" title="Antony Smith portfolio page">Tony Smith</a> (no longer at HBC) who was in the process of leading a big redesign around 2009 to 2011 I wanted to be a part of that massive change so I signed on as a senior designer. I ultimately ended up becoming an art director there. I wanted to bring really interesting, cool, fun, emerging technology to places that are usually considered “women’s interest”. It was inspiring but I still wanted to veer away from fashion. I reached a point where I didn’t feel very purposeful so I left Toronto for my masters program. I worked at Lord &amp; Taylor in the US while going to school but when I got out, I found my next job at a media lab in New York working in experimental tech for ad agencies. When you wanted to pitch a crazy experimental tech thing to your clients, you would come to us. It was really fun but we never got to own our own work. We would consult with all these agencies but then they would just go alone from there. I only ever got to do one project beginning to end and it was for NYX Cosmetics.</p>
     </dd>
   </dl>
-    
+
   <dl class="border">
     <dt class="interview-q">Tell me more about the NYX installation.</dt>
     <dd class="interview-a">
@@ -161,7 +161,7 @@
       <p>We created this <a href="http://www.ellecor.com/?portfolio=nyx-interactive-in-store-experience" title="NYX project page">giant wall of a screen</a> displaying a stream showing whatever the current trend is. You go inside of the store and all of the product shelves have iPads you can walk up to and scan a product. That product will appear on the screen and you can look at all the different colours that are offered and when you open that, instead of just being descriptions of the product, it’s instagram photos that have been tagged with that product. As for the tutorial experience, we developed video players and made them interactive. We set them up inside of those makeup stations where girls could sit and try out a tutorial on their own. They had all the makeup required in front of them, they could follow along, pinpoint certain products and stop or repeat through steps. That was our way of embodying the digital makeup experience.</p>
     </dd>
   </dl>
-    
+
   <!-- // Image - Landscape -->
   <div class="border img-landscape">
     <figure>
@@ -172,7 +172,7 @@
       </figcaption>
     </figure>
   </div>
-    
+
   <dl class="border">
     <dt class="interview-q">How did <a href="http://www.ellecor.com/?portfolio=chipcodes" title="Chip Codes project page">Chip Codes</a> come about?</dt>
     <dd class="interview-a">
@@ -180,7 +180,7 @@
       <p>Now, my husband is a professional musician. He’s not an engineer. At the same time, I found it fascinating that the <a href="https://en.wikipedia.org/wiki/Chiptune" title="Chiptunes Wikipedia page">Chiptunes</a> world is mostly computer science-y, tech people. You have to do a fair amount of hacking to actually get a Gameboy playable, and even if you do get it, to be able to then connect it to mini-controllers is pretty difficult. I wanted to bridge that gap so that people in the musical world with knowledge to create music could access this medium and this sound. I pitched the idea to <a href="https://www.moogmusic.com/" title="Moog Music">Moog Music</a> when they had their festival going on. I felt it was in the vision of founder <a href="https://en.wikipedia.org/wiki/Robert_Moog" title="Robert Moog Wikipedia page">Robert Moog</a> and his intention to bring a lot of weird things to the masses. The theremin wasn’t really a commercialized instrument until he made it so. I wanted to do what he did but with Game Boys. They thought it sounded insane but they agreed to it. What they gave me was a tiny amount of money that didn’t fully fund the project but I was willing to go broke doing this.</p>
     </dd>
   </dl>
-   
+
   <!-- // Image - Landscape -->
   <div class="border img-landscape">
     <figure>
@@ -191,7 +191,7 @@
       </figcaption>
     </figure>
   </div>
-    
+
   <dl class="border">
     <dt class="interview-q"></dt>
     <dd class="interview-a">
@@ -199,28 +199,28 @@
         <p>It happened so many times. By day 5, I was ready to throw everything onto the ground and give up completely. I would see someone trying to ask him questions and I would have to walk into the conversation like, “here’s how it actually works.” It was super infuriating.</p>
     </dd>
   </dl>
-    
+
   <dl class="border">
     <dt class="interview-q">Have you experienced sexism on other occasions?</dt>
     <dd class="interview-a">
       <p>I literally left a job because of sexism. I was at this one place for nearly a year and all the women minus one had cycled through. That’s already a bad sign. We used to have creative sessions where I would be in a room with four guys and they would just buddy up and go nuts for each others’ ideas but I felt like I was invisible, I had to speak so loud that I thought I was going to lose my voice. One of my seniors used to say really inappropriate things about my clothing but when I confided in one of the developers, he made a snide remark and defended the harassment. I had a million conversations with HR, and eventually felt it wasn’t worth it so I left.</p>
     </dd>
   </dl>
-    
+
   <dl class="border">
     <dt class="interview-q">How did that experience compare to Refinery29?</dt>
     <dd class="interview-a">
       <p>I took the position here after a couple of bad jobs dealing with men in tech. I walked into their offices and the product engineering department was nearly half female. The company itself is 80% female. It’s amazing to work in tech teams where women are represented and no one has a bias towards your ideas and everything is inclusive. It’s the best company culture I’ve been around.</p>
     </dd>
   </dl>
-    
+
   <dl class="border">
     <dt class="interview-q">What are some of your favourite projects at Refinery29?</dt>
     <dd class="interview-a">
       <p>Two of them are things I’m working on right now. We are launching a <a href="http://www.ellecor.com/?portfolio=vr29-refinery29s-webvr-viewer" title="Refinery29 VR web page">VR viewing portal</a> that is completely web based for all the VR content we’ve been shooting for the past year. I think web VR is going to be more prevalent in the future because it’s easy consumption VR and for us to integrate it into <a href="http://www.refinery29.com/interactive/vr29/" title="VR web portal">the site</a> feels cohesive and on brand. I’m really proud of the user experience and that we were able to take standard web content and make it immersive.</p>
     </dd>
   </dl>
-    
+
   <!-- // Image - Landscape -->
   <div class="border img-landscape">
     <figure>
@@ -231,7 +231,7 @@
       </figcaption>
     </figure>
   </div>
-    
+
   <dl class="border">
     <dt class="interview-q"></dt>
     <dd class="interview-a">
@@ -239,7 +239,7 @@
         <p>A fun experience was a big fashion week installation which I contributed to last year for <a href="http://www.ellecor.com/?portfolio=29-rooms-official-website" title="29 Rooms website">29 Rooms</a>. I helped build the UX for Lady Gaga’s Born This Way foundation room. It was a fun colourful experience and interesting concept. We were trying to make this ALS for kindness, like confessional booths. You would walk in and instead of a confessional, you would state a moment of kindness you experienced by a specific person and give them a shout out. Then that video would go directly to Facebook and the idea was to keep sharing it forward.</p>
     </dd>
   </dl>
-  
+
   <!-- // Image - Landscape -->
   <div class="border img-landscape">
     <figure>
@@ -250,7 +250,7 @@
       </figcaption>
     </figure>
   </div>
-      
+
   <dl class="border">
     <dt class="interview-q">When you’re designing these installations, how important is social media to you?</dt>
     <dd class="interview-a">
@@ -260,7 +260,7 @@
         <p>When I was building this experience, I had to implement some kind of onboarding for users. We’re debuting this thing at an event with thousands of people, so there is no chance everyone is going to know how to use a cardboard. I’ve learned from experience that when it comes to onboarding for a mobile experience, you have three seconds of the user’s attention. We implemented a trick where once you put the phone into VR mode, if you ever turn the phone to portrait orientation, we show you instructions again. We assume if you do so, you’re doing it wrong so we just bring the user right back every single time they turn their phone.</p>
     </dd>
   </dl>
-  
+
   <!-- // Image - Landscape -->
   <div class="border img-landscape">
     <figure>
@@ -271,7 +271,7 @@
       </figcaption>
     </figure>
   </div>
-        
+
   <dl class="border">
     <dt class="interview-q">As a senior technologist, it sounds like you do a little bit of everything. </dt>
     <dd class="interview-a">
@@ -279,7 +279,7 @@
         <p>In the case of the web VR, it was a collaborative effort in a tiny team of three people. We had a producer, who also took care of all of the video encoding and made sure the content we used would load fast and well. We had a developer who is one of our amazing engineers who worked on all the core functionality using <a href="https://aframe.io/" title="A Frame page">A-Frame</a>. I worked on the look and feel of the experience. I pulled my own branch on Github, put my own furniture in, made 3D models and optimized them for web. I was in there changing the colours, editing the objects, dropping in the logo, and then if ever there was a chance I might break the template that our dev set up, he would come back in. It was a collaborative process which is really awesome.</p>
     </dd>
   </dl>
-    
+
   <dl class="border">
     <dt class="interview-q">What programs do you normally use?</dt>
     <dd class="interview-a">
@@ -287,7 +287,7 @@
         <p>When I’m working on VR projects, I mostly like Unity for 3D gaming. I build my models and I work out my 3D environment building in Cinema 4D. I got really obsessed for a little bit with interactive prototyping using Origami through Sketch. I liked that you could export animation code for iOS, Android, and web but it felt like a lot of work. It was more bang for my buck, but at the same time, it took time. Then your stuff ends up in Quartz Composer, and who’s using that anymore? I like it conceptually but it’s such an involved process.</p>
     </dd>
   </dl>
-    
+
   <dl class="border">
     <dt class="interview-q">Where do you draw inspiration from?</dt>
     <dd class="interview-a">
@@ -295,21 +295,21 @@
         <p>When it comes to UI, it’s just a Pinterest rabbit hole. I get a vague idea of what the sensibility of the project is, and then I just go on a deep dive into Pinterest or Tumblr and I resurface after several hours a new person.</p>
     </dd>
   </dl>
-    
+
   <dl class="border">
     <dt class="interview-q">Do you have a community of people to ask for help and feedback on your projects?</dt>
     <dd class="interview-a">
       <p>Yes. I feel like I got in the creative tech scene from my masters program. I think school is so helpful for networking and when you pursue additional education with professionals, everyone is super serious. They’re really committed and advanced in their career so you walk out with a whole network of people who are just like you in a lot of ways.</p>
     </dd>
   </dl>
-    
+
   <dl class="border">
     <dt class="interview-q">Do you have any mentors?</dt>
     <dd class="interview-a">
       <p>The biggest mentor I’ve had in my life is here in Toronto. It’s <a href="http://www.antony-smith.com/" title="Antony Smith portfolio page">Tony Smith</a> at the Bay. He was amazing. I think he was the first person to really believe in me and that is incredibly important. He really fostered my growth and had a lot of faith in my design sensibility at a point in my career when I didn’t have a good feedback system yet. I was able to art direct shoots with confidence. If I didn’t have that kind of creative director to report to, I don’t know that that would have been possible. That kind of faith in me at an age where I was just starting out in the field was invaluable.</p>
     </dd>
   </dl>
-    
+
   <dl class="border">
     <dt class="interview-q">Where do you see yourself in 5-10 years?</dt>
     <dd class="interview-a">

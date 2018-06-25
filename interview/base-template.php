@@ -1,14 +1,14 @@
 <?php
   // $page_theme values: theme-coral, theme-purple, theme-yellow, theme-green, theme-blue
-  $page_theme = 'theme-blue';
-  $interviewee_name = 'Christina Truong'; // Use for page title & share links
-  $interviewee_url = 'christina-truong'; // Used for share links URLs, use the same name as the interviewee's folder name
+  $page_theme = "theme-blue";
+  $interviewee_name = "Christina Truong"; // Used for page title & share links
+  $interviewee_url = "christina-truong"; // Used for share links URLs, use the same name as the interviewee's folder name
 
   // Twitter & Facebook sharing info
   //-----------------------------------------------------------------------------
   // Social media images are added in the metatags in includes/header.php to always pull in the feature image from this interview. Make sure the featured image always follows this format: featured-firstname-lastname.jpg
-  $social_title = 'Interview with Aashni Shah with Cassie Kaiser';
-  $social_desc = 'Use the description from the archive page.';
+  $social_title = "Interview with Aashni Shah with Cassie Kaiser";
+  $social_desc = ""; //Use the description from the archive page.
 
   // INTERVIEW CREDITS
   //-----------------------------------------------------------------------------
