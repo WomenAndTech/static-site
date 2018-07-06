@@ -1,4 +1,5 @@
 <?php
+  // INTERVIEW TEMPLATE
   // $page_theme values: theme-coral, theme-purple, theme-yellow, theme-green, theme-blue
   $page_theme = "theme-blue";
   $interviewee_name = "Christina Truong"; // Used for page title & share links
@@ -6,17 +7,23 @@
 
   // Twitter & Facebook sharing info
   //-----------------------------------------------------------------------------
-  // Social media images are added in the metatags in includes/header.php to always pull in the feature image from this interview. Make sure the featured image always follows this format: featured-firstname-lastname.jpg
-  $social_title = "Interview with Aashni Shah with Cassie Kaiser";
+  /*
+  Social media images are automatically added using metatags in includes/header.php
+  file to always pull in the feature image from this interview. Make sure the featured
+  image file name ALWAYS follows this format: featured-firstname-lastname.jpg
+  */
+  $social_title = "Interview with Aashni Shah by Cassie Kaiser";
   $social_desc = ""; //Use the description from the archive page.
 
   // INTERVIEW CREDITS
   //-----------------------------------------------------------------------------
-  /* If you need a second name, add a variable with a '2' the end. Example:
+  /*
+    If you need a second name, add a variable with a '2' at the end. Example:
     $interviewer = "First Person";
-    $interviewer_url = "http://twitter.com";
+    $interviewer_url = "http://twitter.com/firstperson";
     $interviewer2 = "Second Person";
-    $interviewer_url2 = "http://mywebsite.com";
+    $interviewer_url2 = "http://secondperson.com";
+
     If you don't need a credit, delete the whole <li> in the HTML.
   */
 
@@ -36,13 +43,15 @@
   $transcribe_url = "";
 
 
-  /* Do not change these settings */
+  /* Do not change these settings. */
   include $_SERVER['DOCUMENT_ROOT'].'/config.php';
   include ($path_inc."header.php");
 ?>
 
 <main role="main" data-interview>
-  <!-- ALL content goes between the <main> tags. Below are some common modules for this page. Delete, revise or add more components as required. Refer to the Style Guide documentation for more details. Delete this comment when you've completed this page. -->
+  <!-- ALL content goes between these <main> tags. Below are some common modules for this page. Delete, revise or add more components as required. Refer to the Style Guide documentation for more details. http://womenandtech.github.io/style_guide/
+
+  Delete this comment when you've completed this page. -->
 
 
   <!-- // Featured Image -->
@@ -59,10 +68,10 @@
       <h2>Interviewee Name [update this]</h2>
       <p class="intro">Intro paragraph.[update this]</p>
 
-      <?php // Don't update. Using the info from PHP variables at the top of the page. ?>
+      <?php // Don't update. Using the info from the PHP variables at the top of the page. ?>
       <p class="author">An interview with <a href="<?php echo $interviewer_url; ?>"><?php echo $interviewer; ?></a></p>
 
-      <?php // Don't update. Using the info from PHP variables at the top of the page. ?>
+      <?php // Don't update. Using the info from the PHP variables at the top of the page. ?>
       <ul class="social-share">
         <li>
           <a href="http://www.facebook.com/sharer.php?u=http://womenandtech.com/interview/<?php echo $interviewee_url;?>/" title="Share on Facebook">

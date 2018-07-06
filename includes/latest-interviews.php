@@ -1,7 +1,9 @@
 <?php
-/*
-Only update the content within the link snippet for each interview.
+// LATEST INTERVIEWS
+// Displayed in the footer of all interviews.
 
+/*
+Only update the content within the following snippet for each interview:
 <a href="/interview/aashni-shah/" class="no-underline">
   <img src="<?php echo $path_img; ?>thumbnail-aashni-shah.jpg" alt="Aashni Shah">
   <h3>Aashni Shah</h3>
@@ -9,13 +11,12 @@ Only update the content within the link snippet for each interview.
   <p>Computer Science student, organizer, leader and speaker within the tech community.</p>
 </a>
 
-Put the latest interview first.
+Put the latest interview first. Only display the latest three interviews.
 Use the folder name of the interviewee for the href value.
 Update the thumbnail image name and 'alt' attribute.
 Update the <h3> heading and other <p> information.
 Do not include any links.
 */
-
 ?>
 
   <aside class="interview-cards wrapper">
