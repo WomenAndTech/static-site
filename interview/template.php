@@ -67,6 +67,7 @@
     <div class="wrapper-sm">
       <h2>Interviewee Name [update this]</h2>
       <p class="intro">Intro paragraph.[update this]</p>
+      <p class="italic">Optional footnote to add extra info. Delete if not needed.</p>
 
       <?php // Don't update. Using the info from the PHP variables at the top of the page. ?>
       <p class="author">An interview with <a href="<?php echo $interviewer_url; ?>"><?php echo $interviewer; ?></a></p>

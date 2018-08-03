@@ -8,7 +8,7 @@
   //-----------------------------------------------------------------------------
   // Social media images are added in the metatags in includes/header.php to always pull in the feature image from this interview. Make sure the featured image always follows this format: featured-firstname-lastname.jpg
   $social_title = 'Interview with Andréa Crofts with Victoria Whang';
-  $social_desc = 'Use the description from the archive page.';
+  $social_desc = ''; // Use the description from the archive page.
 
   // INTERVIEW CREDITS
   //-----------------------------------------------------------------------------
@@ -36,9 +36,6 @@
 ?>
 
 <main role="main" data-interview>
-  <!-- ALL content goes between the <main> tags. Below are some common modules for this page. Delete, revise or add more components as required. Refer to the Style Guide documentation for more details. Delete this comment when you've completed this page. -->
-
-
   <!-- // Featured Image -->
   <div class="border img-feature">
     <figure>
@@ -46,13 +43,12 @@
     </figure>
   </div>
 
-
   <!-- // Interview Header -->
   <header class="border header-interview">
     <div class="wrapper-sm">
       <h2>Andréa Crofts</h2>
       <p class="intro">Andréa Crofts is a design leader, community builder, product designer, recovering front-end developer and hand-letterer, currently leading a team at League as Product Design Manager. She is a champion for accessibility; most recently driving a conversation on inclusive design at FITC. We had a chance to discuss her career thus far, her passion for thoughtful and authentic design, the process of co-founding the Toronto chapter of Hexagon UX, and the importance of mentorship in the tech community.</p>
-      <p class="intro"><small><i>At the time of this interview, Andréa was transitioning from her role as a Senior Product Designer at TWG to her new role as Product Design Manager at League.</i></small></p>
+      <p class="italic">At the time of this interview, Andréa was transitioning from her role as a Senior Product Designer at TWG to her new role as Product Design Manager at League.</p>
 
       <?php // Don't update. Using the info from PHP variables at the top of the page. ?>
       <p class="author">An interview with <a href="<?php echo $interviewer_url; ?>"><?php echo $interviewer; ?></a></p>
@@ -104,14 +100,14 @@
   <dl class="border">
     <dt class="interview-q">What other roles have you taken on prior to League and TWG?</dt>
   </dl>
-    
+
   <!-- // Image - Landscape -->
   <div class="border img-landscape">
     <figure>
       <img src="<?php echo $path_img; ?>landscape-andrea-crofts.jpg" alt="Andrea Crofts midair">
     </figure>
   </div>
-    
+
   <dl class="border">
       <dd class="interview-a">
       <p>I worked in Public Relations and ran my own Graphic Design studio before breaking into Product Design. TWG was where I built my career in Product, in many ways. Before landing my first role, I went to <a href="http://hackeryou.com/">HackerYou</a> for a front-end development bootcamp. This was before they had UX-focused bootcamps at schools like Bitmaker or Brainstation. I knew that as a digital designer, I had to level up my coding skills, and I eventually learned UX design through the constraints of front-end development. When the bootcamp came to an end, I decided to focus on user experience design. I came into it very organically by doing a few projects here and there, mostly through hackathons and challenges for job applications. I applied to <a href="https://www.zynga.com/">Zynga</a>, where I did a redesign of <a href="https://www.zynga.com/games/words-with-friends-2">Words with Friends</a> and found that I loved every minute spent designing software. When I landed the role at TWG, I realized this was a place I could stay for a while and learn on the job. I took this as an opportunity to learn and grow in every way imaginable. TWG essentially became my real-life Product Design bootcamp, and I wouldn’t change this path for anything.</p>
@@ -123,11 +119,12 @@
       <p>I’ve been asked this so many times that I’ve written <a href="https://medium.com/the-almanac/pivoting-from-graphic-to-product-design-d85b9affe959">a Medium post</a> about this exact transition. I think these emerging bootcamps are a quick and easy way to pivot from graphic design to UX design. You come out at the end with an understanding of the design process, and a few portfolio pieces you can use to sell yourself and show your skills. Having browsed through hundreds of design portfolios, (many from recent grads) I’ve found that on top of your portfolio, you need an edge to convince a hiring manager that they should hire you. Volunteering for community organizations (within the UX community, or beyond), being part of different mentorship programs, and writing about design on Medium are all things I look for to separate candidates from the pack. If you’re just starting out, look for a mentor – someone who’s been in the industry for two or three years. Often you’ll meet these mentors through community organizations like <a href="https://www.womenwhocode.com/">Women Who Code</a>, <a href="http://hexagonux.com/">Hexagon UX</a>, <a href="http://uxresearchto.com/">UX Research TO</a>, or <a href="https://designx.community/">DesignX</a>. There are so many community organizations hosting regular events to bring this community together. You can be a volunteer or simply come help on the day of the event, meet people… this sends a signal to hiring managers that says this person really cares about their industry and wants to know more about it enough to devote their personal time to getting involved. I think that’s a good place to start. I do recognize that not everyone has time to devote to these initiatives, (such as a mother with young children breaking into UX) so I use different evaluation criteria in these scenarios.</p>
     </dd>
   </dl>
-    <!-- // Pull Quote -->
+
+  <!-- // Pull Quote -->
   <aside class="border pull-quote">
     <p>Chances are, someone is two steps behind you and needs that guidance from someone who was there very recently.</p>
   </aside>
-    
+
   <!-- // Image - Landscape -->
   <div class="border img-landscape">
     <figure>
@@ -137,7 +134,7 @@
       </figcaption>
     </figure>
   </div>
-    
+
   <dl class="border">
     <dd class="interview-a">
       <p>For portfolio pieces and other tangible artifacts used to show off design skills, I’ve seen designers build their books by participating in hackathons and designing freelance projects for charities and small startups. Another avenue is to create a concept from scratch based on a problem you care deeply about; conducting generative interviews to familiarize yourself with the problem space, and prototyping key screens. Going through that process for a self-initiated project creates an authentic manifestation of what makes you tick as a human. For example, a friend of mine is interested in mental health. She designed a native mobile app to document how she’s feeling on any given day and to remind her to take moments throughout the day to breathe. This proof-of-concept prototype also “tracked” her social media usage to see if there was any correlation between social consumption and mood. Her prototype tackled a big challenge and showed that she’s able to consider those problems from concept to creative solutioning. Breaking into this industry requires equal parts developing hard skills with these exercises or hackathons, and honing on your soft skills by volunteering, speaking, and writing about things you learn as you learn them. Chances are, someone is two steps behind you and needs that guidance from someone who was there very recently.</p>
@@ -160,7 +157,7 @@
       <p>I’m a Co-Chapter Lead for Hexagon UX Toronto; we’re the Toronto chapter of a global organization aimed to develop the soft skills needed for women and non-binary folks to thrive in their careers. Jen Zhang, Shiera Aryev and I came together in November 2017 and organized our first event in February 2018 at Wealthsimple. Hexagon exists to teach the skills needed to own a boardroom and feel empowered in all aspects of a career in UX design. I attribute my professional growth to the soft skills I developed early in my career, so that’s what resonated most with me about Hexagon’s mission. We create networking events and generate content that gives women and non-binary folks the skills they need to overcome challenges in their professional lives with grit and grace.</p>
     </dd>
   </dl>
-    
+
   <!-- // Image - Landscape -->
   <div class="border img-landscape">
     <figure>
@@ -197,7 +194,7 @@
     <dt class="interview-q">Have you ever done the mentorship program at Side x Side?</dt>
     <dd class="interview-a">
       <p>I haven’t, mostly because Hexagon itself involves collectively mentoring a large group of women through content curation for our quarterly events. I would like to get into more one-on-one mentorship, but I’ve had to draw the line in the sand these days because the need for self-care is very real. I still do go for a lot of coffees with up-and-coming women in the community, but honestly I’ve had to shift focus to myself for a little while. Having just gone through a career move where I’ve started managing people, I’ve had to tap into my own mentorship circles for advice myself! On a full-time basis, I’m also mentoring my own team at League – my team and the Hexagon community are my #1 priorities right now.</p>
-      <p><i>It becomes more and more apparent throughout the interview that Andréa values human interaction greatly. She is focused on the development of soft skills and collective support and guidance. While there are tons of bootcamps and online courses that teach hard skills, soft skills require a different type of training. It needs to be personal and requires connections that talented individuals may not have or know how to access. Andréa builds and participates in said communities that enables these conversations. Her extracurricular activities all work towards supporting initiatives that can help creatives level up in their careers.</i></p>
+      <p class="italic">It becomes more and more apparent throughout the interview that Andréa values human interaction greatly. She is focused on the development of soft skills and collective support and guidance. While there are tons of bootcamps and online courses that teach hard skills, soft skills require a different type of training. It needs to be personal and requires connections that talented individuals may not have or know how to access. Andréa builds and participates in said communities that enables these conversations. Her extracurricular activities all work towards supporting initiatives that can help creatives level up in their careers.</p>
     </dd>
   </dl>
   <dl class="border">
@@ -227,11 +224,9 @@
       </figcaption>
     </figure>
   </div>
-  <dl class="border">
-    <dd class="interview-a">
-      <p><i>There are hard limitations when designing for colour blindness or screen readers. In one of Andréa’s FITC presentation slides, she presented six icons inside of circles of different vibrant colours, where all of the icons, except the one in the yellow circle, was white.</i></p>
-    </dd>
-  </dl>
+  <div class="border">
+    <p class="wrapper-sm italic">There are hard limitations when designing for colour blindness or screen readers. In one of Andréa’s FITC presentation slides, she presented six icons inside of circles of different vibrant colours, where all of the icons, except the one in the yellow circle, was white.</p>
+  </div>
   <dl class="border">
     <dt class="interview-q">How do you balance aesthetics and accessibility?</dt>
   </dl>
@@ -284,7 +279,7 @@
     </dd>
   </dl>
   <dl class="border">
-    <dt class="interview-q">On a slightly unrelated note…Apple or Android?</dt>
+    <dt class="interview-q">On a slightly unrelated note...Apple or Android?</dt>
     <dd class="interview-a">
       <p>Apple! Especially after having done extensive research with the visually impaired community, (the topic covered in my talks at FITC and UXRTO) Android is an emerging contender in this space, but they haven’t quite hit feature parity with Apple. Full transparency, though, I’m an Apple person through and through. I was, fairly recently, thinking about transitioning to Pixel just to diversify my hardware usage. If I only ever use iOS, I can’t accurately and effortlessly design for Android. Now, after having seen the level of care and attention to detail in creating accessibility features on iOS, I’m pretty loyal to Apple at least until Android reaches feature parity in their accessibility settings. I think Google will. I believe that Google Pixel will be the next contender for accessibility.</p>
     </dd>
@@ -300,7 +295,7 @@
   </dl>
   <dl class="border">
     <dd class="interview-a">
-      <p>Exactly. That sounds like a really exciting challenge I’m keen to take on sometime in the future. And voice technologies would greatly benefit the visually impaired community because we’re essentially removing the layers of clicks and taps required to drill down into content. Visually impaired people would have the option to drill down to the content with a simple statement. That’s powerful. It’s an example of an emerging technology that benefits <i>everyone.</i></p>
+      <p>Exactly. That sounds like a really exciting challenge I’m keen to take on sometime in the future. And voice technologies would greatly benefit the visually impaired community because we’re essentially removing the layers of clicks and taps required to drill down into content. Visually impaired people would have the option to drill down to the content with a simple statement. That’s powerful. It’s an example of an emerging technology that benefits <em>everyone.</em></p>
     </dd>
   </dl>
 

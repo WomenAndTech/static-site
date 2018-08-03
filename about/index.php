@@ -105,8 +105,8 @@
         </li>
       </ul>
       <p>&nbsp;</p>
-      <p class="thanks">All of us conduct interviews, produce content and shape the direction of W&&T. </p>
-      <p class="thanks">
+      <p class="type-xsm italic">All of us conduct interviews, produce content and shape the direction of W&&T. </p>
+      <p class="type-xsm italic">
       Special thanks to our founder <a href="https://twitter.com/cassiemc">Cassie McDaniel</a>, our <a href="https://twitter.com/britburger">founding</a> <a href="https://twitter.com/brttb">team</a> <a href="https://twitter.com/milang">members</a>, past team members and supporters. If you have ideas about how you can help, <a href="mailto:contact@womenandtech.com">email us</a>.</p>
     </aside>
 
