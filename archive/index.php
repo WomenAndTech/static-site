@@ -1,11 +1,27 @@
 <?php
+  // INTERVIEW ARCHIVES PAGE
+  /*
+  Used to list all interviews.
+  Add a new <article> block right after the <div class="grid-wrapper"> to add the latest interview.
+  Update the thumbnail image file, "alt" info and descriptions. Do not include any additional links.
+
+  <article class="grid-4-2-1">
+    <a href="/interview/andrea-crofts/" class="no-underline">
+      <img src="<?php echo $path_img; ?>thumbnail-andrea-crofts.jpg" alt="Andrea Crofts">
+      <h3>Andréa Crofts</h3>
+      <p>with Victoria Whang</p>
+      <p>Design leader and community builder, currently leading a team at League as Product Design Manager.</p>
+    </a>
+  </article>
+  */
+
+  // Do not update this info.
   $page = 'archive';
   $page_title = 'Interviews Archive';
   $page_theme = 'theme-coral';
   include $_SERVER['DOCUMENT_ROOT'].'/config.php';
   include ($path_inc."header.php");
 ?>
-
 
 <main role="main" class="interview-cards wrapper-lg">
   <div class="grid-wrapper">
@@ -78,7 +94,7 @@
         <img src="<?php echo $path_img; ?>thumbnail-sara-hicks.jpg" alt="Sara Hicks">
         <h3>Sara Hicks</h3>
         <p>with Sophie He</p>
-        <p>Co-founder and CEO of <!--a href="https://reactioncommerce.com/"-->Reaction Commerce<!--/a-->, an open-source ecommerce platform.
+        <p>Co-founder and CEO of Reaction Commerce, an open-source ecommerce platform.
           </p>
       </a>
     </article>
@@ -87,7 +103,7 @@
         <img src="<?php echo $path_img; ?>thumbnail-mitchell-baker.jpg" alt="Mitchell Baker">
         <h3>Mitchell Baker</h3>
         <p>with Cassie McDaniel</p>
-        <p>Founder of the non-profit tech company <!--a href="http://mozilla.org/"-->Mozilla<!--/a-->, creator of Firefox and champion of the open web.</p>
+        <p>Founder of the non-profit tech company Mozilla, creator of Firefox and champion of the open web.</p>
       </a>
     </article>
     <article class="grid-4-2-1">
@@ -224,7 +240,7 @@
         <img src="<?php echo $path_img; ?>thumbnail-lucia-mariani-vena.jpg" alt="Lucia Mariani-Vena">
         <h3>Lucia Mariani-Vena</h3>
         <p>with Ivonne Karamoy</p>
-        <p>Co-founder of the Toronto chapter of <!--a href="http://www.girlsintechtoronto.com" target="_blank" title="Girls In Tech Toronto website"-->Girls in Tech<!--/a-->, a global movement to unite women working in technology.</p>
+        <p>Co-founder of the Toronto chapter of Girls in Tech, a global movement to unite women working in technology.</p>
       </a>
     </article>
   </div>

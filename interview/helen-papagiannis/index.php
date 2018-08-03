@@ -146,7 +146,7 @@
 
 
   <!-- // Video Embed -->
-  <div class="border video-landscape">
+  <div class="border video">
     <div class="embed-container">
       <iframe src="https://player.vimeo.com/video/25608606?title=0&byline=0&portrait=0" width="940" height="705" frameborder="0"  allowfullscreen></iframe>
     </div>
@@ -261,7 +261,7 @@
   </div-->
 
   <!-- // Image - Landscape -->
-  <div class="border video-landscape widescreen">
+  <div class="border video widescreen">
     <div class="embed-container">
       <iframe width="560" height="315" src="https://www.youtube.com/embed/5rg8VU4iZQg?rel=0&amp;controls=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
     </div>

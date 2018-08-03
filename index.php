@@ -1,5 +1,5 @@
 <?php
-  // Update $current to the folder name of interviewee to display on homepage.
+  // Update $current to the folder name of interviewee to display on the homepage.
   $current = "andrea-crofts";
 
   // Do not change these settings
