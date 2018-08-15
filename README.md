@@ -58,7 +58,9 @@ PHP files are used for basic templating and customization. Unlike HTML files, PH
 
 There are different apps and tools for running a local server but use Python's SimpleHTTPServer module to get a basic server up and running quickly.
 
-For Windows users, you must install Python first. Instructions can be found [here](https://developer.mozilla.org/en-US/docs/Learn/Common_questions/set_up_a_local_testing_server). For Mac users, Python comes pre-installed. To run a local server, follow the instructions below.
+For Windows users, you must install Python first. Instructions can be found [here](https://developer.mozilla.org/en-US/docs/Learn/Common_questions/set_up_a_local_testing_server). 
+
+For Mac users, Python comes pre-installed. To run a local server, follow the instructions below.
 
 **Step 1:** 
 
@@ -92,10 +94,20 @@ If you choose to use any tools or software such as Codekit, Mamp, Grunt or Gulp 
 ## File Naming and Structure
 It's important to follow these naming conventions and the file structure because parts of the site architecture depend on it.
 
-<br>
-
-### Pages
+### Pages and Interviews
 For non-interview pages (i.e. About), create a folder and name it the way you want it to appear in the URL. For example, to create the url: `womenadtech.com/about/`, name the folder "about". Then add your content in an `index.php` file. 
+
+```
+about/index.php
+```
+
+Save all interviews within the **`interview`** folder. Create a new folder for the interviewee, using their name. Create an `index.php` file, following the structure below, to add the interview content.
+
+```
+interview/firstname-lastname/index.php
+```
+
+The directory should look like this:
 
 ```
 static-site/
@@ -106,16 +118,7 @@ static-site/
           └── index.php
 ```
 
-<br>
-
-### Interviews
-Save all interviews within the **`interview`** folder. Create a new folder for the interviewee, using their name. Create an `index.php` file, following the structure below, to add the interview content.
-
-```
-interview/firstname-lastname/index.php
-```
-
-#### Interview Images
+### Interview Images
 Save all images within the `assets/img` folder.
 
 To indicate the type of image used, name the file with a specific prefix (featured, landscape, portrait, left, right) followed by the name of the interviewee. Refer to the [style guide](http://womenandtech.github.io/style_guide) for examples of the image options and code snippets.
@@ -135,7 +138,7 @@ assets/img/portrait-first-lastname.jpg
 assets/img/portrait-first-lastname-with-dog.jpg
 ```
 
-#### Interview Archives
+### Interview Archives
 The **Latest Interview** cards & archive page both use the same thumbnail image. Use this naming convention:
 ```
 assets/img/thumbnail-first-lastname.jpg
@@ -163,7 +166,7 @@ There are starter template files for both interview pages and non-interview page
 
 ### Customizing the Templates
 
-PHP variables are included in the templates to customize the page themes, title and various snippets of content. Notes are included in the templates file for the different variable options. Below is an example snippet.
+PHP variables are included in the templates to customize the page themes, title and various snippets of content. Notes and instructions are included in the templates file for the different variable options. Below is an example snippet.
 
 ```
 <?php
@@ -182,8 +185,6 @@ Use the `template.php` starter file, located in the `interview` folder. This tem
 ### Non-interview Pages
 
 Use the example code in the `page-template.php` file located in the root folder. This template includes the global header, footer, page wrapper and instructions for customizing the page.
-
-<br>
 
 ### Home Page
 
