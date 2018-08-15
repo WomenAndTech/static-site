@@ -1,49 +1,43 @@
 # Women&&Tech
 
-This repo contains the project files for making content updates and adding new interviews to <http://womenandtech.com>.
-
-These files are only for content updates. 
-
-If changes to the site structure, CSS or JavaScript are required, they should be updated in the [Style Guide repo](https://github.com/WomenAndTech/style_guide), which contains all the development files. View the repo for more information about making global changes.
+This repo contains the project files for <http://womenandtech.com>. These files are only for content updates and adding new interviews. If changes to the site structure, overall design, CSS or JavaScript are required, they should be updated in the [Style Guide repo](https://github.com/WomenAndTech/style_guide), which contains all the development files. View the repo for more information about making global changes.
 
 <br>
 
 ## Table of contents
-- [Style guide](#style-guide)
-- [Getting started](#getting-started)
+- [Style Guide](#style-guide)
+- [Github Workflow](#github-workflow)
   - [Intro to Git and Github](docs/git-intro.md)
   - [Using Github with SourceTree](docs/git-sourcetree.md)
   - [Using Github with the Command Line](docs/git-command-line.md) [in progress]
-- [Local development setup](#local-development-setup)
-- [File naming and structure](#file-naming-and-structure)
-- [Adding content](#adding-content)
-- [Customizing the templates](#customizing-the-templates)
-- [Updating the home page](#updating-the-home-page)
-- [Consistent code styles](#consistent-code-styles)
-- [Auto deploy updates](#auto-deploy-updates)
+- [Local Development Setup](#local-development-setup)
+- [File Naming and Structure](#file-naming-and-structure)
+- [Adding Content (Interviews, Pages, Home Page and Archives)](#adding-content)
+- [Consistent Code Styles](#consistent-code-styles)
+- [Auto Deploy and Updating the Live Site](#auto-deploy-updates)
 
 <br>
 
 ## Style guide
 
-The Style Guide is a reference for adding content to the site. It contains content module examples, style patterns, code snippets and page templates. Each module was created to work as a standalone component. Add modules as needed to build the page content with consistent designs.
+The [Style Guide](http://womenandtech.github.io/style_guide/) is a reference for adding content to the site. It contains content module examples, style patterns, code snippets and page templates. Each module was created to work as a standalone component. Add modules as needed to build the page content with consistent designs.
 
-View the guide here: <http://womenandtech.github.io/style_guide>
+View the repo for more info: <https://github.com/WomenAndTech/style_guide>
 
 <br>
 
-## Getting started
+## Github Workflow
 
-You can use whatever tool or app you prefer to manage Git. Just be sure to follow these steps and the other guidelines listed in this doc.
+You can use whatever tool or app you prefer to manage Git and Github. Just be sure to follow these steps and the other guidelines listed in this doc.
 
-To contribute to the site, follow these steps:
+To update the website content, follow these steps:
 
 1. Clone this repo to create your own copy.
-2. Create a new branch from `master` for each interview, content update or feature.
+2. Create a new branch from `master` for **each** interview, content update or feature.
 3. Add all your updates to your branch and test it.
 4. Merge your branch to `master` by sending a pull request. If you would like someone to test your changes before going live, leave a comment, with their username, in the pull request.
 5. Accept the pull request. This will add your changes to the `master` branch and will **automatically push your changes live** to womenandtech.com.
-6. Delete the branch if you are no longer using it.
+6. Delete the branch after your updates are complete.
 
 
 ### Git & Github Documentation
@@ -56,15 +50,21 @@ For more details about using Git and Github, check out these guides:
 
 <br>
 
-## Local development setup
+## Local Development Setup
 
-PHP files are used for basic templating and customization and must run a local server to be viewed in the browser.
+PHP files are used for basic templating and customization. Unlike HTML files, PHP must run on a local server to be viewed in the browser.
 
-### Run a local server
+### Running a Local Server
 
-(The following instructions are only for Macs.)
+There are different apps and tools for running a local server but use Python's SimpleHTTPServer module to get a basic server up and running quickly.
 
-Open **Terminal** and use the *change directory* command to navigate to your project folder. Type `cd`, space, then the entire file path and press "enter".
+For Windows users, you must install Python first. Instructions can be found [here](https://developer.mozilla.org/en-US/docs/Learn/Common_questions/set_up_a_local_testing_server). 
+
+For Mac users, Python comes pre-installed. To run a local server, follow the instructions below.
+
+**Step 1:** 
+
+Open **Terminal** and use the *change directory* command to navigate to your project folder. Type `cd`, space, then the entire file path or use the shortcut and drag your folder into Terminal. Then press enter.
 
 ```
 cd /Users/username/path/to/static-site
@@ -75,32 +75,39 @@ cd /Users/username/path/to/static-site
   
 <br>
 
-After you've switch to the direction, run the following command in Terminal to start your local server.
+**Step 2:**
+
+Run the following command in Terminal to start your local server.
 ```
 php -S localhost:8000
 ```
 
-View the site locally at <http://localhost:8000>.
+You can now view the site locally, in your browser, using  <http://localhost:8000>.
 
 ![running a local server in Terminal](docs/images/terminal-local-server.gif)
 
-**This only works for Macs.**
 
-Whether you're on a Mac or PC, there are many tools and software such as Codekit, Mamp, Grunt or Gulp to run a local server. Use whatever tools you want. 
-
-However, don't save any files generated from these tools into the main repo (e.g. config files). We're trying to reduce the number of dependencies on specific tools to make it flexible for different workflow preferences.
+If you choose to use any tools or software such as Codekit, Mamp, Grunt or Gulp to run a local server, don't save any files generated from these tools into the main repo (e.g. config files). We're trying to reduce the number of dependencies on specific tools to make it flexible for different workflow preferences.
 
 <br>
 
-## File naming and structure
-It's important to follow these naming conventions and the file structure because the are parts of the site architecture that depend on it.
+## File Naming and Structure
+It's important to follow these naming conventions and the file structure because parts of the site architecture depend on it.
 
-<br>
+### Pages and Interviews
+For non-interview pages (i.e. About), create a folder and name it the way you want it to appear in the URL. For example, to create the url: `womenadtech.com/about/`, name the folder "about". Then add your content in an `index.php` file. 
 
-### Pages
-For non-interview pages (i.e. About), create a folder and name the folder the way you want it to appear in the URL.
+```
+about/index.php
+```
 
-For example, to create the url: `womenadtech.com/about/`, name the folder "about". Then add your content in an `index.php` file. 
+Save all interviews within the **`interview`** folder. Create a new folder for the interviewee, using their name. Create an `index.php` file, following the structure below, to add the interview content.
+
+```
+interview/firstname-lastname/index.php
+```
+
+The directory should look like this:
 
 ```
 static-site/
@@ -108,45 +115,31 @@ static-site/
 │   ├── index.php
 └── interview/
     ├── firstname-lastname/
-        └── index.php
+          └── index.php
 ```
 
-<br>
-
-### Interviews
-Save all interviews within the **`interview`** folder. Create a new folder for the interviewee, using their name, and save the content into an `index.php` file following the structure below.
-
-```
-interview/firstname-lastname/index.php
-```
-
-#### Interview Images
+### Interview Images
 Save all images within the `assets/img` folder.
 
-To indicate the type of image used, name the file with a prefix followed by the name of the interviewee.  
-Refer to the [style guide](http://womenandtech.github.io/style_guide) for image options and code samples.
+To indicate the type of image used, name the file with a specific prefix (featured, landscape, portrait, left, right) followed by the name of the interviewee. Refer to the [style guide](http://womenandtech.github.io/style_guide) for examples of the image options and code snippets.
 
 ```
 assets/img/featured-firstname-lastname.jpg
-assets/img/landscape-first-lastname.jpg
-assets/img/portrait-first-lastname.jpg
+assets/img/landscape-firstname-lastname.jpg
+assets/img/portrait-firstname-lastname.jpg
+assets/img/left-firstname-lastname.jpg
+assets/img/right-firstname-lastname.jpg
 ```
 
-For the side by side images, use this naming convention:
-
-```
-assets/img/left-first-lastname.jpg
-assets/img/right-first-lastname.jpg
-```
-
-If there are multiple images for the same type, add a descriptive word or short phrase to the end of the file name.
+Note that there should only be one "featured" image per interview. If there are multiple images for the other image types, add a descriptive word or short phrase to the end of the file name.
 
 ```
 assets/img/portrait-first-lastname.jpg
 assets/img/portrait-first-lastname-with-dog.jpg
 ```
 
-The Latest Interview cards & archive page thumbnails both use the same image. Use this naming convention:
+### Interview Archives
+The **Latest Interview** cards & archive page both use the same thumbnail image. Use this naming convention:
 ```
 assets/img/thumbnail-first-lastname.jpg
 ```
@@ -167,29 +160,13 @@ static-site/
 
 <br>
 
-## Adding content 
+## Adding Content 
 
-There are starter template files for both interview pages and non-interview pages. Copy the contents into *your* `index.php` file and use it as your starting point.
+There are starter template files for both interview pages and non-interview pages. Copy the contents into *your* `index.php` file and use it as your starting point. There are some common modules included in the template but you can add or remove the content modules as required. Refer to the [style guide](http://womenandtech.github.io/style_guide) for options and code samples.
 
-There are some common content modules already included in the template but you can add or remove the content modules as required. Refer to the [style guide](http://womenandtech.github.io/style_guide) for options and code samples.
+### Customizing the Templates
 
-### Interviews
-
-Use the `base-template.php` starter file, located in the `interview` folder. 
-
-This template includes the global header, footer, common content modules and instructions for customizing the page.
-
-### Non-interview Pages
-
-Use the example code in the `page-template.php` files located in the root folder. 
-
-This template includes the global header, footer, page wrapper and instructions for customizing the page.
-
-<br>
-
-## Customizing the templates
-
-PHP variables are included in the templates to customize the page themes, title and various snippets of content. Notes are included in the templates file for the different variable options. Below is an example snippet.
+PHP variables are included in the templates to customize the page themes, title and various snippets of content. Notes and instructions are included in the templates file for the different variable options. Below is an example snippet.
 
 ```
 <?php
@@ -201,13 +178,17 @@ PHP variables are included in the templates to customize the page themes, title 
 ?>
 ```
 
-<br>
+### Interviews
 
-## Updating the home page
+Use the `template.php` starter file, located in the `interview` folder. This template includes the global and common content modules and instructions for customizing the page.
 
-The home page should show the latest interview.
+### Non-interview Pages
 
-To add the latest interview to the home page, go to **index.php** in the root folder. 
+Use the example code in the `page-template.php` file located in the root folder. This template includes the global header, footer, page wrapper and instructions for customizing the page.
+
+### Home Page
+
+To add the latest interview to the home page, go to **index.php** in the *root* folder. 
 
 ```
 static-site/
@@ -218,7 +199,7 @@ static-site/
 ├── index.php
 ```
 
-Update the `$current` variable in the PHP snippet.
+Update the `$current` variable in the PHP snippet to match the folder name of the current interview.
 
 ```
 <?php
@@ -231,10 +212,13 @@ Update the `$current` variable in the PHP snippet.
 ?>
 ```
 
-Also, update the "Latest Interviews" content. This file is found under:
+### Latest Interviews and Archives Page
+Update the "Latest Interviews" cards and the Archive page. These files can be found under:
 
 ```
 staic-site/
+├── archive/
+    ├── index.php
 ├── includes/
     ├── latest-interviews.php
 ```
@@ -242,7 +226,7 @@ staic-site/
 <br>
 
 
-## Consistent code styles
+## Consistent Code Styles
 
 This project uses [editorconfig](http://editorconfig.org/) to maintain consistent coding styles. Make sure your text editor has the editorconfig [plugin](http://editorconfig.org/#download) installed.
 
@@ -250,13 +234,11 @@ This project uses [editorconfig](http://editorconfig.org/) to maintain consisten
 
 <br>
 
-## Auto deploy
+## Auto Deploy
 
-All commits added to the `master` branch will be deployed to the live site.
+The `deploy.php` file is used to automatically deploy updates and purge cache via github webhooks. There is nothing you need to do other than ensure that your updates get merged into the `master` branch when you are ready to make your changes go live.
 
-The `deploy.php` file will automatically deploy updates and purge cache via github webhooks.  
-
-There is nothing you need to do other than ensure that your updates get merged into the `master` branch when you are ready to make your changes go live.
+All commits added to the `master` branch will be **deployed to the live site**. Only commit to the master branch when you've completed your testing.
 
 
 

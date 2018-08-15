@@ -13,7 +13,7 @@
   image file name ALWAYS follows this format: featured-firstname-lastname.jpg
   */
   $social_title = "Interview with Aashni Shah by Cassie Kaiser";
-  $social_desc = ""; //Use the description from the archive page.
+  $social_desc = ""; //Use the same description as the archive page.
 
   // INTERVIEW CREDITS
   //-----------------------------------------------------------------------------
@@ -26,7 +26,7 @@
 
     If you don't need a credit, delete the whole <li> in the HTML.
   */
-
+  $publish_date = "January 01, 2018";
   $interviewer = "Full Name";
   $interviewer_url = "";
   $photos = "Full Name";
@@ -49,9 +49,9 @@
 ?>
 
 <main role="main" data-interview>
-  <!-- ALL content goes between these <main> tags. Below are some common modules for this page. Delete, revise or add more components as required. Refer to the Style Guide documentation for more details. http://womenandtech.github.io/style_guide/
+  <?php // ALL content goes between these <main> tags. Below are some common modules for this page. Delete, revise or add more components as required. Refer to the Style Guide documentation for more details. http://womenandtech.github.io/style_guide/
 
-  Delete this comment when you've completed this page. -->
+  // Delete this comment when you've completed this page. ?>
 
 
   <!-- // Featured Image -->
@@ -69,10 +69,11 @@
       <p class="intro">Intro paragraph.[update this]</p>
       <p class="italic">Optional footnote to add extra info. Delete if not needed.</p>
 
-      <?php // Don't update. Using the info from the PHP variables at the top of the page. ?>
+      <?php // Don't update the HTML. This snippet pulls in the info from the PHP variables at the top of the page. ?>
       <p class="author">An interview with <a href="<?php echo $interviewer_url; ?>"><?php echo $interviewer; ?></a></p>
+      <p class="publish-date">Published on <?php echo $publish_date; ?></p>
 
-      <?php // Don't update. Using the info from the PHP variables at the top of the page. ?>
+      <?php // Don't update the HTML. This snippet pulls in the info from the PHP variables at the top of the page. ?>
       <ul class="social-share">
         <li>
           <a href="http://www.facebook.com/sharer.php?u=http://womenandtech.com/interview/<?php echo $interviewee_url;?>/" title="Share on Facebook">
