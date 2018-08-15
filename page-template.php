@@ -4,8 +4,8 @@
   // Adds active class to nav in includes/header.php -- Leave blank if this page is not included in the global navigation.
   $page = ""; // ex. contribute
 
-  // Add a value here to display in the page title, browser tab and search results.
-  $page_title = "Contribute";
+  // Add a value here to display in the page title, browser tab and search results. e.g. About or Contribute
+  $page_title = "";
 
   // Page theme options: theme-coral, theme-purple, theme-yellow, theme-green, theme-blue
   $page_theme = "theme-yellow";
@@ -17,9 +17,7 @@
 
 <main role="main" data-page>
   <article class="page">
-    <!-- ALL content goes between these <article> tags. Below are some standard modules for this page. Delete, revise or add more components as required. Refer to the Style Guide documentation for more options and code snippets. womenandtech.github.io/style_guide
-
-    Delete this comment when you've completed this page. -->
+    <?php // ALL content goes between these <article> tags. Below are some standard modules for this page. Delete, revise or add more components as required. Refer to the Style Guide documentation for more options and code snippets. womenandtech.github.io/style_guide Delete this comment when complete. ?>
 
     <!-- // Secondary Header -->
     <header class="no-border header-secondary">
@@ -40,7 +38,7 @@
       </div><!-- close .wrapper-sm -->
     </section>
 
-    <!-- Additional components (e.g. team signature) go OUTSIDE of the <section> tags containing the default page content. Refer to the style guide for options and code snippets. Delete this comment when you're done! -->
+    <?php //  Additional components (e.g. team signature) go OUTSIDE of the <section> tags containing the default page content. Refer to the style guide for options and code snippets. Delete this comment when you're done! ?>
   </article>
 </main>
 

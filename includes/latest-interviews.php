@@ -11,7 +11,8 @@ Only update the content within the following snippet for each interview:
   <p>Computer Science student, organizer, leader and speaker within the tech community.</p>
 </a>
 
-Put the latest interview first. Only display the latest three interviews.
+Put the latest interview first.
+Only display the latest three interviews.
 Use the folder name of the interviewee for the href value.
 Update the thumbnail image name and 'alt' attribute.
 Update the <h3> heading and other <p> information.
