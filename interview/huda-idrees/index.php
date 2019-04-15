@@ -34,8 +34,8 @@
   $dev_url = "https://twitter.com/ivonnekn";
   $transcribe = "Cassie Kaiser";
   $transcribe_url = "https://twitter.com/CassKaiser";
-  $photographer ="Natalia Dolan";
-  $photographer_url = "http://nataliadolan.com/";
+  //$photographer ="Natalia Dolan";
+  //$photographer_url = "http://nataliadolan.com/";
 
 
   /* Do not change these settings */
@@ -193,7 +193,7 @@
   <div class="border img-landscape">
     <figure>
       <img src="<?php echo $path_img; ?>landscape-huda-candid-photo.jpg" alt="Huda Idrees">
-      <figcaption>Photo credit: <a href="http://nataliadolan.com/">Natalia Dolan</a></figcaption>
+      <!--figcaption>Photo credit: <a href="http://nataliadolan.com/">Natalia Dolan</a></figcaption-->
     </figure>
   </div>
 
@@ -477,10 +477,10 @@
         Transcriptions by <a href="<?php echo $transcribe_url; ?>"><?php echo $transcribe; ?></a>
         <?php if ($transcribe2): echo 'and <a href="'.$transcribe_url2 .'">'.$transcribe2.'</a>';endif; ?>
       </li>
-      <li>
+      <!--li>
         Photography by <a href="<?php echo $photographer_url; ?>"><?php echo $photographer; ?></a>
         <?php if ($photographer2): echo 'and <a href="'.$photographer_url2 .'">'.$photographer2.'</a>';endif; ?>
-      </li>
+      </li-->
     </ul>
     <?php // Global site credits
     include($path_inc."site-credits.php");
