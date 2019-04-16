@@ -71,11 +71,11 @@
     <!-- // Team Listing -->
     <aside class="border team-listing">
       <ul>
-        <li>
+        <!--li>
           <p class="name"><a href="http://twitter.com/CassKaiser">Cassie Kaiser</a></p>
           <p class="role">Lead Designer, Coordinator</p>
           <!--p>Cassie is key to our design and operations as Lead Designer and Managing Coordinator. Cassie is currently a UX Researcher @shopify Toronto.</p-->
-        </li>
+        <!--/li-->
         <li>
           <p class="name"><a href="http://twitter.com/raykao">Ray Kao</a></p>
           <p class="role">Operations & Support</p>
@@ -84,14 +84,14 @@
         </li>
         <li>
           <p class="name"><a href="http://twitter.com/ivonnekn">Ivonne Karamoy</a></p>
-          <p class="role">Lead Designer, Director</p>
+          <p class="role">Designer, Director</p>
           <!--p>As one of our founding members, Ivonne continues to manage and direct this project and our team. Ivonne is an independent freelance designer focusing on branding and UX/UI design.</p-->
         </li>
-        <li>
+        <!--li>
           <p class="name"><a href="http://twitter.com/RoastedKeyboard">Ria Lupton</a></p>
           <p class="role">Editor, Community Builder</p>
           <!--p>Ria is our chief editor and our lead community builder. She is founder of @communitybuilders and helps us develop our community through partnerships within the tech community.</p-->
-        </li>
+        <!--/li-->
         <li>
           <p class="name"><a href="http://twitter.com/christinatruong">Christina Truong</a></p>
           <p class="role">Developer, Front-End Architect</p>
@@ -107,7 +107,7 @@
       <p>&nbsp;</p>
       <p class="type-xsm italic">All of us conduct interviews, produce content and shape the direction of W&&T. </p>
       <p class="type-xsm italic">
-      Special thanks to our founder <a href="https://twitter.com/cassiemc">Cassie McDaniel</a>, our <a href="https://twitter.com/britburger">founding</a> <a href="https://twitter.com/brttb">team</a> <a href="https://twitter.com/milang">members</a>, past team members and supporters. If you have ideas about how you can help, <a href="mailto:contact@womenandtech.com">email us</a>.</p>
+      Special thanks to our founder <a href="https://twitter.com/cassiemc">Cassie McDaniel</a>, our <a href="https://twitter.com/britburger">founding</a> <a href="https://twitter.com/brttb">team</a> <a href="https://twitter.com/milang">members</a>, past <a href="http://twitter.com/CassKaiser">team</a> <a href="http://twitter.com/RoastedKeyboard">members</a> and supporters. If you have ideas about how you can help, <a href="mailto:contact@womenandtech.com">email us</a>.</p>
     </aside>
 
     <footer class="no-border footer-secondary">
@@ -118,10 +118,10 @@
 
         <h2 class="spacer30">Want to help?</h2>
 
-        <p><a class="no-underline" href="https://www.patreon.com/WomenAndTech"><img class="spacer30-bottom" src="<?php echo $path_img; ?>coffee-icon.png" alt="Coffee" width="50px"></a></p>
+        <!--p><a class="no-underline" href="https://www.patreon.com/WomenAndTech"><img class="spacer30-bottom" src="<?php echo $path_img; ?>coffee-icon.png" alt="Coffee" width="50px"></a></p-->
 
-        <p><a href="https://www.patreon.com/WomenAndTech">Donate</a> a cup of coffee or tea and get first dibs on new content.</p>
-        <p>We also welcome contributors, volunteers and sponsors.</p>
+        <!--p><a href="https://www.patreon.com/WomenAndTech">Donate</a> a cup of coffee or tea and get first dibs on new content.</p-->
+        <p>We welcome contributors, volunteers and sponsors. <a href="mailto:volunteer@womenandtech.com">Contact us to get involved.</a></p>
         <p>Check out our <a href="http://womenandtech.com/contributor-guidelines/">Contribute</a> page for more information.</p>
       </div>
     </footer>
