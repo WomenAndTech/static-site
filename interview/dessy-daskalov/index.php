@@ -5,7 +5,7 @@
   $interviewee_url = 'dessy-daskalov'; // Share links URLs
 
   // Twitter & Facebook sharing info
-  $social_title = 'Interview with Dessy Daskalov by Lucia Mariani-Vena';
+  $social_title = 'Interview with Dessy Daskalov by Lucia Mariani';
   $social_desc = 'Developer and entrepreneur, Dessy is the technical cofounder behind the startup Greengage Mobile.';
   // Social images are added in header.php but make sure the thumbnail image always follows this format: thumbnail-firstname-lastname.jpg
 
@@ -19,11 +19,11 @@
 
     If you don't need a credit, delete the whole <li> in the HTML.
   */
-  $interviewer = "Lucia Mariani-Vena";
+  $interviewer = "Lucia Mariani";
   $interviewer_url = "http://twitter.com/feastinc";
   $photos = "Jon Lim";
   $photos_url = "http://jonlim.ca";
-  $editor = "Lucia Mariani-Vena";
+  $editor = "Lucia Mariani";
   $editor_url = "http://twitter.com/feastinc";
   $ad = "Mark Staplehurst";
   $ad_url = "http://twitter.com/britburger";
@@ -31,7 +31,7 @@
   $design_url = "http://twitter.com/britburger";
   $dev = "Brett Bergmann";
   $dev_url = "http://twitter.com/brttbn";
-  $transcribe = "Lucia Mariani-Vena";
+  $transcribe = "Lucia Mariani";
   $transcribe_url = "http://twitter.com/feastinc";
 
   /* Do not change these settings */

@@ -1,11 +1,11 @@
 <?php
   // $page_theme values: theme-coral, theme-purple, theme-yellow, theme-green, theme-blue
   $page_theme = 'theme-yellow';
-  $interviewee_name = 'Lucia Mariani-Vena'; // Page title & share links
-  $interviewee_url = 'lucia-mariani-vena'; // Share links URLs
+  $interviewee_name = 'Lucia Mariani'; // Page title & share links
+  $interviewee_url = 'lucia-mariani'; // Share links URLs
 
   // Twitter & Facebook sharing info
-  $social_title = 'Interview with Lucia Mariani-Vena by Ivonne Karamoy';
+  $social_title = 'Interview with Lucia Mariani by Ivonne Karamoy';
   $social_desc = 'Co-founder of the Toronto chapter of Girls in Tech, a global movement to unite women working in technology.';
   // Social images are added in header.php but make sure the thumbnail image always follows this format: thumbnail-firstname-lastname.jpg
 
@@ -45,14 +45,14 @@
     <!-- Featured Image -->
     <div class="border img-feature">
       <figure>
-        <img src="<?php echo $path_img; ?>featured-lucia-mariani-vena.jpg" alt="Lucia Mariani-Vena">
+        <img src="<?php echo $path_img; ?>featured-lucia-mariani-vena.jpg" alt="Lucia Mariani">
       </figure>
     </div>
 
     <!-- Interview Header -->
     <header class="border header-interview">
       <div class="wrapper-sm">
-        <h2>Lucia Mariani-Vena</h2>
+        <h2>Lucia Mariani</h2>
         <p class="intro">Lucia is responsible for the genesis of <a href="http://www.girlsintechtoronto.com" target="_blank" title="Girls In Tech Toronto website">Girls in Tech Toronto</a>, the local chapter of a global movement to unite women working in technology. We dig into her story to pinpoint how exactly she fell in love with her career and to find out what it is like to be a <em>mother</em> in tech.</p>
 
         <?php // Don't update. Using the same info as is Interview Credits. ?>
@@ -106,7 +106,7 @@
     <!-- // Image - Landscape -->
     <div class="border img-landscape">
       <figure>
-        <img src="<?php echo $path_img; ?>landscape-lucia-mariani-girls-in-tech-2.jpg" alt="Lucia Mariani-Vena Girls In Tech">
+        <img src="<?php echo $path_img; ?>landscape-lucia-mariani-girls-in-tech-2.jpg" alt="Lucia Mariani Girls In Tech">
         <figcaption>
           Girls in Tech, co-run by Lucia, provides a forum where women share projects they are passionate about.</a>
         </figcaption>
@@ -243,7 +243,7 @@
     <!-- // Image - Landscape -->
     <div class="border img-landscape">
       <figure>
-        <img src="<?php echo $path_img; ?>landscape-lucia-mariani-photo-3.jpg" alt="Mom Lucia Mariani-Vena">
+        <img src="<?php echo $path_img; ?>landscape-lucia-mariani-photo-3.jpg" alt="Mom Lucia Mariani">
       </figure>
     </div>
 
@@ -288,7 +288,7 @@
     <!-- // Image - Landscape -->
     <div class="border img-landscape">
       <figure>
-        <img src="<?php echo $path_img; ?>landscape-lucia-mariani-girls-in-tech-1.jpg" alt="Lucia Mariani-Vena Girls in Tech event">
+        <img src="<?php echo $path_img; ?>landscape-lucia-mariani-girls-in-tech-1.jpg" alt="Lucia Mariani Girls in Tech event">
       </figure>
     </div>
 

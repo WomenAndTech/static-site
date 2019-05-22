@@ -183,7 +183,7 @@
       <a href="/interview/dessy-daskalov/" class="no-underline">
         <img src="<?php echo $path_img; ?>thumbnail-dessy-daskalov.jpg" alt="Dessy Daskalov">
         <h3>Dessy Daskalov</h3>
-        <p>with Lucia Mariani-Vena</p>
+        <p>with Lucia Mariani</p>
         <p>Developer and entrepreneur, Dessy is the technical cofounder behind the startup Greengage Mobile. </p>
       </a>
     </article>
@@ -236,9 +236,9 @@
       </a>
     </article>
     <article class="grid-4-2-1">
-      <a href="/interview/lucia-mariani-vena/" class="no-underline">
-        <img src="<?php echo $path_img; ?>thumbnail-lucia-mariani-vena.jpg" alt="Lucia Mariani-Vena">
-        <h3>Lucia Mariani-Vena</h3>
+      <a href="/interview/lucia-mariani/" class="no-underline">
+        <img src="<?php echo $path_img; ?>thumbnail-lucia-mariani-vena.jpg" alt="Lucia Mariani">
+        <h3>Lucia Mariani</h3>
         <p>with Ivonne Karamoy</p>
         <p>Co-founder of the Toronto chapter of Girls in Tech, a global movement to unite women working in technology.</p>
       </a>
