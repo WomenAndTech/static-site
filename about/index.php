@@ -12,6 +12,7 @@
 
     <!-- // Secondary Header -->
     <header class="no-border header-secondary">
+      <p class="italic">The Women&&Tech project has ended. Read about it <a href="http://womenandtech.com/closing">here</a>.</p>
       <h2>We’re not endorsing the obvious. We’re commending the awesome.</h2>
       <p>Our industry is filled with <a href="http://womenandtech.com/archive/">smart, interesting women</a> including developers, designers, entrepreneurs, and tech leaders. These women are a big deal, and we think you should know about them. We highlight them not for their gender, but because they are awesome by any kind of measure.</p>
     </header>
