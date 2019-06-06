@@ -8,6 +8,10 @@
 
 <main role="main" data-page>
   <article class="page">
+    <!-- // Secondary Header -->
+    <header class="no-border header-secondary">
+      <p class="italic">The Women&&Tech project has ended. Read about it <a href="http://womenandtech.com/closing">here</a>.</p>
+    </header>
     <section class="border page-content">
       <div class="wrapper-sm">
         <h2>Contributor Guidelines</h2>
